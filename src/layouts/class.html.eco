@@ -1,0 +1,156 @@
+---
+layout: default
+---
+
+
+<div class="row" class="text-center">
+	<div class="col-md-4">
+		<h3> <%= @document.term %> </h3>
+
+		<h2><%= @document.title %></h2>
+
+
+		<div class="panel panel-success" style="margin-top: 21px;">
+			<div class="panel-heading">
+    		<h2 class="panel-title">Instructor</h2>
+  		</div>
+			<div class="panel-body">
+			<p>
+				Tony Mullen</br>
+				410 Thompson Hall<br/>
+				</p>
+			<p>
+				Phone: 253.879.3125 ext. 3562<br/>
+				Email: tmullen@pugetsound.edu<br/>
+				</p>
+			</div>
+		</div>
+
+
+<div class="panel panel-success" style="margin-top: 21px;">
+	<div class="panel-heading">
+		<h2 class="panel-title">Office hours</h2>
+	</div>
+	<div class="panel-body">
+	<p>
+	<%- @partial(@document.officehours) %>
+		</p>
+	</div>
+</div>
+
+<div class="panel panel-success" style="margin-top: 21px;">
+	<div class="panel-heading">
+		<h2 class="panel-title">Attendance and lateness policy</h2>
+	</div>
+	<div class="panel-body">
+	<%- @partial(@document.attendance) %>
+
+	</div>
+</div>
+
+<div class="panel panel-success" style="margin-top: 21px;">
+	<div class="panel-heading">
+		<h2 class="panel-title">Academic integrity</h2>
+	</div>
+	<div class="panel-body">
+	<p>
+	Please ensure that any work you take credit for is your own. </p>
+	<p>
+	Please review the
+	<a href="http://www.pugetsound.edu/student-life/personal-safety/student-handbook/academic-handbook/academic-integrity/">
+	Academic Integrity</a> section of the
+	<a href="http://www.pugetsound.edu/student-life/personal-safety/student-handbook/">
+	UPS Student Handbook</a>
+	for more specifics on what sorts of behavior constitute violations of
+	academic integrity.
+		</p>
+		<p>
+
+		</p>
+	</div>
+</div>
+
+<div class="panel panel-success" style="margin-top: 21px;">
+	<div class="panel-heading">
+		<h2 class="panel-title">Devices in class</h2>
+	</div>
+	<div class="panel-body">
+	<p>
+	Please avoid using devices during class in ways that distract
+	yourself or others.
+		</p>
+	</div>
+</div>
+
+<div class="panel panel-success" style="margin-top: 21px;">
+	<div class="panel-heading">
+		<h2 class="panel-title">General policies</h2>
+	</div>
+	<div class="panel-body">
+	<p>The university is a place for respectful exchange of
+	information and ideas.</p>
+	<p>
+	University-wide policies regarding student conduct and integrity
+	can be found in the
+	<a href="http://www.pugetsound.edu/student-life/personal-safety/student-handbook/">
+	UPS Student Handbook</a>.
+		</p>
+		<p>
+		If you have any questions or problems related to this class or anything
+		else I may be able to help with, please don't hesitate to email me or
+		drop by my office any time to talk.
+		</p>
+	</div>
+</div>
+
+
+		</div>
+	<div class="col-md-8">
+
+		<div class="row-fluid">
+
+			<div class="description">
+
+			<%- @partial(@document.description) %>
+
+			</div>
+
+			<div class="goals">
+
+			<%- @partial(@document.goals) %>
+
+			</div>
+
+			<div class="textbook">
+
+			<%- @partial(@document.textbook) %>
+
+			</div>
+
+			<div class="calendar">
+
+			<%- @partial(@document.calendar) %>
+
+			</div>
+
+			<div class="grading">
+
+			<%- @partial(@document.grading) %>
+
+			</div>
+
+			<div class="resources">
+
+			<%- @partial(@document.resources) %>
+
+			</div>
+
+			<hr>
+			<div class="classcredits">
+
+			<%- @partial(@document.classcredits) %>
+
+			</div>
+
+		</div>
+	</div>

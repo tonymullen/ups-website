@@ -1,0 +1,61 @@
+---
+layout: 'default'
+---
+
+<div class="row" class="text-center">
+	<div class="col-md-4">
+		<!--
+		<h2>Tony Mullen</h2>
+	-->
+		<div class="panel panel-success" style="margin-top: 21px;">
+			<div class="panel-heading">
+    		<h2 class="panel-title">Contact</h2>
+  		</div>
+			<div class="panel-body">
+			<p>
+				Tony Mullen<br/>
+				410 Thompson Hall<br/>
+				Dept. of Computer Science<br/>
+				University of Puget Sound<br/>
+				1500 N. Warner St.<br/>
+				Tacoma, WA 98416<br/>
+				</p>
+			<p>
+				Phone: 253.879.3125 ext. 3562<br/>
+				Email: tmullen@pugetsound.edu<br/>
+				</p>
+			</div>
+		</div>
+		<!--
+		<div class="row-fluid">
+			<div class="panel panel-success" style="margin-top: 21px;">
+				<div class="panel-heading">
+	    		<h2 class="panel-title">About Me</h2>
+	  		</div>
+				<div class="panel-body">
+			<p>
+				I received my PhD from the University of Groningen, my MPhil from
+				Trinity College, Dublin, and my BA from the University of Washington.
+				</p>
+				<p>For 10 years I taught computer science at Tsuda College in
+				Tokyo. Previous to that I spent two years as a postdoctoral researcher at the
+				Japan National Institute of Informatics.
+				</p>
+				<p>
+					I'm interested in languages and language technology, interactive
+					media, games, and computer graphics.
+				</p>
+			</div>
+		</div>
+		</div>
+	-->
+	</div>
+	<div class="col-md-8">
+
+		<div class="row-fluid">
+			<h2><%= @document.title %></h2>
+
+			<%= @partial(@document.content) %>
+          </div>
+				</div>
+			</div>

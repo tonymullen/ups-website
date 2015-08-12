@@ -22,7 +22,7 @@
 	<meta name="viewport" content="width=device-width" />
 
 	<!-- Icons -->
-		<link rel="shortcut icon" href="images/icons/favicon.ico">
+		<link rel="shortcut icon" href="<%= @getURL() %>images/icons/favicon.ico">
 		<link rel="apple-touch-icon-precomposed" sizes="144x144" href="images/icons/apple-touch-icon-144-precomposed.png">
 		<link rel="apple-touch-icon-precomposed" sizes="114x114" href="images/icons/apple-touch-icon-114-precomposed.png">
 		<link rel="apple-touch-icon-precomposed" sizes="72x72" href="images/icons/apple-touch-icon-72-precomposed.png">
@@ -38,7 +38,7 @@
 </head>
 <body>
 	<!-- Menu -->
-	<div class="navbar navbar-inverse navbar-fixed-top">
+	<div class="navbar navbar-default navbar-fixed-top">
 		<div class="container">
 			<div class="navbar-header">
 				<button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
@@ -46,10 +46,64 @@
 					<span class="icon-bar"></span>
 					<span class="icon-bar"></span>
 				</button>
-				<a class="navbar-brand" href="/">Project name</a>
+				<!--
+				<a class="navbar-brand" href="/">
+					<img src="<%= @getURL() %>images/tony.jpg"
+					style="height: inherit;
+						width: auto;
+						display: inline; float: left;
+						position: relative; top: -22px;
+						margin-right: 20px;">
+
+					</a>
+				-->
 			</div>
-			<div class="navbar-collapse collapse">
+					<div class="navbar-collapse collapse">
 				<ul class="nav navbar-nav">
+
+					<li>
+						<a href="<%= @getURL() %>">
+							Home
+						</a>
+					</li>
+
+					<li class="dropdown">
+							<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button"
+							area-expanded="false">
+							Classes
+							<span class="caret"></span></a>
+							<ul class="dropdown-menu" role="menu">
+								<% for document in @getCollection('current').toJSON(): %>
+									<li>
+										<a href="<%= document.url %>" property="dc:title">
+											<%= document.title %>
+										</a>
+									</li>
+								<% end %>
+								<li>
+									<a href="/pages/classarchive">
+										Older class archives
+									</a>
+								</li>
+							</ul>
+					</li>
+<!--
+					<li class="dropdown">
+							<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button"
+							area-expanded="false">
+							Resources
+							<span class="caret"></span></a>
+							<ul class="dropdown-menu" role="menu">
+								<% for document in @getCollection('resources').toJSON(): %>
+									<li>
+										<a href="<%= document.url %>" property="dc:title">
+											<%= document.title %>
+										</a>
+									</li>
+								<% end %>
+							</ul>
+					</li>
+-->
 					<% for document in @getCollection('pages').toJSON(): %>
 						<li
 							typeof="sioc:Page"
@@ -62,7 +116,7 @@
 						</li>
 					<% end %>
 				</ul>
-			</div><!--/.navbar-collapse -->
+			</div><!-- /.navbar-collapse -->
 		</div>
 	</div>
 
@@ -75,7 +129,8 @@
 
 		<!-- Footer -->
 		<footer>
-			<p class="pull-left">&copy; Company <%- (new Date()).getFullYear() %></p>
+		<%- @content.classcredits %>
+			<p class="pull-left">Tony Mullen tmullen@pugetsound.edu</p>
 			<p class="pull-right">
 				This website was last updated at <%= @site.date.toISOString() %>
 			</p>
