@@ -5,22 +5,30 @@
 
   <meta name="viewport" content="width=device-width, initial-scale=1">
 -->
-  <link href="bootstrap-3.3.4-dist/css/bootstrap.css" rel="stylesheet">
-  <link href="css/jquery.bootstrap-touchspin.css" rel="stylesheet">
+<!--
+  <link href="<%= @site.url %>vendor/bootstrap-3.3.4-dist/css/bootstrap.css" rel="stylesheet">
+  <link href="<%= @site.url %>vendor/jquery.bootstrap-touchspin.css" rel="stylesheet">
 
-  <link href="css/angular-flippy/flippy.css" rel="stylesheet">
-  <link href="css/angular-flippy/flippy-fancy.css" rel="stylesheet">
-  <link href="css/style.css" rel="stylesheet">
+  <link href="<%= @site.url %>vendor/angular-flippy/flippy.css" rel="stylesheet">
+  <link href="<%= @site.url %>vendor/angular-flippy/flippy-fancy.css" rel="stylesheet">
 
-  <script src="js/jquery-1.11.2.min.js"></script>
-  <script src="js/angular.js"></script>
-  <script src="js/ui-bootstrap-tpls-0.12.1.min.js"></script>
-  <script src="js/jquery.bootstrap-touchspin.js"></script>
 
-  <script src="js/app.js"></script>
-  <script src="js/controllers.js"></script>
-  <script src="js/directives.js"></script>
-	<!--
+  <link href="<%= @site.url %>styles/bs-style.css" rel="stylesheet">
+
+  <link href="<%= @site.url %>styles/style.css" rel="stylesheet">
+
+  <script src="<%= @site.url %>vendor/jquery-1.11.2.min.js"></script>
+
+
+  <script src="<%= @site.url %>vendor/angular.min.js"></script>
+  <script src="<%= @site.url %>vendor/ui-bootstrap-tpls-0.12.1.min.js"></script>
+  <script src="<%= @site.url %>vendor/jquery.bootstrap-touchspin.min.js"></script>
+
+  <script src="<%= @site.url %>scripts/app.js"></script>
+  <script src="<%= @site.url %>scripts/controllers.js"></script>
+  <script src="<%= @site.url %>scripts/directives.js"></script>
+-->
+  <!--
 </head>
 
 <body class="container">

@@ -42,25 +42,29 @@ docpadConfig = {
 
 			# Styles
 			styles: [
+	#			"//maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.css"
+				"/vendor/bootstrap-3.3.4-dist/css/bootstrap.min.css"
 				"/styles/twitter-bootstrap.css"
+				"/vendor/jquery.bootstrap-touchspin.css"
+				"/vendor/angular-flippy/flippy.css"
+				"/vendor/angular-flippy/flippy-fancy.css"
+				"/styles/bs-style.css"
 				"/styles/style.css"
-#				"/styles/bs-style.css"
 			]
 
 			# Scripts
 			scripts: [
 				"//cdnjs.cloudflare.com/ajax/libs/jquery/1.10.2/jquery.min.js"
 				"//cdnjs.cloudflare.com/ajax/libs/modernizr/2.6.2/modernizr.min.js"
-				"/vendor/twitter-bootstrap/dist/js/bootstrap.min.js"
+				"//cdnjs.cloudflare.com/ajax/libs/angular.js/1.3.15/angular.min.js"
+				"//maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"
+		    "/vendor/ui-bootstrap-tpls-0.12.1.min.js"
+			  "/vendor/jquery.bootstrap-touchspin.min.js"
+			 	"/vendor/angular-flippy/flippy.min.js"
 				"/scripts/script.js"
-			#	"https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.3.15/angular.min.js"
-			#	"https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"
-			#	"/scripts/ui-bootstrap-tpls-0.12.1.min.js"
-			#	"/scripts/jquery.bootstrap-touchspin.min.js"
-			#	"/scripts/angular-flippy/flippy.min.js"
-			#	"/scripts/app.js"
-			#	"/scripts/controllers.js"
-			#	"/scripts/directives.js"
+			 	"/scripts/app.js"
+			 	"/scripts/controllers.js"
+			 	"/scripts/directives.js"
 			]
 
 
