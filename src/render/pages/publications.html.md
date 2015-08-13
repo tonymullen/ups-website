@@ -3,6 +3,6 @@ title: Publications
 layout: misc
 tags: ['intro','page']
 pageOrder: 2
-```
 
-Coming soon
+content: misc/publications.md
+```

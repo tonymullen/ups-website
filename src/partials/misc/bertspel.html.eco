@@ -1,38 +1,3 @@
-<!--
-<!DOCTYPE html>
-<html>
-<head>
-
-  <meta name="viewport" content="width=device-width, initial-scale=1">
--->
-<!--
-  <link href="<%= @site.url %>vendor/bootstrap-3.3.4-dist/css/bootstrap.css" rel="stylesheet">
-  <link href="<%= @site.url %>vendor/jquery.bootstrap-touchspin.css" rel="stylesheet">
-
-  <link href="<%= @site.url %>vendor/angular-flippy/flippy.css" rel="stylesheet">
-  <link href="<%= @site.url %>vendor/angular-flippy/flippy-fancy.css" rel="stylesheet">
-
-
-  <link href="<%= @site.url %>styles/bs-style.css" rel="stylesheet">
-
-  <link href="<%= @site.url %>styles/style.css" rel="stylesheet">
-
-  <script src="<%= @site.url %>vendor/jquery-1.11.2.min.js"></script>
-
-
-  <script src="<%= @site.url %>vendor/angular.min.js"></script>
-  <script src="<%= @site.url %>vendor/ui-bootstrap-tpls-0.12.1.min.js"></script>
-  <script src="<%= @site.url %>vendor/jquery.bootstrap-touchspin.min.js"></script>
-
-  <script src="<%= @site.url %>scripts/app.js"></script>
-  <script src="<%= @site.url %>scripts/controllers.js"></script>
-  <script src="<%= @site.url %>scripts/directives.js"></script>
--->
-  <!--
-</head>
-
-<body class="container">
--->
 
   <div class="panel panel-default">
     <div class="panel-heading"><h2>Bert Bos Puzzle</h2></div>

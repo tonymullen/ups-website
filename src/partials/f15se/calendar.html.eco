@@ -1,0 +1,368 @@
+
+<h3>Calendar</h3>
+
+<table class="table table-bordered table-hover table-condensed">
+         <tr class="header">
+           <td>Week</td>
+           <td>Date</td>
+           <td>Topic</td>
+           <td>Reading</td>
+           <td>Assignment</td>
+         </tr>
+         <tr class="sec">
+           <td>1</td>
+           <td>08/31</td>
+           <td>Introduction; Process Models</td>
+           <td>
+             <!--
+             Fri: 1.1 - 1.13;
+             <i>for fun:</i>
+             <a href="http://arstechnica.com/information-technology/2014/08/how-microsoft-dragged-its-development-practices-into-the-21st-century/">Agile at Microsoft</a>
+           -->
+            <a href="http://www.theatlantic.com/technology/archive/2015/07/the-secret-startup-saved-healthcare-gov-the-worst-website-in-america/397784/">
+              The Atlantic: Healthcare.gov</a>
+              <br>
+              JAD Ch 1
+           </td>
+           <td>
+            Register and complete this
+            <a href="https://www.codecademy.com/tracks/javascript">
+              JavaScript tutorial</a>.
+              <br>
+              due Fri 9/14
+           </td>
+         </tr>
+         <tr class="sec">
+           <td>2</td>
+           <td>09/07</td>
+           <td>
+             Intro to JS; Automation; Version Control
+           </td>
+           <td>
+             HS Ch 1;
+             JAD Section 2.5;
+             <!-- reading
+             Mon: A.1 - A.7,
+             <br>Wed: 10.4 - 10.5, 10.8 - 10.9
+             <br>Fri: 3.1 - 3.4, 3.6
+           -->
+           </td>
+           <td>
+               JAD Ch 2 up to 2.4: Grunt task configuration.
+               <br>
+               Commit results to Github repo. Include a README detailing any issues you had.
+               <br>
+               Due Fri 9/21
+             <!--
+             <a href="hwk/1/">Hwk 1 - Setup and Git</a>
+             due Thu
+             <br>
+             <i><a href="project/index.html#0.0">Project Iteration 0.0</a></i>
+             due Fri
+           -->
+           </td>
+         </tr>
+         <tr class="sec">
+           <td>3</td>
+           <td>09/14</td>
+           <td>
+             Web Application architecture; HTML & CSS; REST
+             <!--
+             Ruby; Behavior-Driven Design
+           -->
+           </td>
+           <td>
+            HS Ch 2
+             <!--
+             Mon/Wed: 3.5, 3.7 - 3.11; 8.1 - 8.2
+             <br>Fri: 7.1 - 7.3, 7.11
+           -->
+           </td>
+           <td>
+              <a href="https://www.codecademy.com/tracks/javascript">
+                AngularJS tutorial</a>.
+                <br>
+                due Fri 9/28
+             <!--
+             <a href="hwk/2/">Hwk 2 - Ruby</a>
+             due <strike>Fri</strike> Sun
+             <br>
+             <i><a href="project/index.html#0.1">Project Iteration 0.1</a></i>
+             due Fri
+           -->
+           </td>
+         </tr>
+         <tr class="sec">
+           <td>4</td>
+           <td>09/21</td>
+           <td>
+            Design patterns; MVC; Angular.js
+             <!--
+             Requirements; Architecture and the Web
+           -->
+           </td>
+           <td>
+             JAD Ch 3 up to 3.4
+             <!--
+             Mon: 7.10,
+             <a href="https://moodle.pugetsound.edu/moodle/mod/resource/view.php?id=214816">Rawsthorne 2004</a>
+             <br>Wed: 2.1 - 2.11
+           -->
+           </td>
+           <td>
+             JAD Section 3.4: Continuous development
+             <br>
+             Due 9/28
+           </td>
+         </tr>
+         <tr class="sec">
+           <td>5</td>
+           <td>09/28</td>
+           <td>
+              Node.js
+             <!--
+             Rails
+           -->
+           </td>
+           <td>
+             <!--
+             Mon: 4.1 - 4.3
+             <br>Wed: 4.4 - 4.5, 4.9, 4.11
+             <br>Fri: 4.6 - 4.8, 5.1 - 5.2
+           -->
+           </td>
+           <td>
+             <!--
+             <i><a href="project/index.html#0.2">Project Iteration 0.2</a></i>
+             due Fri
+             <br>
+             <a href="hwk/3/">Hwk 3 - Requirements</a>
+             due Fri
+           -->
+           </td>
+         </tr>
+         <tr class="sec">
+           <td>6</td>
+           <td>10/05</td>
+           <td>
+             Behavior Driven Design; UI Design; Testing
+             <!--
+             Rails continued; UI design; Testing
+           -->
+           </td>
+           <td>
+             <!--
+             Mon: 7.4 - 7.5;
+             <a href="https://moodle.pugetsound.edu/moodle/mod/resource/view.php?id=220681">Schneiderman 2009</a>,
+             <a href="https://moodle.pugetsound.edu/moodle/mod/resource/view.php?id=220682">Rogers 2013</a>
+             <br>Wed: 5.3 - 5.9
+             <br>Fri: 7.6 - 7.9
+           -->
+           </td>
+           <td>
+             <!--
+             <a href="hwk/4/">Hwk 4 - Rails</a>
+             due Sun
+           -->
+           </td>
+         </tr>
+         <tr class="sec">
+           <td>7</td>
+           <td>10/12</td>
+           <td>
+             Testing continued; Coding Style; Refactoring;
+             <!--
+             Testing continued
+           -->
+           </td>
+           <td>
+             <a href="http://sourcemaking.com/refactoring">Refactoring</a>
+             <!--
+             Mon: 8.3 - 8.6, A.7
+             <br>Wed: 8.7 - 8.11, 10.6
+           -->
+           </td>
+           <td>
+             <!--
+             <i><a href="project/index.html#0.3">Project Iteration 0.3</a></i>
+             due
+             <b class="red">Mon</b>
+           -->
+           </td>
+         </tr>
+         <tr class="sec">
+           <td>8</td>
+           <td>
+             10/19
+           </td>
+           <td>Generation & Scaffolding; MEAN.js</td>
+           <td>
+             <!--
+             Wed: 10.1 - 10.3, 10.7
+             <br>Fri:
+             <a href="https://moodle.pugetsound.edu/moodle/mod/resource/view.php?id=214618">Brooks 1975</a>,
+             <a href="http://nyti.ms/1e1kna8">http://nyti.ms/1e1kna8</a>
+           -->
+           </td>
+           <td>
+             Install MEAN.js 0.3.x using Yeoman Generator following
+             <a href="http://meanjs.org/generator.html">these instructions.</a>
+             Get the boilerplate application running.
+             <br>
+             In a separate directory, install <a href="https://github.com/meanjs/mean">MEAN.js 0.4.x</a>: clone repo and
+             get this boilerplate application running also.
+           </td>
+         </tr>
+         <tr class="sec">
+           <td>9</td>
+           <td>10/26</td>
+           <td>Deployment to heroku</td>
+           <td>
+             <!--
+             Mon: 9.4 - 9.5,
+             <br>Wed: 9.6 - 9.8,
+             -->
+
+             <!--
+             <br>Fri: 11.1 - 11.2
+           -->
+           </td>
+           <td>
+             <!--
+             <i><a href="project/index.html#1-4">Project Iteration 1</a></i>
+             due Mon
+           -->
+           </td>
+         </tr>
+         <tr class="sec">
+           <td>10</td>
+           <td>11/02</td>
+           <td>Project management</td>
+           <td>
+             <!--
+             11.3 - 11.11,
+             -->
+             <a href="http://sourcemaking.com/uml">UML</a>
+           </td>
+           <td>
+
+             <!--
+             <a href="hwk/5/">Hwk 5 - Pattern Presentation</a>
+             due in class
+           -->
+           </td>
+         </tr>
+         <tr class="sec">
+           <td>11</td>
+           <td>11/09</td>
+           <td>
+             Databases & CRUD
+             <!--
+             JavaScript; Open-Source Software
+           -->
+           </td>
+           <td>
+             <!--
+             Mon: 6.1 - 6.3
+             <br>Wed: 6.4 - 6.11
+             <br>Fri:
+           -->
+           </td>
+           <td>
+             <!--
+             <i><a href="project/index.html#1-4">Project Iteration 2</a></i>
+             due Mon
+           -->
+           </td>
+         </tr>
+         <tr class="sec">
+           <td>12</td>
+           <td>11/16</td>
+           <td>
+            Open-Source; Software Ethics and Impacts
+           </td>
+           <td>
+            <a href="http://www.acm.org/about/se-code">ACM Code</a>
+            <!--
+             <a href="https://moodle.pugetsound.edu/moodle/mod/resource/view.php?id=214617">Stallman 2009</a>,
+             <a href="https://moodle.pugetsound.edu/moodle/mod/resource/view.php?id=214615">Raymond 2000</a>
+           -->
+            <!--
+             Mon: Brinkman Ch 1
+             <br>Wed: Brinkman Ch 2;
+             <br>Fri: <i>based on last name</i>
+             <br>  <b>A-C</b>:
+             <a href="https://moodle.pugetsound.edu/moodle/mod/resource/view.php?id=238400">Abelson 2008</a>
+             <br>  <b>D-Ja</b>:
+             <a href="https://moodle.pugetsound.edu/moodle/mod/resource/view.php?id=238397">Abril 2007</a>
+             <br>  <b>Jo-P</b>:
+             <a href="https://moodle.pugetsound.edu/moodle/mod/resource/view.php?id=238399">Irani 2013</a>
+             <br>  <b>R-Y</b>:
+             <a href="https://moodle.pugetsound.edu/moodle/mod/resource/view.php?id=238398">Penzenstadler 2014</a>
+           -->
+           </td>
+           <td></td>
+         </tr>
+         <tr class="sec">
+           <td>13</td>
+           <td>
+             11/23
+             <br><i><b>Wed-Fri: holiday</b></i>
+           </td>
+           <td><i>work day</i></td>
+           <td></td>
+           <td>
+             <!--
+             <i><a href="project/index.html#1-4">Project Iteration 3</a></i>
+             due Mon
+           -->
+           </td>
+         </tr>
+         <tr class="sec">
+           <td>14</td>
+           <td>11/30</td>
+           <td>
+             Current Issues and Practice
+           </td>
+           <td>
+             <a href="http://dl.acm.org/citation.cfm?id=2568225&amp;picked=prox">Proc. ICSE 2014</a>
+           </td>
+           <td>
+             <!--
+             <a href="hwk/6/">Hwk 6 - Ethics Paper</a>
+             (draft) due Mon
+           -->
+           </td>
+         </tr>
+         <tr class="sec">
+           <td>15</td>
+           <td>12/07</td>
+           <td>Conclusions</td>
+           <td></td>
+           <td>
+             <!--
+             <a href="hwk/6/">Hwk 6 - Ethics Paper</a>
+             (revised) due Mon
+           -->
+           </td>
+         </tr>
+         <tr class="sec">
+           <td>Finals</td>
+           <td colspan="2">
+             <b>
+               <i>Final Exam Period: Monday 12/6, 12:00pm</i>
+             </b>
+           </td>
+           <td colspan="2">
+             <!--
+             <i>
+               <a href="project/index.html#1-4">Project Iteration 4</a>;
+               <a href="project/index.html#presentation">Final Presentations</a>
+             </i>
+             due Mon
+             <a href="hwk/7/">Hwk 7 - Final Write-Up</a>
+             due Fri
+           -->
+           </td>
+         </tr>
+       </table>
