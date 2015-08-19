@@ -1,6 +1,4 @@
-This is a personal website based on
-
-[Bootstrap](http://getbootstrap.com) skeleton for [DocPad](https://github.com/bevry/docpad)
+This is a personal website build with the [Bootstrap](http://getbootstrap.com) skeleton for [DocPad](https://github.com/bevry/docpad)
 
 ## License
 

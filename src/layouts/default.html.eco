@@ -75,13 +75,13 @@
 							<ul class="dropdown-menu" role="menu">
 								<% for document in @getCollection('current').toJSON(): %>
 									<li>
-										<a href="<%= document.url %>" property="dc:title">
+										<a href="<%= @getURL()+document.url %>" property="dc:title">
 											<%= document.title %>
 										</a>
 									</li>
 								<% end %>
 								<li>
-									<a href="/pages/classarchive">
+									<a href="<%= @getURL() %>/pages/classarchive">
 										Older class archives
 									</a>
 								</li>
@@ -107,10 +107,10 @@
 					<% for document in @getCollection('pages').toJSON(): %>
 						<li
 							typeof="sioc:Page"
-							about="<%= document.url %>"
+							about="<%= @getURL()+document.url %>"
 							class="<%= 'active'	if @document.url is document.url %>"
 						>
-							<a href="<%= document.url %>" property="dc:title">
+							<a href="<%= @getURL()+document.url %>" property="dc:title">
 								<%= document.title %>
 							</a>
 						</li>

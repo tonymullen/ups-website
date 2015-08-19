@@ -7,12 +7,14 @@ docpadConfig = {
 	# These are variables that will be accessible via our templates
 	# To access one of these within our templates, refer to the FAQ: https://github.com/bevry/docpad/wiki/FAQ
 
+
 	templateData:
 
 		# Specify some site properties
 		site:
 			# The production url of our website
-			url: "http://localhost:9778/"
+			url: "http://mathcs.pugetsound.edu/~tmullen"
+			#url: "http://localhost:9778/"
 			#url: "http://localhost/out/"
 
 			# Here are some old site urls that you would like to redirect from
@@ -43,13 +45,13 @@ docpadConfig = {
 			# Styles
 			styles: [
 	#			"//maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.css"
-				"/vendor/bootstrap-3.3.4-dist/css/bootstrap.min.css"
-				"/styles/twitter-bootstrap.css"
-				"/vendor/jquery.bootstrap-touchspin.css"
-				"/vendor/angular-flippy/flippy.css"
-				"/vendor/angular-flippy/flippy-fancy.css"
-				"/styles/bs-style.css"
-				"/styles/style.css"
+				"http://mathcs.pugetsound.edu/~tmullen/vendor/bootstrap-3.3.4-dist/css/bootstrap.min.css"
+				"http://mathcs.pugetsound.edu/~tmullen/styles/twitter-bootstrap.css"
+				"http://mathcs.pugetsound.edu/~tmullen/vendor/jquery.bootstrap-touchspin.css"
+				"http://mathcs.pugetsound.edu/~tmullen/vendor/angular-flippy/flippy.css"
+				"http://mathcs.pugetsound.edu/~tmullen/vendor/angular-flippy/flippy-fancy.css"
+				"http://mathcs.pugetsound.edu/~tmullen/styles/bs-style.css"
+				"http://mathcs.pugetsound.edu/~tmullen/styles/style.css"
 			]
 
 			# Scripts
@@ -58,15 +60,19 @@ docpadConfig = {
 				"//cdnjs.cloudflare.com/ajax/libs/modernizr/2.6.2/modernizr.min.js"
 				"//cdnjs.cloudflare.com/ajax/libs/angular.js/1.3.15/angular.min.js"
 				"//maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"
-		    "/vendor/ui-bootstrap-tpls-0.12.1.min.js"
-			  "/vendor/jquery.bootstrap-touchspin.min.js"
-			 	"/vendor/angular-flippy/flippy.min.js"
-				"/scripts/script.js"
-			 	"/scripts/app.js"
-			 	"/scripts/controllers.js"
-			 	"/scripts/directives.js"
+		    "http://mathcs.pugetsound.edu/~tmullen/vendor/ui-bootstrap-tpls-0.12.1.min.js"
+			  "http://mathcs.pugetsound.edu/~tmullen/vendor/jquery.bootstrap-touchspin.min.js"
+			 	"http://mathcs.pugetsound.edu/~tmullen/vendor/angular-flippy/flippy.min.js"
+				"http://mathcs.pugetsound.edu/~tmullen/scripts/script.js"
+			 	"http://mathcs.pugetsound.edu/~tmullen/scripts/app.js"
+			 	"http://mathcs.pugetsound.edu/~tmullen/scripts/controllers.js"
+			 	"http://mathcs.pugetsound.edu/~tmullen/scripts/directives.js"
 			]
 
+			# Out Path
+			# Where should we put our generated website files?
+			# If it is a relative path, it will have the resolved `rootPath` prepended to it
+			#outPath: 'out'  # default
 
 
 		# -----------------------------
