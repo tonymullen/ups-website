@@ -25,7 +25,7 @@
               JAD Ch 1
            </td>
            <td>
-            <a href="<%= @site.url %>/hw/f15se/hw2-GruntTaskConf">HW 1: JavaScript</a>
+            <a href="<%= @site.url %>/hw/f15se/hw1-JavaScript">HW 1: JavaScript</a>
             <br>
               <strong>Due Fri 9/11</strong>
            </td>
@@ -46,8 +46,8 @@
            -->
            </td>
            <td>
+               <a href="<%= @site.url %>/hw/f15se/hw2-GruntTaskConf">HW 2: Grunt Task Config</a>
                <br>
-               <a href="<%= @site.url %>/hw/f15se/hw2-GruntTaskConf">HW 2: Grunt</a>
                <strong>Due Fri 9/25</strong>
               <br><a href="<%= @site.url %>/hw/f15se/group-project">Group Project Iteration 0.0</a>
               <br>
@@ -78,10 +78,12 @@
            -->
            </td>
            <td>
-              <a href="https://www.codecademy.com/tracks/javascript">
-                AngularJS tutorial</a>.
+              <a href="<%= @site.url %>/hw/f15se/hw4-Angular">HW 3: Use Case</a>
+              <br>
+                <strong>Due Fri ---</strong>
+                <br><a href="<%= @site.url %>/hw/f15se/group-project">Group Project Iteration 0.1</a>
                 <br>
-                <strong>Due Fri 10/2</strong>
+                <strong>Due Fri 9/18</strong>
              <!--
              <a href="hwk/2/">Hwk 2 - Ruby</a>
              due <strike>Fri</strike> Sun
@@ -109,9 +111,9 @@
            -->
            </td>
            <td>
-             JAD Section 3.4: Continuous development
+                <a href="<%= @site.url %>/hw/f15se/hw4-Angular">HW 4: Angular.js</a>
              <br>
-             <strong>Due Fri 10/2</strong>
+             <strong>Due ---</strong>
            </td>
          </tr>
          <tr class="sec">
@@ -131,6 +133,12 @@
            -->
            </td>
            <td>
+                <a href="<%= @site.url %>/hw/f15se/hw5-ContinuousDevelopment">HW 5: Continuous Development</a>
+                <br>
+                <strong>Due ---</strong>
+                  <br><a href="<%= @site.url %>/hw/f15se/group-project">Group Project Iteration 0.2</a>
+                  <br>
+                  <strong>Due Fri 10/2</strong>
              <!--
              <i><a href="project/index.html#0.2">Project Iteration 0.2</a></i>
              due Fri
@@ -159,6 +167,9 @@
            -->
            </td>
            <td>
+             <a href="<%= @site.url %>/hw/f15se/hw5-MeanJS">HW 6: Installing MeanJS</a>
+             <br>
+             <strong>Due Fri ---</strong>
              <!--
              <a href="hwk/4/">Hwk 4 - Rails</a>
              due Sun
@@ -182,6 +193,9 @@
            -->
            </td>
            <td>
+               <a href="<%= @site.url %>/hw/f15se/group-project">Group Project Iteration 0.3</a>
+               <br>
+               <strong>Due <span style="text-color: red">Mon</span> 10/12</strong>
              <!--
              <i><a href="project/index.html#0.3">Project Iteration 0.3</a></i>
              due
@@ -196,6 +210,7 @@
            </td>
            <td>Generation & Scaffolding; MEAN.js</td>
            <td>
+
              <!--
              Wed: 10.1 - 10.3, 10.7
              <br>Fri:
@@ -204,12 +219,7 @@
            -->
            </td>
            <td>
-             Install MEAN.js 0.3.x using Yeoman Generator following
-             <a href="http://meanjs.org/generator.html">these instructions.</a>
-             Get the boilerplate application running.
-             <br>
-             In a separate directory, install <a href="https://github.com/meanjs/mean">MEAN.js 0.4.x</a>: clone repo and
-             get this boilerplate application running also.
+
            </td>
          </tr>
          <tr class="sec">
@@ -227,6 +237,9 @@
            -->
            </td>
            <td>
+              <a href="<%= @site.url %>/hw/f15se/group-project">Group Project Iteration 1</a>
+              <br>
+              <strong>Due Mon 10/26</strong>
              <!--
              <i><a href="project/index.html#1-4">Project Iteration 1</a></i>
              due Mon
@@ -253,7 +266,7 @@
          </tr>
          <tr class="sec">
            <td>11</td>
-           <td>11/09</td>
+           <td>11/9</td>
            <td>
              Databases & CRUD
              <!--
@@ -268,6 +281,10 @@
            -->
            </td>
            <td>
+             <a href="<%= @site.url %>/hw/f15se/group-project">Group Project Iteration 2</a>
+              <br>
+             <strong>Due Mon 11/9</strong>
+                          <!--
              <!--
              <i><a href="project/index.html#1-4">Project Iteration 2</a></i>
              due Mon
@@ -311,6 +328,9 @@
            <td><i>work day</i></td>
            <td></td>
            <td>
+              <a href="<%= @site.url %>/hw/f15se/group-project">Group Project Iteration 3</a>
+              <br>
+              <strong>Due Mon 11/23</strong>
              <!--
              <i><a href="project/index.html#1-4">Project Iteration 3</a></i>
              due Mon
@@ -349,10 +369,14 @@
            <td>Finals</td>
            <td colspan="2">
              <b>
-               <i>Final Exam Period: Monday 12/16, 12:00pm</i>
+               <i>Final Exam Period: Monday 12/16, 4:00pm</i>
              </b>
            </td>
            <td colspan="2">
+             <a href="<%= @site.url %>/hw/f15se/group-project">Group Project Iteration 4</a>
+             <br><a href="<%= @site.url %>/hw/f15se/group-project">Hwk 7: Final Writeup</a>
+             <br><a href="<%= @site.url %>/hw/f15se/group-project">Project Presentation</a>
+             <strong>Due Mon 12/16</strong>
              <!--
              <i>
                <a href="project/index.html#1-4">Project Iteration 4</a>;
