@@ -4,7 +4,7 @@ angular.module('com.tm.bertspel.directives',[])
     scope:true,
     replace:true,
     restrict:'AE',
-    templateUrl: 'grid.html'
+    templateUrl: 'grid/'
     }
 }])
 .directive('flippy', ['$timeout', function($timeout) {
@@ -50,7 +50,7 @@ angular.module('com.tm.bertspel.directives',[])
 }])
 .directive('spin', function() {
   return {
-    templateUrl: 'spinner.html',
+    templateUrl: 'spinner/',
     scope: {
       'value' : "="
     },

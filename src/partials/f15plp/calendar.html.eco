@@ -48,7 +48,7 @@
      <td>Search Trees, Cuts and Negation</td>
      <td>Section 9, 10</td>
      <td>
-       <a href="<%= @site.url %>pages/bertspel">Bert Bos Puzzle</a>
+       <a href="<%= @site.url %>/pages/bertspel">Bert Bos Puzzle</a>
        <!--
        <a href="Asmts/09/asmt.html">Assignment 9</a>
      -->

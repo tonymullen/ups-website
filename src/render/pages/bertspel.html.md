@@ -1,6 +1,6 @@
 ```
 layout: misc
 
-content: misc/bertspel.html.eco
+content: misc/bertspel.html
 
 ```

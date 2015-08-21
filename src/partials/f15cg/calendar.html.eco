@@ -23,7 +23,7 @@
            <td>Fri</td>
          -->
            <td></td>
-           <td><a href="<%= @site.url %>hw/f15cg/hw1-rainbow-circle">Rainbow Circle</a></td>
+           <td><a href="<%= @site.url %>/hw/f15cg/hw1-rainbow-circle">Rainbow Circle</a></td>
            <!--
            <td></td>
          -->

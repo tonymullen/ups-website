@@ -25,11 +25,9 @@
               JAD Ch 1
            </td>
            <td>
-            Register and complete this
-            <a href="https://www.codecademy.com/tracks/javascript">
-              JavaScript tutorial</a>.
-              <br>
-              due Fri 9/14
+            <a href="<%= @site.url %>/hw/f15se/hw2-GruntTaskConf">HW 1: JavaScript</a>
+            <br>
+              <strong>Due Fri 9/11</strong>
            </td>
          </tr>
          <tr class="sec">
@@ -48,11 +46,12 @@
            -->
            </td>
            <td>
-               JAD Ch 2 up to 2.4: Grunt task configuration.
                <br>
-               Commit results to Github repo. Include a README detailing any issues you had.
-               <br>
-               Due Fri 9/21
+               <a href="<%= @site.url %>/hw/f15se/hw2-GruntTaskConf">HW 2: Grunt</a>
+               <strong>Due Fri 9/25</strong>
+              <br><a href="<%= @site.url %>/hw/f15se/group-project">Group Project Iteration 0.0</a>
+              <br>
+              <strong>Due Fri 9/11</strong>
              <!--
              <a href="hwk/1/">Hwk 1 - Setup and Git</a>
              due Thu
@@ -82,7 +81,7 @@
               <a href="https://www.codecademy.com/tracks/javascript">
                 AngularJS tutorial</a>.
                 <br>
-                due Fri 9/28
+                <strong>Due Fri 10/2</strong>
              <!--
              <a href="hwk/2/">Hwk 2 - Ruby</a>
              due <strike>Fri</strike> Sun
@@ -112,7 +111,7 @@
            <td>
              JAD Section 3.4: Continuous development
              <br>
-             Due 9/28
+             <strong>Due Fri 10/2</strong>
            </td>
          </tr>
          <tr class="sec">
@@ -350,7 +349,7 @@
            <td>Finals</td>
            <td colspan="2">
              <b>
-               <i>Final Exam Period: Monday 12/6, 12:00pm</i>
+               <i>Final Exam Period: Monday 12/16, 12:00pm</i>
              </b>
            </td>
            <td colspan="2">

@@ -2,4 +2,4 @@
 cacheable: false
 ```
 
-CS 240 - Group project
+This assignment is based on course work prepared by Joel Ross and Kristen Justice
