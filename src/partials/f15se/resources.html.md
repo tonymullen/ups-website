@@ -1,6 +1,15 @@
 ```
 cacheable: false
 ```
+###Primary online resources
+
+The class will make use of several online resources:
+
+[Github](https://github.com/UPS-CS240-F15) for version/revision control.
+
+[PivotalTracker](https://www.pivotaltracker.com) for project management.
+
+[Piazza](https://piazza.com/pugetsound/fall2015/csci240/home) for collaboration.
 
 ###Supplemental resources
 

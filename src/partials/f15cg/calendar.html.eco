@@ -18,12 +18,14 @@
          <tr class="sec">
            <td>1</td>
            <td>08/31</td>
-           <td>Computer Graphics and WebGL</td>
+           <td>Computer Graphics and WebGL; Three.js intro</td>
            <!--
            <td>Fri</td>
          -->
            <td></td>
-           <td><a href="<%= @site.url %>/hw/f15cg/hw1-rainbow-circle">Rainbow Circle</a></td>
+           <td>
+             <a href="<%= @site.url %>/hw/f15cg/hw1-rainbow-circle">Hw 1: Rainbow Circle</a>
+           </td>
            <!--
            <td></td>
          -->
@@ -31,7 +33,7 @@
          <tr class="sec">
            <td>2</td>
            <td>09/07</td>
-           <td>Points, Vectors, & Meshes</td>
+           <td>Points, Vectors, & Meshes; Geometry in Three.js</td>
            <!--
            <td>
              <a href="http://www.codecademy.com/courses/web-beginner-en-JwhI1/0/1">jQuery</a>
@@ -53,20 +55,23 @@
          <tr class="sec">
            <td>3</td>
            <td>09/14</td>
-           <td>Color and Transparency</td>
+
            <!--
            <td>
              <a href="lab/hexagon/">Hexagon</a>
            </td>
          -->
            <td>
+            <td>Rendering basics; Light and Shading</td>
              <!--
              <br>
              <a href="https://moodle.pugetsound.edu/moodle/mod/resource/view.php?id=210292">
              Gortler Ch 1</a>
            -->
            </td>
-           <td></td>
+           <td>
+             <a href="<%= @site.url %>/hw/f15cg/hw2-robot-shapes">Hw 2: Build a Robot</a>
+           </td>
             <!--
            <td>
              <a href="wkst/worksheet_ii.pdf">Worksheet II</a>
@@ -76,7 +81,7 @@
          <tr class="sec">
            <td>4</td>
            <td>09/21</td>
-           <td>Transformations</td>
+           <td>Color and Transparency; Compositing</td>
            <!--
            <td>Thu</td>
          -->
@@ -98,7 +103,7 @@
          <tr class="sec">
            <td>5</td>
            <td>09/28</td>
-           <td>Viewing and Projections</td>
+           <td>Materials and textures</td>
            <!--
            <td></td>
          -->
@@ -107,7 +112,9 @@
              Ch 9.1-9.5, 9.8; 5.1-5.7
            -->
            </td>
-           <td></td>
+           <td>
+             <a href="<%= @site.url %>/hw/f15cg/hw3-robot-materials">Hw 3: Robot Materials</a>
+           </td>
             <!--
            <td>
              <a href="wkst/worksheet_iii.pdf">Worksheet III</a>
@@ -117,7 +124,7 @@
          <tr class="sec">
            <td>6</td>
            <td>10/05</td>
-           <td>Light and Shading</td>
+           <td>Transformations</td>
            <!--
            <td>Fri</td>
          -->
@@ -129,6 +136,7 @@
            -->
            </td>
            <td>
+
              <!--
              <a href="hwk/3/">Hwk 3 - CubeBot</a>
              due <b>Fri</b>
@@ -143,12 +151,13 @@
          <tr class="sec">
            <td>7</td>
            <td>10/12</td>
-           <td>Materials and textures</td>
+           <td>Animation & Interaction</td>
            <!--
            <td>Fri</td>
          -->
-           <td></td>
+           <td>Lasseter, 1987</td>
            <td>
+             <a href="<%= @site.url %>/hw/f15cg/hw4-robot-animation">Hw 4: Robot Animation</a>
              <!--
              <a href="hwk/4/">Hwk 4 - Dancing CubeBot</a>
              due Fri
@@ -165,13 +174,16 @@
            <td>
              10/19
            </td>
-           <td>Rasterization</td>
+           <td>
+             Viewing and Projections</td>
            <!--
            <td>Thu</td>
          -->
            <td>
            </td>
-           <td></td>
+           <td>
+
+           </td>
             <!--
            <td>
            </td>
@@ -180,14 +192,18 @@
          <tr class="sec">
            <td>9</td>
            <td>10/26</td>
-           <td>Animation</td>
+           <td>
+           Rasterization
+           </td>
            <!--
            <td>
              <a href="lab/toon">Toon Shading</a>
            </td>
          -->
-           <td>Lasseter, 1987</td>
-           <td><!--
+           <td></td>
+           <td>
+                <a href="<%= @site.url %>/hw/f15cg/hw5-koosh">Hw 5: Koosh Ball</a>
+             <!--
              <a href="hwk/5/">Hwk 5 - Street Scene (Part 1)</a>
              due Sun
            -->
@@ -201,12 +217,14 @@
          <tr class="sec">
            <td>10</td>
            <td>11/02</td>
-           <td>Modeling, Curves & Surfaces</td>
+           <td>Modeling, Curves & Surfaces, CSG</td>
            <!--
            <td>Thu</td>
          -->
            <td></td>
-           <td></td>
+           <td>
+
+           </td>
             <!--
            <td>
              <a href="wkst/worksheet_vii.pdf">Worksheet VII</a>
@@ -227,6 +245,8 @@
            -->
            </td>
            <td>
+             <a href="<%= @site.url %>/hw/f15cg/hw6-ray-tracer">Hw 6: Ray Tracer</a>
+
              <!--
              <a href="hwk/6/">Hwk 6 - Street Scene (Part 2)</a>
              due Tues
@@ -242,8 +262,7 @@
            <td>12</td>
            <td>11/16</td>
            <td>
-             Bounding Volumes and Constructive
-             <br>Geometry
+             Physically-based Rendering, OSL
            </td>
            <!--
            <td>Thu</td>
@@ -266,7 +285,9 @@
              11/23
              <br><i><b>Wed-Fri: holiday</b></i>
            </td>
-           <td>Physically-based Rendering</td>
+           <td>
+             TBD
+           </td>
            <!--
            <td></td>
          -->
@@ -276,6 +297,7 @@
            -->
            </td>
            <td>
+              <a href="<%= @site.url %>/hw/f15cg/final-project">Final Project</a>
              <!--
              <a href="hwk/7/">Hwk 7 - Ray Tracer</a>
              due Tues
@@ -288,7 +310,12 @@
          <tr class="sec">
            <td>14</td>
            <td>11/30</td>
-           <td>Non-Photorealistic Rendering</td>
+           <td>
+             TBD
+             <!--
+             Non-Photorealistic Rendering
+           -->
+           </td>
            <!--
            <td>
              <a href="lab/d3">d3js</a>
@@ -316,7 +343,10 @@
            <br><i><b>Last day of class
              <br>Wed 12/09</b></i>
              </td>
-           <td>Physics Simulation</td>
+           <td>
+             TBD
+          <!--   Physics Simulation-->
+           </td>
            <!--
            <td></td>
          -->

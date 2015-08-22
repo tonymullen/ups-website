@@ -1,4 +1,4 @@
-This is a personal website build with the [Bootstrap](http://getbootstrap.com) skeleton for [DocPad](https://github.com/bevry/docpad)
+This is [my personal website](http://mathcs.pugetsound.edu/~tmullen/) build with the [Bootstrap](http://getbootstrap.com) skeleton for [DocPad](https://github.com/bevry/docpad)
 
 ## License
 

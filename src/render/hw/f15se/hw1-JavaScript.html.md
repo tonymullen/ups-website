@@ -3,7 +3,7 @@ layout: assignment
 
 term: Fall 2015
 
-title: JavaScript Tutorial
+title: Homework 1: JavaScript Tutorial
 
 class: CS 240: Software Engineering
 

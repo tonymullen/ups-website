@@ -3,7 +3,7 @@ layout: assignment
 
 term: Fall 2015
 
-title: Grunt Task Configuration
+title: Homework 2: Grunt Task Configuration
 
 class: CS 240: Software Engineering
 

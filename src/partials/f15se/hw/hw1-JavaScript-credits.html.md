@@ -1,3 +1,0 @@
-```
-cacheable: false
-```

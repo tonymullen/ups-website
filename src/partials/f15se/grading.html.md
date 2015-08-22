@@ -8,5 +8,6 @@ This course will be graded based on the following factors:
 
 * Attendance
 * Homework
-* Exams
 * Final project
+
+There are no exams for this course. 
