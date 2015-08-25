@@ -54,7 +54,14 @@ layout: default
 	</div>
 	<div class="panel-body">
 	<p>
-	Please ensure that any work you take credit for is your own. </p>
+	Please ensure that any work you take credit for is your own. Homework should be
+	assumed to be individual work unless it is explicitly given as group work.</p>
+	<p>
+	If your work involves contributing to code written by other people (as is often the case
+	when working with open source software) always be aware of and respectful of the
+	license governing the use of the code, and always be clear about where your
+	own contributions begin and end.
+	</p>
 	<p>
 	Please review the
 	<a href="http://www.pugetsound.edu/student-life/personal-safety/student-handbook/academic-handbook/academic-integrity/">
@@ -100,6 +107,47 @@ layout: default
 		else I may be able to help with, please don't hesitate to email me or
 		drop by my office any time to talk.
 		</p>
+	</div>
+</div>
+
+<div class="panel panel-success" style="margin-top: 21px;">
+	<div class="panel-heading">
+		<h2 class="panel-title">Special Accommodations</h2>
+	</div>
+	<div class="panel-body">
+		<p>
+Academic accommodations are available for students with disabilities
+who are registered with the Office of the Office of Accessibility and
+Accommodations. If you have a physical, psychological, medical or learning
+disability that may impact your course work, please contact Peggy Perno,
+Director of the Office of Accessibility and Accommodations, 105 Howarth,
+253.879.3395. She will determine with you what accommodations are necessary
+and appropriate. All information and documentation is confidential.
+</p>
+<p>
+I also encourage all students having difficulty, whatever the reason,
+to consult privately with me at any time.
+</p>
+	</div>
+</div>
+
+<div class="panel panel-success" style="margin-top: 21px;">
+	<div class="panel-heading">
+		<h2 class="panel-title">Emergency Procedures</h2>
+	</div>
+	<div class="panel-body">
+		<p>
+Please review university emergency preparedness and response procedures
+posted at <a href="http:www.pugetsound.edu/emergency/">www.pugetsound.edu/emergency/</a>.
+There is a link on the  university home page. Familiarize yourself with hall
+exit doors and the designated gathering area for your class and laboratory buildings.
+</p>
+<p>
+If building evacuation becomes necessary (e.g. earthquake), meet your instructor
+at the designated gathering area so she/he can account for your presence.
+Then wait for further instructions. Do not return to the building or
+classroom until advised by a university emergency response representative.
+</p>
 	</div>
 </div>
 

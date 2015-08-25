@@ -2,4 +2,4 @@
 cacheable: false
 ```
 
-Instructions for submitting this assignment coming soon. 
+Submit this iteration by creating a private post on Piazza with a screenshot of your Codecademy.com profile page showing your name and your acquired skill.

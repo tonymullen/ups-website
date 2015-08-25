@@ -3,7 +3,7 @@ layout: assignment
 
 term: Fall 2015
 
-title: Installing MeanJS
+title: Homework 6: Installing MeanJS
 
 class: CS 240: Software Engineering
 

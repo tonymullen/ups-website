@@ -50,9 +50,9 @@ Write a short (2 paragraph max) summary of the main customers' need and how your
 Create at least 5 user stories on index cards (or quarter-pages). User stories should be in Connextra format:
 
 1.   Feature name
-2.   As a [kind of stakeholder],
-3.   So that [I can achieve some goal],
-4.   I want to [do some task]
+2.   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;As a [kind of stakeholder],
+3.   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;So that [I can achieve some goal],
+4.   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;I want to [do some task]
 
 Develop these user stories together so that everyone is on the same page! User stories should be [INVEST and SMART](http://xp123.com/articles/invest-in-good-stories-and-smart-tasks/). Note that you will also use the information from these customer discussions to complete Hwk 3.
 
@@ -62,7 +62,15 @@ Submit this iteration by creating a post on Piazza containing your user stories 
 
 **Due Date: <span style="color:red">Mon</span> 10/12, 11:59 PM**
 
+*Create lo-fi mockups and storyboards corresponding to at least 4 of your user stories.*
 
+Develop lo-fi mock-ups and prototypes of 4 different user stories. These should be paper prototypes and sketches, as they are easier to get feedback on. Once you've gone through a round of paper mockups, you can then make digital prototypes if you wish.
+
+Finally, to complete Iteration 0, put all of your user stories on Pivotal Tracker. You will have received a link to a Pivotal Tracker account for your team's use. The professor will have viewing access to these.
+
+**Submit** this iteration by creating a private post on Piazza with your lo-fi mockups and storybook sketches (I already have access to your Tracker); tag your post with #Iter0.3. You should scan (or clearly photograph) your mockups and attach them as images to your post.
+
+**Each team member must** fill out the Iteration 0 Team Evaluation Survey giving scores to each team member (including yourself). These scores will be used to normalize grades among the team members.
 
 ### Iterations 1-4 (25 pts each)
 
@@ -74,5 +82,69 @@ Submit this iteration by creating a post on Piazza containing your user stories 
 
 **Iteration 4 Due Date: Mon 12/16, 4:00 PM**
 
+For each of these iterations, you will use Tracker to identify a set of user stories to work on during the iteration (and who will work on each). You will then use techniques from BDD and TDD to implement these user stories.
+
+As you proceed, stories may be re-prioritized and new stories may be added.
+
+Remember, you should be committing code regularly, not only when you're tagging iterations. Don't be shy about committing, and always be sure you're working on an updated local repository, in case other members of the team have made contributions. Make sure you are logged in under your own name when you make commits. This helps me to know how much code each member of the team contributed.
+
+At the end of each iteration, I will check the following:
+
+* **Development Practices [6pts]**
+   *   Make sure that all your code and tests--including Moch and Jasmine    tests--have been pushed to Github. Tag your git repository revision with iteration-i, where i is the iteration number. To tag the current revision, use git tag -a iteration-1 -m "<commit message>" (for Iteration 1).
+      *  **Warning:**  you must explicitly push your tags with the command git push [origin] --tags. Please double-check that you can checkout the tag from your Github repository before the deadline!
+   *  I should be able to run your tests from a fresh clone using:
+        <pre>
+        git checkout iteration-i
+        grunt
+        </pre>
+   *  Your Pivotal Tracker should be correctly used and up-to-date. Current   stories should be started, and completed stories should be finished. You should use releases and epics when appropriate.
+* **Test Cases and Scenarios [6pts]**
+   *   Your system should include test cases (either via Mocha or Jasmine) automatically demonstrating its functionality.
+   *   Tests should ideally cover both the "happy path" and the "sad path" of each user story that your Tracker indicates is completed.
+   *   All tests should either pass or be pending. I should get all green and yellow, no red!.
+* **Design and Deployment [10pts]**
+   *   Your production application is deployed (e.g., to Heroku), and the production deployment is up to date (all completed stories should work there).
+   *   Stories should represent sufficient progress for the iteration.
+   *   Your production application is usable (following UI principles).
+* **Admin [3pts]**
+   *   You have created a submission post on Piazza for this iteration (see below)
+   *   All team members have completed the Team Evaluation Survey
+
+**Submit** each iteration by creating a private post on Piazza with a link to your Tracker, your Github repository (if different than the one I set up), and your Heroku deployment; tag your post with the iteration number (e.g., #Iter1). Also include a short summary noting which user stories have been completed this iteration.
+
+* Please do this even for your final product (Iteration 4).
+
+**Each team member must** fill out the Iteration i Team Evaluation Survey (where i is the number of the iteration) giving scores to each team member (including yourself). These scores will be used to normalize grades among the team members.
 
 ### Final Presentation (20 pts)
+
+**Due Wed 12/16, 4:00 PM**
+
+In addition to the implementation, your team will be formally presenting your project during our allotted final period (on Wednesday, Dec 16).
+
+Presentations should be about 20 minutes long, with all team members participating. Your presentation should pitch your project (e.g., what is the problem? how does your application solve that problem), walk us through major user stories (and major implementation architecture, if appropriate), and reflect briefly on the development process (e.g., what aspects of the development process worked well or poorly? What, if anything, would you do differently?). Your team should be ready to answer questions after your presentation.
+
+* Pretend you're "selling" your product--why should your customer choose to buy your implementation?
+
+* Each team member must talk for *at least* 2 minutes. Team members who do not participate in the presentation will receive a 0.
+
+Presentations will be graded on the following criteria:
+
+**Content and Organization**
+
+* [2pt] Organized, with strong introduction and conclusion
+* [2pt] Clear explanation of the motivation for the project (including major User Stories)
+* [2pt] Explanation of how your system solves the customer's "problem"--sell your product's features!
+* [2pt] An easy-to-follow walkthrough and demonstration of the system
+* [2pt] Insightful reflection on the development process
+
+**Speaking and Professionalism**
+
+* [2pt] Appropriate use of time (about 20 minutes)
+* [2pt] Engages with the audience (verbally and non-verbally)
+* [2pt] Eye contact with the audience (do not read your slides!)
+* [2pt] Clear diction: speak slowly and loud enough to hear, and avoid "ums" or other distractors (Do as I say, not as I do!)
+* [2pt] Able to respond to questions
+
+A note of advice: there are few activities I can think of where the benefits of practice are more immediate and striking than in public speaking. Every single time you go through your presentation from beginning to end beforehand will make your performance better for the audience and more comfortable for you.

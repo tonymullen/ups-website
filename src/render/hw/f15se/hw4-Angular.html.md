@@ -3,7 +3,7 @@ layout: assignment
 
 term: Fall 2015
 
-title: AngularJS Tutorial
+title: Homework 4: AngularJS Tutorial
 
 class: CS 240: Software Engineering
 

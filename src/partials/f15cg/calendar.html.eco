@@ -22,7 +22,9 @@
            <!--
            <td>Fri</td>
          -->
-           <td></td>
+           <td>
+           Ch. 1
+           </td>
            <td>
              <a href="<%= @site.url %>/hw/f15cg/hw1-rainbow-circle">Hw 1: Rainbow Circle</a>
            </td>
@@ -39,7 +41,8 @@
              <a href="http://www.codecademy.com/courses/web-beginner-en-JwhI1/0/1">jQuery</a>
            </td>
          -->
-           <td></td>
+           <td>
+           2.3, 2.4; 4.1 - 4.6</td>
            <td>
              <!--
              <a href="hwk/1/">Hwk 1 - Grapher</a>
@@ -55,19 +58,11 @@
          <tr class="sec">
            <td>3</td>
            <td>09/14</td>
-
-           <!--
+            <td>
+              Rendering basics; Color and Transparency; Light and Shading;
+            </td>
            <td>
-             <a href="lab/hexagon/">Hexagon</a>
-           </td>
-         -->
-           <td>
-            <td>Rendering basics; Light and Shading</td>
-             <!--
-             <br>
-             <a href="https://moodle.pugetsound.edu/moodle/mod/resource/view.php?id=210292">
-             Gortler Ch 1</a>
-           -->
+             2.5; 6.1 - 6.7
            </td>
            <td>
              <a href="<%= @site.url %>/hw/f15cg/hw2-robot-shapes">Hw 2: Build a Robot</a>
@@ -81,11 +76,14 @@
          <tr class="sec">
            <td>4</td>
            <td>09/21</td>
-           <td>Color and Transparency; Compositing</td>
+           <td>
+             Matrices & Transformations
+          </td>
            <!--
            <td>Thu</td>
          -->
            <td>
+             4.7 - 4.14
              <!--
              Ch 4.7-4.14
            -->
@@ -103,11 +101,12 @@
          <tr class="sec">
            <td>5</td>
            <td>09/28</td>
-           <td>Materials and textures</td>
+           <td>Materials and textures; environment mapping</td>
            <!--
            <td></td>
          -->
            <td>
+             7.1 - 7.7
              <!--
              Ch 9.1-9.5, 9.8; 5.1-5.7
            -->
@@ -124,19 +123,19 @@
          <tr class="sec">
            <td>6</td>
            <td>10/05</td>
-           <td>Transformations</td>
+           <td>Viewing and Projections; Clipping & rasterization</td>
            <!--
            <td>Fri</td>
          -->
            <td>
+            5.1 - 5.8;<br>
+            8.1 - 8.9;
              <!--
-             <a href="https://moodle.pugetsound.edu/moodle/mod/resource/view.php?id=210291">
-             Lasseter 1987</a>
+
              <br>Ch 8.11; 11.1-11.10
            -->
            </td>
            <td>
-
              <!--
              <a href="hwk/3/">Hwk 3 - CubeBot</a>
              due <b>Fri</b>
@@ -151,11 +150,17 @@
          <tr class="sec">
            <td>7</td>
            <td>10/12</td>
-           <td>Animation & Interaction</td>
+           <td>Animation & Interaction; Complex Objects/Parenting</td>
            <!--
            <td>Fri</td>
          -->
-           <td>Lasseter, 1987</td>
+           <td>
+             3.1 - 3.5;<br>
+             9.1 - 9.4;<br>
+             <a href="https://moodle.pugetsound.edu/moodle/mod/resource/view.php?id=278599">
+             Lasseter, 1987
+             </a>
+           </td>
            <td>
              <a href="<%= @site.url %>/hw/f15cg/hw4-robot-animation">Hw 4: Robot Animation</a>
              <!--
@@ -175,11 +180,12 @@
              10/19
            </td>
            <td>
-             Viewing and Projections</td>
+            Curves & Surfaces
            <!--
            <td>Thu</td>
          -->
            <td>
+            11.1 - 11.10;
            </td>
            <td>
 
@@ -193,35 +199,35 @@
            <td>9</td>
            <td>10/26</td>
            <td>
-           Rasterization
+               Ray Tracing
            </td>
-           <!--
            <td>
-             <a href="lab/toon">Toon Shading</a>
+           12.1 - 12.3; <br>
+           <a href="https://moodle.pugetsound.edu/moodle/mod/resource/view.php?id=278595">
+           Shirley Ch 4</a>,
+           <a href="https://moodle.pugetsound.edu/moodle/mod/resource/view.php?id=278596">
+            13
+           </a>
            </td>
-         -->
-           <td></td>
            <td>
-                <a href="<%= @site.url %>/hw/f15cg/hw5-koosh">Hw 5: Koosh Ball</a>
-             <!--
-             <a href="hwk/5/">Hwk 5 - Street Scene (Part 1)</a>
-             due Sun
-           -->
+             <a href="<%= @site.url %>/hw/f15cg/hw5-ray-tracer">Hw 5: Ray Tracer</a>
+
            </td>
-            <!--
-           <td>
-             <a href="wkst/worksheet_vi.pdf">Worksheet VI</a>
-           </td>
-         -->
+
          </tr>
          <tr class="sec">
            <td>10</td>
            <td>11/02</td>
-           <td>Modeling, Curves & Surfaces, CSG</td>
-           <!--
-           <td>Thu</td>
-         -->
-           <td></td>
+           <td>
+             Physically-based Rendering, Image-based lighting
+           </td>
+           <td>
+             12.4 - 12.9; <br>
+               <a href="https://moodle.pugetsound.edu/moodle/mod/resource/view.php?id=278602">
+                 PBR Guide Vol 1</a>  &
+                 <a href="https://moodle.pugetsound.edu/moodle/mod/resource/view.php?id=278660">
+                 Vol 2</a>
+           </td>
            <td>
 
            </td>
@@ -234,19 +240,25 @@
          <tr class="sec">
            <td>11</td>
            <td>11/09</td>
-           <td>Ray Tracing</td>
+           <td>
+                Tracking and matchmoving
+           </td>
            <!--
            <td>Wed</td>
          -->
            <td>
-             Shirley Ch 4
+               <a href="https://moodle.pugetsound.edu/moodle/mod/resource/view.php?id=278671">
+               Mastering Blender, Ch 10
+             </a>
+
              <!--
              <a href="https://moodle.pugetsound.edu/moodle/mod/resource/view.php?id=210288">13</a>
            -->
            </td>
            <td>
-             <a href="<%= @site.url %>/hw/f15cg/hw6-ray-tracer">Hw 6: Ray Tracer</a>
-
+              <a href="<%= @site.url %>/hw/f15cg/hw6-matchmove">Hwk 6: Matchmove Scene</a>
+             <!--
+           -->
              <!--
              <a href="hwk/6/">Hwk 6 - Street Scene (Part 2)</a>
              due Tues
@@ -262,17 +274,21 @@
            <td>12</td>
            <td>11/16</td>
            <td>
-             Physically-based Rendering, OSL
+      Shader programming; GLSL; OSL
            </td>
            <!--
            <td>Thu</td>
          -->
            <td>
+<a href="https://github.com/imageworks/OpenShadingLanguage/blob/master/src/doc/osl-languagespec.pdf">
+OSL Language Spec</a>
              <!--
              Ch 8.6; 9.10
            -->
            </td>
-           <td></td>
+           <td>
+
+           </td>
             <!--
            <td>
              <a href="wkst/worksheet_ix.pdf">Worksheet IX</a>
@@ -286,11 +302,9 @@
              <br><i><b>Wed-Fri: holiday</b></i>
            </td>
            <td>
-             TBD
+              2D Compositing; Chroma key compositing
            </td>
-           <!--
-           <td></td>
-         -->
+
            <td>
              <!--
              <a href="https://moodle.pugetsound.edu/moodle/mod/resource/view.php?id=220680">Rogers Ch 6</a>
@@ -298,29 +312,19 @@
            </td>
            <td>
               <a href="<%= @site.url %>/hw/f15cg/final-project">Final Project</a>
-             <!--
-             <a href="hwk/7/">Hwk 7 - Ray Tracer</a>
-             due Tues
-           -->
            </td>
-            <!--
-           <td></td>
-         -->
+
          </tr>
          <tr class="sec">
            <td>14</td>
            <td>11/30</td>
            <td>
              TBD
+             <!-- non photoreal rendering -->
              <!--
-             Non-Photorealistic Rendering
+             Modeling, Curves & Surfaces, CSG
            -->
            </td>
-           <!--
-           <td>
-             <a href="lab/d3">d3js</a>
-           </td>
-         -->
            <td>
              <!--
              <a href="https://moodle.pugetsound.edu/moodle/mod/resource/view.php?id=210293">Shirley Ch 27</a>
@@ -330,7 +334,9 @@
              <a href="https://moodle.pugetsound.edu/moodle/mod/resource/view.php?id=210290">Tufte Ch 1</a>
            -->
            </td>
-           <td></td>
+           <td>
+
+           </td>
             <!--
            <td>
              <a href="wkst/worksheet_x.pdf">Worksheet X</a>

@@ -65,22 +65,25 @@
            <td>3</td>
            <td>09/14</td>
            <td>
-             Web Application architecture; HTML & CSS; REST
+             Requirements; HTML & CSS;
+             Web Application architecture & REST;
              <!--
              Ruby; Behavior-Driven Design
            -->
            </td>
            <td>
             HS Ch 2
+            <br>
+            <a href="https://sourcemaking.com/uml/basic-principles">UML Basic Principles</a>
              <!--
              Mon/Wed: 3.5, 3.7 - 3.11; 8.1 - 8.2
              <br>Fri: 7.1 - 7.3, 7.11
            -->
            </td>
            <td>
-              <a href="<%= @site.url %>/hw/f15se/hw4-Angular">HW 3: Use Case</a>
+              <a href="<%= @site.url %>/hw/f15se/hw3-UseCase">HW 3: Use Case</a>
               <br>
-                <strong>Due Fri ---</strong>
+                <strong>Due Fri 10/2</strong>
                 <br><a href="<%= @site.url %>/hw/f15se/group-project">Group Project Iteration 0.1</a>
                 <br>
                 <strong>Due Fri 9/18</strong>
@@ -113,7 +116,7 @@
            <td>
                 <a href="<%= @site.url %>/hw/f15se/hw4-Angular">HW 4: Angular.js</a>
              <br>
-             <strong>Due ---</strong>
+             <strong>Due Fri 10/9</strong>
            </td>
          </tr>
          <tr class="sec">
@@ -135,7 +138,7 @@
            <td>
                 <a href="<%= @site.url %>/hw/f15se/hw5-ContinuousDevelopment">HW 5: Continuous Development</a>
                 <br>
-                <strong>Due ---</strong>
+                <strong>Due Fri 10/16</strong>
                   <br><a href="<%= @site.url %>/hw/f15se/group-project">Group Project Iteration 0.2</a>
                   <br>
                   <strong>Due Fri 10/2</strong>
@@ -152,7 +155,8 @@
            <td>6</td>
            <td>10/05</td>
            <td>
-             Behavior Driven Design; UI Design; Testing
+             Generation & Scaffolding; MEAN.js
+
              <!--
              Rails continued; UI design; Testing
            -->
@@ -169,7 +173,7 @@
            <td>
              <a href="<%= @site.url %>/hw/f15se/hw5-MeanJS">HW 6: Installing MeanJS</a>
              <br>
-             <strong>Due Fri ---</strong>
+             <strong>Due Fri 10/23</strong>
              <!--
              <a href="hwk/4/">Hwk 4 - Rails</a>
              due Sun
@@ -180,7 +184,7 @@
            <td>7</td>
            <td>10/12</td>
            <td>
-             Testing continued; Coding Style; Refactoring;
+             UI Design & templating; Behavior Driven Design
              <!--
              Testing continued
            -->
@@ -208,7 +212,7 @@
            <td>
              10/19
            </td>
-           <td>Generation & Scaffolding; MEAN.js</td>
+           <td>Testing; Coding Style; Refactoring;</td>
            <td>
 
              <!--
@@ -249,12 +253,12 @@
          <tr class="sec">
            <td>10</td>
            <td>11/02</td>
-           <td>Project management</td>
+           <td>Databases & CRUD</td>
            <td>
              <!--
              11.3 - 11.11,
              -->
-             <a href="http://sourcemaking.com/uml">UML</a>
+
            </td>
            <td>
 
@@ -268,7 +272,7 @@
            <td>11</td>
            <td>11/9</td>
            <td>
-             Databases & CRUD
+             Project management
              <!--
              JavaScript; Open-Source Software
            -->
@@ -347,6 +351,9 @@
              <a href="http://dl.acm.org/citation.cfm?id=2568225&amp;picked=prox">Proc. ICSE 2014</a>
            </td>
            <td>
+             <a href="<%= @site.url %>/hw/f15se/hw-7-ethics">Hwk 7: Ethics Paper (draft)</a>
+             <br>
+             <strong>Due Mon 11/30</strong>
              <!--
              <a href="hwk/6/">Hwk 6 - Ethics Paper</a>
              (draft) due Mon
@@ -355,10 +362,13 @@
          </tr>
          <tr class="sec">
            <td>15</td>
-           <td>12/07</td>
+           <td>12/7</td>
            <td>Conclusions</td>
            <td></td>
            <td>
+             <a href="<%= @site.url %>/hw/f15se/hw-7-ethics">Hwk 7: Ethics Paper (revision)</a>
+             <br>
+             <strong>Due Mon 12/7</strong>
              <!--
              <a href="hwk/6/">Hwk 6 - Ethics Paper</a>
              (revised) due Mon
@@ -369,14 +379,14 @@
            <td>Finals</td>
            <td colspan="2">
              <b>
-               <i>Final Exam Period: Monday 12/16, 4:00pm</i>
+               <i>Final Exam Period: Wednesday 12/16, 4:00pm</i>
              </b>
            </td>
            <td colspan="2">
              <a href="<%= @site.url %>/hw/f15se/group-project">Group Project Iteration 4</a>
-             <br><a href="<%= @site.url %>/hw/f15se/group-project">Hwk 7: Final Writeup</a>
+             <br><a href="<%= @site.url %>/hw/f15se/hw8-FinalWriteup">Hwk 8: Final Writeup</a>
              <br><a href="<%= @site.url %>/hw/f15se/group-project">Project Presentation</a>
-             <strong>Due Mon 12/16</strong>
+             <strong>Due Wed 12/16</strong>
              <!--
              <i>
                <a href="project/index.html#1-4">Project Iteration 4</a>;
