@@ -10,7 +10,7 @@ In this exercise you're going to create the following image in Three.js:
 
 ## Starter code
 
-You'll start with the files in this zip archive. Everything you need to complete the assignment is in this archive, including the Three.js library.
+You'll start with the files in [this zip archive](/~tmullen/cg/cs315-hwk1.zip). Everything you need to complete the assignment is in this archive, including the Three.js library.
 
 When you run the starter code in the browser, you'll see the following triangle:
 
@@ -54,4 +54,10 @@ You don't need to use a wireframe material on yours. This is just to let you kno
 
 ## Hint 2
 
-If you get stuck, a hint file is available which will put you considerably further down the track to completing this assignment. If you need it, you can download it here. Do not look at this hint file unless you are sure you can't solve the assignment on your own without it. Also, please tell me in your README whether or not you looked at the hint file. You will *not* be graded down for looking at the hint file, but I would like to know how difficult people found this assignment.
+If you get stuck, a hint file is available which will put you considerably further down the track to completing this assignment. If you need it, you can download it [here](/~tmullen/cg/rainbowCircleHint.js). Do not look at this hint file unless you are sure you can't solve the assignment on your own without it. Also, please tell me in your README whether or not you looked at the hint file. You will *not* be graded down for looking at the hint file, but I would like to know how difficult people found this assignment.
+
+## Submitting
+
+To submit this work, upload it with all necessary files in its own subdirectory of your public_html directory so that it can be viewed in a browser. Test it in a browser to make sure that it's working! (If it works differently in different browsers make a note of that in the README file).
+
+After you've uploaded the work and checked it in the browser, submit the README.txt to Moodle.

@@ -6,7 +6,7 @@ cacheable: false
 
 This course will be graded based on the following factors:
 
-* Attendance
-* Homework
-* Exams
-* Final project
+* 20% Attendance
+* 30% Homework
+* 25% Final project
+* 25% Final Exam

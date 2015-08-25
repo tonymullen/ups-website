@@ -27,6 +27,8 @@
            </td>
            <td>
              <a href="<%= @site.url %>/hw/f15cg/hw1-rainbow-circle">Hw 1: Rainbow Circle</a>
+             <br>
+             <strong>Due Fri 9/18</strong>
            </td>
            <!--
            <td></td>
@@ -66,6 +68,8 @@
            </td>
            <td>
              <a href="<%= @site.url %>/hw/f15cg/hw2-robot-shapes">Hw 2: Build a Robot</a>
+             <br>
+             <strong>Due Fri 10/2</strong>
            </td>
             <!--
            <td>
@@ -113,6 +117,8 @@
            </td>
            <td>
              <a href="<%= @site.url %>/hw/f15cg/hw3-robot-materials">Hw 3: Robot Materials</a>
+             <br>
+             <strong>Due Fri 10/16</strong>
            </td>
             <!--
            <td>
@@ -163,6 +169,8 @@
            </td>
            <td>
              <a href="<%= @site.url %>/hw/f15cg/hw4-robot-animation">Hw 4: Robot Animation</a>
+             <br>
+             <strong>Due Fri 10/30</strong>
              <!--
              <a href="hwk/4/">Hwk 4 - Dancing CubeBot</a>
              due Fri
@@ -211,7 +219,8 @@
            </td>
            <td>
              <a href="<%= @site.url %>/hw/f15cg/hw5-ray-tracer">Hw 5: Ray Tracer</a>
-
+             <br>
+             <strong>Due Fri 11/13</strong>
            </td>
 
          </tr>
@@ -257,6 +266,8 @@
            </td>
            <td>
               <a href="<%= @site.url %>/hw/f15cg/hw6-matchmove">Hwk 6: Matchmove Scene</a>
+              <br>
+              <strong>Due Mon 11/30</strong>
              <!--
            -->
              <!--
@@ -312,6 +323,8 @@ OSL Language Spec</a>
            </td>
            <td>
               <a href="<%= @site.url %>/hw/f15cg/final-project">Final Project</a>
+               <br>
+               <strong>Due Fri 12/18</strong>
            </td>
 
          </tr>
@@ -373,7 +386,7 @@ OSL Language Spec</a>
              <!--
              <a href="hwk/8/">Hwk 8 - Final Project</a>
            -->
-             Final project due
+              <strong>Final project due</strong>
            </td>
          </tr>
        </table>

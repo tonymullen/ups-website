@@ -22,7 +22,8 @@
             <a href="http://www.theatlantic.com/technology/archive/2015/07/the-secret-startup-saved-healthcare-gov-the-worst-website-in-america/397784/">
               The Atlantic: Healthcare.gov</a>
               <br>
-              JAD Ch 1
+              JAD Ch 1<br>
+              <a href="http://www.martinfowler.com/articles/newMethodology.html">Fowler, 2005</a>
            </td>
            <td>
             <a href="<%= @site.url %>/hw/f15se/hw1-JavaScript">HW 1: JavaScript</a>
@@ -37,8 +38,8 @@
              Intro to JS; Automation; Version Control
            </td>
            <td>
-             HS Ch 1;
-             JAD Section 2.5;
+             HS Ch 1 & 2;<br>
+             JAD 2.5;
              <!-- reading
              Mon: A.1 - A.7,
              <br>Wed: 10.4 - 10.5, 10.8 - 10.9
@@ -106,7 +107,8 @@
            -->
            </td>
            <td>
-             JAD Ch 3 up to 3.4
+             JAD Ch 3 up to 3.4;<br>
+             JAD Ch 7.0 - 7.2
              <!--
              Mon: 7.10,
              <a href="https://moodle.pugetsound.edu/moodle/mod/resource/view.php?id=214816">Rawsthorne 2004</a>
@@ -124,9 +126,6 @@
            <td>09/28</td>
            <td>
               Node.js
-             <!--
-             Rails
-           -->
            </td>
            <td>
              <!--
@@ -162,6 +161,7 @@
            -->
            </td>
            <td>
+             HS Ch 5
              <!--
              Mon: 7.4 - 7.5;
              <a href="https://moodle.pugetsound.edu/moodle/mod/resource/view.php?id=220681">Schneiderman 2009</a>,
@@ -190,7 +190,7 @@
            -->
            </td>
            <td>
-             <a href="http://sourcemaking.com/refactoring">Refactoring</a>
+             HS Ch. 3<br>
              <!--
              Mon: 8.3 - 8.6, A.7
              <br>Wed: 8.7 - 8.11, 10.6
@@ -214,7 +214,11 @@
            </td>
            <td>Testing; Coding Style; Refactoring;</td>
            <td>
-
+             JAD Ch 8; <br>
+             HS Ch 6
+             <!--
+             <a href="http://sourcemaking.com/refactoring">Refactoring</a>
+           -->
              <!--
              Wed: 10.1 - 10.3, 10.7
              <br>Fri:
@@ -231,6 +235,7 @@
            <td>10/26</td>
            <td>Deployment to heroku</td>
            <td>
+             JAD Ch 4
              <!--
              Mon: 9.4 - 9.5,
              <br>Wed: 9.6 - 9.8,
@@ -255,6 +260,7 @@
            <td>11/02</td>
            <td>Databases & CRUD</td>
            <td>
+             JAD Ch 5
              <!--
              11.3 - 11.11,
              -->
@@ -272,12 +278,16 @@
            <td>11</td>
            <td>11/9</td>
            <td>
-             Project management
+             Open-Source; Software Ethics and Impacts;
              <!--
-             JavaScript; Open-Source Software
+             Project management
            -->
            </td>
+
            <td>
+             <a href="http://www.unterstein.net/su/docs/CathBaz.pdf">Raymond, 2001</a>
+             <br>
+              <a href="https://moodle.pugetsound.edu/moodle/mod/resource/view.php?id=279760">Brinkman & Sanders, 2013, Ch 1</a>
              <!--
              Mon: 6.1 - 6.3
              <br>Wed: 6.4 - 6.11
@@ -288,7 +298,7 @@
              <a href="<%= @site.url %>/hw/f15se/group-project">Group Project Iteration 2</a>
               <br>
              <strong>Due Mon 11/9</strong>
-                          <!--
+
              <!--
              <i><a href="project/index.html#1-4">Project Iteration 2</a></i>
              due Mon
@@ -299,10 +309,12 @@
            <td>12</td>
            <td>11/16</td>
            <td>
-            Open-Source; Software Ethics and Impacts
+             Software Ethics, Continued
            </td>
            <td>
             <a href="http://www.acm.org/about/se-code">ACM Code</a>
+            <br>
+            <a href="https://moodle.pugetsound.edu/moodle/mod/resource/view.php?id=279760">Brinkman & Sanders, 2013, Ch 2</a>
             <!--
              <a href="https://moodle.pugetsound.edu/moodle/mod/resource/view.php?id=214617">Stallman 2009</a>,
              <a href="https://moodle.pugetsound.edu/moodle/mod/resource/view.php?id=214615">Raymond 2000</a>
@@ -330,7 +342,9 @@
              <br><i><b>Wed-Fri: holiday</b></i>
            </td>
            <td><i>work day</i></td>
-           <td></td>
+           <td>
+             HS Ch 8
+           </td>
            <td>
               <a href="<%= @site.url %>/hw/f15se/group-project">Group Project Iteration 3</a>
               <br>
@@ -351,7 +365,7 @@
              <a href="http://dl.acm.org/citation.cfm?id=2568225&amp;picked=prox">Proc. ICSE 2014</a>
            </td>
            <td>
-             <a href="<%= @site.url %>/hw/f15se/hw-7-ethics">Hwk 7: Ethics Paper (draft)</a>
+             <a href="<%= @site.url %>/hw/f15se/hw7-Ethics">Hwk 7: Ethics Paper (draft)</a>
              <br>
              <strong>Due Mon 11/30</strong>
              <!--
@@ -364,9 +378,11 @@
            <td>15</td>
            <td>12/7</td>
            <td>Conclusions</td>
-           <td></td>
            <td>
-             <a href="<%= @site.url %>/hw/f15se/hw-7-ethics">Hwk 7: Ethics Paper (revision)</a>
+             HS Ch 12
+           </td>
+           <td>
+             <a href="<%= @site.url %>/hw/f15se/hw7-Ethics">Hwk 7: Ethics Paper (revision)</a>
              <br>
              <strong>Due Mon 12/7</strong>
              <!--
@@ -386,6 +402,7 @@
              <a href="<%= @site.url %>/hw/f15se/group-project">Group Project Iteration 4</a>
              <br><a href="<%= @site.url %>/hw/f15se/hw8-FinalWriteup">Hwk 8: Final Writeup</a>
              <br><a href="<%= @site.url %>/hw/f15se/group-project">Project Presentation</a>
+             <br>
              <strong>Due Wed 12/16</strong>
              <!--
              <i>

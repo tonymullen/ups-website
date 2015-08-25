@@ -1,12 +1,12 @@
 ```
 cacheable: false
 ```
-## **Draft due  Mon 11/30<**
-## **Final due  Mon 12/7<**
+## **Draft due  Mon 11/30**
+## **Final due  Mon 12/7**
 
 ## Overview
 
-For this assignment, you will write a short (~3 page) paper applying two different forms of ethical reasoning to an ethical dilemma related to the field of Software Engineering (and Computer Science more broadly). This will give you an opportunity to dig more deeply into a software-related social issue, and to practice using effective written communication in regards to technical systems.
+For this assignment, you will write a short (2 to 3 page) paper applying two different forms of ethical reasoning to an ethical dilemma related to the field of Software Engineering (and Computer Science more broadly). This will give you an opportunity to dig more deeply into a software-related social issue, and to practice using effective written communication in regards to technical systems.
 
 You will be required to turn in a draft of the paper, as well as a revised copy. Iterate your writing!
 
@@ -50,10 +50,9 @@ You will be required to turn in a draft copy of your paper. This is to encourage
 
 ## Submitting
 
-Both drafts and final papers should be submitted to your personal homework repository on GitHub.
+Both drafts and final papers should be submitted on Moodle. The draft should be submitted [here](https://moodle.pugetsound.edu/moodle/mod/assign/view.php?id=280092), and the final should be submitted [here](https://moodle.pugetsound.edu/moodle/mod/assign/view.php?id=280093).
 
-* Place the files in **.pdf format** in the top-level directory of the repository. Please name the files "Hwk6" or "Ethics paper" or something similar so that I can easily identify it!
-* If you're having problems submitting to your Github repository, let me know *in advance of the deadline.* Extensions will not be granted for technical problems with git--you should be comfortable enough with the system so that these issues should be resolved.
+* Files should be in **.pdf format**. No Word files please.
 
 Please remember to put your name on your papers (and to give your final submissions one last read-through for typos and writing issues!)
 

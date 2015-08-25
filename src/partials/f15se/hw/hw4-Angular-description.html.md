@@ -9,4 +9,4 @@ Tutorial time again! Angular.js is a front-end Model-View-Controller framework d
 
 You should already have an account on Codecademy.com. Log in with the same account you did your JavaScript tutorial in and complete the [Angular.js tutorial](https://www.codecademy.com/courses/learn-angularjs).
 
-**Submit** this iteration by creating a private post on Piazza with a screenshot of your Codecademy.com profile page showing your name and your acquired skill.
+**Submit** this assignment by uploading a screenshot of your Codecademy.com profile page showing your name and your acquired skill to the [assignment's Moodle page](https://moodle.pugetsound.edu/moodle/mod/assign/view.php?id=280090).

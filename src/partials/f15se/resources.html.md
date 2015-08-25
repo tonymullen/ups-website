@@ -5,6 +5,8 @@ cacheable: false
 
 The class will make use of several online resources:
 
+The class [Moodle page](https://moodle.pugetsound.edu/moodle/course/view.php?id=9924) will be where you can turn in assignments and find some of the class readings. 
+
 [Github](https://github.com/UPS-CS240-F15) for version/revision control.
 
 [PivotalTracker](https://www.pivotaltracker.com) for project management.

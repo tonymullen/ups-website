@@ -2,4 +2,4 @@
 cacheable: false
 ```
 
-Submit this iteration by creating a private post on Piazza with a screenshot of your Codecademy.com profile page showing your name and your acquired skill.
+Submit this assignment by uploading a screenshot of your Codecademy.com profile page showing your name and your acquired skill to the [assignment's Moodle page](https://moodle.pugetsound.edu/moodle/mod/assign/view.php?id=280087).
