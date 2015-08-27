@@ -45,6 +45,7 @@
      <td>Recursion, Lists, Arithmetic</td>
      <td>LPN Chapters 3, 4</td>
      <td>
+        <a href="<%= @site.url %>/hw/f15plp/hw2-prolog">Homework 2</a>
        <!-- <a href="Asmts/08/asmt.html">Assignment 8</a>  (<a href="../../Protected-291/asmt08-solns.pl">solns</a>, <a href="../../Protected-291/con_tree.pdf">tree</a>)--> </td>
   </tr>
   <tr>
@@ -53,7 +54,10 @@
      <td>Search Trees, Cuts and Negation</td>
      <td>LPN Chapters 5, 6</td>
      <td>
+       <a href="<%= @site.url %>/hw/f15plp/hw3-prolog">Homework 3</a>
+<!--
        <a href="<%= @site.url %>/pages/bertspel">Bert Bos Puzzle</a>
+-->
        <!--
        <a href="Asmts/09/asmt.html">Assignment 9</a>
      -->
@@ -65,7 +69,11 @@
      <td>9/28</td>	<!-- Monday -->
      <td>Collecting solutions</td>
      <td>LPN Chapters 9, 10</td>
-     <td>&nbsp;</td>
+     <td>
+        <a href="<%= @site.url %>/hw/f15plp/hw4-prolog">Homework 4</a>
+        <br>
+        <a href="<%= @site.url %>/hw/f15plp/pair-prolog">Pair project pt 1</a>
+     </td>
   </tr>
   <tr>
     <td>6</td>
@@ -94,6 +102,7 @@
      <td>Expressions, fn definitions, lists; Types</td>
      <td>Section 3, 4, 5</td>
      <td>
+       <a href="<%= @site.url %>/hw/f15plp/hw5-haskell">Homework 5</a>
        <!--
        <a href="Asmts/01/asmt.html">Assignment 1</a>
      		(<a href="../../Protected-291/asmt01-solns.hs">solns</a>)
@@ -118,6 +127,7 @@
      <td>Applicative programming, Returning functions</td>
      <td>Section 11</td>
      <td>
+       <a href="<%= @site.url %>/hw/f15plp/hw6-haskell">Homework 6</a>
        <!--
        <a href="Asmts/03/asmt.html">Assignment 3</a>
      		(<a href="../../Protected-291/asmt03-solns.hs">solns</a>)
@@ -130,6 +140,7 @@
      <td>Larger examples, Modules, Defining types</td>
      <td>Chapter 8</td>
      <td>
+        <a href="<%= @site.url %>/hw/f15plp/pair-haskell">Pair project pt 2</a>
        <!--
        <a href="Asmts/04/asmt.html">Assignment 4</a>
      		(<a href="../../Protected-291/asmt04-solns.hs">solns</a>)
@@ -143,6 +154,7 @@
      <td><a href="http://haskell.org/haskellwiki/Performance/Laziness">Laziness</a>
      <!--, <a href="http://www.haskell.org/haskellwiki/Haskell/Lazy_evaluation">Example</a> --></td>
      <td>
+       <a href="<%= @site.url %>/hw/f15plp/hw7-haskell">Homework 7</a>
        <!--
        <a href="Asmts/05/asmt.html">Assignment 5</a>
      		(<a href="../../Protected-291/asmt05-solns.hs">solns</a>)
@@ -168,7 +180,9 @@
        -->
          </td>
      <td></td>
-     <td></td>
+     <td>
+       <a href="<%= @site.url %>/hw/f15plp/hw7-haskell">Homework 8</a>
+     </td>
   </tr>
   <tr>
     <td>14</td>
