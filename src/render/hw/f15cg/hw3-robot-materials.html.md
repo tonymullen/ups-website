@@ -11,6 +11,6 @@ submission: f15cg/hw/hw3-robot-materials-submission.html.md
 
 description: f15cg/hw/hw3-robot-materials-description.html.md
 
-credits: f15cg/hw/hw3-robot-materials.html-credits.md
+credits: f15cg/hw/hw3-robot-materials-credits.html.md
 
 ```

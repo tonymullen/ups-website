@@ -16,17 +16,22 @@
      <td>Programming language paradigms,
        propositional &
        predicate logic</td>
-     <td><!--Section 1--></td>
+     <td><!--Section 1-->
+     <a href="https://moodle.pugetsound.edu/moodle/mod/resource/view.php?id=280218">
+     Gamut 1991 Chs 2 and 3
+    </a>
+     </td>
      <td>&nbsp;</td>
   </tr>
   <tr>
     <td>2</td>
-     <td>9/7</td>	<!-- Monday -->
+     <td>9/9</td>	<!-- Monday -->
      <td>Prolog intro, Facts, Rules, and Queries
 
        Matching &amp; binding, Proof Search</td>
-     <td>Section 2</td>
+     <td>LPN Chapters 1, 2</td>
      <td>
+       <a href="<%= @site.url %>/hw/f15plp/hw1-prolog">Homework 1</a>
        <!--
        <a href="Asmts/08/asmt.html">Assignment 8</a>
      		(<a href="../../Protected-291/asmt08-solns.pl">solns</a>,
@@ -38,7 +43,7 @@
     <td>3</td>
      <td>9/14</td>	<!-- Monday -->
      <td>Recursion, Lists, Arithmetic</td>
-     <td>Section 3, 4, 5</td>
+     <td>LPN Chapters 3, 4</td>
      <td>
        <!-- <a href="Asmts/08/asmt.html">Assignment 8</a>  (<a href="../../Protected-291/asmt08-solns.pl">solns</a>, <a href="../../Protected-291/con_tree.pdf">tree</a>)--> </td>
   </tr>
@@ -46,7 +51,7 @@
     <td>4</td>
      <td>9/21</td>	<!-- Monday -->
      <td>Search Trees, Cuts and Negation</td>
-     <td>Section 9, 10</td>
+     <td>LPN Chapters 5, 6</td>
      <td>
        <a href="<%= @site.url %>/pages/bertspel">Bert Bos Puzzle</a>
        <!--
@@ -59,7 +64,7 @@
     <td>5</td>
      <td>9/28</td>	<!-- Monday -->
      <td>Collecting solutions</td>
-     <td>Section 11</td>
+     <td>LPN Chapters 9, 10</td>
      <td>&nbsp;</td>
   </tr>
   <tr>
@@ -79,7 +84,7 @@
     <td>7</td>
      <td>10/12</td>	<!-- Monday -->
      <td>Lambda calculus, intro to Haskell</td>
-     <td>Chapters 1, 2</td>
+     <td>Section 2</td>
      <td>Read <a href="http://www.paulgraham.com/avg.html">this</a>. Research Paul Graham.</td>
   </tr>
 
@@ -87,7 +92,7 @@
     <td>8</td>
      <td>10/19</td>	<!-- Monday -->
      <td>Expressions, fn definitions, lists; Types</td>
-     <td>Chapters 3, 4</td>
+     <td>Section 3, 4, 5</td>
      <td>
        <!--
        <a href="Asmts/01/asmt.html">Assignment 1</a>
@@ -99,7 +104,7 @@
     <td>9</td>
      <td>10/26</td>	<!-- Monday -->
      <td>More on types and typeclasses, Recursion, Functions as values.</td>
-     <td>Chapters 5, 6</td>
+     <td>Section 9, 10</td>
      <td>
        <!--
        <a href="Asmts/02/asmt.html">Assignment 2</a>
@@ -111,7 +116,7 @@
     <td>10</td>
      <td>11/2</td>	<!-- Monday -->
      <td>Applicative programming, Returning functions</td>
-     <td>Chapter 6</td>
+     <td>Section 11</td>
      <td>
        <!--
        <a href="Asmts/03/asmt.html">Assignment 3</a>

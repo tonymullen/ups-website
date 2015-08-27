@@ -20,7 +20,7 @@ Here is an example of a finished assignment:
 
 
 <video width="320" height="240" controls>
-  <source src="/~tmullen/images/cg/robot-refl.mov" type="video/mov">
+  <source src="/~tmullen/images/cg/robot-refl.ogv" type="video/ogg;" codecs="theora, vorbis">
 Your browser does not support the video tag.
 </video>
 
