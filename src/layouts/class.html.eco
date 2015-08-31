@@ -7,7 +7,9 @@ layout: default
 	<div class="col-md-4">
 		<h3> <%= @document.term %> </h3>
 
-		<h2><%= @document.title %></h2>
+		<h2>
+		<%= @document.title %>
+	</h2>
 
 
 		<div class="panel panel-success" style="margin-top: 21px;">
@@ -147,6 +149,14 @@ If building evacuation becomes necessary (e.g. earthquake), meet your instructor
 at the designated gathering area so she/he can account for your presence.
 Then wait for further instructions. Do not return to the building or
 classroom until advised by a university emergency response representative.
+
+If confronted by an act of violence, be prepared to make quick decisions to protect your safety.
+Flee the area by running away from the source of danger if you can safely do so.
+If this is not possible, shelter in place by securing classroom or lab doors and windows,
+closing blinds, and turning off room lights. Lie on the floor out of sight and away
+from windows and doors. Place cell phones or pagers on vibrate so that you can
+receive messages quietly. Wait for further instructions.
+
 </p>
 	</div>
 </div>

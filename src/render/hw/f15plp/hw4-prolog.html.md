@@ -7,6 +7,8 @@ title: Assignment 4
 
 class: CS 291: Programming Language Paradigms
 
+classurl: /classes/f15-CS291-plp
+
 submission: f15plp/hw/hw4-prolog-submission.html.md
 
 description: f15plp/hw/hw4-prolog-description.html.md

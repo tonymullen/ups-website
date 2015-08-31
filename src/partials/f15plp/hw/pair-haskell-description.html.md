@@ -2,18 +2,22 @@
 cacheable: false
 ```
 
+## Bert Bos Puzzle, Haskell version
+
+Once again you'll tackle the [Bert Bos Puzzle](/~tmullen/pages/bertspel).
+
+This time, you will (hopefully) begin armed with some insight into how to break down the task from having solved it in Prolog. But as you'll see, the languages are different enough that it's not entirely trivial to convert your results from one language to the other.
+
+Doing the same exercise in both languages should help you to get a deeper understanding of the similarities and differences between the languages. As you carry out this exercise, think about how you might approach it in an object-oriented imperative language such as Java. Consider whether the task lends itself to one or another style of programming.
+
 ## Submitting
 
-Write all the predicates and facts for this assignment in one file, called
-<span style="font-family: 'Courier New', Courier, 'Lucida Sans Typewriter', 'Lucida Typewriter', monospace;">hwk4-&lt;your_name&gt;.plg</span>. Separate the code for each exercise within the file with comments indicating which code goes with which exercise. Put your own name in a comment at the top of the file. Like so:
+Title the file
+<span class="codefont">bertsgame-&lt;partner1LastName_partner2LastName&gt;.hs</span>. Put your full names in a comment at the top of the file. Like so:
 
-<pre>%Your Name
-%
-%Exercise 1
-
-...
-
-%Exercise 2
+<pre>-- Partner1 Name
+-- Partner 2 Name
+--
 
 ...
 
@@ -21,9 +25,4 @@ Write all the predicates and facts for this assignment in one file, called
 
 Submit the file on [Moodle]().
 
-Of course, you should make sure you programs are working before submitting them.
-Make a note in the comments if you had trouble getting the program to work.
-
-## Exercise 1
-
-Coming soon.
+Of course, you should make sure your program is working before submitting it.

@@ -6,9 +6,9 @@ layout: default
 <div class="row" class="text-center">
 	<div class="col-md-4">
 		<h3> <%= @document.term %> </h3>
-
+<a href="/~tmullen<%= @document.classurl %>">
 		<h2><%= @document.class %></h2>
-
+</a>
 		<div class="panel panel-success" style="margin-top: 21px;">
 			<div class="panel-heading">
     		<h2 class="panel-title">Instructor</h2>

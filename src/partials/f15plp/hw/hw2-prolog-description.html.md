@@ -32,6 +32,13 @@ A while back [a story from the Guardian](http://www.theguardian.com/science/alex
 
 While I applaud any third grader who can solve this puzzle, I think it would be easier just to let Prolog do the work! For this exercise, write a Prolog program that generates correct answers to the puzzle (there may be more than one). The answers should be in the form of a list of digits which would be entered into the blanks in the maze from left to right. Name the predicate **mathmaze** and have it take one argument, which gets instantiated as the correct list of numbers (and gives other answers when prompted with **;**).
 
+### Some hints
+
+The value of a variable is consistent within a single rule. Any time you want to directly compare multiple values to each other or calculate some result using multiple values,
+you will need some single rule in which all the necessary values are instantiated as variables.
+
+In this case, you should use a generate-and-test approach. First, you will need to generate sequences of non-repeating digits from 0 to 0, then you will call another predicate on the result to test whether the sequence solves the maze.
+
 Two convenient built-in predicates that you may want to use are
 
 <pre>
@@ -54,6 +61,15 @@ Sum = 10
 </pre>
 
 
+
+
 ## Exercise 2
 
-Coming soon.
+Write a program for <span class="codefont">double(List, DoubledList)</span> where every element in
+<span class="codefont">List</span> appears twice in <span class="codefont">DoubledList</span>. E.g., <span class="codefont">double([1,2,3],[1,1,2,2,3,3])</span> is true.
+
+## Exercise 3
+
+Write a program for <span class="codefont">sum(ListOfIntegers, Sum)</span> which holds if  
+<span class="codefont">Sum</span> is the sum of the
+<span class="codefont">ListOfIntegers</span>. Refer to the comment above about arithmetic.

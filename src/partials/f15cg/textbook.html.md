@@ -2,6 +2,12 @@
 cacheable: false
 ```
 
+### Lecture slides
+
+Lecture slides for this class will be posted soon after the lecture is completed. You can find them [here](http://mathcs.pugetsound.edu/~tmullen/slides/f15cg/).
+
+
+
 ###Textbook & required materials
 
 The textbook for this class is

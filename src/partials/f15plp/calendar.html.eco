@@ -32,6 +32,8 @@
      <td>LPN Chapters 1, 2</td>
      <td>
        <a href="<%= @site.url %>/hw/f15plp/hw1-prolog">Homework 1</a>
+       <br>
+       <strong>due Fri 9/18</strong>
        <!--
        <a href="Asmts/08/asmt.html">Assignment 8</a>
      		(<a href="../../Protected-291/asmt08-solns.pl">solns</a>,
@@ -46,6 +48,8 @@
      <td>LPN Chapters 3, 4</td>
      <td>
         <a href="<%= @site.url %>/hw/f15plp/hw2-prolog">Homework 2</a>
+        <br>
+        <strong>due Fri 9/25</strong>
        <!-- <a href="Asmts/08/asmt.html">Assignment 8</a>  (<a href="../../Protected-291/asmt08-solns.pl">solns</a>, <a href="../../Protected-291/con_tree.pdf">tree</a>)--> </td>
   </tr>
   <tr>
@@ -55,6 +59,8 @@
      <td>LPN Chapters 5, 6</td>
      <td>
        <a href="<%= @site.url %>/hw/f15plp/hw3-prolog">Homework 3</a>
+       <br>
+       <strong>due Fri 10/2</strong>
 <!--
        <a href="<%= @site.url %>/pages/bertspel">Bert Bos Puzzle</a>
 -->
@@ -72,7 +78,11 @@
      <td>
         <a href="<%= @site.url %>/hw/f15plp/hw4-prolog">Homework 4</a>
         <br>
+        <strong>due Fri 10/9</strong>
+        <br>
         <a href="<%= @site.url %>/hw/f15plp/pair-prolog">Pair project pt 1</a>
+        <br>
+        <strong>due Fri 10/23</strong>
      </td>
   </tr>
   <tr>
@@ -92,7 +102,7 @@
     <td>7</td>
      <td>10/12</td>	<!-- Monday -->
      <td>Lambda calculus, intro to Haskell</td>
-     <td>Section 2</td>
+     <td>LYAH Section 2</td>
      <td>Read <a href="http://www.paulgraham.com/avg.html">this</a>. Research Paul Graham.</td>
   </tr>
 
@@ -100,9 +110,11 @@
     <td>8</td>
      <td>10/19</td>	<!-- Monday -->
      <td>Expressions, fn definitions, lists; Types</td>
-     <td>Section 3, 4, 5</td>
+     <td>LYAH Section 3, 4</td>
      <td>
        <a href="<%= @site.url %>/hw/f15plp/hw5-haskell">Homework 5</a>
+       <br>
+       <strong>due Fri 10/30</strong>
        <!--
        <a href="Asmts/01/asmt.html">Assignment 1</a>
      		(<a href="../../Protected-291/asmt01-solns.hs">solns</a>)
@@ -113,8 +125,11 @@
     <td>9</td>
      <td>10/26</td>	<!-- Monday -->
      <td>More on types and typeclasses, Recursion, Functions as values.</td>
-     <td>Section 9, 10</td>
+     <td>LYAH Section 5, 6</td>
      <td>
+        <a href="<%= @site.url %>/hw/f15plp/hw6-haskell">Homework 6</a>
+        <br>
+        <strong>due Fri 11/6</strong>
        <!--
        <a href="Asmts/02/asmt.html">Assignment 2</a>
      		(<a href="../../Protected-291/asmt02-solns.hs">solns</a>)
@@ -125,9 +140,11 @@
     <td>10</td>
      <td>11/2</td>	<!-- Monday -->
      <td>Applicative programming, Returning functions</td>
-     <td>Section 11</td>
+     <td>LYAH Section 9, 10</td>
      <td>
-       <a href="<%= @site.url %>/hw/f15plp/hw6-haskell">Homework 6</a>
+      <a href="<%= @site.url %>/hw/f15plp/hw7-haskell">Homework 7</a>
+      <br>
+      <strong>due Fri 11/13</strong>
        <!--
        <a href="Asmts/03/asmt.html">Assignment 3</a>
      		(<a href="../../Protected-291/asmt03-solns.hs">solns</a>)
@@ -138,9 +155,13 @@
     <td>11</td>
      <td>11/9</td>	<!-- Monday -->
      <td>Larger examples, Modules, Defining types</td>
-     <td>Chapter 8</td>
      <td>
-        <a href="<%= @site.url %>/hw/f15plp/pair-haskell">Pair project pt 2</a>
+       LYAH Section 11
+     </td>
+     <td>
+        <a href="<%= @site.url %>/hw/f15plp/hw7-haskell">Homework 8</a>
+      <br>
+      <strong>due Fri 11/20</strong>
        <!--
        <a href="Asmts/04/asmt.html">Assignment 4</a>
      		(<a href="../../Protected-291/asmt04-solns.hs">solns</a>)
@@ -154,7 +175,9 @@
      <td><a href="http://haskell.org/haskellwiki/Performance/Laziness">Laziness</a>
      <!--, <a href="http://www.haskell.org/haskellwiki/Haskell/Lazy_evaluation">Example</a> --></td>
      <td>
-       <a href="<%= @site.url %>/hw/f15plp/hw7-haskell">Homework 7</a>
+       <a href="<%= @site.url %>/hw/f15plp/pair-haskell">Pair project pt 2</a>
+         <br>
+         <strong>due Wed 12/9</strong>
        <!--
        <a href="Asmts/05/asmt.html">Assignment 5</a>
      		(<a href="../../Protected-291/asmt05-solns.hs">solns</a>)
@@ -179,9 +202,9 @@
          <a href="exam1-solns.hs">new solns</a>
        -->
          </td>
-     <td></td>
+     <td>LYAH Section 12</td>
      <td>
-       <a href="<%= @site.url %>/hw/f15plp/hw7-haskell">Homework 8</a>
+
      </td>
   </tr>
   <tr>
@@ -193,7 +216,11 @@
        Cyclic review, Managing state, Monads
      -->
      </td>
-     <td>Chapter 12</td>
+
+     <td>
+    <!--   Chapter 12 -->
+     </td>
+
      <td>
        <!--
        <a href="Asmts/06/asmt.html">Assignment 6</a>

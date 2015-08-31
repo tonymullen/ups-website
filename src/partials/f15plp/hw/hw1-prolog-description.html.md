@@ -64,6 +64,12 @@ sister(Sister, Sib) :-
   sibling(Sister, Sib),
   female(Sister).</pre>
 
-Add a new predicate <span style="font-family: 'Courier New', Courier, 'Lucida Sans Typewriter', 'Lucida Typewriter', monospace;">married_couple(Wife, Husband)</span>. On the basis of this predicate and those already defined above, write rules for the relationships <span style="font-family: 'Courier New', Courier, 'Lucida Sans Typewriter', 'Lucida Typewriter', monospace;">mother_in_law</span>, <span style="font-family: 'Courier New', Courier, 'Lucida Sans Typewriter', 'Lucida Typewriter', monospace;">brother_in_law</span>, and <span style="font-family: 'Courier New', Courier, 'Lucida Sans Typewriter', 'Lucida Typewriter', monospace;">daughter_in_law</span>.
+Add a new predicate
+<span class="codefont">married_couple(Wife, Husband)</span>. On the basis of this predicate and those already defined above, write rules for the relationships
+<span class="codefont">mother_in_law</span>,
+<span class="codefont">brother_in_law</span>, and
+<span class="codefont">daughter_in_law</span>.
 
-Add some facts with names of people from your family (or a made-up family) to test the predicates.
+Add the appropriate facts to your program to test these predicates with the family from this graphic:
+
+<img src="/~tmullen/images/plp/family-tree.png" style="width: 100%;"/>

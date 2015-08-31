@@ -24,6 +24,10 @@
          -->
            <td>
            Ch. 1
+           <br>
+           <a href="http://www.sjbaker.org/wiki/index.php?title=The_History_of_The_Teapot">
+             The teapot
+           </a>
            </td>
            <td>
              <a href="<%= @site.url %>/hw/f15cg/hw1-rainbow-circle">Hw 1: Rainbow Circle</a>
