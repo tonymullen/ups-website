@@ -3,8 +3,8 @@ cacheable: false
 ```
 My office hours for Fall 2015 are:
 
-Mon, Wed, & Fri:  1:00-2:30  
-Tues:  10:30-12:00  
+Mon, Wed, & Fri:  1:00-2:00  
+Tues:  10:30-11:30  
 
 You can email me to make an appointment to meet at other times.
 

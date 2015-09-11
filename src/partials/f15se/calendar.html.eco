@@ -82,7 +82,10 @@
            -->
            </td>
            <td>
+             <a href="<%= @site.url %>/hw/f15se/hw3-ContinuousDevelopment">HW 3: Continuous Development</a>
+             <!--
               <a href="<%= @site.url %>/hw/f15se/hw3-UseCase">HW 3: Use Case</a>
+            -->
               <br>
                 <strong>Due Fri 10/2</strong>
                 <br><a href="<%= @site.url %>/hw/f15se/group-project">Group Project Iteration 0.1</a>
@@ -116,7 +119,10 @@
            -->
            </td>
            <td>
+             <a href="<%= @site.url %>/hw/f15se/hw4-UseCase">HW 4: Use Case</a>
+             <!--
                 <a href="<%= @site.url %>/hw/f15se/hw4-Angular">HW 4: Angular.js</a>
+              -->
              <br>
              <strong>Due Fri 10/9</strong>
            </td>
@@ -135,7 +141,10 @@
            -->
            </td>
            <td>
+             <a href="<%= @site.url %>/hw/f15se/hw5-Angular">HW 5: Angular.js</a>
+             <!--
                 <a href="<%= @site.url %>/hw/f15se/hw5-ContinuousDevelopment">HW 5: Continuous Development</a>
+              -->
                 <br>
                 <strong>Due Fri 10/16</strong>
                   <br><a href="<%= @site.url %>/hw/f15se/group-project">Group Project Iteration 0.2</a>
