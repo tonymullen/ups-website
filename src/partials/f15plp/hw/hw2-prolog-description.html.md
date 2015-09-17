@@ -37,7 +37,7 @@ While I applaud any third grader who can solve this puzzle, I think it would be 
 The value of a variable is consistent within a single rule. Any time you want to directly compare multiple values to each other or calculate some result using multiple values,
 you will need some single rule in which all the necessary values are instantiated as variables.
 
-In this case, you should use a generate-and-test approach. First, you will need to generate sequences of non-repeating digits from 0 to 0, then you will call another predicate on the result to test whether the sequence solves the maze.
+You will not need many Prolog facts to do this problem, but you may find it useful to have a fact that holds a ground list of digits.
 
 Two convenient built-in predicates that you may want to use are
 
@@ -62,7 +62,6 @@ Sum = 10
 
 
 
-
 ## Exercise 2
 
 Write a program for <span class="codefont">double(List, DoubledList)</span> where every element in
@@ -70,6 +69,15 @@ Write a program for <span class="codefont">double(List, DoubledList)</span> wher
 
 ## Exercise 3
 
+<!--
 Write a program for <span class="codefont">sum(ListOfIntegers, Sum)</span> which holds if  
 <span class="codefont">Sum</span> is the sum of the
 <span class="codefont">ListOfIntegers</span>. Refer to the comment above about arithmetic.
+-->
+
+Write a program for <span class="codefont">orderedTriples(ListOfInts1, ListOfInts2, ListOfInts3, OrderedTriples)</span> that takes three lists of integers and returns ordered lists of triples of corresponding numbers from the lists. E.g.:
+
+<pre>?- orderedTriples([2,5,3,1], [1,3,4,6], [3,1,5,0], X).
+X = [[1, 2, 3], [1, 3, 5], [3, 4, 5], [0, 1, 6]].</pre>
+
+The program should fail if any of the three input lists are not the same length.

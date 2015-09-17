@@ -65,7 +65,9 @@ sister(Sister, Sib) :-
   female(Sister).</pre>
 
 Add a new predicate
-<span class="codefont">married_couple(Wife, Husband)</span>. On the basis of this predicate and those already defined above, write rules for the relationships
+<span class="codefont">married_couple(Spouse1, Spouse2)</span>. This relationship will be
+determined by facts in the database.
+On the basis of this predicate and those already defined above, write rules for the relationships
 <span class="codefont">mother_in_law</span>,
 <span class="codefont">brother_in_law</span>, and
 <span class="codefont">daughter_in_law</span>.

@@ -32,6 +32,17 @@ Completing this assignment on time to the specifications described above is wort
 
 ## Submitting
 
-To submit this work, upload it with all necessary files in its own subdirectory of your public_html directory so that it can be viewed in a browser. Test it in a browser to make sure that it's working! (If it works differently in different browsers make a note of that in the README file).
+To submit this work, upload it with all necessary files in its own subdirectory of your public_html directory so that it can be viewed in a browser. Call the subdirectory <em>hw2</em>.
+Test it in a browser to make sure that it's working! (If it works differently in different browsers make a note of that in the README file).
 
 After you've uploaded the work and checked it in the browser, submit the README.txt to Moodle.
+
+# Bonus challenge assignment
+
+If you feel ahead of the game and you'd like to go further, take a look at
+[Five Hundred and Seven Mechanical Movements](https://archive.org/stream/fivehundredseven00browiala)
+ or another similar resource for mechanical movements. Find one or more interesting and
+  challenging mechanical movements in the book and try to model it (them)
+  in Three.js. Once you've animated your robot in assignment 4, you can also work
+  on animating this. For credit on this assignment, submit whatever you've managed to do
+  by the same deadline as the robot assignment, in its own directory entitled <em>hw2-challenge</em>.
