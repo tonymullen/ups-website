@@ -49,7 +49,7 @@
      <td>
         <a href="<%= @site.url %>/hw/f15plp/hw2-prolog">Homework 2</a>
         <br>
-        <strong>due Fri 9/25</strong>
+        <strong>due Fri 10/2</strong>
        <!-- <a href="Asmts/08/asmt.html">Assignment 8</a>  (<a href="../../Protected-291/asmt08-solns.pl">solns</a>, <a href="../../Protected-291/con_tree.pdf">tree</a>)--> </td>
   </tr>
   <tr>
@@ -60,7 +60,7 @@
      <td>
        <a href="<%= @site.url %>/hw/f15plp/hw3-prolog">Homework 3</a>
        <br>
-       <strong>due Fri 10/2</strong>
+       <strong>due Fri 10/9</strong>
 <!--
        <a href="<%= @site.url %>/pages/bertspel">Bert Bos Puzzle</a>
 -->
@@ -78,7 +78,7 @@
      <td>
         <a href="<%= @site.url %>/hw/f15plp/hw4-prolog">Homework 4</a>
         <br>
-        <strong>due Fri 10/9</strong>
+        <strong>due Fri 10/16</strong>
         <br>
         <a href="<%= @site.url %>/hw/f15plp/pair-prolog">Pair project pt 1</a>
         <br>

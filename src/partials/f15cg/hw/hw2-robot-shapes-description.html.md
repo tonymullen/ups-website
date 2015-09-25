@@ -8,7 +8,7 @@ In this exercise you're going to build a robot of your own design in Three.js. F
 
 ## Starter file
 
-Use the starter file here. This file has the camera in place and contains a grid floor and a first cylinder shape to get you started. You do not have to use this cylinder, but it may be a helpful reference for size and positioning of your shapes.
+Use the starter file [here](/~tmullen/cg/cs315-hwk2.zip). This file has the camera in place and contains a grid floor and a first cylinder shape to get you started. You do not have to use this cylinder, but it may be a helpful reference for size and positioning of your shapes.
 
 ## Requirements
 
@@ -32,7 +32,7 @@ Completing this assignment on time to the specifications described above is wort
 
 ## Submitting
 
-To submit this work, upload it with all necessary files in its own subdirectory of your public_html directory so that it can be viewed in a browser. Call the subdirectory <em>hw2</em>.
+To submit this work, upload it with all necessary files in its own subdirectory of your public_html directory so that it can be viewed in a browser. Call the subdirectory <em>hwk-2</em>.
 Test it in a browser to make sure that it's working! (If it works differently in different browsers make a note of that in the README file).
 
 After you've uploaded the work and checked it in the browser, submit the README.txt to Moodle.

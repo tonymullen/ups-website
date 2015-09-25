@@ -16,6 +16,9 @@ doing all these things by hand over and over again becomes a terrible time sink.
 
 Continuous development tools enable you to spend your time working on code by handling these things automatically.
 
+This assignment is a continuation of the previous assignment. Follow the steps from
+section 3.4 to the end of Chapter 3 in Build First in order to set your environment
+up for continuous development.
 
 Update the README describing what you did for this assignment
 and detailing any issues you had. The README is the first place
