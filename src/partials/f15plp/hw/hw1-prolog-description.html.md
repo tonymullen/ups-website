@@ -39,7 +39,7 @@ Write a collection of facts and rules to describe the layout of objects in the f
 
 **Part 3:** Write recursive rules for all four predicates.
 
-**Part 4:** Write a rule <span style="font-family: 'Courier New', Courier, 'Lucida Sans Typewriter', 'Lucida Typewriter', monospace;">higher_than(Object1, Object2)</span> that is true when ever Object1 is higher in the layout than Object2. For example
+**Part 4:** Write a rule <span style="font-family: 'Courier New', Courier, 'Lucida Sans Typewriter', 'Lucida Typewriter', monospace;">higher_than(Object1, Object2)</span> that is true when ever Object1 is higher in the layout than Object2. 
 
 
 ## Exercise 2

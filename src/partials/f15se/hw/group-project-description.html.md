@@ -80,7 +80,7 @@ Finally, to complete Iteration 0, put all of your user stories on Pivotal Tracke
 
 **Iteration 3 Due Date: Mon 11/23, 11:59 PM**
 
-**Iteration 4 Due Date: Mon 12/16, 4:00 PM**
+**Iteration 4 Due Date: Wed 12/16, 4:00 PM**
 
 For each of these iterations, you will use Tracker to identify a set of user stories to work on during the iteration (and who will work on each). You will then use techniques from BDD and TDD to implement these user stories.
 
