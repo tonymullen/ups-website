@@ -180,7 +180,7 @@
            -->
            </td>
            <td>
-             <a href="<%= @site.url %>/hw/f15se/hw5-MeanJS">HW 6: Installing MeanJS</a>
+             <a href="<%= @site.url %>/hw/f15se/hw6-Nodejs">HW 6: Node.js</a>
              <br>
              <strong>Due Fri 10/23</strong>
              <!--

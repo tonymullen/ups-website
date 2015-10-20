@@ -82,6 +82,22 @@ Finally, to complete Iteration 0, put all of your user stories on Pivotal Tracke
 
 **Iteration 4 Due Date: Wed 12/16, 4:00 PM**
 
+First, create a new repository for your team project on Github and name the repo CS240-YourTeamName (substituting your team name). Do not initialize the repository with a readme.
+
+From the command line in complete, clean local installation of mean.js, add a new remote with the address of the repository you just created. Read this:
+
+[https://help.github.com/articles/adding-a-remote/](https://help.github.com/articles/adding-a-remote/)
+
+Don't use the name "origin" for this remote. Leave that for the original mean.js repository. Use a name like "github".
+
+After adding a remote, stage your changes with git add, commit, and push them to this remote with
+
+git push github master
+
+Check your repository to make sure the entire application code has been properly uploaded. 
+
+Each member should then clone the repository locally, and each member should make and commit some change (editing the README is a good place to start) in order to show me that everybody is able to commit. Each member should also test their local cloned code to ensure that it runs properly on their own machine.
+
 For each of these iterations, you will use Tracker to identify a set of user stories to work on during the iteration (and who will work on each). You will then use techniques from BDD and TDD to implement these user stories.
 
 As you proceed, stories may be re-prioritized and new stories may be added.
@@ -91,7 +107,7 @@ Remember, you should be committing code regularly, not only when you're tagging 
 At the end of each iteration, I will check the following:
 
 * **Development Practices [6pts]**
-   *   Make sure that all your code and tests--including Moch and Jasmine    tests--have been pushed to Github. Tag your git repository revision with iteration-i, where i is the iteration number. To tag the current revision, use git tag -a iteration-1 -m "<commit message>" (for Iteration 1).
+   *   Make sure that all your code and tests--including Mocha and Jasmine tests--have been pushed to Github. Tag your git repository revision with iteration-i, where i is the iteration number. To tag the current revision, use git tag -a iteration-1 -m "<commit message>" (for Iteration 1).
       *  **Warning:**  you must explicitly push your tags with the command git push [origin] --tags. Please double-check that you can checkout the tag from your Github repository before the deadline!
    *  I should be able to run your tests from a fresh clone using:
         <pre>
