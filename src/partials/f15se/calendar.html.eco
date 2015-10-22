@@ -182,7 +182,7 @@
            <td>
              <a href="<%= @site.url %>/hw/f15se/hw6-Nodejs">HW 6: Node.js</a>
              <br>
-             <strong>Due Fri 10/23</strong>
+             <strong>Due Fri 10/30</strong>
              <!--
              <a href="hwk/4/">Hwk 4 - Rails</a>
              due Sun

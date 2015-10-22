@@ -70,11 +70,12 @@ Finally, to complete Iteration 0, put all of your user stories on Pivotal Tracke
 
 **Submit** this iteration by creating a private post on Piazza with your lo-fi mockups and storybook sketches (I already have access to your Tracker); tag your post with #Iter0.3. You should scan (or clearly photograph) your mockups and attach them as images to your post.
 
-**Each team member must** fill out the Iteration 0 Team Evaluation Survey giving scores to each team member (including yourself). These scores will be used to normalize grades among the team members.
 
 ### Iterations 1-4 (25 pts each)
 
 **Iteration 1 Due Date: Mon 10/26, 11:59 PM**
+
+**Each team member must** fill out the Iteration 1 Team Evaluation Survey giving scores to each team member (including yourself). These scores will be used to normalize grades among the team members. You can find this survey on the Moodle site for this class. 
 
 **Iteration 2 Due Date: Mon 11/9, 11:59 PM**
 
@@ -94,9 +95,11 @@ After adding a remote, stage your changes with git add, commit, and push them to
 
 git push github master
 
-Check your repository to make sure the entire application code has been properly uploaded. 
+Check your repository to make sure the entire application code has been properly uploaded.
 
 Each member should then clone the repository locally, and each member should make and commit some change (editing the README is a good place to start) in order to show me that everybody is able to commit. Each member should also test their local cloned code to ensure that it runs properly on their own machine.
+
+## For all iterations
 
 For each of these iterations, you will use Tracker to identify a set of user stories to work on during the iteration (and who will work on each). You will then use techniques from BDD and TDD to implement these user stories.
 
@@ -127,7 +130,7 @@ At the end of each iteration, I will check the following:
    *   You have created a submission post on Piazza for this iteration (see below)
    *   All team members have completed the Team Evaluation Survey
 
-**Submit** each iteration by creating a private post on Piazza with a link to your Tracker, your Github repository (if different than the one I set up), and your Heroku deployment; tag your post with the iteration number (e.g., #Iter1). Also include a short summary noting which user stories have been completed this iteration.
+**Submit** each iteration by creating a private post on Piazza with a link to your Tracker, your Github repository (if different than the one I set up), and your Heroku deployment if there is one; tag your post with the iteration number (e.g., #Iter1). Also include a short summary noting which user stories have been completed this iteration.
 
 * Please do this even for your final product (Iteration 4).
 
