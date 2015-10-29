@@ -193,7 +193,7 @@
            <td>7</td>
            <td>10/12</td>
            <td>
-             UI Design & templating; Behavior Driven Design
+             UI Design & templating
              <!--
              Testing continued
            -->
@@ -221,7 +221,7 @@
            <td>
              10/19
            </td>
-           <td>Testing; Coding Style; Refactoring;</td>
+           <td>Testing; Coding Style; Refactoring</td>
            <td>
              JAD Ch 8; <br>
              HS Ch 6
@@ -242,7 +242,7 @@
          <tr class="sec">
            <td>9</td>
            <td>10/26</td>
-           <td>Deployment to heroku</td>
+           <td>Deployment</td>
            <td>
              JAD Ch 4
              <!--
