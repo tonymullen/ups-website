@@ -4,7 +4,7 @@ cacheable: false
 
 ## Bert Bos Puzzle
 
-For this project you will work in pairs to use Prolog (later Haskell) to solve
+For this project you will work in pairs to use Prolog to solve
 the [Bert Bos Puzzle](/~tmullen/pages/bertspel). Take a look at the puzzle now to
 get a general gist of the puzzle.
 

@@ -175,7 +175,7 @@
      <td><a href="http://haskell.org/haskellwiki/Performance/Laziness">Laziness</a>
      <!--, <a href="http://www.haskell.org/haskellwiki/Haskell/Lazy_evaluation">Example</a> --></td>
      <td>
-       <a href="<%= @site.url %>/hw/f15plp/pair-haskell">Pair project pt 2</a>
+       <a href="<%= @site.url %>/hw/f15plp/bb-haskell">Bert Bos Puzzle, Haskell version</a>
          <br>
          <strong>due Wed 12/9</strong>
        <!--

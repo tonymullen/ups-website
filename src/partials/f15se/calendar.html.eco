@@ -287,16 +287,22 @@
            <td>11</td>
            <td>11/9</td>
            <td>
-             Open-Source; Software Ethics and Impacts;
+             Software Ethics and Impacts;
              <!--
              Project management
            -->
            </td>
 
            <td>
-             <a href="http://www.unterstein.net/su/docs/CathBaz.pdf">Raymond, 2001</a>
-             <br>
+
               <a href="https://moodle.pugetsound.edu/moodle/mod/resource/view.php?id=279760">Brinkman & Sanders, 2013, Ch 1</a>
+              <br>
+              <em>Based on last name:</em><br>
+              <strong>A-D:</strong> <a href="https://moodle.pugetsound.edu/moodle/mod/resource/view.php?id=298673">Abril, 2007</a><br>
+              <strong>E-Mad:</strong> <a href="https://moodle.pugetsound.edu/moodle/mod/resource/view.php?id=298675">Bennefon, 2015</a><br>
+              <strong>Man-S:</strong> <a href="https://moodle.pugetsound.edu/moodle/mod/resource/view.php?id=298671">Irani, 2013</a><br>
+              <strong>T-W:</strong> <a href="https://moodle.pugetsound.edu/moodle/mod/resource/view.php?id=298672">Penzenstadler, 2014</a><br>
+              Come prepared to discuss the reading in class on Friday<br>
              <!--
              Mon: 6.1 - 6.3
              <br>Wed: 6.4 - 6.11
@@ -318,12 +324,14 @@
            <td>12</td>
            <td>11/16</td>
            <td>
-             Software Ethics, Continued
+             Software Ethics Continued, Open-Source
            </td>
            <td>
             <a href="http://www.acm.org/about/se-code">ACM Code</a>
             <br>
             <a href="https://moodle.pugetsound.edu/moodle/mod/resource/view.php?id=279760">Brinkman & Sanders, 2013, Ch 2</a>
+            <br>
+            <a href="http://www.unterstein.net/su/docs/CathBaz.pdf">Raymond, 2001</a>
             <!--
              <a href="https://moodle.pugetsound.edu/moodle/mod/resource/view.php?id=214617">Stallman 2009</a>,
              <a href="https://moodle.pugetsound.edu/moodle/mod/resource/view.php?id=214615">Raymond 2000</a>
