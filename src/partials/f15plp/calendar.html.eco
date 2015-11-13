@@ -159,9 +159,9 @@
        LYAH Section 11
      </td>
      <td>
-        <a href="<%= @site.url %>/hw/f15plp/hw7-haskell">Homework 8</a>
+        <a href="<%= @site.url %>/hw/f15plp/hw8-haskell">Homework 8</a>
       <br>
-      <strong>due Fri 11/20</strong>
+      <strong>due Fri 12/04</strong>
        <!--
        <a href="Asmts/04/asmt.html">Assignment 4</a>
      		(<a href="../../Protected-291/asmt04-solns.hs">solns</a>)
@@ -175,13 +175,7 @@
      <td><a href="http://haskell.org/haskellwiki/Performance/Laziness">Laziness</a>
      <!--, <a href="http://www.haskell.org/haskellwiki/Haskell/Lazy_evaluation">Example</a> --></td>
      <td>
-       <a href="<%= @site.url %>/hw/f15plp/bb-haskell">Bert Bos Puzzle, Haskell version</a>
-         <br>
-         <strong>due Wed 12/9</strong>
-       <!--
-       <a href="Asmts/05/asmt.html">Assignment 5</a>
-     		(<a href="../../Protected-291/asmt05-solns.hs">solns</a>)
-      -->
+
       </td>
   </tr>
   <tr>
@@ -204,7 +198,13 @@
          </td>
      <td>LYAH Section 12</td>
      <td>
-
+   <a href="<%= @site.url %>/hw/f15plp/bb-haskell">Bert Bos Puzzle, Haskell version</a>
+     <br>
+     <strong>due Fri 12/11</strong>
+   <!--
+   <a href="Asmts/05/asmt.html">Assignment 5</a>
+    (<a href="../../Protected-291/asmt05-solns.hs">solns</a>)
+  -->
      </td>
   </tr>
   <tr>

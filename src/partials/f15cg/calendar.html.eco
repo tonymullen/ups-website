@@ -224,7 +224,7 @@
            <td>
              <a href="<%= @site.url %>/hw/f15cg/hw5-ray-tracer">Hw 5: Ray Tracer</a>
              <br>
-             <strong>Due Fri 11/13</strong>
+             <strong>Due Fri 11/20</strong>
            </td>
 
          </tr>
@@ -254,7 +254,7 @@
            <td>11</td>
            <td>11/09</td>
            <td>
-                Tracking and matchmoving
+                2D Compositing; Chroma key compositing
            </td>
            <!--
            <td>Wed</td>
@@ -269,9 +269,11 @@
            -->
            </td>
            <td>
+             <!--
               <a href="<%= @site.url %>/hw/f15cg/hw6-matchmove">Hwk 6: Matchmove Scene</a>
               <br>
               <strong>Due Mon 11/30</strong>
+            -->
              <!--
            -->
              <!--
@@ -289,20 +291,21 @@
            <td>12</td>
            <td>11/16</td>
            <td>
-      Shader programming; GLSL; OSL
+             Tracking and matchmoving
            </td>
            <!--
            <td>Thu</td>
          -->
            <td>
-<a href="https://github.com/imageworks/OpenShadingLanguage/blob/master/src/doc/osl-languagespec.pdf">
-OSL Language Spec</a>
+
              <!--
              Ch 8.6; 9.10
            -->
            </td>
            <td>
-
+              <a href="<%= @site.url %>/hw/f15cg/final-project">Final Project</a>
+               <br>
+               <strong>Due Fri 12/18</strong>
            </td>
             <!--
            <td>
@@ -317,18 +320,18 @@ OSL Language Spec</a>
              <br><i><b>Wed-Fri: holiday</b></i>
            </td>
            <td>
-              2D Compositing; Chroma key compositing
+                Shader programming; GLSL; OSL
            </td>
 
            <td>
+             <a href="https://github.com/imageworks/OpenShadingLanguage/blob/master/src/doc/osl-languagespec.pdf">
+             OSL Language Spec</a>
              <!--
              <a href="https://moodle.pugetsound.edu/moodle/mod/resource/view.php?id=220680">Rogers Ch 6</a>
            -->
            </td>
            <td>
-              <a href="<%= @site.url %>/hw/f15cg/final-project">Final Project</a>
-               <br>
-               <strong>Due Fri 12/18</strong>
+
            </td>
 
          </tr>

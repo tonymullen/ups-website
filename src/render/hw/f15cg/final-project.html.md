@@ -3,7 +3,7 @@ layout: assignment
 
 term: Fall 2015
 
-title: Assignment 2: Build a robot in Three.js
+title: Final Project
 
 class: CS 315: Computer Graphics
 
