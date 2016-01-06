@@ -2,12 +2,12 @@
 cacheable: false
 ```
 
-###Supplemental resources
+### Supplemental resources
 
 There are a lot of great learning resources available online for Three.js, WebGL,
 and graphics in general. Here are a few:
 
-####Three.JS
+#### Three.JS
 
 Three.js home page
 http://threejs.org/
@@ -18,12 +18,12 @@ https://stemkoski.github.io/Three.js/
 Altered Qualia (Three.js examples and experiments)
 http://alteredqualia.com/
 
-####WebGL
+#### WebGL
 
 Learning WebGL (WebGL tutorials based on the classic NeHe OpenGL tuts)
 http://learningwebgl.com/blog/?page_id=1217
 
-####GLSL
+#### GLSL
 
 GLSL reference
 http://www.shaderific.com/glsl/
@@ -34,8 +34,8 @@ http://glslsandbox.com/
 Shadertoy (examples and experiments)
 https://www.shadertoy.com/
 
-####Blender
+#### Blender
 https://cgcookie.com/learn-blender/
 
-####Blender Cycles
+#### Blender Cycles
 http://www.blenderguru.com/articles/cycles-input-encyclopedia/

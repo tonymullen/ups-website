@@ -2,11 +2,11 @@
 cacheable: false
 ```
 
-###Supplemental resources
+### Supplemental resources
 
-####The following resources are recommended:
+#### The following resources are recommended:
 
-####Prolog:
+#### Prolog:
 
 [SWI Prolog](http://www.swi-prolog.org/) is the version of Prolog we use. You can install a copy on your own computer as well.
 
@@ -14,7 +14,7 @@ cacheable: false
 
 [GNU Prolog](http://www.gprolog.org/) and [YAProlog](http://www.dcc.fc.up.pt/~vsc/Yap/) are some open-source implementations of Prolog. If you want to experiment with Prolog environments, these each have their merits.
 
-####Haskell:
+#### Haskell:
 
 [Haskell.org](https://www.haskell.org/) is the online headquarters for Haskell. You'll find a lot of resources there, including a basic browser-based interpreter, the [Haskell language definition](https://www.haskell.org/definition/), the [Hoogle](https://www.haskell.org/hoogle/) search engine of Haskell functions,  and a list of [tutorials](https://wiki.haskell.org/Tutorials).
 
@@ -22,19 +22,19 @@ You can download the [Haskell Platform](https://www.haskell.org/platform/) there
 
 If you decide to get more serious about doing "real-world" programming with Haskell, you might want to check out [Leksah](https://www.leksah.org). It's a cross-platfom, open-source, and feature-rich IDE for Haskell development. Alternately, a [Haskell plugin](https://eclipsefp.github.io) also exists for Eclipse. Both are actively maintained.
 
-####First-Order Predicate Logic:
+#### First-Order Predicate Logic:
 
 [Predicate Logic](http://www.comp.nus.edu.sg/~cs3234/notes/predicate.pdf) by Martin Henz and Aquinas Hobor is a good quick introduction to first order predicate logic.
 
 [Logic, Language, and Meaning, Vol. 1: Introduction to Logic](http://www.press.uchicago.edu/ucp/books/book/chicago/L/bo3618810.html), L.T.F. Gamut. These books (vols 1 & 2) are particularly geared towards the linguistic and philosophical ramifications of formal logic, but they cover a lot of relevant ground in an accessible way. Volume 1 covers propositional and predicate calculus.
 
-####Lambda Calculus:
+#### Lambda Calculus:
 
 [A Tutorial Introduction to the Lambda Calculus](http://www.inf.fu-berlin.de/lehre/WS03/alpi/lambda.pdf) is a nice and brief introduction by Raúl Rojas.
 
 [Logic, Language, and Meaning, Vol. 2: Intensional Logic and Logical Grammar](http://www.press.uchicago.edu/ucp/books/book/chicago/L/bo3628700.html), L.T.F. Gamut. The second volume of this pair gets into the more advanced territory of higher order logic and lambda calculus.
 
-####Category Theory:
+#### Category Theory:
 
 [Category Theory for Computing Science](http://www.math.mcgill.ca/triples/Barr-Wells-ctcs.pdf) is a freely available introduction to category theory, the mathematical theory that underlies much of the design and functionality of Haskell.
 

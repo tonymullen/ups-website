@@ -2,7 +2,7 @@
 cacheable: false
 ```
 
-###Grading
+### Grading
 
 This course will be graded based on the following factors:
 

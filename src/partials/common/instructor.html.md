@@ -5,4 +5,4 @@ cacheable: false
 [Tony Mullen](http://localhost:9778)  
 email: tmullen@pugetsound.edu  
 office: 410 Thompson Hall
-phone:  253.879.3125 ext. 3562
+phone:  253.879.3562

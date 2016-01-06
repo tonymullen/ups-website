@@ -62,7 +62,7 @@ You can import that function like this:
 
 ## Exercise 5
 
-Using <span class="codefont">foldr</span>, define a function <span class="codefont">dec2int :: [Int] -> Int</span> that takes a list of single digit integers and returns the integer made up of the digits in the decimal place that corresponds to their position in the list. So, for example:
+Using <span class="codefont">foldl</span>, define a function <span class="codefont">dec2int :: [Int] -> Int</span> that takes a list of single digit integers and returns the integer made up of the digits in the decimal place that corresponds to their position in the list. So, for example:
 
 <pre><code class="haskell">> dec2int [5,4,2,6,1]
 54261</code></pre>

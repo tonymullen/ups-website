@@ -1,9 +1,9 @@
 ```
 cacheable: false
-course: F15 Programming Language Paradgims
+course: F15 Programming Language Paradigms
 ```
 
-###Course description
+### Course description
 
 In this class students will study the differences between
 programming language paradigms and become acquainted with

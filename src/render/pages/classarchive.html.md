@@ -3,12 +3,5 @@ title: Class archive
 layout: misc
 tags: ['archive']
 pageOrder: 3
+content: misc/classarchive.html.md
 ```
-
-##Fall 2015
-
-CS 315: Computer Graphics
-
-CS 240: Software engineering
-
-CS 291: Programming Language Paradigms

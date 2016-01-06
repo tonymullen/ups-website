@@ -1,11 +1,11 @@
 ```
 cacheable: false
 ```
-###Primary online resources
+### Primary online resources
 
 The class will make use of several online resources:
 
-The class [Moodle page](https://moodle.pugetsound.edu/moodle/course/view.php?id=9924) will be where you can turn in assignments and find some of the class readings. 
+The class [Moodle page](https://moodle.pugetsound.edu/moodle/course/view.php?id=9924) will be where you can turn in assignments and find some of the class readings.
 
 [Github](https://github.com/UPS-CS240-F15) for version/revision control.
 

@@ -67,6 +67,7 @@ docpadConfig = {
 			 	"http://mathcs.pugetsound.edu/~tmullen/scripts/app.js"
 			 	"http://mathcs.pugetsound.edu/~tmullen/scripts/controllers.js"
 			 	"http://mathcs.pugetsound.edu/~tmullen/scripts/directives.js"
+				"http://mathcs.pugetsound.edu/~tmullen/scripts/domtweaks.js"
 			]
 
 			# Out Path
@@ -113,7 +114,7 @@ docpadConfig = {
 			database.findAllLive({tags:$has:'page'}, [pageOrder:1,title:1])
 
 		current: (database) ->
-			database.findAllLive({tags:$has:'f15'})
+			database.findAllLive({tags:$has:'s16'})
 
 #		archives: (database) ->
 #			database.findAllLive({tags:$has:'archive'})

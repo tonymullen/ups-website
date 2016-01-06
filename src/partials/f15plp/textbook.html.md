@@ -6,7 +6,7 @@ cacheable: false
 
 Lecture slides for this class will be posted soon after the lecture is completed. You can find them [here](http://mathcs.pugetsound.edu/~tmullen/slides/f15plp/).
 
-###Textbook & required materials
+### Textbook & required materials
 
 The main textbooks/tutorials we'll be using in this class are all available freely online. Several of them can be purchased as hard copies also.
 
