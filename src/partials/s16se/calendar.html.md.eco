@@ -1,0 +1,47 @@
+### Calendar
+
+<div class="tables-begin"></div>
+
+| Week | Date |  Topic              |  Reading           |     Assignment |
+|------|------|---------------------|--------------------|----------------|
+| 1  | 1/20 | Introduction; Process Models                                |  [The Atlantic: Healthcare.gov][1] <br> Getting MEAN Ch 1, 2 <br> [Fowler, 2005][2]  |  [HW 1: JavaScript tutorial][hw1] <br> **Due Wed 1/27** <br> [Install Git, NVM (or NVM-windows), Node.js (via NVM), and Atom][software] |
+| 2  | 1/25 | Intro to JS; Automation; Version Control                |  GM Ch 3; <br> Hello Startup Ch 1  | [Group Project <br> Iteration 0.0][gp] <br> **Due Fri 1/29** <br> [HW 2: Setting up a MEAN project][hw2] <br> **Due Wed 2/3** |
+| 3  | 2/1  | Requirements; HTML & CSS; Web Application architecture & REST; |   GM Ch 4; <br> HS Ch 2        | [Group Project <br> Iteration 0.1][gp] <br> **Due Fri 2/5** <br> [HW 3: Working with Node.js and Express][hw3] <br> (Find the typo <br> in Ch 4!) <br> **Due Wed 2/10**   |
+| 4  | 2/8  | Node.js                                  |    GM Ch 5,6,7    | [HW 4: MongoDB and Mongoose][hw4] <br> **Due Wed 2/17** |
+| 5  | 2/15 | Design patterns; MVC; Angular.js       | [UML Basic Principles][uml]  | [Group Project <br> Iteration 0.2][gp] <br> **Due Fri 2/19**  <br> [HW 5: Use Case][hw5] <br> **Due Wed 2/24** |
+| 6  | 2/22 | Generation & Scaffolding; MEAN.js     |   HS Ch 5           | [HW 6: Angular.js tutorial][hw6] <br> **Due Wed 3/2**  |
+| 7  | 2/29 | UI Design & templating               |  HS Ch 3; <br> GM Ch 8, 9          |  [Group Project <br> Iteration 0.3][gp] <br> **Due Mon 2/29** <br> [HW 7: Building an SPA with Angular.js][hw7] <br> **Due Wed 3/23** |
+| 8  | 3/7  | Testing; Coding Style; Refactoring    |  HS Ch 6; <br> GM Ch 10, 11    | [**Working local installation of MEAN.js**][software] <br> **by Wed 3/23!**  |
+| 9 | 3/14     | **Spring <br> break**  |                         |                        |
+| 10 | 3/21  | Deployment                      |                    |   [Group Project <br> Iteration 1][gp]  <br> **Due Mon 3/21**   |
+| 11 | 3/28 | Databases & CRUD                    |                |                                  |
+| 12 | 4/4  | Software Ethics and Impacts           | [Brinkman & Sanders, 2013, Ch 1][bns]  |   [Group Project <br> Iteration 2][gp] <br> **Due Mon 4/4**    |
+| 13 | 4/11 | Software Ethics Continued; project work  | [ACM Code][acm] <br>  [Brinkman & Sanders, 2013, Ch 2][bns] <br> [Raymond, 2001][raymond]         |                      |
+| 14 | 4/25 | Software licensing & Open-Source; project work  |   HS Ch 8     | [Group Project <br> Iteration 3][gp] <br> **Due Mon 4/25**   |
+| 15 | 4/25 | Troubleshooting & debugging; project work     |                    | [HW 8: Ethics paper][hw8] <br> **Due Fri 5/6** |
+| 16 | 5/2  | Project work      |  HS Ch 12          |                |
+| Finals <br> period |    |    **Project presentations Wed 5/11/16 8:00AM**  |  | [Group Project <br> Iteration 4][gp] <br>  [HW 9: Final project report][fr] <br> **Due Wed 5/11**||
+
+
+<div class="tables-end"></div>
+
+[1]: http://www.theatlantic.com/technology/archive/2015/07/the-secret-startup-saved-healthcare-gov-the-worst-website-in-america/397784/  "The Atlantic"
+[2]: http://www.martinfowler.com/articles/newMethodology.html
+[uml]: https://sourcemaking.com/uml/basic-principles-and-background/introduction-to-the-case-study
+[acm]: http://www.acm.org/about/se-code
+[bns]: https://moodle.pugetsound.edu/moodle/mod/resource/view.php?id=279760
+[raymond]: http://www.unterstein.net/su/docs/CathBaz.pdf
+
+[software]: <%= @site.url %>/s16se/software-install  "Software installation guide"
+
+[hw1]: <%= @site.url %>/hw/s16se/hw1-JavaScript  "HW 1: JavaScript"
+[hw2]: <%= @site.url %>/hw/s16se/hw2-MeanSetup  "HW 2: Setting up a MEAN project"
+[hw3]: <%= @site.url %>/hw/s16se/hw3-NodeExpress  "HW 3: Working with Node.js and Express"
+[hw4]: <%= @site.url %>/hw/s16se/hw4-MongoDBMongoose  "HW 4: MongoDB and Mongoose"
+[hw5]: <%= @site.url %>/hw/s16se/hw5-UseCase  "HW 5: Use Case"
+[hw6]: <%= @site.url %>/hw/s16se/hw6-Angular  "HW 6: Angular.js tutorial"
+[hw7]: <%= @site.url %>/hw/s16se/hw7-AngularSPA  "HW 7: Building an SPA with Angular.js"
+[hw8]: <%= @site.url %>/hw/s16se/hw8-Ethics "HW 7: Ethics paper"
+
+[gp]: <%= @site.url %>/hw/s16se/group-project "Group project"
+[fr]: <%= @site.url %>/hw/s16se/hw9-FinalWriteup "Group project final writeup"

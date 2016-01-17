@@ -17,11 +17,11 @@ This preliminary iteration will involve setting up teams and doing a lo-fi "prot
 
 ### Iteration 0.0
 
-**Due Date: Fri 9/11**
+**Due Date: Fri 1/29**
 
 *Divide into teams of 5 students (and one team of 4 students)*
 
-Talk to other students and decide who you think you would work well with, as it's a long project. It's a good idea to form groups with a mix of skills and experience so as to better distribute your efforts. I recommend using [Piazza](https://piazza.com/pugetsound/fall2015/csci240/home) to coordinate your team building. If you need any help finding a team contact me *before* the deadline.
+Talk to other students and decide who you think you would work well with, as it's a long project. It's a good idea to form groups with a mix of skills and experience so as to better distribute your efforts. I recommend using [Piazza](https://piazza.com/pugetsound/spring2016/csci240/home) to coordinate your team building. If you need any help finding a team contact me *before* the deadline.
 
 Once  you've formed a group, pick a **Team Name** we can refer to each team by!
 
@@ -29,7 +29,7 @@ Once  you've formed a group, pick a **Team Name** we can refer to each team by!
 
 ### Iteration 0.1 (2 pts)
 
-**Due Date: Fri 9/18, 11:59 PM**
+**Due Date: Fri 2/5, 11:59 PM**
 
 *Settle on the project concept and choose your on-site customers*
 
@@ -41,7 +41,7 @@ Choose two members of the team to serve as *on-site customers*. These are member
 
 ### Iteration 0.2 (10 pts)
 
-**Due Date: Fri 10/2, 11:59 PM**
+**Due Date: Fri 2/19, 11:59 PM**
 
 *Work with the customers and generate user stories*
 
@@ -54,13 +54,13 @@ Create at least 5 user stories on index cards (or quarter-pages). User stories s
 3.   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;So that [I can achieve some goal],
 4.   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;I want to [do some task]
 
-Develop these user stories together so that everyone is on the same page! User stories should be [INVEST and SMART](http://xp123.com/articles/invest-in-good-stories-and-smart-tasks/). Note that you will also use the information from these customer discussions to complete Hwk 3.
+Develop these user stories together so that everyone is on the same page! User stories should be [INVEST and SMART](http://xp123.com/articles/invest-in-good-stories-and-smart-tasks/). Note that you will also use the information from these customer discussions to complete Hwk 5.
 
 Submit this iteration by creating a post on Piazza containing your user stories (tag the post with #Iter0.2). You may either submit photos of your index cards or type up the stories.
 
 ### Iteration 0.3 (10 pts)
 
-**Due Date: <span style="color:red">Mon</span> 10/12, 11:59 PM**
+**Due Date: <span style="color:red">Mon</span> 2/29, 11:59 PM**
 
 *Create lo-fi mockups and storyboards corresponding to at least 4 of your user stories.*
 
@@ -73,15 +73,15 @@ Finally, to complete Iteration 0, put all of your user stories on Pivotal Tracke
 
 ### Iterations 1-4 (25 pts each)
 
-**Iteration 1 Due Date: Mon 10/26, 11:59 PM**
+**Iteration 1 Due Date: Mon 3/21, 11:59 PM**
 
-**Each team member must** fill out the Iteration 1 Team Evaluation Survey giving scores to each team member (including yourself). These scores will be used to normalize grades among the team members. You can find this survey on the Moodle site for this class. 
+**Each team member must** fill out the Iteration 1 Team Evaluation Survey giving scores to each team member (including yourself). These scores will be used to normalize grades among the team members. You can find this survey on the Moodle site for this class.
 
-**Iteration 2 Due Date: Mon 11/9, 11:59 PM**
+**Iteration 2 Due Date: Mon 4/4, 11:59 PM**
 
-**Iteration 3 Due Date: Mon 11/23, 11:59 PM**
+**Iteration 3 Due Date: Mon 4/25, 11:59 PM**
 
-**Iteration 4 Due Date: Wed 12/16, 4:00 PM**
+**Iteration 4 Due Date: Wed 4/11, 11:59 PM**
 
 First, create a new repository for your team project on Github and name the repo CS240-YourTeamName (substituting your team name). Do not initialize the repository with a readme.
 
@@ -93,7 +93,9 @@ Don't use the name "origin" for this remote. Leave that for the original mean.js
 
 After adding a remote, stage your changes with git add, commit, and push them to this remote with
 
+<pre>
 git push github master
+</pre>
 
 Check your repository to make sure the entire application code has been properly uploaded.
 
@@ -138,9 +140,9 @@ At the end of each iteration, I will check the following:
 
 ### Final Presentation (20 pts)
 
-**Due Wed 12/16, 4:00 PM**
+**Wed 5/11, 8:00 AM**
 
-In addition to the implementation, your team will be formally presenting your project during our allotted final period (on Wednesday, Dec 16).
+In addition to the implementation, your team will be formally presenting your project during our allotted final period (on Wednesday, May 11).
 
 Presentations should be about 20 minutes long, with all team members participating. Your presentation should pitch your project (e.g., what is the problem? how does your application solve that problem), walk us through major user stories (and major implementation architecture, if appropriate), and reflect briefly on the development process (e.g., what aspects of the development process worked well or poorly? What, if anything, would you do differently?). Your team should be ready to answer questions after your presentation.
 
@@ -166,4 +168,4 @@ Presentations will be graded on the following criteria:
 * [2pt] Clear diction: speak slowly and loud enough to hear, and avoid "ums" or other distractors (Do as I say, not as I do!)
 * [2pt] Able to respond to questions
 
-A note of advice: there are few activities I can think of where the benefits of practice are more immediate and striking than in public speaking. Every single time you go through your presentation from beginning to end beforehand will make your performance better for the audience and more comfortable for you.
+A note of advice: there are few activities I can think of where the benefits of practice are more immediate and striking than public speaking. Every single time you go through your presentation from beginning to end beforehand will make your performance better for the audience and more comfortable for you.

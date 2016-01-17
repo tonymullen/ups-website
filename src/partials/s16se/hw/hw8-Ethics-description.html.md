@@ -1,8 +1,7 @@
 ```
 cacheable: false
 ```
-## **Draft due  Mon 11/30**
-## **Final due  Mon 12/7**
+## **Due  Fri 5/6**
 
 ## Overview
 
@@ -20,15 +19,15 @@ Note: this homework assignment will be given **twice** the weight of a regular a
 
 ## Assignment Details
 
-In this assignment, you will be writing about a single ethical decision (of your choice) posed by an aspect of a software development project. For example, you might consider the decision to [utilize social network members as participants inpsychological/sociological experiments](http://www.wsj.com/articles/furor-erupts-over-facebook-experiment-on-users-1404085840). You may choose your own situation (e.g., based on the readings from class or your own interests/experience). Note that your situation should be reflect an actual real-life dilemma; it will not be a simple case study as in the Brinkman reading. (The situation may be hypothetical, but should be grounded in actual events). I recommend you check in with me before your first draft is due to make sure it will have sufficient depth for analysis.
+In this assignment, you will be writing about a single ethical decision (of your choice) posed by an aspect of a software development project. For example, you might consider the decision to [utilize social network members as participants in psychological/sociological experiments](http://www.wsj.com/articles/furor-erupts-over-facebook-experiment-on-users-1404085840). You may choose your own situation (e.g., based on the readings from class or your own interests/experience). Note that your situation should be reflect an actual real-life dilemma; it will not be a simple case study as in the Brinkman reading. (The situation may be hypothetical, but should be grounded in actual events).
 
-Once you have chosen a situation, you should analyze the situation using **two (2)** different ethical theories that we dscussed in class:
+Once you have chosen a situation, you should analyze the situation using **two (2)** different ethical theories that we discussed in class:
 
 1. Virtue Ethics
 2. Utilitarian Ethics (act or rule)
 3. Deontological Ethics
 
-You will apply each of these ethical systems to the situation and determine the ethical course of action, comparing and constrasting the results.
+You will apply each of these ethical systems to the situation and determine the ethical course of action, comparing and contrasting the results.
 
 ## Paper Content
 
@@ -40,19 +39,12 @@ You will apply each of these ethical systems to the situation and determine the 
   * The two ethical systems may come to either the same or different conclusions on which course of action to take. This is normal---indeed, ethical systems often agree with one another, just with a different basis for the decision!
 * You should conclude your essay with a short consideration of the distinctions between these systems for your situation. Did they come to different decisions or the same? Are those decisions based on similar or different factors? Would one theory be more "applicable" than another in this situation?
 
-## Writing Iteration
-
-You will be required to turn in a draft copy of your paper. This is to encourage you to iterate your writing, and to make sure you get some feedback on your analysis.
-
-* Your draft should be a complete document. This should not just be an outline or notes (though I recommend you create those as well). Your analysis should all be in place, though some components may need to be developed further.
-* You should iterate your writing as well as your analysis--so first passes at both need to be in place!
-* I will not be copy-editing your drafts. Remember that it's a good idea to proof-read your writing (even a draft) before turning it in, so I can get you feedback without getting lost in typos!
 
 ## Submitting
 
-Both drafts and final papers should be submitted on Moodle. The draft should be submitted [here](https://moodle.pugetsound.edu/moodle/mod/assign/view.php?id=280092), and the final should be submitted [here](https://moodle.pugetsound.edu/moodle/mod/assign/view.php?id=280093).
+The paper should be submitted on Moodle [here](https://moodle.pugetsound.edu/moodle/mod/assign/view.php?id=308427).
 
-* Files should be in **.pdf format**. No Word files please.
+* Files should be in **.pdf format**. **No Word files** please.
 
 Please remember to put your name on your papers (and to give your final submissions one last read-through for typos and writing issues!)
 

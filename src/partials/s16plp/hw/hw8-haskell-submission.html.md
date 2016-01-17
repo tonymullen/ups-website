@@ -2,4 +2,4 @@
 cacheable: false
 ```
 
-Instructions for submitting this assignment coming soon. 
+See the description for submission instructions. 

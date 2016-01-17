@@ -86,7 +86,7 @@ Write a program for <span class="codefont">double(List, DoubledList)</span> wher
 
 ### Hint  
 
-For this exercise, it's important to realize that the <span class="codefont">[Head|Tail]</span> list notation is not limited to accessing only the first element of the list. You can access as many elements into the list as you like by separating elements with commas before the pipe. So, for example, <span class="codefont">[H1, H2, H3|Tail]</span> would access the first three elements as <span class="codefont">H1</span>,  <span class="codefont">H2</span>, and class="codefont">H3</span>, with the remaining elements (starting with the fourth) accessible as a list in class="codefont">Tail</span>.
+For this exercise, it may be helpful to realize that the <span class="codefont">[Head|Tail]</span> list notation is not limited to accessing only the first element of the list. You can access as many elements into the list as you like by separating elements with commas before the pipe. So, for example, <span class="codefont">[H1, H2, H3|Tail]</span> would access the first three elements as <span class="codefont">H1</span>,  <span class="codefont">H2</span>, and class="codefont">H3</span>, with the remaining elements (starting with the fourth) accessible as a list in class="codefont">Tail</span>.
 
 An example on the command line of the first two elements accessed in the head can be seen here:
 

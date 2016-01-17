@@ -4,69 +4,105 @@ cacheable: false
 
 ## Submitting
 
-Write all the predicates and facts for this assignment in one file, called
-<span style="font-family: 'Courier New', Courier, 'Lucida Sans Typewriter', 'Lucida Typewriter', monospace;">hwk6-&lt;your_name&gt;.hs</span>. Separate the code for each exercise within the file with comments indicating which code goes with which exercise. Put your own name in a comment at the top of the file. Like so:
-
-<pre>--Your Name
---
---Exercise 1
-
-...
-
---Exercise 2
-
-...
-
-</pre>
-
-Submit the file on [Moodle]().
-
-Of course, you should make sure you programs are working before submitting them.
-Make a note in the comments if you had trouble getting the program to work.
-
+Submit this assignment on Moodle as an ordinary text file (this assignment involves no actual coding). Be sure that your name is written in the file and that all answers have their associated questions with them so a grader or I can tell at a glance what question is being answered.
 
 ## Exercise 1
 
-Using library functions, define a function <span class="codefont">halve :: [a] -> ([a],[a])</span> that splits an even-lengthed list into two halves. For example:
+What are the types of the following values? Try to figure out the answer before checking with the interpreter, but be sure to confirm your answers with GHCI.
 
-<pre><code class="haskell">> halve [1,2,3,4,5,6]
-([1,2,3],[4,5,6])
-</code></pre>
+<span class="codefont">['a', 'b', 'c']</span>
+
+<br>
+
+<span class="codefont">('a', 'b', 'c')</span>
+
+<br>
+
+<span class="codefont">[(False, '0'), (True, '1')]</span>
+
+<br>
+
+<span class="codefont">([False, True], ['0', '1'])</span>
+
+<br>
+
+<span class="codefont">[tail, init, reverse]</span>
 
 ## Exercise 2
 
-The built-in predicate <span class="codefont">product :: Num a => [a] -> a</span> returns the product of all the numbers in a list of numbers. Implement your own version of this function. Name your function <span class="codefont">product'</span> and define it using the <span class="codefont"> * </span> operator.
+What are the types of the following functions? Be sure to include the necessary class constraints if the functions are defined using overloaded operators. Try to figure out the answer before checking with the interpreter, but confirm your answers with GHCI.
+
+<span class="codefont">second xs = head (tail xs)</span>
+
+<br>
+
+<span class="codefont">swap (x, y) = (y, x)</span>
+
+<br>
+
+<span class="codefont">swap (x, y) = (y, x)</span>
+
+<br>
+
+<span class="codefont">pair x y = (x, y)</span>
+
+<br>
+
+<span class="codefont">pair x y = (x, y)</span>
+
+<br>
+
+<span class="codefont">double x = x * 2</span>
+
+<br>
+
+<span class="codefont">palindrome xs = reverse xs == xs</span>
+
+<br>
+
+<span class="codefont">twice f x = f (f x)</span>
+
 
 ## Exercise 3
 
-Define a function <span class="codefont">safetail :: [a] -> [a]</span> that behaves the same as the library function <span class="codefont">tail</span>, except that <span class="codefont">safetail</span> maps the empty list to itself, whereas <span class="codefont">tail</span> produces an error in this case. Define
-<span class="codefont">safetail</span> three ways, using each of the following:
+Some of the following expressions are not syntactically correct, while others are syntactically correct but do not have sensible types. Some are well-formed. Which is which? In the case of the well-formed expressions, give their types. Assume that <span class="codefont">double :: Int -> Int</span>  is defined as described in the previous exercise.
 
-* (a) a conditional expression
-* (b) guarded equations
-* (c) pattern matching
+Try to figure out the answer before checking with the interpreter, but confirm your answers with GHCI. Also, not all well-formed expressions are printable. If there's no <span class="codefont">Show</span> function available for an expression, you can still find out what it's type is.  
 
-## Exercise 4
+<span class="codefont">[0, 1)</span>
 
-Consider the function
+<br>
 
-<pre><code class="haskell">mult x y z = x * y * z</code></pre>
+<span class="codefont">double -3</span>
 
-Give an alternate definition of <span class="codefont">mult</span> that has the same meaning but which uses the <span class="latex">\lambda</span> operator for each argument.
+<br>
 
-## Exercise 4
+<span class="codefont">double (-3)</span>
 
-Consider the function
+<br>
 
-<pre><code class="haskell">mult x y z = x * y * z</code></pre>
+<span class="codefont">double double 0</span>
 
-Give an alternate definition of <span class="codefont">mult</span> that has the same meaning but which uses the <span class="latex">\lambda</span> operator for each argument.
+<br>
 
-## Exercise 5
+<span class="codefont">if 1==0 then 2==1</span>
 
-The library function <span class="codefont">replicate :: Int -> a -> [a]</span> takes a number n and another argument and returns a list with the second argument repeated n times. For example,
+<br>
 
-<pre><code class="haskell">replicate 3 True
-[True, True, True]</code></pre>
+<span class="codefont">"++" == "+" ++ "+"</span>
 
-Implement a version of this function called <span class="codefont">replicate'</span>, which has the same meaning but is defined using a list comprehension.
+<br>
+
+<span class="codefont">[(+),(-)]</span>
+
+<br>
+
+<span class="codefont">[[],[[]],[[[]]]]</span>
+
+<br>
+
+<span class="codefont">concat ["tea", "for", '2']</span>
+
+<br>
+
+<span class="codefont">concat ["tea", "for", "2"]</span>

@@ -6,9 +6,8 @@ cacheable: false
 
 By the end of this class students will
 
-*  Understand the differences and similarities between between the functional, logic, and imperative paradigms
-*  Be familiar with first-order predicate calculus and lambda calculus and understand how they relate to computer programming
-*  Be able to write logic programs in Prolog
-*  Be able to write functional programs in Haskell
-*  Gain an appreciation for the benefits of declarative programming
-*  Understand the concept of "purity" as it applies to programming language paradigms
+*  Become familiar with general programming concepts such as variables, conditional logic, control structures, basic data types, and algorithms.
+*  Gain an understanding of object-oriented programming concepts such as classes, objects, methods, and inheritance.
+*  Be able to solve problems using the Java programming language.
+*  Become familiar with the BlueJ integrated development environment (IDE).
+*  Begin to gain an appreciation for the benefits of object-oriented programming.
