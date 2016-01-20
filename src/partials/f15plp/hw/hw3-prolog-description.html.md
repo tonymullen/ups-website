@@ -40,30 +40,6 @@ Write a program for <span class="codefont">no_doubles(L1, L2)</span> where <span
 
 ## Exercise 3
 
-Write a program for the relation
-<span class="codefont">better_poker_hand(Hand1, Hand2, Hand)</span> that succeeds if
-<span class="codefont">Hand</span> is the better poker hand between
-<span class="codefont">Hand1</span> and <span class="codefont">Hand2</span>. For those
-unfamiliar with the game, here are some rules of poker necessary for answering this exercise:
-
-* The order of cards is 2, 3, 4, 5, 6, 7, 8, 9, 10, jack, queen, king, ace.
-* Each hand consists of five cards.
-* The rank of hands in ascending order is: no pairs < one pair < two pairs < three of a kind
-< flush (all cards the same suit) < straight (all cards in order) < full house (one pair and three of a kind) < four of a kind < straight flush (all cards the same suit and in order).
-* When two hands have the same rank, the higher denomination cards win. For example, a pair of kings beats a pair of 7's.
-
-Hints:
-* Represent a poker hand by a list of terms of the form
-<span class="codefont">card(Suit, Value)</span>. For example, a hand consisting of the 2 of clubs, the 5 of spades, the queen of hearts, the queen of diamonds, and the 7 of spades would be represented by the list
-<span class="codefont">[card(clubs,2),card(spades,5),card(hearts,queen),card(diamonds,queen),card(spades,7)].
-* It may be helpful to define relations such as
-<span class="codefont">has_flush(Hand)</span> which is true if all the cards in <span class="codefont">Hand</span> are the same suit; <span class="codefont">has_full_house(Hand)</span> which
-is true if <span class="codefont">Hand</span> has three cards with the same value but in different suits, and the other two cards have the same different value; and <span class="codefont">has_straight(Hand)</span> which is true if <span class="codefont">Hand</span> has cards with consecutive values.
-* The number of cases to consider is reduced if the hand is first sorted.
-
-
-## Exercise 4
-
 The graph below has red and green states, red and green transitions, two start states (A and B, represented by a triangle to the left of the node) and two finish states (J and K, represented by double outlines).
 
 <img src="/~tmullen/images/plp/nodegraph.png" style="width: 100%;"/>
