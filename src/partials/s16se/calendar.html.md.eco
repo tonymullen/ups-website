@@ -4,12 +4,12 @@
 
 | Week | Date |  Topic              |  Reading           |     Assignment |
 |------|------|---------------------|--------------------|----------------|
-| 1  | 1/20 | Introduction; Process Models                                |  [The Atlantic: Healthcare.gov][1] <br> Getting MEAN Ch 1, 2 <br> [Fowler, 2005][2]  |  [HW 1: JavaScript tutorial][hw1] <br> **Due Wed 1/27** <br> [Install Git, NVM (or NVM-windows), Node.js (via NVM), and Atom][software] |
-| 2  | 1/25 | Intro to JS; Automation; Version Control                |  GM Ch 3; <br> Hello Startup Ch 1  | [Group Project <br> Iteration 0.0][gp] <br> **Due Fri 1/29** <br> [HW 2: Setting up a MEAN project][hw2] <br> **Due Wed 2/3** |
-| 3  | 2/1  | Requirements; HTML & CSS; Web Application architecture & REST; |   GM Ch 4; <br> HS Ch 2        | [Group Project <br> Iteration 0.1][gp] <br> **Due Fri 2/5** <br> [HW 3: Working with Node.js and Express][hw3] <br> (Find the typo <br> in Ch 4!) <br> **Due Wed 2/10**   |
-| 4  | 2/8  | Node.js                                  |    GM Ch 5,6,7    | [HW 4: MongoDB and Mongoose][hw4] <br> **Due Wed 2/17** |
-| 5  | 2/15 | Design patterns; MVC; Angular.js       | [UML Basic Principles][uml]  | [Group Project <br> Iteration 0.2][gp] <br> **Due Fri 2/19**  <br> [HW 5: Use Case][hw5] <br> **Due Wed 2/24** |
-| 6  | 2/22 | Generation & Scaffolding; MEAN.js     |   HS Ch 5           | [HW 6: Angular.js tutorial][hw6] <br> **Due Wed 3/2**  |
+| 1  | 1/20 | Introduction; Process Models                                |  [The Atlantic: Healthcare.gov][1] <br> Getting MEAN Ch 1, 2   |  [HW 1: JavaScript tutorial][hw1] <br> **Due Wed 1/27** <br> [Install Git, NVM (or NVM-windows), Node.js (via NVM), etc. and Atom][software] |
+| 2  | 1/25 | Intro to JS; Automation; Version Control                |  GM Ch 3; <br> [Fowler, 2005][2] | [Group Project <br> Iteration 0.0][gp] <br> **Due Fri 1/29** <br> [HW 2: Setting up a MEAN project][hw2] <br> **Due Wed 2/3** |
+| 3  | 2/1  | Requirements; HTML & CSS; Web Application architecture & REST; |   GM Ch 4; <br> Hello Startup Ch 1        | [Group Project <br> Iteration 0.1][gp] <br> **Due Fri 2/5** <br> [HW 3: Working with Node.js and Express][hw3] <br> (Find the typo <br> in Ch 4!) <br> **Due Wed 2/10**   |
+| 4  | 2/8  | Node.js                                  |    GM Ch 5    | [HW 4: MongoDB and Mongoose][hw4] <br> **Due Wed 2/17** |
+| 5  | 2/15 | Design patterns; MVC; Angular.js       | [UML Basic Principles][uml]<br> HS Ch 2   | [Group Project <br> Iteration 0.2][gp] <br> **Due Fri 2/19**  <br> [HW 5: Use Case][hw5] <br> **Due Wed 2/24** |
+| 6  | 2/22 | Generation & Scaffolding; MEAN.js     |  GM Ch 6,7; <br> HS Ch 5           | [HW 6: Building RESTful web api][hw6] <br> **Due Wed 3/2**  |
 | 7  | 2/29 | UI Design & templating               |  HS Ch 3; <br> GM Ch 8, 9          |  [Group Project <br> Iteration 0.3][gp] <br> **Due Mon 2/29** <br> [HW 7: Building an SPA with Angular.js][hw7] <br> **Due Wed 3/23** |
 | 8  | 3/7  | Testing; Coding Style; Refactoring    |  HS Ch 6; <br> GM Ch 10, 11    | [**Working local installation of MEAN.js**][software] <br> **by Wed 3/23!**  |
 | 9 | 3/14     | **Spring <br> break**  |                         |                        |
@@ -32,14 +32,14 @@
 [bns]: https://moodle.pugetsound.edu/moodle/mod/resource/view.php?id=279760
 [raymond]: http://www.unterstein.net/su/docs/CathBaz.pdf
 
-[software]: <%= @site.url %>/s16se/software-install  "Software installation guide"
+[software]: <%= @site.url %>/hw/s16se/software-install  "Software installation guide"
 
 [hw1]: <%= @site.url %>/hw/s16se/hw1-JavaScript  "HW 1: JavaScript"
 [hw2]: <%= @site.url %>/hw/s16se/hw2-MeanSetup  "HW 2: Setting up a MEAN project"
 [hw3]: <%= @site.url %>/hw/s16se/hw3-NodeExpress  "HW 3: Working with Node.js and Express"
 [hw4]: <%= @site.url %>/hw/s16se/hw4-MongoDBMongoose  "HW 4: MongoDB and Mongoose"
 [hw5]: <%= @site.url %>/hw/s16se/hw5-UseCase  "HW 5: Use Case"
-[hw6]: <%= @site.url %>/hw/s16se/hw6-Angular  "HW 6: Angular.js tutorial"
+[hw6]: <%= @site.url %>/hw/s16se/hw6-RESTFulApi  "HW 6: Building a RESTful api"
 [hw7]: <%= @site.url %>/hw/s16se/hw7-AngularSPA  "HW 7: Building an SPA with Angular.js"
 [hw8]: <%= @site.url %>/hw/s16se/hw8-Ethics "HW 7: Ethics paper"
 

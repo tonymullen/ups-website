@@ -61,12 +61,12 @@ layout: default
 	<p>
 	When working on individual coding assignments (i.e. all assignments not explicitly labeled
 	as pair or group assignments) you should never look at other people's code for your benefit
-  or allow them to look at yours for their benefit. You *may* look at another person's code
+  or allow them to look at yours for their benefit. You <em>may</em> look at another person's code
 	in order to help them identify a problem they are having.</p>
 	<p>
 	There are sophisticated tools available to identify code plagiarism.
 	Simply changing superficial characteristics of code (variable names, line breaks, spacing) is
-	not enough to conceal when a program has been cribbed. Aside from this, however, someone who 
+	not enough to conceal when a program has been cribbed. Aside from this, however, someone who
 	copies code cheats themselves out of the opportunity to learn the material. Sooner or later,
   this <em>will</em> catch up to them.</p>
 	<p>
