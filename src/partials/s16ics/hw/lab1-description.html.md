@@ -36,6 +36,8 @@ cacheable: false
         public class Test{
            public static void main(String[] args){
                System.out.println("This is a test of the emergency broadcast system!");
+             }
+           }
 
 7. Compile your code by clicking the <span class="codefont">Compile</span> button in the left sidebar of the Project window. The stripes in the <span class="codefont">Test</span> box should now go away unless you have an error in your code. *If your code doesn't compile, call me or one of the student TAs over.*
 
@@ -64,7 +66,7 @@ You will be submitting the <span class="codefont">lab1</span> folder that BlueJ 
 
 2. **Zip the folder** After you have renamed your folder,  right-click on the folder and select "Send to > Zip file" (on Windows) or "Compress" (on Macs).  This will generate a zipped (.zip) file.
 
-3. **Drag zipped file into Moodle** Log into Moodle and navigate to our course page. In Moodle, you will see links for each lab and homework assignment. Click on the appropriate link and then click "Add submission". This will allow you to drag and drop your zipped file into the Moodle window.
+3. **Drag zipped file into Moodle** Log into Moodle and navigate to [our course page](https://moodle.pugetsound.edu/moodle/course/view.php?id=10218). In Moodle, you will see links for each lab and homework assignment. Click on the appropriate link and then click "Add submission". This will allow you to drag and drop your zipped file into the Moodle window.
 
 
 *Good job, you've completed your first lab!*

@@ -17,7 +17,7 @@ This will require more than just one or two predicates to solve. You should appr
 ## Submitting
 
 Write all the predicates and facts for this assignment in one file, called
-<span class="codefont">bertsgame-&lt;partner1LastName_partner2LastName&gt;.plg</span>. Put your full names in a comment at the top of the file. Like so:
+<span class="codefont">bertsgame-&lt;partner1LastName_partner2LastName&gt;.pl</span>. Put your full names in a comment at the top of the file. Like so:
 
 <pre>%Partner1 Name
 %Partner 2 Name
@@ -27,6 +27,6 @@ Write all the predicates and facts for this assignment in one file, called
 
 </pre>
 
-Submit the file on [Moodle]().
+Submit the file on [Moodle](https://moodle.pugetsound.edu/moodle/mod/assign/view.php?id=308718).
 
 Of course, you should make sure your program is working before submitting it.

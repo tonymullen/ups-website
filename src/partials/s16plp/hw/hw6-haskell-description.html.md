@@ -4,7 +4,7 @@ cacheable: false
 
 ## Submitting
 
-Submit this assignment on Moodle as an ordinary text file (this assignment involves no actual coding). Be sure that your name is written in the file and that all answers have their associated questions with them so a grader or I can tell at a glance what question is being answered.
+Submit this assignment on [Moodle](https://moodle.pugetsound.edu/moodle/mod/assign/view.php?id=308764) as an ordinary text file (this assignment involves no actual coding). Be sure that your name is written in the file and that all answers have their associated questions with them so a grader or I can tell at a glance what question is being answered.
 
 ## Exercise 1
 

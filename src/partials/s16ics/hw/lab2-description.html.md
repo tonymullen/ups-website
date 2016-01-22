@@ -26,4 +26,6 @@ For today's lab you'll be doing two problems: programming project 2.2 on page 10
 
 Please hand in your written answers for exercise 2.11.
 
-You will be submitting the <span class="codefont">lab2</span> folder that BlueJ created for you. This folder should contain your <span class="codefont">Average</span> class and your <span class="codefont">Arithmetic</span> class. For instructions on how to submit your lab assignment to Moodle, please refer to your lab syllabus.
+You will be submitting the <span class="codefont">lab2</span> folder that BlueJ created for you. This folder should contain your <span class="codefont">Average</span> class and your <span class="codefont">Arithmetic</span> class.
+
+The Moodle page to submit this lab can be found [here](https://moodle.pugetsound.edu/moodle/mod/assign/view.php?id=318508)). See the Lab 1 description for more details on how to submit to Moodle. 

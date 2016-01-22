@@ -5,7 +5,7 @@ cacheable: false
 ## Submitting
 
 Write all the predicates and facts for this assignment in one file, called
-<span style="font-family: 'Courier New', Courier, 'Lucida Sans Typewriter', 'Lucida Typewriter', monospace;">hwk1-&lt;your_name&gt;.plg</span>. Separate the code for each exercise within the file with comments indicating which code goes with which exercise. Put your own name in a comment at the top of the file. Like so:
+<span style="font-family: 'Courier New', Courier, 'Lucida Sans Typewriter', 'Lucida Typewriter', monospace;">hwk1-&lt;your_name&gt;.pl</span>. Separate the code for each exercise within the file with comments indicating which code goes with which exercise. Put your own name in a comment at the top of the file. Like so:
 
 <pre>%Your Name
 %
@@ -19,30 +19,14 @@ Write all the predicates and facts for this assignment in one file, called
 
 </pre>
 
-Submit the file on [Moodle](https://moodle.pugetsound.edu/moodle/mod/assign/view.php?id=280579).
+Submit the file on [Moodle](https://moodle.pugetsound.edu/moodle/mod/assign/view.php?id=308686).
 
 Of course, you should make sure you programs are working before submitting them.
 Make a note in the comments if you had trouble getting the program to work.
 
+
+
 ## Exercise 1
-
-Write a collection of facts and rules to describe the layout of objects in the following image:
-
-![Starter Image](/~tmullen/images/plp/objects.png)
-
-**Part 1:** Write facts using the predicates <span style="font-family: 'Courier New', Courier, 'Lucida Sans Typewriter', 'Lucida Typewriter', monospace;">left_of(Object1, Object2)</span> and
-<span style="font-family: 'Courier New', Courier, 'Lucida Sans Typewriter', 'Lucida Typewriter', monospace;">above(Object1, Object2)</span>.
-
-**Part 2:** Define rules for <span style="font-family: 'Courier New', Courier, 'Lucida Sans Typewriter', 'Lucida Typewriter', monospace;">right_of(Object1, Object2)</span> and <span style="font-family: 'Courier New', Courier, 'Lucida Sans Typewriter', 'Lucida Typewriter', monospace;">below(Object1, Object2)</span> in terms of
-<span style="font-family: 'Courier New', Courier, 'Lucida Sans Typewriter', 'Lucida Typewriter', monospace;">left_of</span> and
-<span style="font-family: 'Courier New', Courier, 'Lucida Sans Typewriter', 'Lucida Typewriter', monospace;">below</span>
-
-**Part 3:** Write recursive rules for all four predicates.
-
-**Part 4:** Write a rule <span style="font-family: 'Courier New', Courier, 'Lucida Sans Typewriter', 'Lucida Typewriter', monospace;">higher_than(Object1, Object2)</span> that is true when ever Object1 is higher in the layout than Object2.
-
-
-## Exercise 2
 
 Start with the following defined relationships (copy and paste them into your program):
 

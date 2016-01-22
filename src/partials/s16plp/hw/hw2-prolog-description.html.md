@@ -5,7 +5,7 @@ cacheable: false
 ## Submitting
 
 Write all the predicates and facts for this assignment in one file, called
-<span style="font-family: 'Courier New', Courier, 'Lucida Sans Typewriter', 'Lucida Typewriter', monospace;">hwk2-&lt;your_name&gt;.plg</span>. Separate the code for each exercise within the file with comments indicating which code goes with which exercise. Put your own name in a comment at the top of the file. Like so:
+<span style="font-family: 'Courier New', Courier, 'Lucida Sans Typewriter', 'Lucida Typewriter', monospace;">hwk2-&lt;your_name&gt;.pl</span>. Separate the code for each exercise within the file with comments indicating which code goes with which exercise. Put your own name in a comment at the top of the file. Like so:
 
 <pre>%Your Name
 %
@@ -19,12 +19,29 @@ Write all the predicates and facts for this assignment in one file, called
 
 </pre>
 
-Submit the file on [Moodle]().
+Submit the file on [Moodle](https://moodle.pugetsound.edu/moodle/mod/assign/view.php?id=308693).
 
 Of course, you should make sure you programs are working before submitting them.
 Make a note in the comments if you had trouble getting the program to work.
 
 ## Exercise 1
+
+Write a collection of facts and rules to describe the layout of objects in the following image:
+
+![Starter Image](/~tmullen/images/plp/objects.png)
+
+**Part 1:** Write facts using the predicates <span style="font-family: 'Courier New', Courier, 'Lucida Sans Typewriter', 'Lucida Typewriter', monospace;">left_of(Object1, Object2)</span> and
+<span style="font-family: 'Courier New', Courier, 'Lucida Sans Typewriter', 'Lucida Typewriter', monospace;">above(Object1, Object2)</span>.
+
+**Part 2:** Define rules for <span style="font-family: 'Courier New', Courier, 'Lucida Sans Typewriter', 'Lucida Typewriter', monospace;">right_of(Object1, Object2)</span> and <span style="font-family: 'Courier New', Courier, 'Lucida Sans Typewriter', 'Lucida Typewriter', monospace;">below(Object1, Object2)</span> in terms of
+<span style="font-family: 'Courier New', Courier, 'Lucida Sans Typewriter', 'Lucida Typewriter', monospace;">left_of</span> and
+<span style="font-family: 'Courier New', Courier, 'Lucida Sans Typewriter', 'Lucida Typewriter', monospace;">below</span>
+
+**Part 3:** Write recursive rules for all four predicates.
+
+**Part 4:** Write a rule <span style="font-family: 'Courier New', Courier, 'Lucida Sans Typewriter', 'Lucida Typewriter', monospace;">higher_than(Object1, Object2)</span> that is true when ever Object1 is higher in the layout than Object2.
+
+## Exercise 2
 
 A while back [a story from the Guardian](http://www.theguardian.com/science/alexs-adventures-in-numberland/2015/may/20/can-you-do-the-maths-puzzle-for-vietnamese-eight-year-olds-that-has-stumped-parents-and-teachers) went viral about Vietnamese schoolchildren solving a challenging puzzle by correctly inserting the digits 1 to 9 (with no repetitions) into the following maze to form a correct equation:
 
@@ -76,77 +93,3 @@ Finally, to make Prolog do arithmetic, we use the **is** operator. So, to instan
 ?- Sum is 5 + 5.
 Sum = 10
 </pre>
-
-
-
-## Exercise 2
-
-Write a program for <span class="codefont">double(List, DoubledList)</span> where every element in
-<span class="codefont">List</span> appears twice in <span class="codefont">DoubledList</span>. E.g., <span class="codefont">double([1,2,3],[1,1,2,2,3,3])</span> is true.
-
-### Hint  
-
-For this exercise, it may be helpful to realize that the <span class="codefont">[Head|Tail]</span> list notation is not limited to accessing only the first element of the list. You can access as many elements into the list as you like by separating elements with commas before the pipe. So, for example, <span class="codefont">[H1, H2, H3|Tail]</span> would access the first three elements as <span class="codefont">H1</span>,  <span class="codefont">H2</span>, and class="codefont">H3</span>, with the remaining elements (starting with the fourth) accessible as a list in class="codefont">Tail</span>.
-
-An example on the command line of the first two elements accessed in the head can be seen here:
-
-<pre>
-?- [H1, H2| Tail] = [a, b, c, d].
-H1 = a,
-H2 = b,
-Tail = [c, d].
-</pre>
-
-## Exercise 3
-
-<!--
-Write a program for <span class="codefont">sum(ListOfIntegers, Sum)</span> which holds if  
-<span class="codefont">Sum</span> is the sum of the
-<span class="codefont">ListOfIntegers</span>. Refer to the comment above about arithmetic.
--->
-
-Write a program for <span class="codefont">orderedTriples(ListOfInts1, ListOfInts2, ListOfInts3, OrderedTriples)</span> that takes three lists of integers and returns ordered lists of triples of corresponding numbers from the lists. E.g.:
-
-<pre>?- orderedTriples([2,5,3,1], [1,3,4,6], [3,1,5,0], X).
-X = [[1, 2, 3], [1, 3, 5], [3, 4, 5], [0, 1, 6]].</pre>
-
-The program should fail if any of the three input lists are not the same length.
-
-### Comparison operators
-
-Prolog comparison operators look like this:
-
-<pre>
-?- 5 < 6.
-true.
-
-?- 5 =< 6.
-true.
-
-?- 5 =< 5.
-true.
-
-?- 5 =< 4.
-false.
-
-?- 5 >= 4.
-true.
-</pre>
-
-You can compare variables which have been instantiated by numbers, but not variables that have not yet been instantiated by numbers. Thus, on the command line:
-
-<pre>
-?- X < Y.
-ERROR: &lt;/2: Arguments are not sufficiently instantiated
-</pre>
-
-but
-
-<pre>
-?- X = 5, Y = 6, X < Y.
-X = 5,
-Y = 6.
-</pre>
-
-Note: if you have trouble remembering the ordering of the greater/less than signs and the equals signs, remember that they are in the order that
-<em>doesn't</em> look like an arrow. I.e., less-than-or-equal is <span class="codefont">=<</span> rather than <span class="codefont"><=</span>.

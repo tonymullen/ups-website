@@ -2,4 +2,6 @@
 cacheable: false
 ```
 
-Coming soon
+Details coming soon.
+
+[Moodle submission page](https://moodle.pugetsound.edu/moodle/mod/assign/view.php?id=318511)
