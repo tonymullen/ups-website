@@ -13,4 +13,6 @@ This class will require a basic knowledge of JavaScript. I will cover some of th
 
 Although it's possible to do the tutorial without registering, you will need to register in order to leave off and continue later, and to have a profile page listing your acquired skills.
 
+**Note** Contrary to the impression you might get from the unfortunate similarity in names, [*JavaScript is not related to Java*](https://en.wikipedia.org/wiki/JavaScript#JavaScript_and_Java). This tutorial isn't meant as a refresher of CS 161. Apart from some superficial syntactic similarities (which both languages inherited from C) JavaScript is a completely separate (and quite different) language.  
+
 **Submit** this assignment by uploading a screenshot of your profile page showing your name and your acquired skill to the [assignment's Moodle page](https://moodle.pugetsound.edu/moodle/mod/assign/view.php?id=308424).

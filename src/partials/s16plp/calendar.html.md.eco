@@ -16,7 +16,7 @@
 | 10 | 3/21  | Types and type classes                |  LYAH Section 4,5    | [Homework 7][hw7] <br> **Due Fri 4/1** |
 | 11 | 3/28 | List comprehensions, lambda abstraction | LYAH Section 6, 7  | [Homework 8][hw8] <br> **Due Fri 4/8** |
 | 12 | 4/4  | Recursion, Functions as values        |   LYAH Section 8, 9  | [Homework 9][hw9] <br> **Due Fri 4/15**    |
-| 13 | 4/11 | Larger examples, composing programs | LYAH Section 10        | [Homework 10][hw10] <br> **Due Fri 5/22**  |
+| 13 | 4/11 | Larger examples, composing programs | LYAH Section 10        | [Homework 10][hw10] <br> **Due Fri 4/22**  |
 | 14 | 4/18 | Higher order functions            |  LYAH Section 11         | [Bert Bos Puzzle, <br> Haskell version][bb-hs] <br> **Due Fri 5/6** |
 | 15 | 4/25 | IO and Monads                |  LYAH Section 12              |                |
 | 16 | 5/2  | Modules, review              |                               |                |
