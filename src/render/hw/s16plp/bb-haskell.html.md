@@ -3,7 +3,7 @@ layout: assignment
 
 term: Spring 2016
 
-title: Bert Bos Puzzle, Haskell Edition
+title: Individual project
 
 class: CS 291: Programming Language Paradigms
 

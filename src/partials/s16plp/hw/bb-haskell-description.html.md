@@ -2,7 +2,7 @@
 cacheable: false
 ```
 
-## Bert Bos Puzzle, Haskell version
+## Bert Bos Puzzle, Haskell edition
 
 Once again you'll tackle the [Bert Bos Puzzle](/~tmullen/pages/bertspel). This time, you'll do it individually, rather than working in pairs.
 

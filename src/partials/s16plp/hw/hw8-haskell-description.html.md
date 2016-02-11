@@ -38,6 +38,11 @@ Show how a single comprehension with two generators
 
 can be re-expressed using two comprehensions with single generators. Make use of the library function <span class="codefont">concat</span> and nest one comprehension within the other.
 
+### Hint
+
+First, run the above line of code and see what it outputs. Consider whether there is an intuitive way to think of the output list as being a concatenation of three smaller lists. You will structure the solution to this question as a list comprehension on the head of another list comprehension, and then concatenate the results of the outer comprehension. Now, go back up and read that all again, slowly.
+
+
 ## Exercise 3
 
 The scalar product of two lists of integers  <span class="codefont">xs</span> and  <span class="codefont">ys</span> of

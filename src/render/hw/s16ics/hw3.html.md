@@ -13,6 +13,6 @@ submission: s16ics/hw/hw3-submission.html.md
 
 description: s16ics/hw/hw3-description.html.md
 
-credits: s16ics/hw/hw1-credits.html.md
+credits: s16ics/hw/hw3-credits.html.md
 
 ```

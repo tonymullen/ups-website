@@ -2,7 +2,7 @@
 cacheable: false
 ```
 
-## Bert Bos Puzzle
+## Bert Bos Puzzle, Prolog edition
 
 For this project you will work in pairs to use Prolog to solve
 the [Bert Bos Puzzle](/~tmullen/pages/bertspel). Take a look at the puzzle now to

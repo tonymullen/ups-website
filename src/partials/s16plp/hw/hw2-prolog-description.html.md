@@ -30,66 +30,45 @@ Write a collection of facts and rules to describe the layout of objects in the f
 
 ![Starter Image](/~tmullen/images/plp/objects.png)
 
-**Part 1:** Write facts using the predicates <span style="font-family: 'Courier New', Courier, 'Lucida Sans Typewriter', 'Lucida Typewriter', monospace;">left_of(Object1, Object2)</span> and
-<span style="font-family: 'Courier New', Courier, 'Lucida Sans Typewriter', 'Lucida Typewriter', monospace;">above(Object1, Object2)</span>.
+**Part 1:** Write facts using the predicates <span class="codefont">adjacent_left(Object1, Object2)</span> and
+<span class="codefont">immediately_above(Object1, Object2)</span>.
 
-**Part 2:** Define rules for <span style="font-family: 'Courier New', Courier, 'Lucida Sans Typewriter', 'Lucida Typewriter', monospace;">right_of(Object1, Object2)</span> and <span style="font-family: 'Courier New', Courier, 'Lucida Sans Typewriter', 'Lucida Typewriter', monospace;">below(Object1, Object2)</span> in terms of
-<span style="font-family: 'Courier New', Courier, 'Lucida Sans Typewriter', 'Lucida Typewriter', monospace;">left_of</span> and
-<span style="font-family: 'Courier New', Courier, 'Lucida Sans Typewriter', 'Lucida Typewriter', monospace;">below</span>
+**Part 2:** Define rules for <span class="codefont">
+adjacent_right(Object1, Object2)</span> and <span class="codefont">immediately_below(Object1, Object2)</span> in terms of
+<span class="codefont">adjacent_left(Object1, Object2)</span> and
+<span class="codefont">immediately_above(Object1, Object2)</span>
 
-**Part 3:** Write recursive rules for all four predicates.
+**Part 3:** Write recursive predicates
+<span class="codefont">right_of/2</span>,
+<span class="codefont">left_of/2</span>,
+<span class="codefont">above/2</span>,
+<span class="codefont">below/2</span>,.
 
-**Part 4:** Write a rule <span style="font-family: 'Courier New', Courier, 'Lucida Sans Typewriter', 'Lucida Typewriter', monospace;">higher_than(Object1, Object2)</span> that is true when ever Object1 is higher in the layout than Object2.
+**Part 4:** Write a rule <span class="codefont">higher_than(Object1, Object2)</span> that is true when ever <span class="codefont">Object1</span> is higher in the layout than <span class="codefont">Object2</span>.
 
 ## Exercise 2
 
-A while back [a story from the Guardian](http://www.theguardian.com/science/alexs-adventures-in-numberland/2015/may/20/can-you-do-the-maths-puzzle-for-vietnamese-eight-year-olds-that-has-stumped-parents-and-teachers) went viral about Vietnamese schoolchildren solving a challenging puzzle by correctly inserting the digits 1 to 9 (with no repetitions) into the following maze to form a correct equation:
+We've looked in class writing recursive operators on natural numbers defined using the successor function. Below are definitions for <span class="codefont">natural_number/1</span>,  <span class="codefont">plus/3</span>, and <span class="codefont">times/3</span>.
 
-![Starter Image](/~tmullen/images/plp/mathmaze2.jpg)
+<pre>natural_number(0).
+natural_number(s(X)):- natural_number(X).
 
-While I applaud any third grader who can solve this puzzle, I think it would be easier just to let Prolog do the work! For this exercise, write a Prolog program that generates correct answers to the puzzle (there may be more than one). The answers should be in the form of a list of digits which would be entered into the blanks in the maze from left to right. Name the predicate **mathmaze** and have it take one argument, which gets instantiated as the correct list of numbers (and gives other answers when prompted with **;**).
+plus(0, X, X) :- natural_number(X).
+plus(s(X), Y, s(Z)) :- plus(X, Y, Z).
 
-### Some hints
-
-#### Generate and Test
-
-Although there are several ways to approach this puzzle, it's a good opportunity to use a commonly used pattern in Prolog called "generate and test". In generate and test, the idea is to first create a predicate that can generate possible solutions, and then a predicate that can test them to see if they satisfy the requirements of the puzzle. In this case, possible solutions are permutations of the digits 1 through 9.
-
-An example of how this should work (on a smaller list of numbers) is here:
-
-<pre>
-?- generate_permutations([1,2,3],X).
-X = [1, 2, 3] ;
-X = [1, 3, 2] ;
-X = [2, 1, 3] ;
-X = [2, 3, 1] ;
-X = [3, 1, 2] ;
-X = [3, 2, 1] ;
-false.
+times(0, X, 0) :- natural_number(X).
+times(s(X), Y, Product) :-
+  times(X, Y, Previous),
+  plus(Previous, Y, Product).
 </pre>
 
-Two convenient built-in predicates that you may want to use for your generate predicate are
+Write a defnition for <span class="codefont">factorial/2</span> that takes a natural number (in successor function notation) as the first argument and yields its factorial value as the second argument. You may use whichever of the predicates defined above that you require.
 
-<pre>
-member(Element, List).
-</pre>
+### Testing and writing to the console
 
-which is true if Element is a member of the list and
+Factorials get big quickly, so even 4! will result in too many embedded successors for Prolog to print out in a single line by default. If you try, you will see that Prolog truncates the output with ellipses. There are ways to set Prolog's maximum output length, but the simplest way to test your program is to use the <span class="codefont">write/1</span> built in predicate to tell Prolog to write a value. You can include tests directly in your program using the approach we discussed in class. You can do this with the <span class="codefont">write</span> predicate like this:
 
-<pre>
-delete(List, Element, RemainingElementsList).
-</pre>
+<pre>:- factorial(s(s(s(s(0)))),X), write(X), nl.
+:- factorial(s(s(s(0))),X), write(X).</pre>
 
-which, if given List and Element, will generate RemainingElementsList containing the original list with only Element removed.
-
-#### Testing solutions
-
-The value of a variable is consistent within a single rule. Any time you want to directly compare multiple values to each other or calculate some result using multiple values,
-you will probably want some single rule in which variables are instantiated by all the necessary values for your calculation in order to test the possible solutions you generate.
-
-Finally, to make Prolog do arithmetic, we use the **is** operator. So, to instantiate a variable called Sum with the sum of 5 and 5 would look like this:
-
-<pre>
-?- Sum is 5 + 5.
-Sum = 10
-</pre>
+In the example above, <span class="codefont">X</span> will first be instantiated as the factorial of four, then written out to the console (in its entirety), followed by a new line (<span class="codefont">nl</span>). Then <span class="codefont">X</span> will be instantiated as the factorial of three and written out to the console.

@@ -3,7 +3,7 @@ layout: assignment
 
 term: Spring 2016
 
-title: Pair Project: Bert Bos Puzzle, Prolog Edition
+title: Pair Project
 
 class: CS 291: Programming Language Paradigms
 

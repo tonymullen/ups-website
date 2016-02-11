@@ -3,7 +3,7 @@ layout: assignment
 
 term: Fall 2015
 
-title: Pair Project Part 2
+title: Pair project 
 
 class: CS 291: Programming Language Paradigms
 

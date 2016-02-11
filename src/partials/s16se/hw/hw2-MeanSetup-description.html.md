@@ -2,7 +2,7 @@
 cacheable: false
 ```
 
-## **Due Fri 1/29**
+## **Due Wed 2/3**
 
 ## Overview
 
@@ -10,7 +10,7 @@ The practical component of this course deals with full-stack JavaScript web deve
 
 When you begin your group project, you will be using a readymade open-source boilerplate project to start from (Mean.js), which makes use of the MEAN stack. In order to understand what's going on in this project, you must understand how the elements work and interact.
 
-The book *Getting MEAN with Mongo, Express, Angular, and Node* covers the MEAN stack from end to end. For this assignment, you will follow the steps in chapter 3 of the book, getting a MEAN application set up and deploying it on the Heroku application hosting platform. Once the necessary software (Node, NPM, and Express) are installed on your system, the instructions begin in section 3.2.2. 
+The book *Getting MEAN with Mongo, Express, Angular, and Node* covers the MEAN stack from end to end. For this assignment, you will follow the steps in chapter 3 of the book, getting a MEAN application set up and deploying it on the Heroku application hosting platform. Once the necessary software (Node, NPM, and Express) are installed on your system, the instructions begin in section 3.2.2.
 
 In addition to deploying the application to Heroku, as described in the book, you should *also* commit the same code to your personal Github repository (this is done using the same git commands, but simply pushing to a different remote), which we will set up in class.
 

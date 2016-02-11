@@ -3,7 +3,7 @@ layout: assignment
 
 term: Fall 2015
 
-title: Bert Bos Puzzle Part 2
+title: Individual project
 
 class: CS 291: Programming Language Paradigms
 

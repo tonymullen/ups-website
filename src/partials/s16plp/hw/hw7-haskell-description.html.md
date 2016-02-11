@@ -54,7 +54,7 @@ Consider the function
 
 Give an alternate definition of <span class="codefont">mult</span> that has the same meaning but which uses the <span class="latex">\lambda</span> operator for each argument.
 
-## Exercise 4
+## Exercise 5
 
 Consider the function
 
@@ -62,7 +62,7 @@ Consider the function
 
 Give an alternate definition of <span class="codefont">mult</span> that has the same meaning but which uses the <span class="latex">\lambda</span> operator for each argument.
 
-## Exercise 5
+## Exercise 6
 
 The library function <span class="codefont">replicate :: Int -> a -> [a]</span> takes a number n and another argument and returns a list with the second argument repeated n times. For example,
 
