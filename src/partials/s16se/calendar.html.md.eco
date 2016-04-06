@@ -11,11 +11,11 @@
 | 5  | 2/15 | Design patterns; MVC; Angular.js       | [UML Basic Principles][uml]<br> HS Ch 2   | [Group Project <br> Iteration 0.2][gp] <br> **Due Fri 2/19**  <br> [HW 5: Use Case][hw5] <br> **Due Wed 2/24** |
 | 6  | 2/22 | Generation & Scaffolding; MEAN.js     |  GM Ch 6,7; <br> HS Ch 5           | [HW 6: Building RESTful web api][hw6] <br> **Due Wed 3/2**  |
 | 7  | 2/29 | UI Design & templating               |  HS Ch 3; <br> GM Ch 8, 9          |  [Group Project <br> Iteration 0.3][gp] <br> **Due Mon 2/29** <br> [HW 7: Building an SPA with Angular.js][hw7] <br> **Due Wed 3/23** |
-| 8  | 3/7  | Testing; Coding Style; Refactoring    |  HS Ch 6; <br> GM Ch 10, 11    | [**Working local installation of MEAN.js**][software] <br> **by Wed 3/23!**  |
+| 8  | 3/7  | Testing; Coding Style; Refactoring    |  HS Ch 6; <br> GM Ch 10, 11    | [**Working local installation of Group Project repo/MEAN.js app**][software] <br> **by Wed 3/23!**  |
 | 9 | 3/14     | **Spring <br> break**  |                         |                        |
-| 10 | 3/21  | Deployment                      |                    |   [Group Project <br> Iteration 1][gp]  <br> **Due Mon 3/21**   |
+| 10 | 3/21  | Deployment                      |                    |   [Group Project <br> Iteration 1][gp]  <br> **Due Fri 3/25**   |
 | 11 | 3/28 | Databases & CRUD                    |                |                                  |
-| 12 | 4/4  | Software Ethics and Impacts           | [Brinkman & Sanders, 2013, Ch 1][bns]  |   [Group Project <br> Iteration 2][gp] <br> **Due Mon 4/4**    |
+| 12 | 4/4  | Software Ethics and Impacts           | [Brinkman & Sanders, 2013, Ch 1][bns]  <em>Based on last name:</em><br><strong>B-D:</strong>[Abril, 2007][abril]</a><br><strong>G-H:</strong>[Bennefon, 2015][bennefon]</a><br><strong>M-Ri:</strong>[Irani, 2013][irani]</a><br><strong>Ro-Z:</strong>[Penzenstadler, 2014][penzenstadler]</a><br>Come prepared to discuss the reading in class on Friday<br>    |   [Group Project <br> Iteration 2][gp] <br> **Due Mon 4/4**    |
 | 13 | 4/11 | Software Ethics Continued; project work  | [ACM Code][acm] <br>  [Brinkman & Sanders, 2013, Ch 2][bns] <br> [Raymond, 2001][raymond]         |                      |
 | 14 | 4/25 | Software licensing & Open-Source; project work  |   HS Ch 8     | [Group Project <br> Iteration 3][gp] <br> **Due Mon 4/25**   |
 | 15 | 4/25 | Troubleshooting & debugging; project work     |                    | [HW 8: Ethics paper][hw8] <br> **Due Fri 5/6** |
@@ -29,7 +29,6 @@
 [2]: http://www.martinfowler.com/articles/newMethodology.html
 [uml]: https://sourcemaking.com/uml/basic-principles-and-background/introduction-to-the-case-study
 [acm]: http://www.acm.org/about/se-code
-[bns]: https://moodle.pugetsound.edu/moodle/mod/resource/view.php?id=279760
 [raymond]: http://www.unterstein.net/su/docs/CathBaz.pdf
 
 [software]: <%= @site.url %>/hw/s16se/software-install  "Software installation guide"
@@ -39,9 +38,15 @@
 [hw3]: <%= @site.url %>/hw/s16se/hw3-NodeExpress  "HW 3: Working with Node.js and Express"
 [hw4]: <%= @site.url %>/hw/s16se/hw4-MongoDBMongoose  "HW 4: MongoDB and Mongoose"
 [hw5]: <%= @site.url %>/hw/s16se/hw5-UseCase  "HW 5: Use Case"
-[hw6]: <%= @site.url %>/hw/s16se/hw6-RESTFulApi  "HW 6: Building a RESTful api"
+[hw6]: <%= @site.url %>/hw/s16se/hw6-RESTfulAPI  "HW 6: Building a RESTful api"
 [hw7]: <%= @site.url %>/hw/s16se/hw7-AngularSPA  "HW 7: Building an SPA with Angular.js"
 [hw8]: <%= @site.url %>/hw/s16se/hw8-Ethics "HW 7: Ethics paper"
 
 [gp]: <%= @site.url %>/hw/s16se/group-project "Group project"
 [fr]: <%= @site.url %>/hw/s16se/hw9-FinalWriteup "Group project final writeup"
+
+[bns]: https://moodle.pugetsound.edu/moodle/mod/resource/view.php?id=330054
+[bennefon]: https://moodle.pugetsound.edu/moodle/mod/resource/view.php?id=330059
+[abril]: https://moodle.pugetsound.edu/moodle/mod/resource/view.php?id=330058
+[irani]: https://moodle.pugetsound.edu/moodle/mod/resource/view.php?id=330056
+[penzenstadler]: https://moodle.pugetsound.edu/moodle/mod/resource/view.php?id=330057

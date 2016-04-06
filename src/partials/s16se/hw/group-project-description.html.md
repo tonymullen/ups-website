@@ -73,15 +73,19 @@ Finally, to complete Iteration 0, put all of your user stories on Pivotal Tracke
 
 ### Iterations 1-4 (25 pts each)
 
-**Iteration 1 Due Date: Mon 3/21, 11:59 PM**
+Note that group evaluation forms can be found on Moodle. You will be **required** to fill out the evaluation form twice, once for Iteration 2, and the second time about 3 weeks later for Iteration 3. The forms are not anonymous. 
 
-**Each team member must** fill out the Iteration 1 Team Evaluation Survey giving scores to each team member (including yourself). These scores will be used to normalize grades among the team members. You can find this survey on the Moodle site for this class.
+**Iteration 1 Due Date: Fri 3/25, 11:59 PM**
 
 **Iteration 2 Due Date: Mon 4/4, 11:59 PM**
 
+**Each team member must** fill out the Iteration 2 Group Feedback form giving scores to each team member (including yourself). These scores will be used to normalize grades among the team members and to identify potential participation issues. You can find this survey on the Moodle site for this class. **These evaluations are not anonymous and are required**.
+
 **Iteration 3 Due Date: Mon 4/25, 11:59 PM**
 
-**Iteration 4 Due Date: Wed 4/11, 11:59 PM**
+**Each team member must** fill out the Iteration 3 Group Feedback form giving scores to each team member (including yourself). This evaluation will help me to identify persistent participation issues and assign grades that accurately reflect the contributions of members. **These evaluations are not anonymous and are required**.
+
+**Iteration 4 Due Date: Wed 5/11, 11:59 PM**
 
 First, create a new repository for your team project on Github and name the repo CS240-YourTeamName (substituting your team name). Do not initialize the repository with a readme.
 

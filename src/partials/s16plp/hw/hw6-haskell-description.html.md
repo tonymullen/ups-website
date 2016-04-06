@@ -40,13 +40,6 @@ What are the types of the following functions? Be sure to include the necessary 
 
 <br>
 
-<span class="codefont">swap (x, y) = (y, x)</span>
-
-<br>
-
-<span class="codefont">pair x y = (x, y)</span>
-
-<br>
 
 <span class="codefont">pair x y = (x, y)</span>
 

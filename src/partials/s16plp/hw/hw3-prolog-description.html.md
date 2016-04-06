@@ -51,19 +51,21 @@ X = [3, 2, 1] ;
 false.
 </pre>
 
-Two convenient built-in predicates that you may want to use for your generate predicate are
+Two convenient built-in predicates that you may want to use to help you write your <span class="codefont">generate_permutations</span> predicate are
 
 <pre>
 member(Element, List).
 </pre>
 
-which is true if Element is a member of the list and
+which is true if <span class="codefont">Element</span> is a member of the list and
 
 <pre>
 delete(List, Element, RemainingElementsList).
 </pre>
 
-which, if given List and Element, will generate RemainingElementsList containing the original list with only Element removed.
+which, if given <span class="codefont">List</span> and <span class="codefont">Element</span>, will generate <span class="codefont">RemainingElementsList</span> containing the original list with only <span class="codefont">Element</span> removed.
+
+Alternately, you may choose to use the built-in predicate <span class="codefont">select</span> which does the same thing. See the documentation for how to use <span class="codefont">select</span>.
 
 #### Testing solutions
 
@@ -151,7 +153,7 @@ Note: if you have trouble remembering the ordering of the greater/less than sign
 <em>doesn't</em> look like an arrow. I.e., less-than-or-equal is <span class="codefont">=<</span> rather than <span class="codefont"><=</span>.
 
 
-## Exercise 3
+## Exercise 4
 
 Write a program for <span class="codefont">no_doubles(L1, L2)</span> where <span class="codefont">L2</span> is the result of removing all duplicate elements from
 <span class="codefont">L1</span>. For example,

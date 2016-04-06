@@ -7,17 +7,17 @@ cacheable: false
 Write all the predicates and facts for this assignment in one file, called
 <span style="font-family: 'Courier New', Courier, 'Lucida Sans Typewriter', 'Lucida Typewriter', monospace;">hwk7-&lt;your_name&gt;.hs</span>. Separate the code for each exercise within the file with comments indicating which code goes with which exercise. Put your own name in a comment at the top of the file. Like so:
 
-<pre>--Your Name
---
---Exercise 1
+    --Your Name
+    --
+    --Exercise 1
 
-...
+    ...
 
---Exercise 2
+    --Exercise 2
 
-...
+    ...
 
-</pre>
+
 
 Submit the file on [Moodle](https://moodle.pugetsound.edu/moodle/mod/assign/view.php?id=308770).
 
@@ -36,12 +36,9 @@ Show how a single comprehension with two generators
 
 [(x,y) | x <- [1,2,3], y <- [4,5,6]]
 
-can be re-expressed using two comprehensions with single generators. Make use of the library function <span class="codefont">concat</span> and nest one comprehension within the other.
+can be re-expressed using two comprehensions with single generators. Make use of the library function `concat` and nest one comprehension within the other. This should look similar to the above, i.e. it should be expressed in a single line of code (you don't need to write any helper functions), however it will make use of the built-in function `concat`, which operates on a list of lists.
 
-### Hint
-
-First, run the above line of code and see what it outputs. Consider whether there is an intuitive way to think of the output list as being a concatenation of three smaller lists. You will structure the solution to this question as a list comprehension on the head of another list comprehension, and then concatenate the results of the outer comprehension. Now, go back up and read that all again, slowly.
-
+To solve this problem, first run the above line of code and see what it outputs. Consider whether there is an intuitive way to think of the output list as being a concatenation of three smaller lists. You will structure the solution to this question as a list comprehension on the head of another list comprehension, and then concatenate the results of the outer comprehension.
 
 ## Exercise 3
 
@@ -56,6 +53,15 @@ can be used to define a function   <span class="codefont">scalarproduct :: [Int]
 <pre><code class="haskell">> scalarproduct [1,2,3] [4,5,6]
 32</code></pre>
 
+You may use whatever library functions you wish in addition to the list comprehension.
+
 ## Exercise 4
 
-Modify the [Caesar cipher program ](/~tmullen/plp/caesar.hs) to also handle upper-case letters.
+Modify the [Caesar cipher program ](/~tmullen/plp/caesar.hs) to also handle upper-case letters. You should assume that the distribution of upper case letters is identical to the corresponding distribution of lower-case letters (i.e 'A' has the same probability as 'a'). Capital letters will be encoded analogously to their lower-case equivalents. Thus if 'h' is encoded as 'm' (as in the example below) 'H' will be encoded as 'M'.
+
+    Main> encode 5 "hello there"
+    "mjqqt ymjwj"
+    Main> encode 5 "Hello There"
+    "Mjqqt Ymjwj"
+    Main> crack "MJQQT YMJWJ"
+    "HELLO THERE"

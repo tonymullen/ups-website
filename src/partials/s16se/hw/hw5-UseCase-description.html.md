@@ -1,7 +1,7 @@
 ```
 cacheable: false
 ```
-## **Due Fri 10/9**
+## **Due Wed 2/24**
 
 ## Overview
 
@@ -57,7 +57,7 @@ Other points of reflection are of course welcome! The goal is to evaluate the be
 
 Please take some time to **proofread** and revise your specification--iterate your writing!. Think of this as a professional document, something that you would show to your boss!
 
-Submit your specification on the [assignment's Moodle page](https://moodle.pugetsound.edu/moodle/mod/assign/view.php?id=280088). I also encourage you to post it publically on Piazza so that (a) you can share your specification with your team mates, and (b) so that you can share with others examples of how to write these specifications.
+Submit your specification on the [assignment's Moodle page](https://moodle.pugetsound.edu/moodle/mod/assign/view.php?id=324799). I also encourage you to post it publically on Piazza so that (a) you can share your specification with your team mates, and (b) so that you can share with others examples of how to write these specifications.
 
 ## Grading
 

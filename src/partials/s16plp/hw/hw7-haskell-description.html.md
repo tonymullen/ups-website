@@ -7,17 +7,17 @@ cacheable: false
 Write all the predicates and facts for this assignment in one file, called
 <span style="font-family: 'Courier New', Courier, 'Lucida Sans Typewriter', 'Lucida Typewriter', monospace;">hwk6-&lt;your_name&gt;.hs</span>. Separate the code for each exercise within the file with comments indicating which code goes with which exercise. Put your own name in a comment at the top of the file. Like so:
 
-<pre>--Your Name
---
---Exercise 1
+    --Your Name
+    --
+    --Exercise 1
 
-...
+    ...
 
---Exercise 2
+    --Exercise 2
 
-...
+    ...
 
-</pre>
+
 
 Submit the file on [Moodle](https://moodle.pugetsound.edu/moodle/mod/assign/view.php?id=308768).
 
@@ -27,11 +27,10 @@ Make a note in the comments if you had trouble getting the program to work.
 
 ## Exercise 1
 
-Using library functions, define a function <span class="codefont">halve :: [a] -> ([a],[a])</span> that splits an even-lengthed list into two halves. For example:
+Using library functions, define a function <span class="codefont">halve :: [a] -> ([a],[a])</span> that splits an even-lengthed list into two halves, and an odd list into as near as possibly equal parts. For example:
 
 <pre><code class="haskell">> halve [1,2,3,4,5,6]
-([1,2,3],[4,5,6])
-</code></pre>
+([1,2,3],[4,5,6])</code></pre>
 
 ## Exercise 2
 
@@ -55,14 +54,6 @@ Consider the function
 Give an alternate definition of <span class="codefont">mult</span> that has the same meaning but which uses the <span class="latex">\lambda</span> operator for each argument.
 
 ## Exercise 5
-
-Consider the function
-
-<pre><code class="haskell">mult x y z = x * y * z</code></pre>
-
-Give an alternate definition of <span class="codefont">mult</span> that has the same meaning but which uses the <span class="latex">\lambda</span> operator for each argument.
-
-## Exercise 6
 
 The library function <span class="codefont">replicate :: Int -> a -> [a]</span> takes a number n and another argument and returns a list with the second argument repeated n times. For example,
 

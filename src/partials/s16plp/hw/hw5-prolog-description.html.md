@@ -25,13 +25,13 @@ Make a note in the comments if you had trouble getting the program to work.
 
 ## Exercise 1
 
-The graph below has red and green states, red and green transitions, two start states (A and B, represented by a triangle to the left of the node) and two finish states (J and K, represented by double outlines).
+The graph below has red and green states, red and green transitions, two start states (A and B, represented by a triangle to the left of the node) and two finish states (J and K, represented by double outlines). Terminology note: *states* are the labeled circles, *edges* or *transitions* are the arrowed lines between states.
 
 <img src="/~tmullen/images/plp/nodegraph.png" style="width: 100%;"/>
 
 
 Write a program to represent this graph in Prolog. Write the following three predicates:
 
-* <span class="codefont">red_edge_sequence(List)</span> which returns all possible lists of states, beginning with a start state and ending with a finish state, that can be traversed using only red edges (independent of state color).
+* <span class="codefont">red_edge_sequence(List)</span> which returns all possible lists of states, beginning with a start state and ending with a finish state, that can be traversed using only red edges (transitions) independent of state color.
 * <span class="codefont">alternating_edge_sequence(List)</span> which returns all possible lists of states, beginning with a start state and ending with a finish state, that can be traversed using sequences of alternating colored edges (i.e red-green-red-green-red, green-red-green-red, etc.) also independent of state color.
 * <span class="codefont">matching_edge_state_sequence(List)</span> which returns all possible lists of states, beginning with a start state and ending with a finish state, for which the path passes through edges <em>and</em> states that are the same color. Either all states and edges in the path are green, or all states and edges in the path are red.

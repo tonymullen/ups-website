@@ -56,13 +56,13 @@ natural_number(s(X)):- natural_number(X).
 plus(0, X, X) :- natural_number(X).
 plus(s(X), Y, s(Z)) :- plus(X, Y, Z).
 
-times(0, X, 0) :- natural_number(X).
+times(0, _, 0).
 times(s(X), Y, Product) :-
-  times(X, Y, Previous),
-  plus(Previous, Y, Product).
+   plus(Previous, Y, Product),
+   times(Y, X, Previous).
 </pre>
 
-Write a defnition for <span class="codefont">factorial/2</span> that takes a natural number (in successor function notation) as the first argument and yields its factorial value as the second argument. You may use whichever of the predicates defined above that you require.
+Write a definition for <span class="codefont">factorial/2</span> that takes a natural number (in successor function notation) as the first argument and yields its factorial value as the second argument. You may use whichever of the predicates defined above that you require. Your predicate does not need to work in reverse, and does not need to handle <span class="codefont">;</span> cases.
 
 ### Testing and writing to the console
 
