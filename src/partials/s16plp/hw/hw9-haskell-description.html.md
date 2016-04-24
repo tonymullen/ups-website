@@ -5,7 +5,7 @@ cacheable: false
 ## Submitting
 
 Write all the predicates and facts for this assignment in one file, called
-<span style="font-family: 'Courier New', Courier, 'Lucida Sans Typewriter', 'Lucida Typewriter', monospace;">hwk8-&lt;your_name&gt;.hs</span>. Separate the code for each exercise within the file with comments indicating which code goes with which exercise. Put your own name in a comment at the top of the file. Like so:
+<span style="font-family: 'Courier New', Courier, 'Lucida Sans Typewriter', 'Lucida Typewriter', monospace;">hwk9-&lt;your_name&gt;.hs</span>. Separate the code for each exercise within the file with comments indicating which code goes with which exercise. Put your own name in a comment at the top of the file. Like so:
 
 
     --Your Name
@@ -78,3 +78,5 @@ Generalizing from the previous exercise, write a function <span class="codefont"
 
 <pre><code class="haskell">> base2int 2 "10111"
 23</code></pre>
+
+Note that this exercise differs from Exercise 5 in that the argument determines the base and also in that the function is expected to work on a string rather than a list of numbers. You may want to use `digitToInt` from the `Data.Char` library to help with this. You may define helper functions if it's easier or clearer than doing everything inline. 

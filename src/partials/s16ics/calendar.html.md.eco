@@ -16,9 +16,9 @@
 | 10 | 3/21 |   More on loops and 2D lists  |                    | [Lab 9][lab9] | [Hwk 9][hw9] <br> **Due Wed 3/30** |
 | 11 | 3/28 |  For Loops            |                    | [Lab 10][lab10] | [Hwk 10][hw10] <br> **Due Wed 4/6**  |
 | 12 | 4/4  | Design & review      |  L&L Ch 7.1-7.9    | Midterm II      | [Hwk 11][hw11] <br> **Due Wed 4/13**   |
-| 13 | 4/11 |   Arrays             |                    |                 |          |
-| 14 | 4/18 |     Recursion         |                    |                 |          |
-| 15 | 4/25 |     TBD               | [Download and install Processing][p3]                   |                 |          |
+| 13 | 4/11 |   Arrays             |  L&L Ch 8.1-8.6    | [Lab 12][lab12]    | [Hwk 12][hw12] <br> **Due Wed 4/20** |
+| 14 | 4/18 |     Recursion         | L&L Ch 12.1-12.3   | [Lab 13][lab13]<br> [Download and install Processing][p3]   | [Hwk 13][hw13] <br> **Due Wed 4/27** |
+| 15 | 4/25 |     TBD               |                   |                 |          |
 | 16 | 5/2  |    Processing          |                    |                 |          |
 | Finals | Mon 5/9/16     |            |     | **Final Exam  8:00AM - 10:00AM**  |          | |
 
@@ -56,5 +56,11 @@
 [lab10]: <%= @site.url %>/hw/s16ics/lab10
 
 [hw11]: <%= @site.url %>/hw/s16ics/hw11
+
+[hw12]: <%= @site.url %>/hw/s16ics/hw12
+[lab12]: <%= @site.url %>/hw/s16ics/lab12
+
+[hw13]: <%= @site.url %>/hw/s16ics/hw13
+[lab13]: <%= @site.url %>/hw/s16ics/lab13
 
 [p3]: https://processing.org/
