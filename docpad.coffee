@@ -114,7 +114,7 @@ docpadConfig = {
 			database.findAllLive({tags:$has:'page'}, [pageOrder:1,title:1])
 
 		current: (database) ->
-			database.findAllLive({tags:$has:'s16'})
+			database.findAllLive({tags:$has:'su16'})
 
 #		archives: (database) ->
 #			database.findAllLive({tags:$has:'archive'})

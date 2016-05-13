@@ -1,13 +1,11 @@
 ```
 cacheable: false
 ```
-## **Due  Fri 5/6**
+## **Due  Mon 5/9**
 
 ## Overview
 
 For this assignment, you will write a short (2 to 3 page) paper applying two different forms of ethical reasoning to an ethical dilemma related to the field of Software Engineering (and Computer Science more broadly). This will give you an opportunity to dig more deeply into a software-related social issue, and to practice using effective written communication in regards to technical systems.
-
-You will be required to turn in a draft of the paper, as well as a revised copy. Iterate your writing!
 
 Note: this homework assignment will be given **twice** the weight of a regular assignment (it counts as double).
 
@@ -21,13 +19,10 @@ Note: this homework assignment will be given **twice** the weight of a regular a
 
 In this assignment, you will be writing about a single ethical decision (of your choice) posed by an aspect of a software development project. For example, you might consider the decision to [utilize social network members as participants in psychological/sociological experiments](http://www.wsj.com/articles/furor-erupts-over-facebook-experiment-on-users-1404085840). You may choose your own situation (e.g., based on the readings from class or your own interests/experience). Note that your situation should be reflect an actual real-life dilemma; it will not be a simple case study as in the Brinkman reading. (The situation may be hypothetical, but should be grounded in actual events).
 
-Once you have chosen a situation, you should analyze the situation using **two (2)** different ethical theories that we discussed in class:
+Once you have chosen a situation, you should analyze the situation using **two (2)** different ethical theories. These may be among those discussed in class and described in the readings, for example Virtue Ethics, Utilitarian Ethics (act or rule), and Deontological Ethics. If you are motivated to do so, you may consider the situation from the viewpoint of other ethical theories outside of those we touched on in class, but please be sure to provide adequate references.
 
-1. Virtue Ethics
-2. Utilitarian Ethics (act or rule)
-3. Deontological Ethics
 
-You will apply each of these ethical systems to the situation and determine the ethical course of action, comparing and contrasting the results.
+You will apply each of the ethical systems you've chosen to the situation and determine the ethical course of action, comparing and contrasting the results.
 
 ## Paper Content
 
@@ -44,23 +39,22 @@ You will apply each of these ethical systems to the situation and determine the 
 
 The paper should be submitted on Moodle [here](https://moodle.pugetsound.edu/moodle/mod/assign/view.php?id=308427).
 
-* Files should be in **.pdf format**. **No Word files** please.
+* Files should be in **.pdf format**. That means **NO Word, .txt, .rtf, or anything else** please.
 
 Please remember to put your name on your papers (and to give your final submissions one last read-through for typos and writing issues!)
 
 ## Grading
 
-This assignment will be graded out of 25 points:
+This assignment will be graded on the following criteria:
 
 **Content**
-* [3pt] Your paper explains the situation being considered
-* [3pt] Your paper identifies the ethical dilemma presented by the situation
-* [3pt] Your paper accurately applies two separate ethical theories
-* [3pt] You come to a resolution based on sound ethical reasoning
-* [3pt] You compare the decision suggested by each theory and evaluate the appropriateness of each
+* Your paper explains the situation being considered
+* Your paper identifies the ethical dilemma presented by the situation
+* Your paper accurately applies two separate ethical theories
+* You come to a resolution based on sound ethical reasoning
+* You compare the decision suggested by each theory and evaluate the appropriateness of each
 
 **Writing**
-* [2pt] You turned in a completed draft of your paper
-* [3pt] Your argument is clearly laid out, with ideas flowing logically and effectively from one to the next
-* [3pt] Your writing has effective style and cadence, using words and rhetorical devices appropriately
-* [2pt] Your paper is free of grammatical errors and shows evidence of proofreading
+* Your argument is clearly laid out, with ideas flowing logically and effectively from one to the next
+* Your writing has effective style and cadence, using words and rhetorical devices appropriately
+* Your paper is free of grammatical errors and shows evidence of proofreading
