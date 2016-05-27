@@ -48,11 +48,11 @@ Thus, if you want to work out at zone 2, your heart rate should be between 144 a
 
 ## Getting Started
 
-Download the [starter code for this assignment](http://mathcs.pugetsound.edu/~tmullen/ics/hw2.zip) from the course webpage. It's very important that you move the starter code into the <span class="codefont">cs161</span> folder you created. Unzip the starter code, and you'll find a folder called <span class="codefont">hw2</span> that contains a BlueJ project.
+Download the [starter code for this assignment](http://mathcs.pugetsound.edu/~tmullen/ics/hw2.zip) from the course webpage. It's very important that you move the starter code into the `cs161` folder you created. Unzip the starter code, and you'll find a folder called `hw2` that contains a BlueJ project.
 
-1. Open the BlueJ project. Inside, you'll see a class called <span class="codefont">TrainingZones</span>. There is already code in this class for reading the age and resting heart rate from the keyboard.
+1. Open the BlueJ project. Inside, you'll see a class called `TrainingZones`. There is already code in this class for reading the age and resting heart rate from the keyboard.
 
-2. Finish the <span class="codefont">TrainingZones</span> class. In particular, given a user's age and resting heart rate, compute the range of heart rates that corresponds to each zone. Here is an example of your program should produce:
+2. Finish the `TrainingZones` class. In particular, given a user's age and resting heart rate, compute the range of heart rates that corresponds to each zone. Here is an example of your program should produce:
 
 <img src="/~tmullen/images/ics/training_zones_output.png" style="width: 80%;"/>
 
@@ -63,9 +63,11 @@ Download the [starter code for this assignment](http://mathcs.pugetsound.edu/~tm
          */
 
 
+<!--*-->
+
 ## Submitting the assignment
 
-Place all files you created for this assignment in a directory together called <span class="codefont">hw2</span> and create a zip file from the directory. Upload the zip file to the [Moodle page for this assignment](https://moodle.pugetsound.edu/moodle/mod/assign/view.php?id=318509).
+Place all files you created for this assignment in a directory together called `hw2` and create a zip file from the directory. Upload the zip file to the [Moodle page for this assignment](https://moodle.pugetsound.edu/moodle/mod/assign/view.php?id=334853).
 
 You should make sure you programs are working before submitting them.
 Make a note in the comments if you had trouble getting the program to work.

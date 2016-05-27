@@ -23,10 +23,9 @@ For Lab 3, complete each of the following exercises.
 
          int num5 = 5.0/2.0;
 
-2. Write a short program that takes a string of input from the user (using Scanner) with any capitalization and prints out the string, but with all consonants in lower case and all vowels in upper case.
+2. Write a short program that takes a string of input from the user (using Scanner) with any capitalization and prints out the string, but with all consonants in lower case and all vowels in upper case. Read the descriptions of the methods available for `String` in the [Java API](https://docs.oracle.com/javase/7/docs/api/java/lang/String.html). 
 
-3. The Department of Motor Vehicles (DMV) is responsible for issuing driver’s licenses. This question asks you
-to write a Java class called DMV that prompts the user to enter their full name (first, middle, and last) and
+3. The Department of Motor Vehicles (DMV) is responsible for issuing driver’s licenses. Write a Java class called DMV that prompts the user to enter their full name (first, middle, and last) and
 their date of birth and then produces a “driver’s license”. The license should have the following pieces of information:
 
     * A random driver’s license number that consists of 7 random digits
@@ -52,4 +51,4 @@ The first letter of the first, middle, and last name should always be capitalize
 
 
 
-[Moodle submission page](https://moodle.pugetsound.edu/moodle/mod/assign/view.php?id=318511)
+[Moodle submission page](https://moodle.pugetsound.edu/moodle/mod/assign/view.php?id=334885)

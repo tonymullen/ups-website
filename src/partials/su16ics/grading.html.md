@@ -9,7 +9,7 @@ Grades in the course are based on the following components:
 * 25% Programming assignments
 * 25% Midterm exam
 * 25% Final exam
-* 15% Attendance, participation, & labs
+* 25% Attendance, participation, & labs
 
 More specifically, the following will be expected of you:
 

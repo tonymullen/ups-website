@@ -8,7 +8,7 @@ Now that we know about the Scanner class, we can finally write interactive progr
 
 ### Submission
 
-Compress the full project directory for the completed assignment into a zip file and upload it to the [Moodle page for the assignment](https://moodle.pugetsound.edu/moodle/mod/assign/view.php?id=318510).
+Compress the full project directory for the completed assignment into a zip file and upload it to the [Moodle page for the assignment](https://moodle.pugetsound.edu/moodle/mod/assign/view.php?id=334884).
 
 ### The Assignment
 
