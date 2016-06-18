@@ -2,121 +2,194 @@
 cacheable: false
 ```
 
-## Water Consumption
+## Assessing keyboard input efficiency
 
-This week you'll write a program that performs some analysis on actual, real-life data! Professor Richards recently moved into a new house — one that has a device that monitors how much electricity they're using. Once a minute, it records the power usage on each of the electrical circuits in the house. The water comes from a well, and it dawned on him that he could calculate how much water the house is using by looking at the power data. He knows that the pump produces two gallons of water per minute when it's running. That should make it pretty simple to calculate how much water is being used: Look through the power usage data for the pump, and count the number of data points (minutes) where the pump is drawing power. Once we know how many minutes it ran, we can multiply by the flow rate to get the number of gallons produced. (For example, if I see that the pump ran for five minutes, I know that it produced 10 gallons since it produces two gallons per minute.) You'll write methods to read data from a file and do some analysis on it, including determining water use.
+Many cable packages come with a search interface that let’s you search for a show or movie by typing the
+name one letter at a time using "up", "down", "left", and "right" buttons on your remote control. For example, consider the keyboard shown below:
 
-## The `FileAnalysis` class
+<img src="/~tmullen/images/ics/keyboard.png" style="width: 40%; display: block; margin: 20px auto;"/>
 
-Download the [PumpProject](http://mathcs.pugetsound.edu/~tmullen/ics/PumpProject.zip) project and open it in BlueJ. It contains a starting point for the `FileAnalysis` class, including a list of the methods you'll have to implement. The project folder also includes two data files you can use to test your code: `pump_data.txt` contains power consumption data for the well pump from January and February of this year. The `short_data.txt` file contains just one hour's worth of data from the pump. (The short file is small enough that you could calculate the expected results by hand and use that to verify that your program is working correctly.)
+Suppose we want to know if any of the Harry Potter movies are showing. Starting with the cursor at “a”
+and using the “up”, “down”, “left”, and “right” buttons, we would push the following sequence of buttons:
 
-The basic plan is that when we construct an instance of the `FileAnalysis` class we'll pass it the name of the data file to be analyzed (as a String). We'll use `Scanner` and `File` to read the data into an ArrayList.
+* h (“down”, “right”, “select”)
+* a (“up”, “left”, “select”)
+* r (“right” 5 times, “down” 2 times, “select”, “select”)
+* y (“down” 2 times, “left” 5 times, “select”)
+* ‘ ’ (“up” 5 times, “select”)
+* p (“down” 3 times, “right” 3 times, “select”)
+* o (“left”, “select”)
+* t (“left”, “down”, “select”, “select”)
+* e (“up” 3 times, “right” 3 times, “select”)
+* r (“down” 2 times, “right” , “select”)
 
-After that, we can call any of the analysis methods we want, and they'll work their way through the data in the ArrayList calculating things like the total number of gallons pumped and the total power used. The `FileAnalysis` class will have the following methods:
+In total, we had to push 52 buttons just to type the 12-character title “Harry Potter”. You can imagine how
+tiring and tedious this becomes!
+One idea to reduce the number of button pushes is to examine different arrangements of the keys on the
+keyboard. Here are some examples of different arrangements we could try:
 
-* A constructor that takes a single string (the name of the file) as an argument.
-* A `totalHours()` method that looks through the data to determine how many hours' worth of data it contains. It should return the number of hours as a double. (Recall that each data point in the file represents one minute's worth of data.)
-* A `totalPower()` method that looks through the data and calculates the total amount of power used by the pump. The data values in the file represent the amount of power in Watts that the pump is using at the moment the monitoring device records the data point. Thus, to get the total power used, this method just needs to add up all of those individual power readings. (This will produce a value with units of Watt minutes, which is an odd way to present power data, but that's ok — we'll fix it later.) You can include the noisy almost-zero values in your sum — they're so much smaller than the values when the pump is running that they won't make much of a difference.
-* The `minutesPumping()` method returns the number of data points for which the pump was actually running. If you look at the data files, you'll see that there's a little bit of "noise" in the data. When the pump is running it's drawing almost 1000 Watts, but when it's not running the recorded value isn't always zero — it's often zero, but can be a small positive or negative value too. You'll need to check whether the power use is above some minimum value when deciding whether the pump is running.
-* The `minutesToPumpAmount(double gallonAmount)` method determines how many *total* minutes (data points) pass before the pump has produced `gallonAmount` gallons of water, whether the pump is running or not. This will look a lot like `minutesPumping()`, in that you'll need to watch for data points where the pump is running and add things up as you go, but here you'll want to stop processing the data once you've seen enough data points. (See below for an example.) If you make it all the way through the array list and the pump still hasn't produced gallonAmount, return `-1` so the user knows that the pump never produces that much. One could use this to see how many days it takes to use 1000 gallons, for example.
+    a b c d e f g h i j k l m n o p q r s t u v w x y z 0 1 2 3 4 5 6 7 8 9
 
-Some sample interactions from the codepad are shown below. There are 60 data points in the short data file, so it's exactly one hour's worth of data, but the pump is only running for 7 of those data points (7 minutes). That would produce 14 gallons of water. The last three calls show that the pump has produced 4 gallons of water after the 10th data point, and we need to run until the 11th data point to produce 5 gallons of water. The pump doesn't run for long enough to produce 100 gallons so the last call returns -1.
+Here, the keys are all laid out in a single row. Another idea is to arrange the keys using a QWERTY layout:
 
-    > FileAnalysis analyzer;
-    > analyzer = new FileAnalysis("short_data.txt");
-    > analyzer.totalHours()
-    1.0   (double)
-    > analyzer.totalPower()
-    6795.0   (double)
-    > analyzer.minutesPumping()
-    7   (int)
-    > analyzer.minutesToPumpAmount(4)
-    10   (int)
-    > analyzer.minutesToPumpAmount(5)
-    11   (int)
-    > analyzer.minutesToPumpAmount(100)
-    -1   (int)
+    q w e r t y u i o p
+    a s d f g h j k l z
+    x c v b n m   0 1 2
+    3 4 5 6 7 8 9
 
-## The `PumpResults` Class
+Assuming the cursor started at the upper-left key (“q”), this arrangement would require only 45 buttons to
+type “Harry Potter”. In general, there are lots of different arrangements we could experiment with to find
+the one that requires (on average) the fewest number of key presses.
 
-Once you've got your FileAnalysis methods written, create a second class, PumpResults that uses them to analyze a data file. This new class should only contain a main method. It should prompt the user for a file name, create a FileAnalysis object, and then call methods to analyze the data file. For full credit, you should:
+In this assignment, you will implement two classes: `Key` and `Keyboard`. The `Key` class represents a key on
+the keyboard. The `Keyboard` class will use a two-dimensional array to represent the keyboard itself. Your
+`Keyboard` class should be general enough that it can represent different arrangements. Finally, you will experiment to see which arrangements are the best – i.e., which arrangements require the fewest button pushes.
 
-* Report the duration of the data file in both hours and days
-* Report both the total number of gallons produced and the average daily consumption.
-* Report the total power used by the pump. As shown below, I'm reporting this is both Watt minutes (this is just the value returned by the totalPower method) and the more traditional Kilowatt Hours (kWh). You can divide the Watt minutes value by 1000 to turn the Watts into Kilowatts, and then divide by 60 to turn minutes into hours. (Power costs about 11 cents per kWh here, so once you've got kWh you could also estimate the cost of the electricity used.)
-* Print how long it took to consume a certain quantity of water. In my output below I'm reporting results for 7 gallons and for 4000 gallon
+The [starter code](http://mathcs.pugetsound.edu/~tmullen/ics/keyboardStarter.zip) for this assignment contains a `Controller` class which you can read about at the end of
+this writeup.
 
-Here is some sample output from a run of my program. The name of the file is input by the user.
+## The `Key` class
 
-    Please enter the file name: short_data.txt
-    Data file contains 1.0 hours worth of data
-    (That's 0.041666666666666664 days.)
+Create a new Java class named Key. This class should represent a single key on the keyboard. Looking at
+the pictures above, think about what state (i.e. instance variables) and what methods a key object should have. Of course, the key should know its own character symbol, so that would be an important instance variable to start with.
 
-    Pump ran for 7 minutes, producing 14.0 gallons
-    (That's 336.0 gallons per day)
+We're going to want to be able to return a distance from one key to another, so the key should have a method that returns the distance from itself to another key. To do that, it would be useful for the key to know its own column and row, so those values would be good to include as instance variables.
 
-    Pump required a total of 6795.0 Watt minutes of power
-    (That's 0.11325 kWh)
+The `distance` method should look like this:
 
-    It took 12 minutes of data to reach 7 gallons.
-    It took -1 minutes of data to reach 4000 gallons.
-    Done with analysis.
+    public int distance(Key other)
 
-## Handling files with `Scanner`
+The distance between two keys on a keyboard is simply the difference between their rows plus the difference
+between their columns. For example, suppose we had a key at position (3,2) – i.e. row 3, column 2 – and
+another key at (5,4) – i.e. row 5, column 4. So the distance between these two keys is:
 
-Review section 5.5 in your book about how to handle file input with the `Scanner` class. In short, `Scanner` behaves the same with files as it does with user input from the command line, but the constructor for the `Scanner` object must be called with the `File` object instead of `System.in`. The necessary libraries have already been loaded into the starter code for you.
+|3 − 5| + |2 − 4| = 2 + 2 = 4
 
-## Throwing and catching exceptions
+You can use the `abs` method in the Java `Math` class to take the absolute value.
 
-Note also that the `java.io.FileNotFoundException` library has been imported. This enables Java to "throw" an "exception" in the case that a file that is called for is not found. An "exception" in Java is a situation that is unexpected or not what the correct functioning of the program requires (for example, a missing file that the program is trying to load.) By throwing an exception, the program is able to alert the user or developer as to what has caused the problem. If exceptions are not thrown, the program can simply fail without giving any indication as to what has gone wrong.
 
-The way this is used is also demonstrated for you in the starter code. Methods that may encounter this exception use `throws FileNotFoundException` to enable them to throw the exception if the filename given doesn't match an existing file.
+In terms of other methods, a key needs only basic methods such as a constructor, accessors, and a
+toString method. Note that it doesn’t make sense for a key to have mutator methods – once the instance
+variables are initialized in the constructor they shouldn’t change.
 
-You'll also need to deal with this in the `PumpResults` class. Because the constructor for `FileAnalysis` is set up to throw an exception, you must call it in a way that the exception can be caught. This is done using `try` and `catch`, as follows:
+## The `Keyboard` class
 
-    try
-    {
-        FileAnalysis fa = new FileAnalysis(fileName);
+The second Java class is a `Keyboard` class that represents the keyboard itself using a 2-dimensional array of `Key` objects. This class should have the following methods:
 
-        //Code for what to do with the FileAnalysis
-        //object goes here
+1. `public Keyboard(String chars, int numColumns)` – A constructor that takes a string containing the sequence of characters on the keyboard, and the number of columns in each row. Look at the Controller class to see an example of how the constructor is called.
 
-    }
-    catch (FileNotFoundException ex)  
-    {
-        //This handles the case in which the exception
-        //is thrown, i.e. the file is not found.
-        System.out.print("Can't find " + fileName + "\n");
-    }
+    The constructor should create and initialize the 2-dimensional array. Given the number of columns and the sequence of characters, you will need to compute the number of rows. You may need to use the `ceil` function in the `Math` class to help you round up.
 
-The above code assumes that the `fileName` variable has been given an appropriate value.
+2. `public int pressesRequired(String text)` – A method that takes a piece of text (e.g. “Harry Potter”) and computes the number of key presses required to navigate to and select each character in
+the string. The cursor should always start at row 0, column 0 on the keyboard. You can ignore any characters in the text that are not in the keyboard.
 
-## Extra credit
+3. `public String toString()` - A method that returns a string representation of the keyboard.
 
-If you finish the code above and are anxious for more, consider taking on this extra challenge. The analysis above tells me what the average daily water use is for the house, but we'd also like to know how often the water softener was recharging, and how much water that was using. Water softeners remove minerals and scale from the water, but after a certain interval they need to "recharge". This involves running water through them to wash out all of the collected minerals and scale. We know that the water softener is programmed to recharge after softening 3000 gallons of water. The process uses so much water that it takes the well pump several hours of pumping to refill the holding tank after a recharge.
+Feel free to add private methods to help you keep your code organized and your methods short. Below is
+what my solution outputs when I run the `Controller` class:
 
-The goal for the extra credit challenge is to look through the data file for times when the pump runs for at least 120 minutes in a row, and report when the long run started and how long it lasted. This information is of interest for two reasons: Since we know the softener recharges at 3000 gallon intervals, we can use information about the gap between recharges to double-check the flow rate. (I was told that it was 2 gallons/minute, but maybe that's an estimate.) The duration of those long pump runs also represent "wasted" water. How many minutes, total, was the pump running just to recharge the softener? Both of those questions can be answered once we figure out where those long pump runs occur in the data, but all you need to do for the extra credit is find those long runs and report them. Add an extra method to the `FileAnalysis` class that prints output something like this when run:
+    It took 58 key presses to type "harry potter" using this key arrangement:
+    a b c d e f g h i j
+    k l m n o p q r s t
+    u v w x y z   0 1 2
+    3 4 5 6 7 8 9
 
-    Information on water softener recharges:
-    152 minute run started at 9273
-    182 minute run started at 28822
+    =======================
 
-This assignment is worth 100 points without the extra credit, and I'll give you an extra 15 points, maximum, for your efforts on the extra credit problem.
+    It took 97 key presses to type "harry potter" using this key arrangement:
+    a b c d e f g h i j k l m n o p q r s t u v w x y z   0 1 2 3 4 5 6 7 8 9
 
-## Style Guide
+    =======================
 
-For this assignment, I'm also introducing Professor Richards' style guide. These are excellent tips for writing good Java code and we should all start following them!
+    It took 45 key presses to type "harry potter" using this key arrangement:  
+    q w e r t y u i o p
+    a s d f g h j k l z
+    x c v b n m   0 1 2
+    3 4 5 6 7 8 9
 
-Before you submit your assignment, go through the checklist below and make sure your code conforms to the style guide.
+    =======================
 
-* No unused variables or commented-out code is left in the class
+    It took 87 key presses to type "harry potter" using this key arrangement:
+    q w e r t y u i o p a s d f g h j k l z x c v b n m   0 1 2 3 4 5 6 7 8 9
+
+    =======================
+
+    It took 309 key presses to type "dr strangelove or how i learned to stop worrying and love the bomb" using this key arrangement:
+    a b c d e f g h i j
+    k l m n o p q r s t
+    u v w x y z   0 1 2
+    3 4 5 6 7 8 9
+
+    =======================
+
+    It took 727 key presses to type "dr strangelove or how i learned to stop worrying and love the bomb" using this key arrangement:
+    a b c d e f g h i j k l m n o p q r s t u v w x y z   0 1 2 3 4 5 6 7 8 9
+
+    =======================
+
+    It took 331 key presses to type "dr strangelove or how i learned to stop worrying and love the bomb" using this key arrangement:
+    q w e r t y u i o p
+    a s d f g h j k l z
+    x c v b n m   0 1 2
+    3 4 5 6 7 8 9
+
+    =======================
+
+    It took 907 key presses to type "dr strangelove or how i learned to stop worrying and love the bomb" using this key arrangement:
+    q w e r t y u i o p a s d f g h j k l z x c v b n m   0 1 2 3 4 5 6 7 8 9
+
+    =======================
+
+    It took 224 key presses to type "the quick brown fox jumped over the lazy dog" using this key arrangement:
+    a b c d e f g h i j
+    k l m n o p q r s t
+    u v w x y z   0 1 2
+    3 4 5 6 7 8 9
+
+    =======================
+
+    It took 544 key presses to type "the quick brown fox jumped over the lazy dog" using this key arrangement:
+    a b c d e f g h i j k l m n o p q r s t u v w x y z   0 1 2 3 4 5 6 7 8 9
+
+    =======================
+
+    It took 247 key presses to type "the quick brown fox jumped over the lazy dog" using this key arrangement:
+    q w e r t y u i o p
+    a s d f g h j k l z
+    x c v b n m   0 1 2
+    3 4 5 6 7 8 9
+
+    =======================
+
+    It took 568 key presses to type "the quick brown fox jumped over the lazy dog" using this key arrangement:
+    q w e r t y u i o p a s d f g h j k l z x c v b n m   0 1 2 3 4 5 6 7 8 9
+
+    =======================
+
+
+## The `Controller` class
+
+Come up with your own keyboard arrangement that takes fewer key presses than `KEYS1` and `KEYS2` on the
+text `LONG TEXT`. This variable contains the opening lines of the book “Moby Dick”.
+
+You can experiment with the ordering of the characters as well as the number of columns. You should add
+your keyboard as a new static variable called `KEYS3`.
+
+## Style guide
+
+Before you submit your assignment, go through the checklist below and make sure your code conforms to
+the style guide.
+
+Checklist
+* All unused variables are deleted
 * All instance variables are used in more than one method (if not, make them local)
-* Javadoc comment above each class
-* All methods have Javadoc comments
-* All numbers have been replaced with constants (i.e. no "magic numbers")
-* Proper capitalization of variables, methods, and classes
+* Javadoc comment for all classes
+* All methods have Javadoc comments (except for the main method)
+* All numbers have been replaced with constants (i.e. no magic numbers)
+Proper capitalization of variables, methods, and classes
 * Use white space to separate different sections of your code
 
-Once you've tested your code and verified that it meets style guidelines, submit from within BlueJ as usual.
 
- [Moodle page for the assignment](https://moodle.pugetsound.edu/moodle/mod/assign/view.php?id=328645).
+## Submitting
+
+Submit the zipped project file at the [Moodle page for the assignment](https://moodle.pugetsound.edu/moodle/mod/assign/view.php?id=335519).

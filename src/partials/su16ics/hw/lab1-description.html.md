@@ -62,9 +62,9 @@ You will be submitting the `lab1` folder that BlueJ created for you. This folder
 
 1. **Rename the folder**  To submit your assignment, navigate to your `cs161` folder using Windows Explorer (on Windows) or Finder (on Macs). Rename the folder that contains your Java code using the following convention:
 
-    `**labXX\_firstName\_lastName**` for lab assignments
+    `labXX_firstName_lastName` for lab assignments
 
-    `**hwXX\_firstName\_lastName**`  for homework assignments
+    `hwXX_firstName_lastName`  for homework assignments
 
     where "XX" is the number of the lab or homework assignment ("1", "2", "3", etc.). To rename a folder on a Windows machine, right-click and choose "Rename". To rename a folder on a Mac machine, click on the folder and hit the enter key.
 

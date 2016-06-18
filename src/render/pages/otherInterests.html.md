@@ -1,8 +1,8 @@
 ```
-title: Other Interests
-layout: page
-tags: ['intro']
+title: Other interests
+layout: misc
+tags: ['intro','page']
 pageOrder: 3
-```
 
-This is a **page**
+content: misc/interests.html.md
+```

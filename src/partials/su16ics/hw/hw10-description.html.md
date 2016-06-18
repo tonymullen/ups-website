@@ -2,47 +2,31 @@
 cacheable: false
 ```
 
-## Diamond of stars
+## Recursion with Processing: The Sierpinski Gasket
 
-This assignment will give you some more practice with `for` loops, including working with nested loops.
+For this assignment you'll be implementing a recursive function to create an interactive [Sierpinski gasket](http://mathworld.wolfram.com/SierpinskiSieve.html) in Processing.
 
-### Objective
+Your finished assignment will look something like this, where the user can slide the value in the slider at the top of the screen to change the depth of recursion of the Sierpinski gasket:
 
-This exercise is based on Programming Project 6.7 in the text book, which in turn is based on the `stars` example we saw in class. For this exercise, you will write a program that draws a diamond out of asterisks, similar to the example d) in PP 6.7. However, instead of hard-coding the size of the diamond, you should write a method that takes an int argument representing the height of the diamond and prints out an appropriately-sized diamond.
+<img src="/~tmullen/images/ics/sierpinski.png" style="width: 100%;"/>
 
-For example, if the method is given the value 5, the resulting diamond will look like this:
+Download the
+[starter file](http://mathcs.pugetsound.edu/~tmullen/ics/sierpinski_starter.zip) to get started on this assignment. This has the slider UI element set up for you and the
+beginnings of a few functions that will need to be completed in order to draw a triangle to the screen and to generate a complete Sierpinski Gasket to the recursive depth specified interactively with the slider.  
+
+## Implementation
+
+There are two things you will need to do to complete this assignment. The first is to create a function that draws a triangle of the appropriate dimensions. Processing has a `triangle(int, int, int, int, int, int)` function that takes a value for `x1`, `y1`, `x2`, `x2`, `x3`, and `y3`, representing the coordinates of the three corners of the triangle. However, it's up to you to figure out where to put those points to draw an equilateral triangle. There are a number of ways you could go about this, but the simplest for me is to use `cos()` and `sin()` functions to place three points evenly around a center point, the coordinates of which which would be passed to the function as arguments. Be careful though. Processing assumes that angle arguments are represented as *radians*, so if you're using degree values, be sure to convert your angles with the `radians()` function.  
+
+The second thing you need to do is to implement the recursive function `sierpinski()`. You will have to figure out how to make the necessary recursive call(s) and what to do in them. Be sure that a stopping criterion is in place, or else the program could recurse endlessly and blow up your memory (Processing is smart enough to error out before this happens).
+
+The actual positioning of the triangles may take a little trial and error to get right. You'll probably need to convert floats to ints (pixel positions must be ints). I've found that for this exercise using `round()` yields the best results for that.
+
+## Notes
+
+In order to run the starter file you'll need to be sure to install the `ControlP5` library. Go to the `Tools` menu, click `Add Tool` and click the `Libraries` tab. Find `ControlP5` and install the library from there.
 
 
+Submit the file at the [Moodle page for the assignment](https://moodle.pugetsound.edu/moodle/mod/assign/view.php?id=335520).
 
-        *  
-       ***
-      *****
-       ***
-        *  
-
-If the method is given the value 7, the diamond will look like this:
-
-        *   
-       ***  
-      *****
-     *******
-      *****
-       ***  
-        *   
-
-If the value is an even number, the widest line of the diamond should be doubled, as in this case, where the height of the diamond is 6:
-
-        *  
-       ***
-      *****
-      *****
-       ***
-        *  
-
-### Implementation
-
-This assignment requires you to iterate over lines and iterate over characters in each line, so it will require at least a couple of `for` loops. You will need to figure out how to derive the width of the diamond from the user-inputted height, and how to print out the correct number of spaces and asterisks on each line.
-
-Try to solve the problem in as concise and general a way as you can. Can you get the correct behavior for even and odd-numbered lines without using `if` statements? It's possible to do. 
-
-Submit the file at the [Moodle page for the assignment](https://moodle.pugetsound.edu/moodle/mod/assign/view.php?id=329582).
+**Extra fun:** You won't get any actual extra credit for it (it wouldn't be fair to the iPhone users!), but if you have an Android phone you may find it entertaining to set up Processing's Android mode and run your Sierpinski gasket on your phone.
