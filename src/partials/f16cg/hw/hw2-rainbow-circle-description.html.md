@@ -1,0 +1,68 @@
+```
+cacheable: false
+```
+
+## Overview
+
+In this exercise you're going to create the following image in Three.js:
+
+![Starter Image](/~tmullen/images/cg/rainbowCircle.png)
+
+## Getting started
+
+This exercise is based on functionality described in chapter 2 of *Learning Three.js*, particularly the use of the `THREE.Geometry` constructor to create mesh objects using arrays of vertices. In the exercise, you'll build the mesh programmatically by using a `for` loop to `push` vertices onto an array, creating triangular faces as you go from triples of vertices.
+
+You'll start with the files in [this zip archive](/~tmullen/cg/f16/cs315-hw2.zip). Everything you need to complete the assignment is in this archive, including the Three.js library.
+
+When you run the starter code in the browser, you'll see the following triangle:
+
+![Starter Image](/~tmullen/images/cg/rainbowCircleStart.png)
+
+Read the code and take particular note of how the vertex objects are being pushed onto the `triangleGeometry.vertices` array, how triples of vertices are being pushed to the `triangleGeometry.faces` array and how vertex colors are being added to correspond to the vertices of faces.
+
+Your assignment is to adapt this code by adding vertices and faces in the appropriate position, order, and material. You will not need to use any Three.js objects or functions that are not already used in the starter code. However, you will need to use `for` loops, `if` statements, and a little bit of trigonometry.
+
+## Building the mesh
+
+In order to position the vertices, you'll loop over angles in a circle, adding vertices at each angle radiating outward like spokes in a wheel. The first spoke you create won't have any other spoke with which to create triangles, but starting with the second spoke, you'll be able to make triangular faces with the previous spoke. This figure shows the ordering of the vertices representing the first two spokes in the `vertices` array, with their vertex colors and the triangle faces that they should form:
+
+![Starter Image](/~tmullen/images/cg/rainbowverts.png)
+
+The underlying structure of the circle, viewed using a wireframe material, looks like this:
+
+![Starter Image](/~tmullen/images/cg/rainbowCircleWire.png)
+
+You don't need to use a wireframe material on yours. This is just to let you know how the mesh should be structured.
+
+## Positioning vertices
+
+As you loop through the angles of the circle, each spoke will be made up of 9 vertices, radiating out from the center. The *x* and *y* coordinates of each vertex will be multiples of the cosine and sine of the angle of the spoke. Multiplying the cosine and sine by increasing values will position each vertex further away from the center.
+
+## JS basics
+
+A `for` loop in JavaScript looks like this:
+
+    for(var i = 0; i > 10; i = i + 1){
+      ...
+    }
+
+
+An `if` statement in JavaScript looks like this:
+
+    if(i >= 10){
+      ...
+    }
+
+The JavaScript `Math` object is where you'll get the math functionality you need. You can see a list including all the functions and constants you will need for this task here:
+
+[http://www.w3schools.com/js/js_math.asp](http://www.w3schools.com/js/js_math.asp)
+
+## Hint file
+
+If you get stuck, you can refer to the hint file contained in the starter file download directory, which will put you considerably further down the track to completing this assignment. Try to solve the assignment first without looking at the hint file, and mention in your README whether or not you looked at the hint file. You will *not* be graded down for looking at the hint file, but I would like to know how difficult people found this assignment.
+
+## Submitting
+
+To submit this work, upload it with all necessary files in its own subdirectory of your `public_html` directory so that it can be viewed in a browser. Test it in a browser to make sure that it's working! (If it works differently in different browsers make a note of that in the README file).
+
+After you've uploaded the work and checked it in the browser, submit the link to Moodle.

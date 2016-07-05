@@ -1,0 +1,1 @@
+There's no submission process for this assignment, but it's a necessary step for submitting future assignments, which will be done via [Github](www.github.com). Be sure to get yourself a Github account if you haven't already. 

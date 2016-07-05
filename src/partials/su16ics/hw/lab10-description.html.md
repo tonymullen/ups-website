@@ -2,66 +2,25 @@
 cacheable: false
 ```
 
-## For loops
+## Pac Man
 
-At last we come to the `for` loop! Up until now, we’ve been using the `while` loop for all our looping needs. However, if you know the number of iterations in advance, a `for` loop is a much better choice than a `while` loop. The purpose of today’s lab is to give you experience using `for` loops in various scenarios. You'll find the starter code for the lab [here](http://mathcs.pugetsound.edu/~tmullen/ics/lab10.zip).
+Welcome to Processing! For today's lab you'll start with the [Pac Man starter](http://mathcs.pugetsound.edu/~tmullen/ics/Pacman_starter.zip) file and add functionality to make Pac Man chomp in the correct direction. The goal is to get Pac Man to behave like this (use the keyboard arrow keys to get him moving):
 
-A few comments before you begin:
+<script src="//cdnjs.cloudflare.com/ajax/libs/p5.js/0.5.2/p5.js"></script>
 
-* The textbook does not use curly brackets when there is only one statement inside the body of the `for` loop. See the example below. *This is a bad habit to get into and is an easy way to introduce unintentional errors into your code. Always use curly brackets with your for loops!*
 
-    Bad:
+<script language="javascript" type="text/javascript">
+window.addEventListener("keydown",function(a){[32,37,38,39,40].indexOf(a.keyCode)>-1&&a.preventDefault()},!1); function setup(){var a=createCanvas(500,500);a.parent("sketch-holder"),colorMode(RGB,1),fill(1,1,0),noStroke()}function draw(){background(0,0,0),mta>ma&&(oc=-5),mi>mta&&(oc=5),mta+=oc,x+=xa,y+=ya,x>550?x=50:x>450&&arc(x-500,y,100,100,radians(rb+mta),radians(re-mta)),y>550?y=50:y>450&&arc(x,y-500,100,100,radians(rb+mta),radians(re-mta)),-50>x?x=450:50>x&&arc(x+500,y,100,100,radians(rb+mta),radians(re-mta)),-50>y?y=450:50>y&&arc(x,y+500,100,100,radians(rb+mta),radians(re-mta)),arc(x,y,100,100,radians(rb+mta),radians(re-mta))}function keyPressed(){keyCode===DOWN_ARROW?(rb=90,re=450,xa=0,ya=3):keyCode===UP_ARROW?(rb=-90,re=270,xa=0,ya=-3):keyCode===LEFT_ARROW?(rb=180,re=540,xa=-3,ya=0):keyCode===RIGHT_ARROW&&(rb=0,re=360,xa=3,ya=0)}var ma=45,mi=0,mta=0,oc=5,rb=0,re=360,x=250,y=250,xa=0,ya=0;
+</script>
 
-        for(int count = 1; count <= 5; count++)
-            System.out.println(count);
 
-    Good:
+<div id="sketch-holder"></div>
 
-        for(int count = 1; count <= 5; count++) {
-            System.out.println(count);
-        }
+In this sketch, the Pac Man character is drawn using an [arc](https://processing.org/reference/arc_.html) function. Take a look at the Processing API to understand how arcs are defined.
 
-* The variable `count` above is called a loop counter. A loop counter is a variable that controls the iterations of a loop. Historically, loop counters are named in a similar manner as mathematical subscripting variables: `i`, `j`, `k`, etc. For example, in math you see notation like xi or xij. In the same way, in Java it is common to see for loops like:
+The two challenges with this lab are to make the opening and closing of the mouth point in the direction that Pac Man is moving, and to make sure that they open and close regularly. Think about how you can do this as simply as possible, using a variable that changes over time to describe the mouth angle. When it's in the state of opening, it will increase by some constant with each iteration of the `draw` loop, and when it's in the state of closing, it will decrease by the same constant with each iteration of the `draw` loop.
 
-        for(int i = 0; i < N; i++){
-        }
+Depending on whether Pac Man is facing north, south, east, or west, the start and end angle of the arc will be different. You can change these values in the appropriate `keyCode` condition in the `keyPressed` function.
 
-    or
-
-        for(int i = 0; i < N; i++){
-            for(int j = 0; j < N; j++){
-            }
-         }
-
-    This is one of the only times where it is acceptable to have a variable with a non-descriptive name such as i or j.
-
-## Warm Up
-
-Today’s lab is a series of standalone programming questions. The starter code has a Java class called WarmUp that has a main method along with other private, static methods.
-
-Implement each method (one at a time) and then call the method from main to check that your output is correct. For example, after you finish implementing the `printHello` method, you can call it in `main` using the following syntax:
-
-    public static void main(String[] args){
-        printHello();
-    }
-
-When you run the main method you should see `“Hello world!”` printed 10 times to the screen.
-
-## Asterisk Pictures
-
-The second Java class in the starter code is called `AsteriskPictures`. There are two methods inside: one for drawing a square and one for drawing a triangle. This is
-similar to the way we drew the diagram of the seats in the `Theater` class in class. Take the code in the starter file and rewrite it so that it uses nested for loops instead of nested while loops to draw a square.
-
-The second method asks you to draw a triangle of a given height to the screen (using nested for loops). For example, if height=5 then your method should draw the following picture:
-
-    *
-    **
-    ***
-    ****
-    *****
-
-Finally, together with your partner write a third method that prints a picture of your choosing. Feel free to experiment with nesting 3 for loops, or perhaps putting 2 for loops one after the other inside an outer for loop.
-
-## Submitting your lab assignment
-Submit your lab10 folder with both the `WarmUp` and `AsteriskPictures` classes inside.                                                       
-Submit your lab at the [Moodle submission page](https://moodle.pugetsound.edu/moodle/mod/assign/view.php?id=329583).
+## Submitting your lab assignment                                                  
+Submit your lab at the [Moodle submission page](https://moodle.pugetsound.edu/moodle/mod/assign/view.php?id=335867).

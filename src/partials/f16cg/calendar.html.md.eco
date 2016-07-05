@@ -1,0 +1,33 @@
+### Calendar
+
+<div class="tables-begin"></div>
+
+| Week | Date |  Topic              |  Reading           |     Assignment |
+|------|------|---------------------|--------------------|----------------|
+| 1  | 8/29 | Computer Graphics and WebGL; Three.js intro            |  L3JS Ch 1; <br>  3DMP 1.1 - 1.3    |  [Homework 1][hw1]         |
+| 2  | 9/7  | Points, Vectors, & Meshes; Geometry in Three.js        |  L3JS 2 (*Creating a Scene* & *Geometries and Meshes*); <br> 3DMP 1.4; <br> 3DMP 10.4      |  [Homework 2][hw2]     |
+| 3  | 9/12 | Matrices & Transformations                             |              |                     |
+| 4  | 9/19 | Viewing and Projections; Clipping & rasterization   |                    |                     |
+| 5  | 9/26 | Materials and textures; environment mapping            | 3DMP 10.5   |                     |
+| 6  | 10/3 | Rendering basics; Color and Transparency; Light and Shading;  |             |                     |
+| 7  | 10/10 | 	Animation & Interaction; Complex Objects/Parenting   |             |                     |
+| 8  | 10/17  | **Fall break**                                       |             |                     |
+| 9  | 10/24 | Curves & Surfaces                                     |             |                     |
+| 10 | 10/31 | Ray Tracing                                           |             |                     |
+| 11 | 11/7 | 	Physically-based Rendering, Image-based lighting     |             |                     |
+| 12 | 11/14  | 2D Compositing; Chroma key compositing               |             |                     |
+| 13 | 11/21 |  Tracking and matchmoving <br>**Thanksgiving break**  |             |                     |
+| 14 | 11/28 | Shader programming; GLSL; OSL                         |             |                     |
+| 15 | 12/5 | TBD <br> Last day 12/7                                 |             |                     |
+| Finals <br> period |                |                              |             |                     ||
+
+
+<div class="tables-end"></div>
+
+[hw1]: <%= @site.url %>/hw/f16cg/hw1-l3jsch1  "HW 1: Learning Three.js Chapter 1"
+[hw1-sol]: <%= @site.url %>/hw/f16cg/hw1-l3jsch1-sol  "HW 1 solution"
+
+[hw2]: <%= @site.url %>/hw/f16cg/hw2-rainbow-circle  "HW 2: Rainbow Circle"
+[hw1-sol]: <%= @site.url %>/hw/f16cg/hw2-rainbow-circle-sol  "HW 1 solution"
+
+[bns]: https://moodle.pugetsound.edu/moodle/mod/resource/view.php?id=330054
