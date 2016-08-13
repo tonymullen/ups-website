@@ -29,4 +29,4 @@ and <span class="codefont">A</span>, so the letter grades are associated with or
 
 ### Submission
 
-Compress the full project directory for the completed assignment into a zip file and upload it to the [Moodle page for the assignment](https://moodle.pugetsound.edu/moodle/mod/assign/view.php?id=323265).
+Compress the full project directory for the completed assignment into a zip file and upload it to the [Moodle page for the assignment](https://moodle.pugetsound.edu/moodle/mod/assign/view.php?id=340430).

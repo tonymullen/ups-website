@@ -3,6 +3,7 @@
 cacheable: false
 ```
 
-To submit this work, upload it with all necessary files in its own subdirectory of your public_html directory so that it can be viewed in a browser. Test it in a browser to make sure that it's working! (If it works differently in different browsers make a note of that in the README file).
+Upload the project to its own directory inside your `public_html` directory using FileZilla. Be sure that all dependencies are in place and **Double check that your finished work displays properly in a browser online.** The directory should include the completed `README.txt`, which should also be viewable in the browser. 
 
-After you've uploaded the work and checked it in the browser, submit the README.txt to Moodle.
+In Moodle, add a link to your finished assignment's public URL.
+The Moodle page for this assignment is [here](https://moodle.pugetsound.edu/moodle/mod/assign/view.php?id=340294).

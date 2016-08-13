@@ -1,5 +1,9 @@
 ---
 ---
+### Summer 2016
+
+[CSCI 161: Intro to Computer Science](http://mathcs.pugetsound.edu/~tmullen/classes/su16-CS161-ics/)
+
 ### Spring 2016
 
 [CSCI 161: Intro to Computer Science](http://mathcs.pugetsound.edu/~tmullen/classes/s16-CS161-ics/)

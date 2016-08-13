@@ -1,10 +1,10 @@
 ```
 cacheable: false
 ```
-My office hours for Spring 2016 are:
+My office hours for Fall 2016 are:
 
-Mon, Tues, Wed, & Fri:  11:00-12:00
+Mon, Tues, Wed, & Fri:  11:00-11:50
 
-You can make an appointment to meet at other times also. 
+You can make an appointment to meet at other times also.
 
-I try hard to respond to all emails within 24 hours. I will not respond to emails received after 5:00 PM until the next day.  
+I try to respond to emails within 24 hours. I will not respond to emails received after 5:00 PM until the next day.  

@@ -119,4 +119,4 @@ Before you submit your assignment, go through the checklist below and make sure 
 
 Once you've tested your code and verified that it meets style guidelines, submit from within BlueJ as usual.
 
- [Moodle page for the assignment](https://moodle.pugetsound.edu/moodle/mod/assign/view.php?id=328645).
+ [Moodle page for the assignment](https://moodle.pugetsound.edu/moodle/mod/assign/view.php?id=340437).

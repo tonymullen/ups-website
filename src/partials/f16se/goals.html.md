@@ -6,10 +6,8 @@ cacheable: false
 
 By the end of this class students will
 
+*  Develop software collaboratively using state-of-the-art tools and methodologies.
+*  Carry out software development within an established, professional-quality codebase.
 *  Understand the strengths and weaknesses of various software development processes.
 *  Understand the importance of design and the significance of software design patterns.
-*  Become familiar with tools and resources to assist with large-scale software development work.
-*  Acquire first-hand experience with Agile development practices.
-*  Plan and implement a medium-sized software project using
-JavaScript and related technologies that is testable, maintainable, and operational.
-*  Be prepared to learn new technologies and acquire new software development skills proactively and independently in the future.
+*  Acquire practical skills for developing web applications.

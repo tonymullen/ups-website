@@ -4,14 +4,16 @@ cacheable: false
 
 ### Lecture slides
 
-Lecture slides for this class will be posted soon after the lecture is completed. You can find them [here](http://mathcs.pugetsound.edu/~tmullen/slides/f15cg/).
-
-
+Lecture slides for this class will be posted soon after the lecture is completed. You can find them [here](http://mathcs.pugetsound.edu/~tmullen/slides/f16cg/).
 
 ### Textbook & required materials
 
-The textbook for this class is
-[Interactive Computer Graphics: A Top-Down Approach with WebGL (7th Edition)](http://www.cs.unm.edu/~angel/BOOK/INTERACTIVE_COMPUTER_GRAPHICS/SEVENTH_EDITION/)
-by Edward Angel & Dave Shreiner
+There are two required books for this class:
 
-Weekly readings will be from this book unless otherwise indicated.
+[Learning Three.js (2nd Edition)](https://www.packtpub.com/web-development/learning-threejs-%E2%80%93-javascript-3d-library-webgl-second-edition) (L3JS)
+by Jos Dirksen
+
+and
+
+[3D Math Primer for Graphics and Game Development, 2nd Edition](https://www.crcpress.com/3D-Math-Primer-for-Graphics-and-Game-Development-2nd-Edition/Dunn-Parberry/p/book/9781568817231) (3DMP)
+by Fletcher Dunn & Ian Parberry

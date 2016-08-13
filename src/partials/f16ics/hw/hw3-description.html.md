@@ -6,9 +6,6 @@ cacheable: false
 
 Now that we know about the Scanner class, we can finally write interactive programs! This week we'll mix some input with some string processing, toss in a bit of randomness, and produce a program that generates faux user names and suggested passwords for users, based on their inputs. Here you'll find the [starter code for this assignment](http://mathcs.pugetsound.edu/~tmullen/ics/hw3.zip).
 
-### Submission
-
-Compress the full project directory for the completed assignment into a zip file and upload it to the [Moodle page for the assignment](https://moodle.pugetsound.edu/moodle/mod/assign/view.php?id=318510).
 
 ### The Assignment
 
@@ -38,3 +35,7 @@ Your program should prompt the user for three pieces of information: Their first
 ### Extras
 
 Looking for additional challenges? Feel free to invent some additional username or password formats and implement them in addition to the required ones. For example, instead of taking random-length portions of the inputs that always start at the beginning of the input strings, take substrings where both the starting and ending points are random. Or, make a new version of password 2 that makes the capitalization random instead of following a particular pattern. (I'm happy to provide hints about how to implement that if you're interested.) You could also ask for an additional input (e.g. the user's favorite number) and use that in interesting ways.
+
+### Submission
+
+Compress the full project directory for the completed assignment into a zip file and upload it to the [Moodle page for the assignment](https://moodle.pugetsound.edu/moodle/mod/assign/view.php?id=340429).

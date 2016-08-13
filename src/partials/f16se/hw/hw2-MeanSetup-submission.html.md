@@ -1,10 +1,5 @@
 ```
 cacheable: false
 ```
-This assignment should be deployed on Heroku, following the instructions in the book. Include a link to the Heroku application in your Readme.md file.  
 
-This assignment should *also* be committed to your personal Github repository and tagged to indicate which chapter work it represents. See the description of the assignment for details on creating a new remote repo, committing and pushing to it, and tagging. Don't forget to push the tags.  
-
-Edit your repo's Readme.md file describing what you did and detailing any issues you had. The Readme.md is the first place I will look to make sure you did this assignment, so make sure to include/update it!
-
-Lastly, be sure that the link from the Readme.md file to the Heroku application is working. I should be able to click on the link in the Readme and go directly to the functioning application.
+To submit this assignment go to the [Moodle page for the assignment](https://moodle.pugetsound.edu/moodle/mod/assign/view.php?id=336594) and enter the link to your GitHub Repository's top page (where the README is displayed). Make sure that the link is a proper link (i.e. clickable). Also, make sure that your GitHub README.md file contains a (clickable) link to the live application on Heroku.

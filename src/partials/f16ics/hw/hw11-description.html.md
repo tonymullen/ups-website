@@ -28,4 +28,4 @@ For the assignment, do the following:
 * Create a driver class with a `main` method that creates an instance of a `Course` object, populates it with a few students, prints out the roll for the course, and prints the overall course test average.
 
 
-Submit the file at the [Moodle page for the assignment](https://moodle.pugetsound.edu/moodle/mod/assign/view.php?id=330507).
+Submit the file at the [Moodle page for the assignment](https://moodle.pugetsound.edu/moodle/mod/assign/view.php?id=340439).

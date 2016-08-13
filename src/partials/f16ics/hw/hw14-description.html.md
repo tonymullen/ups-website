@@ -192,4 +192,4 @@ Proper capitalization of variables, methods, and classes
 
 ## Submitting
 
-Submit the zipped project file at the [Moodle page for the assignment](https://moodle.pugetsound.edu/moodle/mod/assign/view.php?id=333294).
+Submit the zipped project file at the [Moodle page for the assignment](https://moodle.pugetsound.edu/moodle/mod/assign/view.php?id=340442).

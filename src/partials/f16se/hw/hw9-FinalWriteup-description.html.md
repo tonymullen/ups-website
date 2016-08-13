@@ -1,7 +1,7 @@
 ```
 cacheable: false
 ```
-## **Due  Wed 5/11**
+## **Due  Fri 12/16**
 
 To wrap up your final project, please submit the following materials:
 
@@ -15,4 +15,6 @@ To wrap up your final project, please submit the following materials:
   * What concepts from the class were most or least helpful in developing your project?
   * Overall, do you feel you learned? What will you take away from this course?
 
-Submit this **in .pdf format** to the Moodle page [here](https://moodle.pugetsound.edu/moodle/mod/assign/view.php?id=308429).
+## Submission
+
+Submit this **in .pdf format** to the Moodle page [here](https://moodle.pugetsound.edu/moodle/mod/assign/view.php?id=336601).

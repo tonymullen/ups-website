@@ -24,9 +24,9 @@ The actual positioning of the triangles may take a little trial and error to get
 
 ## Notes
 
-In order to run the starter file you'll need to be sure to install the `ControlP5` library. Go to the `Tools` menu, click `Add Tool` and click the `Libraries` tab. Find `ControlP5` and install the library from there. 
+In order to run the starter file you'll need to be sure to install the `ControlP5` library. Go to the `Tools` menu, click `Add Tool` and click the `Libraries` tab. Find `ControlP5` and install the library from there.
 
 
-Submit the file at the [Moodle page for the assignment](https://moodle.pugetsound.edu/moodle/mod/assign/view.php?id=332617).
+Submit the file at the [Moodle page for the assignment](https://moodle.pugetsound.edu/moodle/mod/assign/view.php?id=340441).
 
 **Extra fun:** You won't get any actual extra credit for it (it wouldn't be fair to the iPhone users!), but if you have an Android phone you may find it entertaining to set up Processing's Android mode and run your Sierpinski gasket on your phone.

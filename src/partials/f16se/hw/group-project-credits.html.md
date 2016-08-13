@@ -2,4 +2,4 @@
 cacheable: false
 ```
 
-This assignment is based on course work prepared by Joel Ross and Kristen Justice
+This assignment is based in part on course work prepared by Joel Ross and Kristen Justice
