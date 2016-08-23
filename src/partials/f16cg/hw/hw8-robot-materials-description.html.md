@@ -28,9 +28,13 @@ Your browser does not support the video tag.
 
 Completing this assignment on time to the specifications described above is worth 8 points out of a possible 10 points. Further points will be awarded on the basis of creativity, design, and/or additional complexity. If you used interesting features of Three.js that have not been discussed, or if you added something to the assignment that may not be immediately obvious to me, be sure to make a note of it in the README, so that I know what to credit you for.  
 
+## Extra challenge
+
+If you modeled something in Blender, add materials and textures to the model. Study UV mapping and how to create decal textures. 
+
 ## Submitting
 
 Upload the project to its own directory inside your `public_html` directory using FileZilla (this should be a separate directory from Hw 7. Duplicate the files from that assignment to work on this one). Be sure that all dependencies are in place and **Double check that your finished work displays properly in a browser online.** The directory should include the completed `README.txt`, which should also be viewable in the browser.
 
-In Moodle, add a link to your finished assignment's public URL.
+In Moodle, add a link to your finished assignment's public URL **and a screenshot of your project displayed in a browser, with the URL visible**.
 The Moodle page for this assignment is [here](https://moodle.pugetsound.edu/moodle/mod/assign/view.php?id=340422).

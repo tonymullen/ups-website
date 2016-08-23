@@ -4,6 +4,8 @@ cacheable: false
 
 ## Overview
 
+This assignment is intended to give you an opportunity to exercise your creativity and explore graphics technologies independently. The project is weighted double an ordinary assignment towards your grade for the class.
+
 In this assignment you'll choose one of three possible project options: **Interactive 3D (Three.js) option**, **Ray tracer option**, or **VFX option**. These options are described in more detail below:
 
 * **Interactive 3D (Three.js) option** For this option, you will create an interactive 3D environment with Three.js. This may be a game, an architectural or other sort of walkthrough, a data visualization environment, or an interactive media artwork. There are no rules regarding what type of work it is, but there are some requirements. The project must have the following characteristics:
@@ -28,10 +30,10 @@ In this assignment you'll choose one of three possible project options: **Intera
 
   [Shirley Chapter 13](https://moodle.pugetsound.edu/moodle/mod/resource/view.php?id=340287) is a good reference for moving forward with these topics.
 
-  This option is only available to people who have turned in a working implementation of assignment 11 on time.
+  The ray tracer option is only available to people who have turned in a working implementation of assignment 11 on time.
 
-* **VFX option** For this option, you will create a short video (one shot) with a 3D VFX component in Blender. It can be of any length and include any content you wish. You may either integrate a real character or element into a CG scene using green screen compositing, or integrate a CG element into a live video shot using camera and/or object tracking, or some combination of the above. The assignment should meet the following criteria:
-  * The shot must make use of at least two of the following features.
+* **VFX option** For this option, you will create a short video (one shot) with a 3D VFX component in Blender. It can include any content you wish, but must be 15 seconds or longer. You may either integrate a real character or element into a CG scene using green screen compositing, or integrate a CG element into a live video shot using camera and/or object tracking, or some combination of the above. The assignment should meet the following criteria:
+  * The shot must make use of **at least two** of the following features.
     * Green screen compositing
     * Camera/object tracking
     * Image-based lighting
@@ -42,13 +44,15 @@ In this assignment you'll choose one of three possible project options: **Intera
     * GLSL shaders from [glslsandbox.com](http://glslsandbox.com/) (would require adapting to OSL)
 
     <p>
-    Students who wish to choose this option are advised to begin early, as many of the skills required will rely on independent study beyond what is covered in class.
+    **Students who wish to choose this option are advised to begin early, as many of the skills required will rely on independent study beyond what is covered in class.**
 
-Regardless of which assignment you choose, be sure to describe what you did and what your goal was with the project in the README. Discuss challenges or problems that arose and describe what you learned in your attempts to solve the problems, and any other points you think I should take into consideration when grading the assignment.
+Regardless of which assignment you choose, be sure to describe what you did and what your goal was with the project in the Readme file. Discuss challenges or problems that arose and describe what you learned in your attempts to solve the problems, and any other points you think I should take into consideration when grading the assignment.
 
-## Evaluation
+## Submission
 
-Upload the project to its own directory inside your `public_html` directory using FileZilla. Be sure that all dependencies are in place and **Double check that your finished work displays properly in a browser online.** The directory should include the completed `README.txt`, which should also be viewable in the browser.
+If your project is web-based, upload the project to its own directory inside your `public_html` directory using FileZilla. Be sure that all dependencies are in place and **Double check that your finished work displays properly in a browser online.** The directory should include the completed `README.txt`, which should also be viewable in the browser.
 
 In Moodle, add a link to your finished assignment's public URL.
 The Moodle page for this assignment is [here](https://moodle.pugetsound.edu/moodle/mod/assign/view.php?id=340426).
+
+If your project is not web-based (e.g. a VFX project), upload a zip file containing **all relevant assets and files, including a README.txt** to the Moodle page for the assignment. This should include (at least) the final video output, the original raw video input, the .blend file(s) used to do the compositing, and any models, textures, shaders, etc used. If your assets are too big to upload easily to the Moodle page in this way, include appropriate download links.  

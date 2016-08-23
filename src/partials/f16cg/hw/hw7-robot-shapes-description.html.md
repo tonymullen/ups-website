@@ -30,19 +30,24 @@ Be creative!
 
 Completing this assignment on time to the specifications described above is worth 8 points out of a possible 10 points. Further points will be awarded on the basis of creativity, design, and/or additional complexity. If you used interesting features of Three.js that have not been discussed, or if you added something to the assignment that may not be immediately obvious to me, be sure to make a note of it in the README, so that I know what to credit you for.
 
-## Submitting
+## Extra challenge 1
 
-Upload the project to its own directory inside your `public_html` directory using FileZilla. Be sure that all dependencies are in place and **Double check that your finished work displays properly in a browser online.** The directory should include the completed `README.txt`, which should also be viewable in the browser.
+In addition to your purely Three.js robot, try modeling a robot, character, or mechanical part
+in Blender and importing it. Submit as a separate project. You can continue working on animating this for homework 8.
 
-In Moodle, add a link to your finished assignment's public URL.
-The Moodle page for this assignment is [here](https://moodle.pugetsound.edu/moodle/mod/assign/view.php?id=340421).
-
-# Bonus challenge assignment
+## Extra challenge 2
 
 If you feel ahead of the game and you'd like to go further, take a look at
 [Five Hundred and Seven Mechanical Movements](https://archive.org/stream/fivehundredseven00browiala)
  or another similar resource for mechanical movements. Find one or more interesting and
   challenging mechanical movements in the book and try to model it (them)
-  in Three.js. Once you've animated your robot in assignment 4, you can also work
+  in Three.js or Blender. Once you've animated your robot in assignment 8, you can also work
   on animating this. For credit on this assignment, submit whatever you've managed to do
-  by the same deadline as the robot assignment, in its own directory entitled <em>hw6-challenge</em>.
+  by the same deadline as the robot assignment, in its own directory entitled.
+
+## Submitting
+
+Upload the project to its own directory inside your `public_html` directory using FileZilla. Be sure that all dependencies are in place and **Double check that your finished work displays properly in a browser online.** The directory should include the completed `README.txt`, which should also be viewable in the browser.
+
+In Moodle, add a link to your finished assignment's public URL **and a screenshot of your project displayed in a browser, with the URL visible**.
+The Moodle page for this assignment is [here](https://moodle.pugetsound.edu/moodle/mod/assign/view.php?id=340421).

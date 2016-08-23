@@ -53,6 +53,10 @@ In addition to your Use Case Specification, include a short (~2 paragraph) writt
 
 Other points of reflection are of course welcome! The goal is to evaluate the benefits and drawbacks of these different forms.
 
+## Grade weighting & lateness
+
+This assignment has a weight of 1 within the individual assignments portion of your overall grade. This assignment will be accepted for partial credit up to 4 days late, with a penalty of 20% per day.
+
 ## Submitting
 
 Please take some time to **proofread** and revise your specification--iterate your writing!. Think of this as a professional document, something that you would show to your boss!

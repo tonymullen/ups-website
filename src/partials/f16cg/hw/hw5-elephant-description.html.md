@@ -30,9 +30,15 @@ As you adjust the camera's settings, you'll see also that the camera's position 
 
 Most of the animation code will be inside the `render()` function. Since the movement of the camera is around the `y` axis, the `y` value won't need to change, while the others do. Loop through degrees in a circle and use the `Math.cos()` and `Math.sin()` functions to position your camera on each call of the `render()` function. Remember that the `render()` function runs in the `animate()` loop, so you won't have any need for a `for` loop. Also, don't forget that the JS trig functions want radians for arguments, so you'll need to convert the degrees of your angles to radians.
 
+## Extra challenge
+
+In addition to the assignment as described, try duplicating the project using a textured model of your own creation! Use what you've learned in class and from the resources provided to model and texture a simple object in Blender, export it using the Three.js exporter, and import it into your scene. Submit this alongside the main assignment project. 
+
+
 ## Submitting
 
 Upload the project to its own directory inside your `public_html` directory using FileZilla. Be sure that all dependencies are in place and **Double check that your finished work displays properly in a browser online.** The directory should include the completed `README.txt`, which should also be viewable in the browser.
 
-In Moodle, add a link to your finished assignment's public URL.
+
+In Moodle, add a link to your finished assignment's public URL **and a screenshot of your project displayed in a browser, with the URL visible**.
 The Moodle page for this assignment is [here](https://moodle.pugetsound.edu/moodle/mod/assign/view.php?id=340419).

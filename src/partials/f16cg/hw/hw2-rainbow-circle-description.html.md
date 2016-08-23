@@ -61,9 +61,14 @@ The JavaScript `Math` object is where you'll get the math functionality you need
 
 If you get stuck, you can refer to the hint file contained in the starter file download directory, which will put you considerably further down the track to completing this assignment. Try to solve the assignment first without looking at the hint file, and mention in your README whether or not you looked at the hint file. You will *not* be graded down for looking at the hint file, but I would like to know how difficult people found this assignment.
 
+## Extra challenge
+
+If you find this assignment easy, consider how you might use similar techniques (adding
+  vertices and faces one by one) to create a rainbow-colored 3D sphere. For extra credit, you may submit a *separate* project (in addition to the main assignment) for a sphere. Refer to Homework 1 and your Three.js book for ideas on how to position the camera and lights to make it look nice. The specific rainbow pattern appearance on the sphere is up to you.
+
 ## Submitting
 
 Upload the project to its own directory inside your `public_html` directory using FileZilla. Be sure that all dependencies are in place and **Double check that your finished work displays properly in a browser online.** The directory should include the completed `README.txt`, which should also be viewable in the browser.
 
-In Moodle, add a link to your finished assignment's public URL.
+In Moodle, add a link to your finished assignment's public URL **and a screenshot of your project displayed in a browser, with the URL visible**.
 The Moodle page for this assignment is [here](https://moodle.pugetsound.edu/moodle/mod/assign/view.php?id=340416).

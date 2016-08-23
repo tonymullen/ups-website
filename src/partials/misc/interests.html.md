@@ -3,7 +3,7 @@
 ### Filmmaking and Animation
 
 <p>
-In my spare time I am on occasional independent filmmaker. Most recently, I completed the short film *Electric Town* which has been screened in a number of international film festivals and won several awards, including the 2011 Blue Cat Fellini Award for its screenplay and the Best Film From Asian Countries award from the 32nd Annual Tehran International Short Film Festival. The film was live action with visual effects created with the free CG software Blender. During the entire period of making the movie I blogged about the process [here](https://electrictownmovie.wordpress.com/).
+In my spare time I am an occasional independent filmmaker. Most recently, I completed the short film *Electric Town* which has been screened in a number of international film festivals and won several awards, including the 2011 Blue Cat Fellini Award for its screenplay and the Best Film From Asian Countries award from the 32nd Annual Tehran International Short Film Festival. The film was live action with visual effects created with the free CG software Blender. During the entire period of making the movie I blogged about the process [here](https://electrictownmovie.wordpress.com/).
 </p>
 
 <p>
@@ -22,7 +22,7 @@ A few years ago, I co-wrote and co-directed [*Gustav Braustache and the Auto-Deb
 
 ### Game development
 
-In addition to VFX and animation, I'm also interested in 3D graphics for games and interaction. In 2011 I released *Shootin' Annie*, a 3D shooting-gallery style game for iPhone/iPod touch, which was available in the iTunes store for about a year. I did all design, modeling, animation and music for the game, which I wrote using an open-source game engine (the game engine has since closed its source). A (somewhat over-long) demo of the game can still be seen on YouTube:
+In addition to VFX and animation, I'm also interested in 3D graphics for games and interaction. In 2011 I released *Shootin' Annie*, a 3D shooting-gallery style game for iPhone/iPod touch, which was available in the iTunes store for about a year. I did all design, modeling, animation and music for the game, which I wrote using an open-source game engine (the game engine has since closed its source). One of these days I hope to port the game to Three.js. A (somewhat over-long) demo of the game can still be seen on YouTube:
 
 <p>
 

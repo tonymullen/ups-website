@@ -64,10 +64,14 @@ Your browser does not support the video tag.
 All of the behavior has already been implemented. All you need to do are
 calculate the barycentric coordinates and set the `inTriangle` boolean.
 
+## Extra challenge
+
+Add two GUI sliders representing two of the three barycentric coordinates. The sliders should each range from -1.0 to 2.0. Assume the third coordinate is the difference between the sum of the first two and 1.0. Enable the user to position the ball in space by adjusting the sliders. Values of 0.333, 0.333 in the sliders should position the ball in the center of the triangle. If any of the coordinates is less than zero or greater than 1, the ball should be outside the triangle. 
+
 
 ## Submitting
 
 Upload the project to its own directory inside your `public_html` directory using FileZilla. Be sure that all dependencies are in place and **Double check that your finished work displays properly in a browser online.** The directory should include the completed `README.txt`, which should also be viewable in the browser.
 
-In Moodle, add a link to your finished assignment's public URL.
+In Moodle, add a link to your finished assignment's public URL **and a screenshot of your project displayed in a browser, with the URL visible**.
 The Moodle page for this assignment is [here](https://moodle.pugetsound.edu/moodle/mod/assign/view.php?id=340424).

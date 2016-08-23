@@ -44,9 +44,15 @@ The spin speed is derived from the speed of the swipe, and slows down gradually 
 
 To slow the rotation value, you can put a conditional in the `render` function that checks whether the speed is above some threshold and reduces it if so, otherwise sets it to zero.
 
+## Extra challenge
+
+What if, instead of spinning in the direction you drag the mouse, the ball wound up in that direction as you dragged the mouse, and then spun in the opposite direction when the mouse was released, as if on a spring trigger? Think about the way dragging works in "Angry Birds" for a reference (but rather than flying, the ball spins). If you choose to implement this, submit it as a separate project (in addition to the main assignment project) and make a note in your readme.
+
+
 ## Submitting
 
-Upload the project to its own directory inside your `public_html` directory using FileZilla. Be sure that all dependencies are in place and **Double check that your finished work displays properly in a browser online.** The directory should include the completed `README.txt`, which should also be viewable in the browser. 
+Upload the project to its own directory inside your `public_html` directory using FileZilla. Be sure that all dependencies are in place and **Double check that your finished work displays properly in a browser online.** The directory should include the completed `README.txt`, which should also be viewable in the browser.
 
-In Moodle, add a link to your finished assignment's public URL.
+
+In Moodle, add a link to your finished assignment's public URL **and a screenshot of your project displayed in a browser, with the URL visible**.
 The Moodle page for this assignment is [here](https://moodle.pugetsound.edu/moodle/mod/assign/view.php?id=340418).

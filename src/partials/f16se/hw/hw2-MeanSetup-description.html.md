@@ -76,6 +76,10 @@ In general, you should commit whenever you complete a single piece of functional
 
 The author's code is available on his GitHub site, and you are encouraged to *refer* to it if you get stuck working through the book. **Do not copy/paste, fork, or otherwise use this code directly without typing it in yourself. Any evidence that this was done may result in forfeiture of credit for this assignment**. Be aware that the author's code on GitHub is in a completed state, and that your own code as you work through the book will not be identical to the finished state of the author's code, so it is often possible to identify copy/pasting on this basis. The same is true of referring to the code in my own repository.
 
+## Grade weighting & lateness
+
+This assignment has a weight of 1 within the individual assignments portion of your overall grade. Credit for this assignment will not be given after the deadline. You will receive implicit partial credit by turning in subsequent assignments with this work completed.  
+
 ## Submission
 
 To submit this assignment go to the [Moodle page for the assignment](https://moodle.pugetsound.edu/moodle/mod/assign/view.php?id=336594) and enter the link to your GitHub Repository's top page (where the README is displayed). Make sure that the link is a proper link (i.e. clickable). Also, make sure that your GitHub README.md file contains a (clickable) link to the live application on Heroku.

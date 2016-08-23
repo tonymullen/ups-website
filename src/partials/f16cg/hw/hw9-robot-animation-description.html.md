@@ -35,9 +35,18 @@ Your robot so far will probably need to be somewhat rebuilt for the purposes of 
 
 Also remember that objects always rotate around their centers. Thus, if you want a mesh to rotate around one end of the mesh, for example (as in the case of an arm, which rotates around the shoulder-end of its length) you will need to create an Object3D object to rotate, and then offset the child object such that the desired pivot point is at the parent's center point. When the parent object rotates (around its center) the child object will inherit the rotation and rotate around its appropriate pivot point.
 
+## Extra challenge 1
+
+Add other animated characteristics or more mechanically complex movements to your model.
+
+## Extra challenge 2
+
+In addition to the purely Three.js robot, create and animate a robot part or other mechanical part in Blender, using armature animation. Export the animated mesh and import it into Three.js with slider controls. For example, a tripod that folds and unfolds based on a slider value, or a robotic hand that clenches and unclenches.
+
+
 ## Submitting
 
 Upload the project to its own directory inside your `public_html` directory using FileZilla (this should be a separate directory from Hws 7 and 8. Duplicate the files from  Hw 8 to work on this one). Be sure that all dependencies are in place and **Double check that your finished work displays properly in a browser online.** The directory should include the completed `README.txt`, which should also be viewable in the browser.
 
-In Moodle, add a link to your finished assignment's public URL.
+In Moodle, add a link to your finished assignment's public URL **and a screenshot of your project displayed in a browser, with the URL visible**.
 The Moodle page for this assignment is [here](https://moodle.pugetsound.edu/moodle/mod/assign/view.php?id=340423).

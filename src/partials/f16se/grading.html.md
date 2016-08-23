@@ -6,7 +6,8 @@ cacheable: false
 
 This course will be graded based on the following factors:
 
-* 10% Attendance & participation
+* 5% Attendance & participation
+* 5% Quizzes
 * 40% Homework
 * 50% Group project
 
@@ -30,9 +31,13 @@ Homework assignments as a whole will count for approximately 40% of the total gr
 
 Much of the homework involves following the tutorial-style presentation of the *Getting MEAN* book. This requires reading the text, entering the code, and producing a working version of the project described by the book.
 
-Book chapter assignments are credited for being submitted *by the deadline*. Subsequent chapters are credited more heavily, so late work on book chapters is credited *implicitly* through credit on later chapters. This means that missed deadlines **can not be made up**. Be aware that these assignments are cumulative, and so catching up is increasingly difficult as you fall behind.
+Book chapter assignments are credited for being submitted *by the deadline*. Subsequent chapters are credited more heavily, so "late work" on book chapters is credited *implicitly* through credit on later chapters. This means that missed deadlines **can not be made up**. Be aware that these assignments are cumulative, and so catching up is increasingly difficult as you fall behind.
 
 ### Participation
 
-Attendance and participation in class count for approximately 10% of the total grade, overall.
-This does not include specific participation/contribution to your final group project.
+Attendance and participation in class count for 5% of the total grade, overall.
+However, attendance and participation issues may also be reflected in the contribution score for your final group project.
+
+### Quizzes
+
+There will be occasional short quizzes covering recent reading and/or lecture material. These will be announced at least one class period in advance. Your average score on these quizzes will account for 5% of your total grade.

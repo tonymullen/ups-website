@@ -8,7 +8,7 @@ The following is a list of questions and problems from the book *3D Math Primer 
 
 ### Chapter 1
 
-Exercises 2, 4, 5, 7, 8 & 9
+Ch 1: Exercises 2, 4, 5, 7, 8 & 9
 
 ### Chapter 2
 
@@ -20,4 +20,4 @@ Exercises 2, 4, 5
 
 ### Chapter 4
 
-Exercises 
+Coming soon

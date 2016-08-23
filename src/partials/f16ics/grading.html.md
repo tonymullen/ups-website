@@ -18,7 +18,6 @@ More specifically, the following will be expected of you:
 
 **Lab Work:** Lab is a way for you to master the topics covered in class. Lab attendance is mandatory.
 
-**Programming Homework Assignments:** Homework assignments are more substantial projects than lab assignments. Homework assignments are individual assignments. You will typically have 1-2 weeks for each assignment. There are no extensions given. Late homework assignments will be penalized by <span class="latex">3^n\% </span> for n ≤ 4 where n is the number of days the assignment is submitted late.
+**Programming Homework Assignments:** Homework assignments are more substantial projects than lab assignments. Homework assignments are individual assignments. You will typically have 1-2 weeks for each assignment. There are no extensions given. Late homework assignments will be penalized by 20% per day, and will not be accepted more than 4 days after the original deadline.
 
-**Tests:** There will be two in-class midterm exams and a final exam at the end of the semester. The final exam is scheduled for May 9th From 8:00AM to 10:00AM. Please do not buy your plane tickets until after our scheduled
-final exam. Details will be given closer to the exam dates.
+**Tests:** There will be two in-class midterm exams and a final exam at the end of the semester. Refer to the calendar for the exam schedule. Details will be given closer to the exam dates.

@@ -34,11 +34,12 @@ If you wish to continue work on your ray tracer for assignment 11, you can add f
   <td><img style="height:100px" src="/~tmullen/images/cg/examples/ShadowTest2.png"></td>
   <td><img style="height:100px" src="/~tmullen/images/cg/examples/CornellBox.png"></td>
 </tr>
-  <td>Options for Assignment 12<br>Matrix transformations, transparency, and/or other features </td>
+  <td>Options for Assignment 12<br>Matrix transformations, transparency/refraction,
+  antialiasing, and/or other features </td>
   <td><img style="height:100px" src="/~tmullen/images/cg/examples/FullTest.png"></td>
   <td><img style="height:100px" src="/~tmullen/images/cg/examples/RecursiveTest.png"></td>
-  <td>Custom demo</td>
   <td><img style="height:100px" src="/~tmullen/images/cg/examples/TransformationTest.png"></td>
+  <td>Custom demo of feature<br>(E.g. transparency, etc)</td>
 <tr>
 </tr>
 </table>
@@ -51,5 +52,5 @@ Your primary references for the ray tracing algorithm will be [Shirley, Chapter 
 
 Upload the project to its own directory inside your `public_html` directory using FileZilla. Be sure that all dependencies are in place and **Double check that your finished work displays properly in a browser online.** The directory should include the completed `README.txt`, which should also be viewable in the browser.
 
-In Moodle, add a link to your finished assignment's public URL.
+In Moodle, add a link to your finished assignment's public URL **and a screenshot of your project displayed in a browser, with the URL visible**. If you completed the "minimal" option, take your screenshot of the shaded triangle example. If you completed the "full" option, take your screenshot of the Cornell box example.
 The Moodle page for this assignment is [here](https://moodle.pugetsound.edu/moodle/mod/assign/view.php?id=340425).

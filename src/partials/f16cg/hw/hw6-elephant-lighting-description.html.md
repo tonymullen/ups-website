@@ -33,9 +33,14 @@ Every spot light has an attribute called `target` which represents an actual 3D 
 
 Once again, the main part of the animation code will occur within the `render` function. The `gui` object has already been set up for you, along with one of the controls, `lightSeparation` in the `controls` object. You'll need to add the second control `target`. Both controls should range from 0.0 to 1.0 and act as factors for whatever displacement you choose for your target or light positions.
 
+
+### Extra challenge
+
+Try to do something comparable with area light objects. AreaLights are not standard in Three.js, but they are discussed in Chapter 3 of "Learning Three.js". Read the instructions for using area lights and set up a scene that uses them in place of spotlights. You won't get identical effects, but experiment with what can and can't be done with area lights. For extra credit, turn in the area light project in addition to the main assignment project. 
+
 ## Submitting
 
 Upload the project to its own directory inside your `public_html` directory using FileZilla. Be sure that all dependencies are in place and **Double check that your finished work displays properly in a browser online.** The directory should include the completed `README.txt`, which should also be viewable in the browser.
 
-In Moodle, add a link to your finished assignment's public URL.
+In Moodle, add a link to your finished assignment's public URL **and a screenshot of your project displayed in a browser, with the URL visible**.
 The Moodle page for this assignment is [here](https://moodle.pugetsound.edu/moodle/mod/assign/view.php?id=340420).

@@ -11,8 +11,15 @@ For this assignment, you'll continue with the book's sample application and acti
 
 Read the [chapter notes](https://github.com/UPS-CSCI240-F16/TonyMullen#chapter-10) in my project repository for details on what is required for these chapters and important tips for working through them.
 
-## Submission
+## GitHub Commits
 
+As in all chapters, you should be committing regularly. You should make at least four meaningful GitHub commits for each chapter of the book.
+
+## Grade weighting & lateness
+
+This assignment has a weight of 10 within the individual assignments portion of your overall grade. Full credit for this assignment depends on the entire contents of the book work from chapter 3 on having been satisfactorily completed. This assignment (i.e. the completed book work) will be accepted for partial credit up to 4 days late, with a penalty of 20% per day.
+
+## Submission
 
 Update the Readme.md describing what you did for this assignment
 and detailing any issues you had.

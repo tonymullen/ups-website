@@ -11,4 +11,4 @@ The [Java 8 Javadoc pages](https://docs.oracle.com/javase/8/docs/api/) are where
 
 ### Lecture slides
 
-Lecture slides and/or other resources for the course will be posted  [here](http://mathcs.pugetsound.edu/~tmullen/slides/s16ics/) as they become available.
+Lecture slides and/or other resources for the course will be posted  [here](http://mathcs.pugetsound.edu/~tmullen/slides/f16ics/) as they become available.

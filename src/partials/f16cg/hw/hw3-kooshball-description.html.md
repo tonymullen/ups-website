@@ -50,9 +50,13 @@ Rather than creating a single vector between ( -1, -1, -1) and ( 1, 1, 1), you'l
 
 Read the code and comments for further hints on how to solve this.
 
+## Extra challenge
+
+The main assignment asks you to put colored cylinders in random directions. Consider how you might arrange the cylinders to make patterns. Can you make a spherical variation of a checkerboard, polka-dot, or other interesting pattern? You may use more than two colors if you like. If you choose to do this for extra credit, you may incorporate the pattern directly into your main assignment project. Make sure that the pattern is visible in your screenshot and make a note about what you've done in your readme. 
+
 ## Submitting
 
-Upload the project to its own directory inside your `public_html` directory using FileZilla. Be sure that all dependencies are in place and **Double check that your finished work displays properly in a browser online.** The directory should include the completed `README.txt`, which should also be viewable in the browser. 
+Upload the project to its own directory inside your `public_html` directory using FileZilla. Be sure that all dependencies are in place and **Double check that your finished work displays properly in a browser online.** The directory should include the completed `README.txt`, which should also be viewable in the browser.
 
-In Moodle, add a link to your finished assignment's public URL.
+In Moodle, add a link to your finished assignment's public URL **and a screenshot of your project displayed in a browser, with the URL visible**.
 The Moodle page for this assignment is [here](https://moodle.pugetsound.edu/moodle/mod/assign/view.php?id=340417).

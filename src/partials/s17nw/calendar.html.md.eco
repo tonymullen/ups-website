@@ -4,9 +4,9 @@
 
 | Week | Date |  Topic              |  Reading           |     Assignment |
 |------|------|---------------------|--------------------|----------------|
-| 1  | 8/29  | Computer graphics and WebGL; Three.js intro                                      |  L3JS Ch 1; <br>  3DMP 1.1 - 1.3  <br> 3DMP 10.3  <br> 3DMP 10.10                   |  [Hw 1: Three.js intro][hw1]<br>**Due Mon 9/5**          |
+| 1  | 8/29  | Computer graphics and WebGL; Three.js intro                                      |  L3JS Ch 1; <br>  [3DMP 1.1 - 1.3][rqs]  <br> 3DMP 10.3  <br> 3DMP 10.10                   |  [Hw 1: Three.js intro][hw1]<br>**Due Mon 9/5**          |
 | 2  | 9/7   | Points, vectors, & meshes; geometry in Three.js                                  |  L3JS 2 (*Creating a scene* & *Geometries and meshes*); <br> 3DMP 1.4; <br> 3DMP 9.7 <br> 3DMP 10.4      |  [Hw 2: Rainbow circle][hw2]<br>**Due Mon 9/12**  |
-| 3  | 9/12  | Matrices & transformations                                                       |  3DMP 4.1; <br>  3DMP 5.1, 5.4, 5.6;  <br> 3DMP 6.4;                                      |  [Hw 3: Koosh ball] [hw3]<br>**Due Mon 9/19**         |
+| 3  | 9/12  | Matrices & transformations                                                       |  3DMP 4.1; <br>  3DMP 5.1, 5.4, 5.6;  <br> 3DMP 6.4;                                       |  [Hw 3: Koosh ball] [hw3]<br>**Due Mon 9/19**            |
 | 4  | 9/19  | Rotation & quaternions                                                           |  3DMP 8;                                                                                   |  [Hw 4: Spinning koosh ball] [hw4]<br>**Due Mon 9/26**   |
 | 5  | 9/26  | Viewing & projection; Clipping & rasterization <br> **Midterm 1 (Fri)**          |  L3JS 2 (*Different cameras for different uses*);  <br> 3DMP 6.5;                          |  [Hw 5: Elephant camera setup][hw5]<br>**Due Mon 10/3**  |
 | 6  | 10/3  | Rendering basics; color and transparency; light and shading                      |  L3JS Ch 3; <br> 3DMP 10.6; <br> 3DMP 10.7;                                                |  [Hw 6: Elephant lighting][hw6]<br>**Due Mon 10/10**     |

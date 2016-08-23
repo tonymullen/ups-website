@@ -34,7 +34,7 @@ This assignment asks you to create a Java class that takes a users age and resti
 There are three steps in order to compute the range of heart rates for each zone:
 
 1. Compute the maximum heart rate using the equation given above.
-2. Subtract the resting heart rate from the maximum heart rate. This is called your heart rate *reserve*
+2. Subtract the resting heart rate from the maximum heart rate. This is called your heart rate *reserve*.
 3. Multiply your reserve by the corresponding percentage and then add this to your resting heart rate:
     rest_heart_rate + reserve * X%
 

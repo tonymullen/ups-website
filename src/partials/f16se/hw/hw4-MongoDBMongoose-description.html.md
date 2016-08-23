@@ -22,6 +22,14 @@ Read the [chapter notes](https://github.com/UPS-CSCI240-F16/TonyMullen#chapter-5
 
 I **strongly recommend** installing [Robomongo](https://robomongo.org/) to help with your MongoDB administration. The book gives valuable instructions on working with MongoDB from the command line. Robomongo enables you to look at your databases using a nice GUI environment and edit documents in databases simply and directly. It's a great resource for MongoDB.
 
+## GitHub Commits
+
+As in all chapters, you should be committing regularly. You should make at least four meaningful GitHub commits for each chapter of the book. 
+
+## Grade weighting & lateness
+
+This assignment has a weight of 1 within the individual assignments portion of your overall grade. Credit for this assignment will not be given after the deadline. You will receive implicit partial credit by turning in subsequent assignments with this work completed.  
+
 ## Submission
 
 Update the Readme.md describing what you did for this assignment

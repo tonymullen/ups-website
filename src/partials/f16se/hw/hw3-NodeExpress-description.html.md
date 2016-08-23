@@ -23,6 +23,14 @@ Although it's very convenient, knowing Jade is *not* a substitute for knowing HT
 
 By the way, Jade is not the only alternate markup language that can be used to generate HTML. An even simpler (albeit less powerful) one is [Markdown](https://daringfireball.net/projects/markdown/), which is [supported by Github](https://help.github.com/categories/writing-on-github/). This is why the Readme file uses the .md suffix. (You could use .txt or .html, but you would lose the benefits of Markdown.)
 
+## GitHub Commits
+
+As in all chapters, you should be committing regularly. You should make at least four meaningful GitHub commits for each chapter of the book. 
+
+## Grade weighting & lateness
+
+This assignment has a weight of 1 within the individual assignments portion of your overall grade. Credit for this assignment will not be given after the deadline. You will receive implicit partial credit by turning in subsequent assignments with this work completed.  
+
 ## Submission
 
 Update the Readme.md describing what you did for this assignment
