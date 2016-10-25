@@ -5,7 +5,7 @@ cacheable: false
 
 In this exercise you're going to get a little practice working with the camera. This exercise relates to what you read in the second part of Chapter 2 of *Learning Three.js*, "Different cameras for different uses". You will need to understand how the perspective camera works and what its properties represent. You'll also put your trigonometry skills to use again to animate the camera moving in a circle.
 
-Begin by downloading the [starter file]([this zip archive](/~tmullen/cg/f16/cs315-hw5.zip). When you run the HTML code in a browser, you should see something like this:  
+Begin by downloading the [starter file](/~tmullen/cg/f16/cs315-hw5.zip). When you run the HTML code in a browser, you should see something like this:  
 
 ![Starter Image](/~tmullen/images/cg/elephant_start.png)
 
@@ -32,7 +32,7 @@ Most of the animation code will be inside the `render()` function. Since the mov
 
 ## Extra challenge
 
-In addition to the assignment as described, try duplicating the project using a textured model of your own creation! Use what you've learned in class and from the resources provided to model and texture a simple object in Blender, export it using the Three.js exporter, and import it into your scene. Submit this alongside the main assignment project. 
+In addition to the assignment as described, try duplicating the project using a textured model of your own creation! Use what you've learned in class and from the resources provided to model and texture a simple object in Blender, export it using the Three.js exporter, and import it into your scene. Submit this alongside the main assignment project.
 
 
 ## Submitting

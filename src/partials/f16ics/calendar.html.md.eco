@@ -4,66 +4,72 @@
 
 | Week | Date |  Topic              |  Reading           |  Lab  | Homework |
 |------|------|---------------------|--------------------|-------|----------|
-| 1  | 8/29  | Introduction to CS & Java          |    L&L 1.1, 1.4-1.6     | [Lab 1][lab1] <br> Thurs 1/21   | [Hwk 1][hw1] <br> **Due Mon 9/5**    |
-| 2  | 9/7   | Variables and assignment           |    L&L Ch 2.1-2.6       | <!-- [Lab 2][lab2] <br> Thurs 1/28 -->  | <!-- [Hwk 2][hw2] <br> **Due Mon 9/12** --> |
-| 3  | 9/12  | Data Types, expressions, objects   |    L&L Ch 3.1-3.6       | <!-- [Lab 3][lab3] <br> Thurs 2/4  -->  | <!--  [Hwk 3][hw3] <br> **Due Mon 9/19** -->  |
-| 4  | 9/19  | Working with objects               |    L&L Ch 4.1-4.5       | <!-- [Lab 4][lab4] <br> Thurs 2/11 -->  | <!-- [Hwk 4][hw4] <br> **Due Mon 9/26** -->  |
-| 5  | 9/26  | Classes                            |  Reading review/catch up | **Midterm I**                  | <!-- [Hwk 5][hw5] <br> **Due Mon 10/3** -->  |
-| 6  | 10/3  | Conditionals                       |  L&L Ch 5.1-5.5         | <!-- [Lab 6][lab6]             -->   | <!-- [Hwk 6][hw6] <br> **Due Mon 10/10** --> |
-| 7  | 10/10 | While Loops                        |   L&L Ch 6.1-6.4        | <!-- [Lab 7][lab7]             -->   | <!-- [Hwk 7][hw7] <br> **Due Mon 10/24** --> |
-| 8  | 10/17 |  **Fall break**                    |                         |                                 |                                      |
-| 9  | 10/24 |  ArrayLists                        | Reading review/catch up | <!--  [Lab 8][lab8]           -->   | <!-- [Hwk 8][hw8] <br> **Due Mon 10/31** --> |
-| 10 | 10/31 |  More on loops and 2D lists        |                    |<!--  [Lab 9][lab9]                 -->   | <!-- [Hwk 9][hw9] <br> **Due Mon 11/7**  --> |
-| 11 | 11/7  |  For Loops                         |                    |<!--  [Lab 10][lab10]               -->   | <!-- [Hwk 10][hw10] <br> **Due Mon 11/14** --> |
-| 12 | 11/14  | Design & review                   |  L&L Ch 7.1-7.9    |  **Midterm II**                          | <!-- [Hwk 11][hw11] <br> **Due Mon 11/21** --> |
-| 13 | 11/21 |   Arrays                           |  L&L Ch 8.1-8.6    |<!--  [Lab 12][lab12]               -->   | <!-- [Hwk 12][hw12] <br> **Due Mon 11/28** --> |
-| 14 | 11/28 |   Recursion & Processing           | L&L Ch 12.1-12.3   |<!--  [Lab 13][lab13]<br> [Download and install Processing][p3] --> | <!-- [Hwk 13][hw13] <br> **Due Mon 12/5** --> |
-| 15 | 12/5 |   Searching and Sorting             |                    |<!--  [Lab 14][lab14]               -->  | <!-- [Hwk 14][hw14] <br> **Due Mon 12/12** --> |
+| 1  | 8/29  | Introduction to CS & Java          |    L&L 1.1, 1.4-1.6     | [Lab 1][lab1] <br> Thurs 1/21   | [Hwk 1][hw1] <br> **Due Mon 9/5** <br>[Solution][hw1-sol]   |
+| 2  | 9/7   | Variables and assignment           |    L&L Ch 2.1-2.6       | [Lab 2][lab2] <br> Thurs 1/28   | [Hwk 2][hw2] <br> **Due Mon 9/12** <br>[Solution][hw2-sol]|
+| 3  | 9/12  | Data Types, expressions, objects   |    L&L Ch 3.1-3.6       | [Lab 3][lab3] <br> Thurs 2/4    | [Hwk 3][hw3] <br> **Due Mon 9/19** <br>[Solution][hw3-sol] |
+| 4  | 9/19  | Working with objects               |    L&L Ch 4.1-4.5       | [Lab 4][lab4] <br> Thurs 2/11   | [Hwk 4][hw4] <br> **Due Mon 9/26** <br>[Solution][hw4-sol] |
+| 5  | 9/26  | Classes                            |  Reading review/catch up | **Midterm I**                  | [Hwk 5][hw5] <br> **Due Mon 10/3** |
+| 6  | 10/3  | Conditionals                       |   L&L Ch 5.1-5.6        | [Lab 6][lab6]                   | [Hwk 6][hw6] <br> **Due Mon 10/10** |
+| 7  | 10/10 | While Loops                        |   L&L Ch 6.1-6.4        | [Lab 7][lab7]                   | [Hwk 7][hw7] <br> **Due Wed 10/19** |
+| 8  | 10/17 |  **Fall break**                    |                         |  [Lab 8][lab8]                  |  [Hwk 8][hw8] <br> **Due Mon 10/24** |
+| 9  | 10/24 |  ArrayLists                        | Reading review/catch up |  [Lab 9][lab9]                 | [Hwk 9][hw9] <br> **Due Mon 10/31**    |
+| 10 | 10/31 |  More on loops and 2D lists        |                         | <!--  [Lab 10][lab10]               -->   |  [Hwk 10][hw10] <br> **Due Mon 11/7**  |
+| 11 | 11/7  |  Exceptions, for Loops             |                         |<!--  [Lab 10][lab10]               -->   | <!-- [Hwk 11][hw11] <br> **Due Mon 11/14** --> |
+| 12 | 11/14 | Design & review                    |  L&L Ch 7.1-7.9         |  **Midterm II**                          |  |
+| 13 | 11/21 |Arrays<br>**Thanksgiving break**    |  L&L Ch 8.1-8.6         |<!--  [Lab 12][lab12]               -->   | <!-- [Hwk 12][hw12] <br> **Due Mon 11/21** --> |
+| 14 | 11/28 |   Recursion & Processing           | L&L Ch 12.1-12.3        |<!--  [Lab 13][lab13]<br> [Download and install Processing][p3] --> | <!-- [Hwk 13][hw13] <br> **Due Mon 11/28** --> |
+| 15 | 12/5 |   Searching and Sorting             |                         |<!--  [Lab 14][lab14]               -->  | <!-- [Hwk 14][hw14] <br> **Due Mon 12/5** --> |
 | Finals | Fri 12/16/16                           |            |     | **Final Exam  8:00AM - 10:00AM**  |          | |
 
 
 <div class="tables-end"></div>
 
-[hw1]: <%= @site.url %>/hw/s16ics/hw1
-[lab1]: <%= @site.url %>/hw/s16ics/lab1
 
-[hw2]: <%= @site.url %>/hw/s16ics/hw2
-[lab2]: <%= @site.url %>/hw/s16ics/lab2
 
-[hw3]: <%= @site.url %>/hw/s16ics/hw3
-[lab3]: <%= @site.url %>/hw/s16ics/lab3
+[hw1]: <%= @site.url %>/hw/f16ics/hw1
+[hw1-sol]: <%= @site.url %>/slides/f16ics/hw1_solution.zip
+[lab1]: <%= @site.url %>/hw/f16ics/lab1
 
-[hw4]: <%= @site.url %>/hw/s16ics/hw4
-[lab4]: <%= @site.url %>/hw/s16ics/lab4
+[hw2]: <%= @site.url %>/hw/f16ics/hw2
+[hw2-sol]: <%= @site.url %>/slides/f16ics/hw2_solution.zip
+[lab2]: <%= @site.url %>/hw/f16ics/lab2
 
-[hw5]: <%= @site.url %>/hw/s16ics/hw5
-[lab5]: <%= @site.url %>/hw/s16ics/lab5
+[hw3]: <%= @site.url %>/hw/f16ics/hw3
+[hw3-sol]: <%= @site.url %>/slides/f16ics/hw3_solution.zip
+[lab3]: <%= @site.url %>/hw/f16ics/lab3
 
-[hw6]: <%= @site.url %>/hw/s16ics/hw6
-[lab6]: <%= @site.url %>/hw/s16ics/lab6
+[hw4]: <%= @site.url %>/hw/f16ics/hw4
+[hw4-sol]: <%= @site.url %>/slides/f16ics/hw4_solution.zip
+[lab4]: <%= @site.url %>/hw/f16ics/lab4
 
-[hw7]: <%= @site.url %>/hw/s16ics/hw7
-[lab7]: <%= @site.url %>/hw/s16ics/lab7
+[hw5]: <%= @site.url %>/hw/f16ics/hw5
+[lab5]: <%= @site.url %>/hw/f16ics/lab5
 
-[hw8]: <%= @site.url %>/hw/s16ics/hw8
-[lab8]: <%= @site.url %>/hw/s16ics/lab8
+[hw6]: <%= @site.url %>/hw/f16ics/hw6
+[lab6]: <%= @site.url %>/hw/f16ics/lab6
 
-[hw9]: <%= @site.url %>/hw/s16ics/hw9
-[lab9]: <%= @site.url %>/hw/s16ics/lab9
+[hw7]: <%= @site.url %>/hw/f16ics/hw7
+[lab7]: <%= @site.url %>/hw/f16ics/lab7
 
-[hw10]: <%= @site.url %>/hw/s16ics/hw10
-[lab10]: <%= @site.url %>/hw/s16ics/lab10
+[hw8]: <%= @site.url %>/hw/f16ics/hw8
+[lab8]: <%= @site.url %>/hw/f16ics/lab8
 
-[hw11]: <%= @site.url %>/hw/s16ics/hw11
+[hw9]: <%= @site.url %>/hw/f16ics/hw9
+[lab9]: <%= @site.url %>/hw/f16ics/lab9
 
-[hw12]: <%= @site.url %>/hw/s16ics/hw12
-[lab12]: <%= @site.url %>/hw/s16ics/lab12
+[hw10]: <%= @site.url %>/hw/f16ics/hw10
+[lab10]: <%= @site.url %>/hw/f16ics/lab10
 
-[hw13]: <%= @site.url %>/hw/s16ics/hw13
-[lab13]: <%= @site.url %>/hw/s16ics/lab13
+[hw11]: <%= @site.url %>/hw/f16ics/hw11
 
-[hw14]: <%= @site.url %>/hw/s16ics/hw14
-[lab14]: <%= @site.url %>/hw/s16ics/lab14
+[hw12]: <%= @site.url %>/hw/f16ics/hw12
+[lab12]: <%= @site.url %>/hw/f16ics/lab12
+
+[hw13]: <%= @site.url %>/hw/f16ics/hw13
+[lab13]: <%= @site.url %>/hw/f16ics/lab13
+
+[hw14]: <%= @site.url %>/hw/f16ics/hw14
+[lab14]: <%= @site.url %>/hw/f16ics/lab14
 
 
 [p3]: https://processing.org/

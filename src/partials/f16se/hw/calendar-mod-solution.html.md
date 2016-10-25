@@ -47,7 +47,7 @@ Add a `public` attribute to the model:
 
 ## Modifying the server controller
 
-You can use the `$or` operator in conjunction with the `find()` method in Mongoose to pass criteria to a database call, like this:
+In the `exports.list` function, you can use the `$or` operator in conjunction with the `find()` method in Mongoose to pass criteria to a database call, like this:
 
     CalEvent.find({
       $or: [
@@ -55,6 +55,28 @@ You can use the `$or` operator in conjunction with the `find()` method in Mongoo
         { 'user': (req.user ? req.user._id : null) }
       ]
     }).sort('-created').populate('user', 'displayName').exec(function (err, calEvents) {
+
+<!-- darn markdown_ -->
+
+## Modifying the CSS
+
+In the `exports.create` function, you can create a check to verify that there is a user if the event to be written is not public by wrapping the save code in a conditional:
+
+    if (calEvent.public || !!calEvent.user) {
+      calEvent.save(function (err) {
+        if (err) {
+          return res.status(400).send({
+            message: errorHandler.getErrorMessage(err)
+          });
+        } else {
+          res.json(calEvent);
+        }
+      });
+    } else {
+      return res.status(403).send({
+        message: 'Must be logged in to save a private event'
+      });
+    }
 
 
 ## Modifying the CSS

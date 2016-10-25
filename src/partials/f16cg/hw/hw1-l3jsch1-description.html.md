@@ -28,7 +28,7 @@ Now that you know how to create, position, and animate objects, you'll add a few
 
 * Extend the gray plane so as to accommodate the positioning of the cone you will add next.
 
-* Add a cone 4 units wide, 10 units high, and 32 segments around. The cone should be of Lambert material and should be some shade of green. Use [hex color codes](http://htmlcolorcodes.com/) to determine the color of your material. The cone should cast shadows. Position the code at -20 along the x axis and position it on the y axis in such a way that it appears to sit atop the gray plane.
+* Add a cone 4 units wide, 10 units high, and 32 segments around. The cone should be of Lambert material and should be some shade of green. Use [hex color codes](http://htmlcolorcodes.com/) to determine the color of your material. The cone should cast shadows. Position the cone at -20 along the x axis and position it on the y axis in such a way that it appears to sit atop the gray plane.
 
 * Animate the cone such that it bounces up and down a distance of 10 units. Control the speed of the cone's bounce using a GUI slider. This will be done exactly as described for the sphere in Chapter 1, but the cone's movement should be independent of the sphere's movement.
 
@@ -43,6 +43,12 @@ When you've finished, your scene should look something like this:
 ## Submitting your work
 
 Upload the project to its own directory inside your `public_html` directory using FileZilla. Be sure that all dependencies are in place and **Double check that your finished work displays properly in a browser online.** The directory should include the completed `README.txt`, which should also be viewable in the browser.
+
+The URL for the destination directory is `http://cs315.pugetsound.edu/`. There, you'll see a directory with your username. Your homework assignments should all be uploaded as self-contained directories within this directory. Name these directories `HW-01`, `HW-02`, and similar. Make sure that all necessary dependencies are correctly linked to from within the HTML file (we will talk a bit about how to do this in class).
+
+In order to upload the file to the server, you must be either on campus or connected to the campus network via VPN. Instructions for accessing the campus network via VPN can be found [here](http://www.pugetsound.edu/about/offices-services/technology-services/help-support/self-help/vpn/).
+
+Using FileZilla, enter `sftp://cs315.pugetsound.edu` in the Host field, your username in the Username field, and your password in the Password field, then click connect. You should be able to drag and drop files and directories from your filesystem in the window on the left to the remote filesystem in the window on the right of the FileZilla interface.  
 
 In Moodle, add a link to your finished assignment's public URL **and a screenshot of your project displayed in a browser, with the URL visible**.
 The Moodle page for this assignment is [here](https://moodle.pugetsound.edu/moodle/mod/assign/view.php?id=340294).

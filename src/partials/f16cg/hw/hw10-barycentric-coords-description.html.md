@@ -12,7 +12,7 @@ whether a point on a plane falls within the bounds of a triangle.
 
 ## Starter files
 
-You'll start with the files in [this zip archive](/~tmullen/cg/cs315-hw10.zip).
+You'll start with the files in [this zip archive](/~tmullen/cg/f16/cs315-hw10.zip).
 
 ![Starter Image](/~tmullen/images/cg/barycentricStart.png)
 
@@ -25,11 +25,12 @@ a line extending from the center of the triangle perpendicular to its front face
 
 You'll also see a gray ball located at the center of the triangle's face. This ball
 represents a point for which you need to calculate barycentric coordinates with
-respect to the triangle. You can drag this ball around. Notice that unlike
-the other balls, this ball is constrained to being co-planar with the triangle.
+respect to the triangle. You can drag this ball around. Notice that while
+the other balls can be moved freely in 3D space, altering the direction or shape of the triangle,
+this ball is constrained to being co-planar with the triangle.
 
 Also, note that when any of the other balls are moved, the gray ball jumps back
-to the center of the triangle.
+to the center of the triangle. This behavior should change in the finished assignment.
 
 ## Calculating barycentric coordinates
 
@@ -66,7 +67,7 @@ calculate the barycentric coordinates and set the `inTriangle` boolean.
 
 ## Extra challenge
 
-Add two GUI sliders representing two of the three barycentric coordinates. The sliders should each range from -1.0 to 2.0. Assume the third coordinate is the difference between the sum of the first two and 1.0. Enable the user to position the ball in space by adjusting the sliders. Values of 0.333, 0.333 in the sliders should position the ball in the center of the triangle. If any of the coordinates is less than zero or greater than 1, the ball should be outside the triangle. 
+Add two GUI sliders representing two of the three barycentric coordinates. The sliders should each range from -1.0 to 2.0. Assume the third coordinate is the difference between the sum of the first two and 1.0. Enable the user to position the ball in space by adjusting the sliders. Values of 0.333, 0.333 in the sliders should position the ball in the center of the triangle. If any of the coordinates is less than zero or greater than 1, the ball should be outside the triangle.
 
 
 ## Submitting

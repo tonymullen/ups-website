@@ -12,9 +12,20 @@ The assignment is essentially the same as Programming Projects 5.1 and 5.2 in yo
 
 Your program should return an error if the user attempts to input a year that is less that 1582. Also, think about how to handle the ordering of arguments (i.e, what happens if the user puts the later year first and the earlier year second). You may handle the ordering of arguments however you think is sensible, but you should make it clear that your program is checking for this possibility and handling it intelligently.
 
-Finally, recall what I talked about in class with regard to the proper role of `main` in a program. For this assignment, please create two classes. One class should be a wrapper class that will have only a `main` method. The other class will contain the actual functionality of your program, and will not have a `main` method. In the `main` method of the first class, you'll create an instance of an object of the second class and call a method to execute its code.
+Finally, recall what I talked about in class with regard to the proper role of `main` in a program. For this assignment, please create two classes. One class should be a wrapper class that will have only a `main` method. The other class will contain the actual functionality of your program, and will not have a `main` method. In the `main` method of the first class, you'll create an instance of an object of the second class and call a method to execute its code with a hard-coded pair of years. We will not be using arguments to `main`, but the program should be written in such a way that if the values passed to the method inside `main` are changed, the correct results are produced.
 
-This means that the `main` method of the wrapper class will take two arguments, and pass their values to the method of your second class.
+## Style Guide
+
+Before you submit your assignment, go through the checklist below and make sure your code conforms to the style guide.
+
+* No unused variables or commented-out code is left in the class
+* All instance variables are used in more than one method (if not, make them local)
+* Javadoc comment above each class
+* All methods have Javadoc comments
+* All numbers have been replaced with constants (i.e. no "magic numbers")
+* Proper capitalization of variables, methods, and classes
+* Use white space to separate different sections of your code
+
 
 ### Submission
 

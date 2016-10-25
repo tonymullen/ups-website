@@ -22,7 +22,7 @@ Blender, and graphics in general. Here are a few:
 #### Blender
 [*Blender Basics 4th Ed* (Free PDF introductory book)](http://vrep.org/wp-content/uploads/2014/03/BlenderBasics_4thEdition2011.pdf)
 
-[*Introducing Character Animation 2nd Ed*](https://dl.dropboxusercontent.com/u/1412402/Sybex.Introducing.Character.Animation.with.Blender.2nd.Edition.April.2011.epub)
+[*Introducing Character Animation 2nd Ed*](https://dl.dropboxusercontent.com/u/1412402/IntroducingCharacterAnimation2E.epub)
 
 [Mastering Blender 2nd Ed*](https://dl.dropboxusercontent.com/u/1412402/Mullen-Mastering_Blender_2E.pdf)
 

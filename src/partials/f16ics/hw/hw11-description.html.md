@@ -27,5 +27,17 @@ For the assignment, do the following:
 
 * Create a driver class with a `main` method that creates an instance of a `Course` object, populates it with a few students, prints out the roll for the course, and prints the overall course test average.
 
+## Style Guide
+
+Before you submit your assignment, go through the checklist below and make sure your code conforms to the style guide.
+
+* No unused variables or commented-out code is left in the class
+* All instance variables are used in more than one method (if not, make them local)
+* Javadoc comment above each class
+* All methods have Javadoc comments
+* All numbers have been replaced with constants (i.e. no "magic numbers")
+* Proper capitalization of variables, methods, and classes
+* Use white space to separate different sections of your code
+
 
 Submit the file at the [Moodle page for the assignment](https://moodle.pugetsound.edu/moodle/mod/assign/view.php?id=340439).

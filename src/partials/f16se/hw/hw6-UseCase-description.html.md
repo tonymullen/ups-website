@@ -1,7 +1,7 @@
 ```
 cacheable: false
 ```
-## **Due Mon 10/3**
+## **Due Mon 10/10**
 
 ## Overview
 
@@ -61,7 +61,7 @@ This assignment has a weight of 1 within the individual assignments portion of y
 
 Please take some time to **proofread** and revise your specification--iterate your writing!. Think of this as a professional document, something that you would show to your boss!
 
-Submit your specification in **pdf format** on the [assignment's Moodle page](https://moodle.pugetsound.edu/moodle/mod/assign/view.php?id=336597). **Do not submit .doc, .txt, or any other format files.**
+Submit your specification in **pdf format** on the [assignment's Moodle page](https://moodle.pugetsound.edu/moodle/mod/assign/view.php?id=336598). **Do not submit .doc, .txt, or any other format files.**
 
 I also encourage you to post it publically on Piazza so that (a) you can share your specification with your team mates, and (b) so that you can share with others examples of how to write these specifications.
 

@@ -26,43 +26,42 @@ In addition to deploying the application to Heroku, as described in the book, yo
 
 In brief, for each commit, you need to do the following:
 
-<pre>
-git add .
-git commit -m "a meaningful note about the commit"
-git push <remote> master
-</pre>
 
-Where <remote> is the name of the remote repository you're pushing to, i.e. either your Heroku repo or your Github repo.
+    git add .
+    git commit -m "a meaningful note about the commit"
+    git push <remote> master
+
+
+Where &lt;remote> is the name of the remote repository you're pushing to, i.e. either your Heroku repo or your Github repo.
 
 To add the Github repo (after creating a new repo in Github) do:
 
-<pre>
-git remote add github http://github.com/UPS-CS240-S16/<YourNameWithoutAngleBrackets>.git
-</pre>
+
+    git remote add github http://github.com/UPS-CSCI240-F16/<YourNameWithoutAngleBrackets>.git
+
 
 Where the angle-bracketed portion of the URL is substituted for the name of the repo you created (e.g: TonyMullen.git).
 
 After doing that, you can push to:
 
-<pre>
-git push github master
-</pre>
+
+    git push github master
+
 
 (This will of course not update any code on the Heroku repo. That will need to be pushed separately.)
 
 You should also *tag* the commit (create a 'release') for each chapter. You will be continuing through the book using the same code, so this will make it possible to easily identify the state the code was at for each chapter). To do this, first commit your code, then do:
 
-<pre>
-git tag -a ch3 -m "project through chapter 3 of Getting MEAN"
-</pre>
+
+    git tag -a ch3 -m "project through chapter 3 of Getting MEAN"
+
 
 Here the tag we're using is <span class="codefont">ch3</span> to indicate that this code goes through chapter 3. In subsequent chapter assignments, you'll be expected to tag the releases <span class="codefont">ch4</span>, <span class="codefont">ch5</span>, etc.
 
 In order for your tags to show up on Github, you will need to push the tags also, like so:
 
-<pre>
-git push --tags github master
-</pre>
+    git push --tags github master
+
 
 Include a README.md file describing what you did and detailing any issues you had. The README.md is the first place I will look to make sure you did this assignment, so make sure to include/update it! **The README file should include a link to the live application on Heroku.**
 
@@ -82,4 +81,6 @@ This assignment has a weight of 1 within the individual assignments portion of y
 
 ## Submission
 
-To submit this assignment go to the [Moodle page for the assignment](https://moodle.pugetsound.edu/moodle/mod/assign/view.php?id=336594) and enter the link to your GitHub Repository's top page (where the README is displayed). Make sure that the link is a proper link (i.e. clickable). Also, make sure that your GitHub README.md file contains a (clickable) link to the live application on Heroku.
+To submit this assignment go to the [Moodle page for the assignment](https://moodle.pugetsound.edu/moodle/mod/assign/view.php?id=336594), submit a screenshot of your live application on Heroku to Moodle, and enter the link to your GitHub Repository's top page (where the README is displayed). Make sure that the link from Moodle to your GitHub repo is a proper link (i.e. clickable).
+
+Also, make sure that your GitHub README.md file contains a (clickable) link to the live application on Heroku.

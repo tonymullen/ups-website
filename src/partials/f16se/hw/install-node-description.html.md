@@ -28,7 +28,7 @@ Instructions for installing what you need to follow the book are given in append
 
    Which should output something like v4.1.0 and 3.5.2, respectively (these numbers may be a little different, but shouldn't be too far off).
 
-4. **Install the rest of the globally installed software** Follow the instructions from A.2 in Appendix A to install Express and MongoDB.
+4. **Install the rest of the globally installed software** Follow the instructions from A.2 in Appendix A to install Express and MongoDB. Also, install a good text editor which enables, at minimum, code highlighting and project-wide string search. I recommend [Atom](https://atom.io/) which has built-in support for Git and many other nice features. Sublime is also fine if it's what you're comfortable with.  
 
 5. **The rest you can install after you start on the book project** Read Chapter 3 carefully, and begin following the instructions for the project starting at section 3.2.2 (this is where Assignment 2 begins). As you go, install the remaining software as it becomes necessary. Follow the instructions in Appendix B (except B.2 and B.3, because you've already done that) to install Twitter Bootstrap, the Amelia theme for Bootstrap, and the Heroku toolbelt.
 
@@ -36,7 +36,7 @@ Good luck with it! Let me know if you hit any snags!
 
 # Troubleshooting
 
-As they come in, I'll post some problems (and hopefully solutions!) here.
+As they come in, I'll post some problems (and hopefully solutions!) here:
 
 ## Windows issues
 

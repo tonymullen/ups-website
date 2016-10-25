@@ -68,6 +68,7 @@ docpadConfig = {
 			 	"http://mathcs.pugetsound.edu/~tmullen/scripts/controllers.js"
 			 	"http://mathcs.pugetsound.edu/~tmullen/scripts/directives.js"
 				"http://mathcs.pugetsound.edu/~tmullen/scripts/domtweaks.js"
+				"http://mathcs.pugetsound.edu/~tmullen/scripts/solutions.js"
 			]
 
 			# Out Path

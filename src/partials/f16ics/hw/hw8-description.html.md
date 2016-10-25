@@ -4,7 +4,7 @@ cacheable: false
 
 ## Introduction
 
-For this assignment, you're going to practice several things you've done in the past: using Scanner, comparing strings, using conditionals, working with objects, and using the `while` statement. In addition, you'll also work with the `ArrayLoop` class.
+For this assignment, you're going to practice several things you've done in the past: using Scanner, comparing strings, using conditionals, working with objects, and using the `while` statement. In addition, you'll also work with the `ArrayList` class.
 
 ## Objective
 
@@ -56,6 +56,19 @@ The user should be able to call add, call, and show in any order repeatedly. Whe
 ## Classes
 
 For this assignment, you'll write three classes. One will be the `Player` class, which the team manager depends on. The next class will be `TeamManager` which executes the functionality of this exercise in a method called `run()`. Finally, you'll implement a wrapper class called `TeamManagerApp` which has only a `main` function that creates a `TeamManager` instance and calls its `run()` method.
+
+## Style Guide
+
+Before you submit your assignment, go through the checklist below and make sure your code conforms to the style guide.
+
+* No unused variables or commented-out code is left in the class
+* All instance variables are used in more than one method (if not, make them local)
+* Javadoc comment above each class
+* All methods have Javadoc comments
+* All numbers have been replaced with constants (i.e. no "magic numbers")
+* Proper capitalization of variables, methods, and classes
+* Use white space to separate different sections of your code
+
 
 ### Submission
 

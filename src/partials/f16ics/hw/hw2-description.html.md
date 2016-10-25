@@ -22,7 +22,7 @@ When you work out, your heart rate falls within different *training zones*. You 
 * **Zone 2 (60-70%):** This is the "average effort" level where it is still possible to hold a conversation.
 * **Zone 3 (70-80%):** This is the "above average effort" level where you can only talk in one- or two- word answers.
 * **Zone 4 (80-93%):** This is the "hard effort" level. Your breathing is labored, your arms and legs feel heavy, and you can't sustain the pace for much more than an hour (at best).
-* **Zone 5 (93-100%)]:** This is the "all out" level. You can sustain this pace for a few seconds to maybe five minutes.
+* **Zone 5 (93-100%):** This is the "all out" level. You can sustain this pace for a few seconds to maybe five minutes.
 
 
 The great thing about training zones is you can use them to help plan your work out. Let's say your goal is to maintain good heart health. Then, ideally, you'd want to spend most of your workout within zone 2. So the question is, what range of heart rates corresponds to zone 2? The purpose of this assignment is to answer this question.
@@ -40,9 +40,9 @@ There are three steps in order to compute the range of heart rates for each zone
 
 For example, suppose you are 20 years old and your resting heart rate is 70 beats per minute. Here are the three steps you would go through to figure out the range of heart rates for zone 2:
 
-* Your maximum heart rate is 208-0.7*20 = 194 bpm.
-* Your reserve is 194-70 = 124 bpm
-* At 60%, your heart rate should be 70 + 124 * .6 = 144 bpm. At 70%, your heart rate should be 70 + 124 * .7 = 156 bpm.
+* Your maximum heart rate is 208-0.7 \* 20 = 194 bpm.
+* Your reserve is 194 \- 70 = 124 bpm
+* At 60%, your heart rate should be 70 + 124 \* 0.6 = 144 bpm. At 70%, your heart rate should be 70 + 124 \* 0.7 = 156 bpm.
 
 Thus, if you want to work out at zone 2, your heart rate should be between 144 and 156 bpm.
 

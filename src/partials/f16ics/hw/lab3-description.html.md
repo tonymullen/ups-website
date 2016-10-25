@@ -23,7 +23,7 @@ For Lab 3, complete each of the following exercises.
 
          int num5 = 5.0/2.0;
 
-2. Write a short program that takes a string of input from the user (using Scanner) with any capitalization and prints out the string, but with all consonants in lower case and all vowels in upper case.
+2. Write a short program that takes a string of input from the user (using Scanner) with any capitalization and prints out the string, but with all consonants in lower case and all vowels in upper case. Read the String class specification in the [Java API](https://docs.oracle.com/javase/7/docs/api/) to see a full list of the methods you can use on string. Try to do it in the fewest method calls you can.  
 
 3. The Department of Motor Vehicles (DMV) is responsible for issuing driver’s licenses. This question asks you
 to write a Java class called DMV that prompts the user to enter their full name (first, middle, and last) and
@@ -32,7 +32,7 @@ their date of birth and then produces a “driver’s license”. The license sh
     * A random driver’s license number that consists of 7 random digits
     * The user’s last name
     * The user’s first and middle name
-    * An expiration date which is the user’s birth date except for the year which should be 2020
+    * An expiration date which is the user’s birth date except for the year which should be 2021
 
 The first letter of the first, middle, and last name should always be capitalized (and the other letters lower cased). Here is an example of what my program produces when run:
 
@@ -47,9 +47,9 @@ The first letter of the first, middle, and last name should always be capitalize
         LN Mullen
         FN Anthony James
         DOB 05/15/71
-        EXP 05/15/20
+        EXP 05/15/21
         -------------------------------------
 
 
 
-[Moodle submission page](https://moodle.pugetsound.edu/moodle/mod/assign/view.php?id=318511)
+[Moodle submission page](https://moodle.pugetsound.edu/moodle/mod/assign/view.php?id=356697)

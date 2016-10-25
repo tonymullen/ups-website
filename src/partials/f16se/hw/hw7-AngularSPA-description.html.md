@@ -17,7 +17,7 @@ As in all chapters, you should be committing regularly. You should make at least
 
 ## Grade weighting & lateness
 
-This assignment has a weight of 10 within the individual assignments portion of your overall grade. Full credit for this assignment depends on the entire contents of the book work from chapter 3 on having been satisfactorily completed. This assignment (i.e. the completed book work) will be accepted for partial credit up to 4 days late, with a penalty of 20% per day.
+This assignment has a weight of 10 within the individual assignments portion of your overall grade. Full credit for this assignment depends on the entire contents of the book work from chapter 3 on having been satisfactorily completed, with **all requested screenshots** posted on GitHub. This assignment (i.e. the completed book work) will be accepted for partial credit up to 4 days late, with a penalty of 20% per day.
 
 ## Submission
 
@@ -26,4 +26,4 @@ and detailing any issues you had.
 
 Add the new material for this chapter to the **top** of the Readme.md file, so it's the first thing I see. Make sure the link to the live Heroku application stays on top also.
 
-To submit this assignment go to the [Moodle page for the assignment](https://moodle.pugetsound.edu/moodle/mod/assign/view.php?id=336599) and enter the link to your GitHub Repository's top page (the same link as for the previous assignment). Make sure that the link is a proper link (i.e. clickable). Also, make sure that your GitHub README.md file contains a (clickable) link to the live application on Heroku.
+To submit this assignment go to the [Moodle page for the assignment](https://moodle.pugetsound.edu/moodle/mod/assign/view.php?id=336599), submit the requested screenshots from Chapters 8, 9 and 10 to Moodle, and enter the link to your GitHub Repository's top page (the same link as for the previous assignment). Make sure that the link is a proper link (i.e. clickable). Also, make sure that your GitHub README.md file contains a (clickable) link to the live application on Heroku.

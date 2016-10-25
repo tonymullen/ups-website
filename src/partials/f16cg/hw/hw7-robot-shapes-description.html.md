@@ -8,11 +8,11 @@ In this exercise you're going to build a robot of your own design in Three.js. F
 
 ## Starter file
 
-Use the starter file [here](/~tmullen/cg/cs315-hw7.zip). This file has the camera in place and contains a grid floor and a first cylinder shape to get you started. You do not have to use this cylinder, but it may be a helpful reference for size and positioning of your shapes.
+Use the starter file [here](/~tmullen/cg/f16/cs315-hw7.zip). This file has the camera in place and contains a grid floor and a first cylinder shape to get you started. You do not have to use this cylinder, but it may be a helpful reference for size and positioning of your shapes.
 
 ## Requirements
 
-Your robot should be made up of at least five different shape types. These should include at least three different primitive geometric types and at least two ExtrudeGeometry shapes. If you wish, you can replace any one of these shapes with a shape you created in another program such as Blender using one of the Three.js loaders (for example, OBJLoader). In that case, you should have at least two different primitive geometric types or at least one ExtrudeGeometry shape. Of course, you can use more shape types than this if you wish.
+Your robot should be made up of at least five different shape types. These should include at least three different Three.js primitive geometric types and at least two Three.js `ExtrudeGeometry` shapes. If you wish, you can replace any one of these shapes with a shape you created in another program such as Blender using one of the Three.js loaders (for example, OBJLoader). In that case, you should have at least two different primitive geometric types or at least one `ExtrudeGeometry` shape. Of course, you can use more shape types than this if you wish.
 
 Your robot should also have the following characteristics:
 
@@ -28,12 +28,12 @@ Be creative!
 
 ## Evaluation
 
-Completing this assignment on time to the specifications described above is worth 8 points out of a possible 10 points. Further points will be awarded on the basis of creativity, design, and/or additional complexity. If you used interesting features of Three.js that have not been discussed, or if you added something to the assignment that may not be immediately obvious to me, be sure to make a note of it in the README, so that I know what to credit you for.
+Completing this assignment on time to the specifications described above is worth 90 out of a possible 100 points. Further points will be awarded on the basis of creativity, design, and/or additional complexity. If you used interesting features of Three.js that have not been discussed, or if you added something to the assignment that may not be immediately obvious to me, be sure to make a note of it in the README, so that I know what to credit you for.
 
 ## Extra challenge 1
 
 In addition to your purely Three.js robot, try modeling a robot, character, or mechanical part
-in Blender and importing it. Submit as a separate project. You can continue working on animating this for homework 8.
+in Blender and importing it. Submit as a separate project. You can continue working on animating and texturing this for extra credit on homeworks 8 and 9.
 
 ## Extra challenge 2
 

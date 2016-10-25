@@ -5,7 +5,7 @@ cacheable: false
 
 In this exercise you'll get some practice setting up lights. Specifically, you'll add some colored spotlights to a scene and animate their position and direction using GUI sliders. You should have read Chapter 3 in *Learning Three.js* to be sure you understand the differences between light types and the specifics of the `THREE.SpotLight` object. This assignment will also give you a hands-on introduction to how colored light mixes.  
 
-Begin by downloading the [starter file]([this zip archive](/~tmullen/cg/f16/cs315-hw6.zip). When you run the HTML code in a browser, you should see something like this:  
+Begin by downloading the [starter file](/~tmullen/cg/f16/cs315-hw6.zip). When you run the HTML code in a browser, you should see something like this:  
 
 ![Starter Image](/~tmullen/images/cg/elephantLightStart.png)
 
@@ -36,7 +36,7 @@ Once again, the main part of the animation code will occur within the `render` f
 
 ### Extra challenge
 
-Try to do something comparable with area light objects. AreaLights are not standard in Three.js, but they are discussed in Chapter 3 of "Learning Three.js". Read the instructions for using area lights and set up a scene that uses them in place of spotlights. You won't get identical effects, but experiment with what can and can't be done with area lights. For extra credit, turn in the area light project in addition to the main assignment project. 
+Try to do something comparable with area light objects. AreaLights are not standard in Three.js, but they are discussed in Chapter 3 of "Learning Three.js". Read the instructions for using area lights and set up a scene that uses them in place of spotlights. You won't get identical effects, but experiment with what can and can't be done with area lights. For extra credit, turn in the area light project in addition to the main assignment project.
 
 ## Submitting
 

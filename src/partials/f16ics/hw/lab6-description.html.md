@@ -6,9 +6,9 @@ cacheable: false
 
 In this lab, you will create a simple game to play! The game is a "number guessing game"---the computer will pick a random number between 1 and 50 (inclusive), and then the player will try to guess it in as few guesses as possible.
 
-The player will enter guesses through the BlueJ interface, calling a <span class="codefont">guess()</span> method and providing a parameter. The program will let the player know how close their guess is (if they are "hot" or "cold", and whether their guess was too high or too low). When finished, your program's output might look something like the following:
+The player will enter guesses through the BlueJ interface, calling a `guess()` method and providing a parameter. The program will let the player know how close their guess is (if they are "hot" or "cold", and whether their guess was too high or too low). When finished, your program's output might look something like the following:
 
-(Note that I called a <span class="codefont">guess()</span> method multiple times with parameters 25, 15, 30, 40, 38, and 37. If you have BlueJ's Terminal set to "Clear screen at method call", then you will only see one of these at a time. Uncheck that option to be able to see your game history!)
+(Note that I called a `guess()` method multiple times with parameters 25, 15, 30, 40, 38, and 37. If you have BlueJ's Terminal set to "Clear screen at method call", then you will only see one of these at a time. Uncheck that option to be able to see your game history!)
 
     Welcome to the Guessing Game!
     I picked a number between 1 and 50. Try and guess!
@@ -46,7 +46,7 @@ This lab should be completed in pairs. Remember to switch off who is driving and
 
 ## Instructions
 
-Create a new project in BlueJ using the <span class="codefont">Project > New Project</span> menu. You can name it <span class="codefont">Lab6_SecretNumber</span>. Inside, you will create just one Java class: <span class="codefont">SecretNumber</span>. The <span class="codefont">SecretNumber</span> class represents the secret number, as well as the number of times the user has tried to guess that number.
+Create a new project in BlueJ using the `Project > New Project` menu. You can name it `Lab6_SecretNumber`. Inside, you will create just one Java class: `SecretNumber`. The `SecretNumber` class represents the secret number, as well as the number of times the user has tried to guess that number.
 
 **Part 1: The Naive SecretNumber Class**
 
@@ -54,7 +54,7 @@ We'll start by building a naive class, and eventually build on top of it. Define
 
 <ol>
 <li>
-**Fields:** What does this game need to remember about itself? Think about what fields are needed for this class. For starters, you need to keep track of the secret number to guess, as well as the number of guesses the player has made so far. You can assume that the secret number is an <span class="codefont">int</span>.
+**Fields (attributes):** What does this game need to remember about itself? Think about what fields are needed for this class. For starters, you need to keep track of the secret number to guess, as well as the number of guesses the player has made so far. You can assume that the secret number is an `int`.
 </li>
 <li>
 **Constructors:** Your class should have two constructors:
@@ -82,10 +82,12 @@ int randomNumber = randomGenerator.nextInt(10); //a random number between 0 (inc
 </li>
 <li>
 If you want to have a different lower bound, you can offset the result by adding the minimum value to it. For example:
+
 <pre><code class="java">int randomNumber = randomGenerator.nextInt(10) + 1;
 // random number is now between 0+1 (inclusive) and 10+1 (exclusive),
 // or between 1 and 10 (inclusive) </pre></code>
-Check-in with us before moving on to ensure correctness, and switch partners.
+
+Check-in with the instructor before moving on to ensure correctness, and switch partners.
 </li>
 </ul>
 </li>
@@ -169,7 +171,7 @@ Double-check that your program works perfectly by playing multiple games. If the
 
 **Part2: Upgrading the Game**
 
-With a naive version of the <span class="codefont">Lab6_SecretNumber</span> class written, you should now upgrade it to include the following functionalities.
+If time allows in the lab, upgrade your class to include the following functionalities.
 
 <ol>
 <li>
@@ -209,6 +211,7 @@ With a naive version of the <span class="codefont">Lab6_SecretNumber</span> clas
 </p>
 </li>
 <li>
+
 **Upgrade 2:** Once the user correctly guesses the secret number, your game continues to allow more guesses to be made (go ahead, try it!). Update your code so that no more guesses can be made at this point, and instead, your guess method should simply output a message like this:
 
 <pre><code class="java">Game Over: You won!
@@ -218,4 +221,4 @@ You guessed that the secret number was 37 in 5 tries.</pre></code>
 </li>
 </ol>
 
-Submit your lab at the [Moodle submission page](https://moodle.pugetsound.edu/moodle/mod/assign/view.php?id=325914).
+Submit your lab at the [Moodle submission page](https://moodle.pugetsound.edu/moodle/mod/assign/view.php?id=361349).

@@ -16,9 +16,9 @@ This file contains the starter code in HTML and JavaScript. It also contains a c
 
 ## Objectives
 
-Below is a breakdown of what you need to do to get a score for assignment 10. For full credit for assignment 10, you should get as far as what is necessary to render the Cornell Box example, which includes intersections of spheres and triangles, diffuse and Blinn-Phong specular shading, and mirror reflections.
+Below is a breakdown of what you need to do to get a score for assignment 11. For full credit for assignment 11, you should get as far as what is necessary to render the Cornell Box example, which includes intersections of spheres and triangles, diffuse and Blinn-Phong specular shading, and mirror reflections.
 
-If you wish to continue work on your ray tracer for assignment 11, you can add features such as matrix transformation of objects, transparency, depth of field, and/or other features.
+If you wish to continue work on your ray tracer for assignment 12, you can add features such as matrix transformation of objects, transparency, depth of field, and/or other features.
 
 <table class="center noborder pad">
 <tr>

@@ -32,6 +32,21 @@ Your program should prompt the user for three pieces of information: Their first
 6. The third password takes a random-length portion of the first name, combined with random-length portions of the favorite word and last name. In each case, those random-length pieces should start at the beginning of the string, and the code should be written such that it's possible to get the entire string if the largest possible random number is produced.
 7. For full credit, your code should contain comments. There should be a comment at the top of the class containing your name and a sentence or two explaining what it's about, and one above the main method outlining what's being computed and how. Add comments above each major section of your code too — one describing how the username-creation code works, and one for each of the password approaches.
 
+## Style Guide
+
+For this assignment, I'm also introducing Professor Richards' style guide. These are excellent tips for writing good Java code and we should all start following them!
+
+Before you submit your assignment, go through the checklist below and make sure your code conforms to the style guide.
+
+* No unused variables or commented-out code is left in the class
+* All instance variables are used in more than one method (if not, make them local)
+* Javadoc comment above each class
+* All methods have Javadoc comments
+* All numbers have been replaced with constants (i.e. no "magic numbers")
+* Proper capitalization of variables, methods, and classes
+* Use white space to separate different sections of your code
+
+
 ### Extras
 
 Looking for additional challenges? Feel free to invent some additional username or password formats and implement them in addition to the required ones. For example, instead of taking random-length portions of the inputs that always start at the beginning of the input strings, take substrings where both the starting and ending points are random. Or, make a new version of password 2 that makes the capitalization random instead of following a particular pattern. (I'm happy to provide hints about how to implement that if you're interested.) You could also ask for an additional input (e.g. the user's favorite number) and use that in interesting ways.

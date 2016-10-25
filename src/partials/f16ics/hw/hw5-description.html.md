@@ -19,17 +19,28 @@ When the <span class="codefont">Dice</span> class has been written correctly, ca
     DiceRoller.main({ });
     Rolled 1 and 2, total: 3
     Rolled 2 and 5, total: 7
-    The averge of this pair of dice rolled so far is 5.0
+    The average of this pair of dice rolled so far is 5.0
     Rolled 10 and 14, total: 24
     Rolled 13 and 3, total: 16
     Rolled 20 and 6, total: 26
-    The averge of this pair of dice rolled so far is 15.333333333333334
+    The average of this pair of dice rolled so far is 22.0
     Rolled 4 and 12, total: 16
     Rolled 1 and 9, total: 10
     Rolled 2 and 18, total: 20
     Rolled 6 and 13, total: 19
-    The averge of this pair of dice rolled so far is 7.5
+    The average of this pair of dice rolled so far is 16.25
 
+## Style Guide
+
+Before you submit your assignment, go through the checklist below and make sure your code conforms to the style guide.
+
+* No unused variables or commented-out code is left in the class
+* All instance variables are used in more than one method (if not, make them local)
+* Javadoc comment above each class
+* All methods have Javadoc comments
+* All numbers have been replaced with constants (i.e. no "magic numbers")
+* Proper capitalization of variables, methods, and classes
+* Use white space to separate different sections of your code
 
 ### Submission
 

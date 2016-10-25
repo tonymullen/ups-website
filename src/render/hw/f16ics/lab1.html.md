@@ -9,10 +9,10 @@ class: CS 161: Introduction to Computer Science
 
 classurl: /classes/f16-CS161-ics
 
-submission: s16ics/hw/dummy-submission.html.md
+submission: f16ics/hw/lab1-submission.html.md
 
-description: s16ics/hw/dummy-description.html.md
+description: f16ics/hw/lab1-description.html.md
 
-credits: s16ics/hw/dummy-credits.html.md
+credits: f16ics/hw/lab1-credits.html.md
 
 ```

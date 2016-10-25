@@ -12,7 +12,7 @@ There is no starter file. You'll simply **duplicate** the previous assignment wh
 
 The robot should use at least five materials, among which should be at least one diffuse (matte/non-shiny) material and at least one highly specular (shiny) material. Also, there should be at least one transparent material like glass, and at least one environment-mapped reflective material (it's okay to have materials with both, but there should be at least two materials in total to correspond with these characteristics).
 
-Finally, include a sky box to help make transparent materials more interesting (by giving them something to see through to). Instructions on creating a sky box in Three.js can be found [here](http://blog.romanliutikov.com/post/58705840698/skybox-and-environment-map-in-threejs).
+Finally, include a sky box to help make transparent materials more interesting (by giving them something to see through to). Instructions on creating a sky box in Three.js can be found [here](https://jeremypwalton.wordpress.com/2014/09/19/skybox-in-three-js/).
 
 I've provided a set of sky box images you can use [here](/~tmullen/cg/airport_images.zip). If you want to create your own, there are some instructions for doing that in Blender [here](http://25x8.blogspot.com/2013/04/rendering-skybox-for-unity-using-blender.html).
 
@@ -30,7 +30,7 @@ Completing this assignment on time to the specifications described above is wort
 
 ## Extra challenge
 
-If you modeled something in Blender, add materials and textures to the model. Study UV mapping and how to create decal textures. 
+If you modeled something in Blender, add materials and textures to the model. Study UV mapping and how to create decal textures.
 
 ## Submitting
 
