@@ -1,0 +1,255 @@
+```
+cacheable: false
+```
+
+## Overview
+
+For this class you will work in groups to develop medium-sized software projects over the course of the semester. The specific nature of each project will be determined by the group, and we will discuss possibilities in class.
+
+All the projects will be "Software as a Service" (SaaS) systems such as web applications, and will specifically be based upon a pre-existing codebase, namely the [MEAN.js full-stack JavaScript boilerplate](http://meanjs.org/). Learning to adapt to an existing and unfamiliar codebase is a central component of this course.
+
+You  will be implementing the systems following Agile methodology (which we will study
+further in class). This means that there will be multiple short iterations, each with their own requirements and due dates.
+
+### Version control
+
+Working with version/revision control technology such as Git is a crucial aspect of modern software engineering. You will use Git to maintain a repository for your project on GitHub to enable your group to collaborate. You will also use Git to deploy your software to the Heroku platform.
+
+### Collaboration & contribution
+
+All students must contribute meaningfully to their group project. Please refer to the [Grading](<%= @site.url %>/classes/f16-CS240-se/) section on the class website for more information on how your contribution will affect your grade.
+
+
+
+
+## Iteration 0
+
+This preliminary iteration will involve setting up teams and doing a lo-fi "prototype" iteration (without code) to focus on the design. Before the beginning of iteration 1, you will also have a working installation of the Mean.js boilerplate (starter) application.
+
+### Iteration 0.0
+
+**Due Date: Fri 9/9**
+
+*Divide into teams of 3 to 5 students (4 is optimal)*
+
+Talk to other students and decide who you think you would work well with, as it's a long project. It's a good idea to form groups with a mix of skills and experience so as to better distribute your efforts. I recommend using Piazza to coordinate your team building. If you need any help finding a team contact me *before* the deadline.
+
+Once  you've formed a group, pick a **Team Name** we can refer to each team by!
+
+**Note:** As with any class, each semester there are usually one or two mid-term withdrawals. Smaller groups are more impacted by this than larger groups, so please consider your own schedule and stress levels when joining groups. If you feel you have a particularly intense semester ahead of you, consider joining a group with at least 3 other members. (Of course, this is not always something that can be predicted, and we will work around whatever developments arise.)
+
+**Submit** this iteration by having one person create a post on Piazza introducing your team and listing the members (first and last names please!). Tag the post with `#Iter0.0`.
+
+**Iteration 0.0 has a weight of 1 within the group project portion of your grade.**
+
+### Iteration 0.1
+
+**Due Date: Fri 9/16, 11:59 PM**
+
+*Settle on the project concept and choose your on-site customers*
+
+Discuss ideas and possibilities for projects and settle on one of an appropriate size and complexity. Consider what the user's needs are and make everyone understands the goals of the project. The decisions you make here will feed into Iteration 0.2 and your Requirements assignment.
+
+Choose two members of the team to serve as *on-site customers*. These are members of an Agile team who are tasked with representing user/client/customer needs. Other members may contribute suggestions at any time, but these two serve as the authority on the user perspective. If possible, these members should have some real connection to the people who would be using the software.
+
+**Submit** this iteration by having one person create a post on Piazza informally describing the goals of the software and who it's for, and giving the names of your on-site customers. Tag the post with `#Iter0.1`.
+
+**Iteration 0.1 has a weight of 1 within the group project portion of your grade.**
+
+### Iteration 0.2
+
+**Due Date: Fri 9/30, 11:59 PM**
+
+*Work with the customers and generate user stories*
+
+Write a short (2 paragraph max) summary of the main customers' need and how your application will meet that need. Explain the problem, then explain your solution. This summary should act as a "blurb" describing your project.
+
+Create at least 3 user stories on index cards (or quarter-pages). User stories should be in Connextra format:
+
+1.   Feature name
+2.   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;As a [kind of stakeholder],
+3.   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;So that [I can achieve some goal],
+4.   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;I want to [do some task]
+
+Stories should describe a need from a *user* perspective. They should not concern implementation or the needs/preferences of the programmer. They should describe a single interaction. For example, a story-sized interaction on Facebook might be "send a friend request". Another might be "change the profile picture". Still another would be "add a status update". Try to think of stories that are independent of each other (although some stories may depend on others to be implemented).
+
+Come up with these user stories together so that everyone is on the same page! User stories should be [INVEST and SMART](http://xp123.com/articles/invest-in-good-stories-and-smart-tasks/). **Note that you will also use the information from these customer discussions to complete Homework 5.**
+
+Submit this iteration by creating a post on Piazza containing your user stories (tag the post with #Iter0.2). You may either submit photos of your index cards or type up the stories.
+
+**Iteration 0.2 has a weight of 1 within the group project portion of your grade.**
+
+### Iteration 0.3
+
+**Due Date: Fri 10/7, 11:59 PM**
+
+*Create lo-fi mockups corresponding to your user stories*
+
+Develop lo-fi mock-ups (wireframes) of 4 different user stories. These should be paper prototypes and sketches to begin with. They should include clear indications of how the user interaction will take place. Once you've gone through a round of paper mockups, you can then make digital prototypes if you wish.
+
+There are many resources on the web where you can read about wireframing and software mock-ups. There are few if any strict rules for creating software wireframes; these are tools for communication. The important thing is to enable developers and customers to have a shared vision of what they intend to create.
+
+The examples below come from [Wireframe Wednesday](http://www.wireframewednesday.com/page/7).
+
+Here's a wireframe focused on the design elements of a website:
+
+![Website wireframe](/~tmullen/images/se/sketched_wireframes_111.jpg)
+
+Another web wireframe, but with a little more focus on the flow of interaction. What happens when the user clicks here? What about there?
+
+<img src="/~tmullen/images/se/wireframe.png" width="600" />
+
+This one illustrates the UI elements of an application with multimedia components:
+
+<img src="/~tmullen/images/se/pearlnotewireframe.jpg" width="600" />
+
+
+Two examples of mobile app wireframes. Styles can vary greatly:
+
+![Mobile1](/~tmullen/images/se/28-02_iphoneapp.jpg)
+
+<img src="/~tmullen/images/se/mobilewireframe.jpg" width="600" />
+
+There are many free and paid software tools to help with wireframing and prototyping. [Inkscape](www.inkscape.org) is a great open source general-purpose vector drawing tool that is well-suited to the task, but there are many others with more dedicated features.
+
+Finally, to complete Iteration 0, put all of your user stories on [Pivotal Tracker](https://www.pivotaltracker.com/dashboard). You will have received a link to a Pivotal Tracker account for your team's use. The professor will have viewing access to these. Place the stories in the `Icebox` for now and leave the details unspecified. Once you get started on your project, you'll add a bit more detail, and the onsite customer(s) in your group will move them into the `Current` column by priority.
+
+**Submit** this iteration by creating a private post on Piazza with your lo-fi mockups and storybook sketches (I already have access to your Tracker); tag your post with #Iter0.3. You should scan (or clearly photograph) your mockups and attach them as images to your post.
+
+**Iteration 0.3 has a weight of 1 within the group project portion of your grade.**
+
+### Iteration 0.4
+
+**Due Date: Fri 10/14**
+
+*Complete installation of Mean.js boilerplate and setup of local and remote Git repositories*
+
+You should have the following in place:
+
+* A group project repository on GitHub with a copy (not a fork or clone) of the Mean.js boilerplate
+* A working Heroku installation of the Mean.js default application
+* Working local repositories on each member's computer set up to push and pull from the group's GitHub repo.
+
+Follow the instructions [here][repo] and in your *Getting MEAN* book to get these set up.
+
+**Iteration 0.4 has a weight of 2 within the group project portion of your grade.**
+
+## Iteration 1: Calendar module integration and first story
+
+**Iteration 1 Due Date: Mon 10/31**
+
+This is where the actual coding begins. The first story you will implement will be the same for all groups:
+
+![Calendar story](/~tmullen/images/se/calendar_story.png)
+
+The functionality is based on the `calendar` module I have prepared for you. You will need to install that module into your Mean.js application before proceeding.
+
+Begin by entering the story in [Pivotal](https://www.pivotaltracker.com/dashboard). In the `Points` dropdown, set this story 2 points, indicating that the story should represent a medium amount of effort for this team. In the `Requester` dropdown, select my name.
+
+Look [here][calendar] for a complete description of what you will need to do to install and modify the calendar module for this iteration. Take note of the tasks listed in that description and enter the tasks into the story on Pivotal as well.
+
+When you've got the tasks entered, place the story in the `Current` column of Pivotal, and set the state to `Started`.
+
+For credit on this iteration your group's repository must be in place, the calendar module must be integrated, and the new functionality must be working. When it's done, set the state to Finished in Pivotal and click `Deliver`. **For this story only, I will act as the customer, and I'll accept or reject the story.**
+Finally, be sure to add a note at the top of your GitHub readme with a link to the live application, a detailed breakdown of who did what, and a list of any issues you encountered. (Also, if you haven't already, please delete the original Mean.js readme content, as it clutters up your project's readme.)
+
+Depending on your project goals, you may or may not continue to use this module in your project later, but you must implement it for this iteration.
+
+**Iteration 1 has a weight of 3 within the group project portion of your grade.**
+
+
+## Iterations 2-4
+
+Note that group evaluation forms can be found on Moodle. You are **required** to fill out the evaluation form for each iteration. You will not get full credit for the iteration if you have not filled out an evaluation. The forms are seen only by me, but they are **not anonymous.**
+
+**Iteration 2 Due Date: Fri 11/11**
+
+**Each team member must** fill out the Iteration 2 Group Feedback form giving scores to each team member (including yourself). This evaluation will help me to identify persistent participation issues and assign grades that accurately reflect the contributions of members. **These evaluations are not anonymous and are required**.
+
+Iteration 2 has a weight of 1 within the group project portion of your grade.
+
+**Iteration 3 Due Date: Fri 12/2**
+
+**Each team member must** fill out the Iteration 3 Group Feedback form giving scores to each team member (including yourself).
+
+**Iteration 3 has a weight of 1 within the group project portion of your grade.**
+
+**Iteration 4 Due Date: Wed 12/16**
+
+**Iteration 4 represents the completion of the project, and has a weight of 10 within the group project portion of your grade.**
+
+**Each team member must** fill out the Iteration 4 Group Feedback form giving scores to each team member (including yourself).
+
+## For all iterations
+
+For each of these iterations, you will use Tracker to identify a set of user stories to work on during the iteration (and who will work on each). You will then use techniques from BDD and TDD to implement these user stories.
+
+As you proceed, stories may be re-prioritized and new stories may be added.
+
+Remember, you should be committing code regularly, not only when you're tagging iterations. Don't be shy about committing, and always be sure you're working on an updated local repository, in case other members of the team have made contributions. **IMPORTANT: Make sure your correct email is registered in your Git configuration, so that GitHub is logging your commits to the correct user account.** This helps me to know how much code each member of the team contributed.
+
+At the end of each iteration, I will be looking at the following:
+
+* **Development Practices**
+   *   Make sure that all your code has been pushed to Github. Tag your git repository revision with iteration-i, where i is the iteration number. To tag the current revision, use git tag -a iteration-1 -m "<commit message>" (for Iteration 1).
+      *  **Warning:**  you must explicitly push your tags with the command git push [origin] --tags. Please double-check that you can checkout the tag from your Github repository before the deadline!
+   *  I should be able to run your project (and any tests) from a fresh clone using:
+          > git checkout iteration-i
+          > gulp
+   *  Your Pivotal Tracker should be correctly used and up-to-date. Current stories should be started, and completed stories should be finished.
+* **Test Cases and Scenarios**
+   *   Your system should include test cases for newly created functionality.
+   *   Tests should ideally cover both the successful and unsuccessful cases of each user story that your Tracker indicates is completed.
+   *   All tests should either pass or be pending. I should get all green and yellow, no red.
+* **Design and Deployment**
+   *   Your production application must be deployed to Heroku, and the production deployment must be to date (all completed stories should work there).
+   *   Stories should represent progress for the iteration.
+   *   Your production application should be usable.
+* **Admin**
+   *   You must create a submission post on Piazza for each iteration with up-to-date links (see below)
+   *   All team members **must** complete the Team Evaluation Survey on Moodle with each iteration.
+
+**Submit** each iteration by creating a private post on Piazza with a link to your Tracker, your Github repository and your Heroku deployment if there is one; tag your post with the iteration number (e.g., #Iter1). Also include a short summary noting which user stories have been completed this iteration.
+
+* Please do this even for your final product (Iteration 4).
+
+**Each team member must** fill out the Iteration i Team Evaluation Survey (where i is the number of the iteration) giving scores to each team member (including yourself). These scores will be used to evaluate contribution scores for the team members. I will be reading these surveys critically and investigating inconsistencies, so please strive to be as accurate and honest as you can be.
+
+### Final Presentation (20 pts)
+
+**Friday 12/16, 12:00 PM - 2:00PM**
+
+In addition to the implementation, your team will be formally presenting your project during our allotted final period (on Friday, Dec 16).
+
+Presentations should be approximately 20 minutes long, with all team members participating. Your presentation should pitch your project (e.g., what is the problem? how does your application solve that problem), walk us through major user stories (and major implementation architecture, if appropriate), and reflect briefly on the development process (e.g., what aspects of the development process worked well or poorly? What, if anything, would you do differently?). Your team should be ready to answer questions after your presentation.
+
+* Pretend you're "selling" your product--why should your customer choose to buy your implementation?
+
+* Each team member must talk for *at least* 2 minutes. Team members who do not participate in the presentation will receive a 0.
+
+Presentations will be evaluated on the following criteria:
+
+**Content and Organization**
+
+* Organized, with strong introduction and conclusion
+* Clear explanation of the motivation for the project (including major User Stories)
+* Explanation of how your system solves the customer's "problem"--sell your product's features!
+* An easy-to-follow walkthrough and demonstration of the system
+* Insightful reflection on the development process
+
+**Speaking and Professionalism**
+
+* Appropriate use of time (about 20 minutes)
+* Engages with the audience (verbally and non-verbally)
+* Eye contact with the audience
+* Clear diction: speak slowly and loud enough to hear, and avoid "ums" or other distractors
+* Able to respond to questions
+
+A note of advice: there are few activities I can think of where the benefits of practice are more immediate and striking than public speaking. Every single time you go through your presentation from beginning to end beforehand will make your performance better for the audience and more comfortable for you.
+
+**Grading**
+
+The final presentation will be graded as part of your Iteration 4 grade.
+
+[calendar]: <%= @site.url %>/hw/f16se/calendar-mod "Calendar module"
+[repo]: <%= @site.url %>/hw/f16se/install-group-repo  "Mean/group repo installation guide"

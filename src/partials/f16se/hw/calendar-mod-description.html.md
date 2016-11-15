@@ -140,8 +140,97 @@ Read the Mongoose documentation on using `.find()` to make queries with object v
 
 ### Creating the events
 
-You will need to look for where the event is initially saved and ensure that the `.save()` method is only called if the calendar event is either private or has a defined user object. If not, you will need to send a response with status 403. The message value of the response should be 'Must be logged in to save a private event'. The http response object is represented as `res`. Look at other examples in the code to see how the status and message values are sent and how the response is sent.
+You will need to look for where the event is initially saved and ensure that the `.save()` method is only called if the calendar event is either public or has a defined user object. If not, you will need to send a response with status 403. The message value of the response should be 'Must be logged in to save a private event'. The http response object is represented as `res`. Look at other examples in the code to see how the status and message values are sent and how the response is sent.
 
 ## Modifying the CSS
 
 Add CSS rules to alter the `background-color` and `border` values for private events. Coordinate with the person working on the client controller to know what the name of the class will be that represents private events, and then write your CSS rules for that class selector.
+
+# Solution
+
+
+## Modifying the calendar module -- Solution
+
+The new calendar functionality can be implemented with the following code modifications.
+
+## Modifying the view
+
+The main thing to be done in the view is to display a button when the user is logged in, but not when the user is not logged in.
+
+
+    <div class="btn-group calTools">
+      <!-- vm.authentication.user is true if the user is properly logged in.-->
+      <button type="button" class="btn btn-primary" ng-click="vm.addEvent('public')">
+        Add Public Event
+      </button>
+      <button type="button" class="btn btn-danger" ng-click="vm.addEvent('private')" ng-show="vm.authentication.user">
+        Add Private Event
+      </button>
+    </div>
+
+
+
+## Modifying the client controller
+
+One way to do this is to use the same `addEvent` function, but with an additional argument representing whether the event is public or private.  An attribute `public` is set to true if this argument is 'public'.
+
+    vm.addEvent = function(pub_priv) {
+      var newEvent = new CalendarService({
+          title: 'Coffee Break',
+          start: vm.selectedDate.local(),
+          end: vm.selectedDate.local(),
+          className: [(pub_priv==='public' ? 'public' : 'private')],
+          stick: true,
+          public: pub_priv==='public'
+      });
+
+
+## Modifying the model schema
+
+Add a `public` attribute to the model:
+
+      public: Boolean
+
+
+## Modifying the server controller
+
+In the `exports.list` function, you can use the `$or` operator in conjunction with the `find()` method in Mongoose to pass criteria to a database call, like this:
+
+    CalEvent.find({
+      $or: [
+        { 'public': true },
+        { 'user': (req.user ? req.user._id : null) }
+      ]
+    }).sort('-created').populate('user', 'displayName').exec(function (err, calEvents) {
+
+<!-- darn markdown_ -->
+
+## Saving the event
+
+In the `exports.create` function, you can create a check to verify that there is a user if the event to be written is not public by wrapping the save code in a conditional:
+
+    if (calEvent.public || !!calEvent.user) {
+      calEvent.save(function (err) {
+        if (err) {
+          return res.status(400).send({
+            message: errorHandler.getErrorMessage(err)
+          });
+        } else {
+          res.json(calEvent);
+        }
+      });
+    } else {
+      return res.status(403).send({
+        message: 'Must be logged in to save a private event'
+      });
+    }
+
+
+## Modifying the CSS
+
+You can add styling in your css file for the private class of fc-event elements like this:
+
+    .fc-event.private {
+      border: 1px solid #FF2300;
+      background-color: #FF2300;
+    }

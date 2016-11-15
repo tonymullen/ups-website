@@ -150,7 +150,7 @@ Look [here][calendar] for a complete description of what you will need to do to 
 
 When you've got the tasks entered, place the story in the `Current` column of Pivotal, and set the state to `Started`.
 
-For credit on this iteration your group's repository must be in place, the calendar module must be integrated, and the new functionality must be working. When it's done, set the state to Finished in Pivotal and click `Deliver`. **For this story only, I will act as the customer, and I'll accept or reject the story.**
+For credit on this iteration your group's repository must be in place, the calendar module must be integrated, and the new functionality must be working. When it's done, set the state to Finished in Pivotal and click `Deliver`. **For this story only, I will act as the customer, and I'll accept or reject the story.** Finally, be sure to add a note at the top of your GitHub readme with a link to the live application, a detailed breakdown of who did what, and a list of any issues you encountered. (Also, if you haven't already, please delete the original Mean.js readme content, as it clutters up your project's readme.)
 
 Depending on your project goals, you may or may not continue to use this module in your project later, but you must implement it for this iteration.
 
@@ -161,7 +161,13 @@ Depending on your project goals, you may or may not continue to use this module 
 
 Note that group evaluation forms can be found on Moodle. You are **required** to fill out the evaluation form for each iteration. You will not get full credit for the iteration if you have not filled out an evaluation. The forms are seen only by me, but they are **not anonymous.**
 
-**Iteration 2 Due Date: Fri 11/11**
+**Iteration 2 Due Date: Mon 11/14**
+
+For Iteration 2, you should have a good start on developing the CRUD module (or socket module) that will contain the main functionality of your application. You should do this by duplicating the existing `articles` or `chat` module and refactoring all named references to module objects to match your own module and model objects names. By the Iteration 2 deadline, *at minimum* you should have a working duplicate of `articles` linked to and functioning in your application. **Your application must be deployed on Heroku and working.** Any modifications to the original module (model/schema changes, view/controller changes) should also be working (not breaking your application) although they may be incomplete.
+
+Your readme should reflect the current state of the application, with screenshots as appropriate (at least 1) and a detailed description of what **each member** has contributed so far. If the contributions are not reflected in GitHub commits, please include an explanation.
+
+You should also begin adapting the `articles` tests to work with your module. "Comment out" incomplete test files in your module's `tests` directories by renaming them with `.js--`. This will prevent the tests from being run by Gulp. Running `gulp test` should complete successfully without failed tests.
 
 **Each team member must** fill out the Iteration 2 Group Feedback form giving scores to each team member (including yourself). This evaluation will help me to identify persistent participation issues and assign grades that accurately reflect the contributions of members. **These evaluations are not anonymous and are required**.
 

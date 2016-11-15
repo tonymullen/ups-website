@@ -11,7 +11,7 @@ There is no starter file. Once again, you'll **duplicate** the previous assignme
 
 The robot's arm should be controllable. Use the dat.GUI library to add three sliders, as you see below. One of the sliders should control swivel at the base of the robot's arm, enabling it to rotate 180 degrees in either direction. The next slider should control the joing of the robot's arm, enabling it to bend 90 degrees in either direction. The third slider should control the robot's claw, enabling it to open and close, as in the example below.
 
-Next, the robot should be able to walk. Use the W key to make the robot walk forward, the A key to make the robot turn left, and the S key to make the robot turn right. Make the robot's legs move when any of these keys are being pressed, and make them stop when the keys are released.
+Next, the robot should be able to walk. Use the W key to make the robot walk forward, the A key to make the robot turn left, and the S key to make the robot turn right. Make the robot's legs move when any of these keys are being pressed, and make them stop when the keys are released. For keyboard controls, use [the KeyboardState utility](http://cs315.pugetsound.edu/~tmullen/js/KeyboardState.js). Read the comments in the script for usage and be sure to place the script in the js directory for your project alongside the other utilities.  
 
 The leg movement won't be perfect. As you can see in the example below, the legs appear to slide on the ground. This is an issue that is beyond the scope of this assignment. For now, it is enough to have the legs move back and forth continuously at a roughly decent looking speed.
 

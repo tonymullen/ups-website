@@ -13,11 +13,11 @@
 | 7  | 10/10 | While Loops                        |   L&L Ch 6.1-6.4        | [Lab 7][lab7]                   | [Hwk 7][hw7] <br> **Due Wed 10/19** |
 | 8  | 10/17 |  **Fall break**                    |                         |  [Lab 8][lab8]                  |  [Hwk 8][hw8] <br> **Due Mon 10/24** |
 | 9  | 10/24 |  ArrayLists                        | Reading review/catch up |  [Lab 9][lab9]                 | [Hwk 9][hw9] <br> **Due Mon 10/31**    |
-| 10 | 10/31 |  More on loops and 2D lists        |                         | <!--  [Lab 10][lab10]               -->   |  [Hwk 10][hw10] <br> **Due Mon 11/7**  |
-| 11 | 11/7  |  Exceptions, for Loops             |                         |<!--  [Lab 10][lab10]               -->   | <!-- [Hwk 11][hw11] <br> **Due Mon 11/14** --> |
-| 12 | 11/14 | Design & review                    |  L&L Ch 7.1-7.9         |  **Midterm II**                          |  |
-| 13 | 11/21 |Arrays<br>**Thanksgiving break**    |  L&L Ch 8.1-8.6         |<!--  [Lab 12][lab12]               -->   | <!-- [Hwk 12][hw12] <br> **Due Mon 11/21** --> |
-| 14 | 11/28 |   Recursion & Processing           | L&L Ch 12.1-12.3        |<!--  [Lab 13][lab13]<br> [Download and install Processing][p3] --> | <!-- [Hwk 13][hw13] <br> **Due Mon 11/28** --> |
+| 10 | 10/31 |  More on loops and 2D lists        |                         | [Lab 10][lab10]                |  [Hwk 10][hw10] <br> **Due Mon 11/7**  |
+| 11 | 11/7  |  Exceptions, for Loops             |                         | [Lab 11][lab11]                | [Hwk 11][hw11] <br> **Due Fri 11/18** |
+| 12 | 11/14 | Design & review                    |  L&L Ch 7.1-7.9         |  **Midterm II**                          | [Hwk 12][hw12] <br> **Due Wed 11/23** |
+| 13 | 11/21 |Arrays<br>**Thanksgiving break**    |  L&L Ch 8.1-8.6         |<!--  [Lab 12][lab12]               -->   | [Download and install Processing][p3] by 12/1 |
+| 14 | 11/28 |   Recursion & Processing           | L&L Ch 12.1-12.3        |<!-- [Lab 13][lab13]<br> -->              | <!-- [Hwk 13][hw13] <br> **Due Mon 11/28** --> |
 | 15 | 12/5 |   Searching and Sorting             |                         |<!--  [Lab 14][lab14]               -->  | <!-- [Hwk 14][hw14] <br> **Due Mon 12/5** --> |
 | Finals | Fri 12/16/16                           |            |     | **Final Exam  8:00AM - 10:00AM**  |          | |
 
@@ -61,6 +61,7 @@
 [lab10]: <%= @site.url %>/hw/f16ics/lab10
 
 [hw11]: <%= @site.url %>/hw/f16ics/hw11
+[lab11]: <%= @site.url %>/hw/f16ics/lab11
 
 [hw12]: <%= @site.url %>/hw/f16ics/hw12
 [lab12]: <%= @site.url %>/hw/f16ics/lab12

@@ -9,18 +9,18 @@
 | 3  | 1/30   |  HTTP & REST                     |                    |                |
 | 4  | 2/6    |  Transport layer protocols       |                    |                |
 | 5  | 2/13   |  TCP; Congestion control         |                    |                |
-| 6  | 2/20   |  Network layer;<br>Routing & forwarding |             |                |
+| 6  | 2/20   |   Network layer;<br>Routing & forwarding              |                |                |
 | 7  | 2/27   |  Internet routing                |                    |                |
-| 8  | 3/6    |  Link layer                      |                    |                |
-| 9  | 3/13   |                     |                    |                |
-| 10 | 3/20   |  Wireless & mobile  |                    |                |
-| 11 | 3/27   |                     |                    |                |
-| 12 | 4/3    |                     |                    |                |
-| 13 | 4/10   |                     |                    |                |
-| 14 | 4/17   |                     |                    |                |
-| 15 | 4/24   |                     |                    |                |
-| 16 | 5/1    |                     |                    |                |
-| Finals <br> period |     |  **Final exam**             |                                                                                            |                                                          ||
+| 8  | 3/6    |  Review;<br>**Midterm Exam**     |                    |                |
+| 9  | 3/13   |  **Spring break**                |                    |                |
+| 10 | 3/20   |   Link layer                     |                    |                |
+| 11 | 3/27   |   Link layer protocols           |                    |                |
+| 12 | 4/3    |   Physical layer                 |                    |                |
+| 13 | 4/10   |  Wireless & mobile               |                    |                |
+| 14 | 4/17   |   TBD                            |                    |                |
+| 15 | 4/24   |   TBD                            |                    |                |
+| 16 | 5/1    |   Review;<br>**Classes end Wed, 5/3**    |                    |                |
+| Finals <br> period |     |  **Final exam TBA**             |                                                                                            |                                                          ||
 
 
 <div class="tables-end"></div>
@@ -28,39 +28,5 @@
 [topicNotes]: www.something.com "This is just a note"
 
 
-[hw1]: <%= @site.url %>/hw/f16cg/hw1-l3jsch1  "HW 1: Learning Three.js Chapter 1"
-[hw1-sol]: <%= @site.url %>/hw/f16cg/hw1-l3jsch1-sol  "HW 1 solution"
-
-[hw2]: <%= @site.url %>/hw/f16cg/hw2-rainbow-circle  "HW 2: Rainbow Circle"
-[hw2-sol]: <%= @site.url %>/hw/f16cg/hw2-rainbow-circle-sol  "HW 2 solution"
-
-[hw3]: <%= @site.url %>/hw/f16cg/hw3-kooshball  "HW 3: Koosh Ball"
-[hw3-sol]: <%= @site.url %>/hw/f16cg/hw3-kooshball-sol  "HW 3 solution"
-
-[hw4]: <%= @site.url %>/hw/f16cg/hw4-spinning-kooshball  "HW 4: Spinning Koosh Ball"
-[hw4-sol]: <%= @site.url %>/hw/f16cg/hw4-spinning-kooshball-sol  "HW 4 solution"
-
-[hw5]: <%= @site.url %>/hw/f16cg/hw5-elephant  "HW 5: Elephant camera setup"
-[hw5-sol]: <%= @site.url %>/hw/f16cg/hw5-elephant-sol  "HW 5 solution"
-
-[hw6]: <%= @site.url %>/hw/f16cg/hw6-elephant-lighting  "HW 6: Elephant lighting"
-[hw6-sol]: <%= @site.url %>/hw/f16cg/hw6-elephant-lighting-sol  "HW 6 solution"
-
-[hw7]: <%= @site.url %>/hw/f16cg/hw7-robot-shapes  "HW 7: Build a Robot"
-[hw7-sol]: <%= @site.url %>/hw/f16cg/hw7-robot-shapes  "HW 7 solution"
-
-[hw8]: <%= @site.url %>/hw/f16cg/hw8-robot-materials  "HW 8: Build a Robot Part II"
-[hw8-sol]: <%= @site.url %>/hw/f16cg/hw8-robot-materials  "HW 8 solution"
-
-[hw9]: <%= @site.url %>/hw/f16cg/hw9-robot-animation  "HW 9: Animating the Robot"
-[hw9-sol]: <%= @site.url %>/hw/f16cg/hw9-robot-animation "HW 9 solution"
-
-[hw10]: <%= @site.url %>/hw/f16cg/hw10-barycentric-coords  "HW 10: Barycentric Coordinates"
-[hw10-sol]: <%= @site.url %>/hw/f16cg/hw10-barycentric-coords "HW 10 solution"
-
-[hw11]: <%= @site.url %>/hw/f16cg/hw11-ray-tracer  "HW 11: Ray Tracer"
-[hw11-sol]: <%= @site.url %>/hw/f16cg/hw11-ray-tracer "HW 11 solution"
-
-[hw12]: <%= @site.url %>/hw/f16cg/hw12-final-project  "HW 12: Individual graphics project"
-
-[bns]: https://moodle.pugetsound.edu/moodle/mod/resource/view.php?id=330054
+[hw1]: <%= @site.url %>/hw/s17nw/hw1  "HW 1"
+[hw1-sol]: <%= @site.url %>/hw/s17nw/hw1-sol  "HW 1 solution"

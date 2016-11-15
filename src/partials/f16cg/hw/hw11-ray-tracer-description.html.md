@@ -10,9 +10,9 @@ When you have completed this assignment, you should have a detailed understandin
 
 ## Starter files
 
-You'll start with the files in [this zip archive](/~tmullen/cg/cs315-hwk5.zip).
+You'll start with the files in [this zip archive](/~tmullen/cg/f16/cs315-hw11.zip).
 
-This file contains the starter code in HTML and JavaScript. It also contains a collection of JSON scene files and corresponding images to show you how the scenes should look when they have been rendered. I'll go over the internals of the scene files in class, as well as presenting some additional code that will help you get your program off the ground.
+This file contains the starter code in HTML and JavaScript. It also contains a collection of JSON scene files and corresponding images to show you how the scenes should look when they have been rendered. I'll go over the internals of the scene files in class, as well as presenting some important additional code that will help you get your program off the ground. **If you miss class on the days I'm talking about this, be sure to check the uploaded slides for this code.**
 
 ## Objectives
 
@@ -22,7 +22,7 @@ If you wish to continue work on your ray tracer for assignment 12, you can add f
 
 <table class="center noborder pad">
 <tr>
-  <td>Minimal (max score 80%) <br> Implement intersection and shading for spheres and triangles</td>
+  <td>Minimal (max score 85%) <br> Implement intersection and shading for spheres and triangles</td>
   <td><img style="height:100px" src="/~tmullen/images/cg/examples/SphereTest.png"></td>
   <td><img style="height:100px" src="/~tmullen/images/cg/examples/SphereShadingTest1.png"></td>
   <td><img style="height:100px" src="/~tmullen/images/cg/examples/TriangleTest.png"></td>

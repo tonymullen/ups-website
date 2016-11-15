@@ -2,66 +2,47 @@
 cacheable: false
 ```
 
-## For loops
+## Diamond of stars
 
-At last we come to the `for` loop! Up until now, we’ve been using the `while` loop for all our looping needs. However, if you know the number of iterations in advance, a `for` loop is a much better choice than a `while` loop. The purpose of today’s lab is to give you experience using `for` loops in various scenarios. You'll find the starter code for the lab [here](http://mathcs.pugetsound.edu/~tmullen/ics/lab10.zip).
+This lab will give you some more practice with `for` loops, including working with nested loops.
 
-A few comments before you begin:
+### Objective
 
-* The textbook does not use curly brackets when there is only one statement inside the body of the `for` loop. See the example below. *This is a bad habit to get into and is an easy way to introduce unintentional errors into your code. Always use curly brackets with your for loops!*
+This exercise is based on the `StarTriangle` example we saw in class (see the code in the slides directory for details). For this exercise, you will write a program that draws a diamond out of asterisks, similar to the examples below. You won't hard-code the size of the diamond. Instead, you should write a method that takes an int argument representing the height of the diamond and prints out an appropriately-sized diamond.
 
-    Bad:
+For example, if the method is given the value 5, the resulting diamond will look like this:
 
-        for(int count = 1; count <= 5; count++)
-            System.out.println(count);
 
-    Good:
 
-        for(int count = 1; count <= 5; count++) {
-            System.out.println(count);
-        }
+        *  
+       ***
+      *****
+       ***
+        *  
 
-* The variable `count` above is called a loop counter. A loop counter is a variable that controls the iterations of a loop. Historically, loop counters are named in a similar manner as mathematical subscripting variables: `i`, `j`, `k`, etc. For example, in math you see notation like xi or xij. In the same way, in Java it is common to see for loops like:
+If the method is given the value 7, the diamond will look like this:
 
-        for(int i = 0; i < N; i++){
-        }
+        *   
+       ***  
+      *****
+     *******
+      *****
+       ***  
+        *   
 
-    or
+If the value is an even number, the widest line of the diamond should be doubled, as in this case, where the height of the diamond is 6:
 
-        for(int i = 0; i < N; i++){
-            for(int j = 0; j < N; j++){
-            }
-         }
+        *  
+       ***
+      *****
+      *****
+       ***
+        *  
 
-    This is one of the only times where it is acceptable to have a variable with a non-descriptive name such as i or j.
+### Implementation
 
-## Warm Up
+This assignment requires you to iterate over lines and iterate over characters in each line. You can use nested `for` loops or string concatenation, however seems most intuitive to you. You will need to figure out how to derive the width of the diamond from the user-inputted height, and how to print out the correct number of spaces and asterisks on each line.
 
-Today’s lab is a series of standalone programming questions. The starter code has a Java class called WarmUp that has a main method along with other private, static methods.
+Try to solve the problem in as concise and general a way as you can. Can you get the correct behavior for even and odd-numbered lines without using `if` statements? It's possible to do!
 
-Implement each method (one at a time) and then call the method from main to check that your output is correct. For example, after you finish implementing the `printHello` method, you can call it in `main` using the following syntax:
-
-    public static void main(String[] args){
-        printHello();
-    }
-
-When you run the main method you should see `“Hello world!”` printed 10 times to the screen.
-
-## Asterisk Pictures
-
-The second Java class in the starter code is called `AsteriskPictures`. There are two methods inside: one for drawing a square and one for drawing a triangle. This is
-similar to the way we drew the diagram of the seats in the `Theater` class in class. Take the code in the starter file and rewrite it so that it uses nested for loops instead of nested while loops to draw a square.
-
-The second method asks you to draw a triangle of a given height to the screen (using nested for loops). For example, if height=5 then your method should draw the following picture:
-
-    *
-    **
-    ***
-    ****
-    *****
-
-Finally, together with your partner write a third method that prints a picture of your choosing. Feel free to experiment with nesting 3 for loops, or perhaps putting 2 for loops one after the other inside an outer for loop.
-
-## Submitting your lab assignment
-Submit your lab10 folder with both the `WarmUp` and `AsteriskPictures` classes inside.                                                       
-Submit your lab at the [Moodle submission page](https://moodle.pugetsound.edu/moodle/mod/assign/view.php?id=329583).
+Submit the file at the [Moodle page for the assignment](https://moodle.pugetsound.edu/moodle/mod/assign/view.php?id=365620).

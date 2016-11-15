@@ -15,7 +15,7 @@
 | 9  | 10/24  | Testing; Coding Style; Refactoring          |  GM Ch 11 (reading only)                                                                   |                        |
 | 10 | 10/31  | Deployment                                  |                                                                                            | [Group Project <br> Iteration 1][gp]<br>[(Calendar module)][calendar]  <br> **Due Mon 10/31**   |
 | 11 | 11/7   | Databases & CRUD                            |                                                                                            |                                  |
-| 12 | 11/14  | Software Ethics and Impacts                 | [Brinkman & Sanders, 2013, Ch 1][bns]<br>Group readings <!-- <em>Based on last name:</em><br><strong>B-D:</strong>[Abril, 2007][abril]</a><br><strong>G-H:</strong>[Bennefon, 2015][bennefon]</a><br><strong>M-Ri:</strong>[Irani, 2013][irani]</a><br><strong>Ro-Z:</strong>[Penzenstadler, 2014][penzenstadler]</a><br>Come prepared to discuss the reading in class on Friday<br>  --> |   [Group Project <br> Iteration 2][gp] <br> **Due Fri 11/11**    |
+| 12 | 11/14  | Software Ethics and Impacts                 | [Brinkman & Sanders, 2013, Ch 1][bns]<br>Group readings <em>Based on last name:</em><br><strong>B-I:</strong> [Abril, 2007][abril]</a><br><strong>J-Mc:</strong> [Bennefon, 2015][bennefon]</a><br><strong>Me-Re:</strong> [Irani, 2013][irani]</a><br><strong>Ru-W:</strong> [Penzenstadler, 2014][penzenstadler]</a><br>Come prepared to discuss the reading in class on Friday<br>  |   [Group Project <br> Iteration 2][gp] <br> **Due Mon 11/14**    |
 | 13 | 11/21  |  Software Ethics Continued <br>**Thanksgiving break**  | [ACM Code][acm] <br>  [Brinkman & Sanders, 2013, Ch 2][bns] <br> [Raymond, 2001][raymond]         |                      |
 | 14 | 11/28  | Software licensing & Open-Source; project work  |   HS Ch 8                                                                              | [Group Project <br> Iteration 3][gp] <br> **Due Fri 12/2**   |
 | 15 | 12/5   | Troubleshooting & debugging; project work <br> Last day 12/7     |                                                                       | [HW 8: Ethics paper][hw8] <br> **Due Mon 12/5** |
@@ -46,8 +46,8 @@
 [gp]: <%= @site.url %>/hw/f16se/group-project "Group project"
 [fr]: <%= @site.url %>/hw/f16se/hw9-FinalWriteup "Group project final writeup"
 
-[bns]: https://moodle.pugetsound.edu/moodle/mod/resource/view.php?id=330054
-[bennefon]: https://moodle.pugetsound.edu/moodle/mod/resource/view.php?id=330059
-[abril]: https://moodle.pugetsound.edu/moodle/mod/resource/view.php?id=330058
-[irani]: https://moodle.pugetsound.edu/moodle/mod/resource/view.php?id=330056
-[penzenstadler]: https://moodle.pugetsound.edu/moodle/mod/resource/view.php?id=330057
+[bns]: https://moodle.pugetsound.edu/moodle/mod/resource/view.php?id=340281
+[bennefon]: https://moodle.pugetsound.edu/moodle/mod/resource/view.php?id=340280
+[abril]: https://moodle.pugetsound.edu/moodle/mod/resource/view.php?id=340284
+[irani]: https://moodle.pugetsound.edu/moodle/mod/resource/view.php?id=340279
+[penzenstadler]: https://moodle.pugetsound.edu/moodle/mod/resource/view.php?id=340283

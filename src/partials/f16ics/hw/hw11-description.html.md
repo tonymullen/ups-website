@@ -4,7 +4,7 @@ cacheable: false
 
 ## A university course management tool
 
-This assignment will give you a bit more practice with several of the features of Java we've worke with so far. The particular focus here is on putting together multiple classes that depend on others.
+This assignment will give you a bit more practice with several of the features of Java we've worked with so far. The particular focus here is on putting together multiple classes that depend on others.
 
 ### Objective
 
@@ -17,7 +17,7 @@ For the assignment, do the following:
   * `getTestScore` that accepts the test number parameter and returns the score for that test
   * `average` that returns the student's average score for the three tests
   * `toString` should be modified such that it includes test scores and average in the description of the student.
-  * `Student` constructor should be overloaded such that you can either create a student object with parameters for the three test scores *or* create a student without test scores and have the scores' values initializes as zeros. We talked about method overloading in class a few weeks ago, but read section 7.8 to refresh your memory.
+  * `Student` constructor should be overloaded such that you can either create a student object with parameters for the three test scores *or* create a student without test scores and have the scores' values initializes as zeros. We talked about method overloading in class a few weeks ago, but read section 7.8 to refresh your memory. The `Student` constructor should also set the student's `address` value to an object of class `Address`.
 
 * Create a class called `Course` that represents a course taken at a school. The course should include an `ArrayList` of `Student` objects representing the students enrolled in the course. Provide the following methods:
   * `Course` the constructor should accept a string with the name of the course.
