@@ -16,11 +16,13 @@ beginnings of a few functions that will need to be completed in order to draw a 
 
 ## Implementation
 
-There are two things you will need to do to complete this assignment. The first is to create a function that draws a triangle of the appropriate dimensions. Processing has a `triangle(int, int, int, int, int, int)` function that takes a value for `x1`, `y1`, `x2`, `x2`, `x3`, and `y3`, representing the coordinates of the three corners of the triangle. However, it's up to you to figure out where to put those points to draw an equilateral triangle. There are a number of ways you could go about this, but the simplest for me is to use `cos()` and `sin()` functions to place three points evenly around a center point, the coordinates of which which would be passed to the function as arguments. Be careful though. Processing assumes that angle arguments are represented as *radians*, so if you're using degree values, be sure to convert your angles with the `radians()` function.  
+Processing has a `triangle(int, int, int, int, int, int)` function that takes a value for `x1`, `y1`, `x2`, `x2`, `x3`, and `y3`, representing the coordinates of the three corners of the triangle. In the starter code, you'll see that this function is called to create the white triangle.
 
-The second thing you need to do is to implement the recursive function `sierpinski()`. You will have to figure out how to make the necessary recursive call(s) and what to do in them. Be sure that a stopping criterion is in place, or else the program could recurse endlessly and blow up your memory (Processing is smart enough to error out before this happens).
+The starter file also has a class called `Point` implemented that includes a method an object to return the midpoint between itself and another `Point` object (passed as an argument). This will be where you'll calculate the coordinates between the two points.  
 
-The actual positioning of the triangles may take a little trial and error to get right. You'll probably need to convert floats to ints (pixel positions must be ints). I've found that for this exercise using `round()` yields the best results for that.
+In order to draw the Sierpinski triangle, you'll recursively draw black triangles over the white triangle such that with each call of the `sierpinski()` function a black triangle is drawn with its corners at the midpoints of the triangle it divides, then makes the necessary recursive call(s) so that the three smaller triangles are also dealt with, to the depth indicated by the slider. Be sure that a stopping criterion is in place, or else the program could recurse endlessly and blow up your memory (Processing is smart enough to error out before this happens).
+
+The slider controlling the recursive depth is already implemented for you. The variable `depthSlider` represents the value from the slider and ranges from `MIN_DEPTH` to `MAX_DEPTH`.
 
 ## Notes
 
@@ -29,4 +31,4 @@ In order to run the starter file you'll need to be sure to install the `ControlP
 
 Submit the file at the [Moodle page for the assignment](https://moodle.pugetsound.edu/moodle/mod/assign/view.php?id=340441).
 
-**Extra fun:** You won't get any actual extra credit for it (it wouldn't be fair to the iPhone users!), but if you have an Android phone you may find it entertaining to set up Processing's Android mode and run your Sierpinski gasket on your phone.
+**Extra fun:** You won't get any actual extra credit for it (it wouldn't be fair to the iPhone users!), but if you have an Android phone you may find it entertaining to set up Processing's Android mode and run your Sierpinski gasket on your phone. To do this, you would need to download and install the [Android SDK](https://developer.android.com/studio/index.html). 

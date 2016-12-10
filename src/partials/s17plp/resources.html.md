@@ -3,7 +3,7 @@ cacheable: false
 ```
 ### Online resources
 
-The class [Moodle page](https://moodle.pugetsound.edu/moodle/course/view.php?id=10188) will be where you can turn in assignments and find some class materials.
+The class [Moodle page](https://moodle.pugetsound.edu/moodle/course/view.php?id=11829) will be where you can turn in assignments and find some class materials.
 
 ### Supplemental resources
 

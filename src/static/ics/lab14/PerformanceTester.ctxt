@@ -1,0 +1,14 @@
+#BlueJ class context
+comment0.params=N\ numTrials\ unordered
+comment0.target=void\ testLinearSearch(int,\ int,\ boolean)
+comment0.text=\n\ Runs\ a\ linear\ search\ experiment\ with\ the\ given\ configurations.\n\ \n\ @param\ N\ The\ list\ size\n\ @param\ numTrials\ The\ number\ of\ times\ we\ call\ linearSearch\n\ @param\ unordered\ \ \ Specifies\ whether\ an\ unordered\ (or\ ordered)\ list\ should\ be\ used\n
+comment1.params=N\ numTrials
+comment1.target=void\ testBinarySearch(int,\ int)
+comment1.text=\n\ Runs\ a\ binary\ search\ experiment\ with\ the\ given\ configurations.\n\ \n\ @param\ N\ The\ list\ size\n\ @param\ numTrials\ The\ number\ of\ times\ we\ call\ linearSearch\n
+comment2.params=N\ numTrials
+comment2.target=void\ testMedian(int,\ int)
+comment2.text=\n\ Runs\ a\ median\ finding\ experiment\ with\ the\ given\ configurations\n\ @param\ N\ The\ list\ size\n\ @param\ numTrials\ the\ number\ of\ runs\ per\ new\ problem\ size\n
+comment3.params=args
+comment3.target=void\ main(java.lang.String[])
+comment3.text=\n\ Runs\ experiments\n
+numComments=4

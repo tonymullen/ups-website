@@ -28,7 +28,7 @@ This preliminary iteration will involve setting up teams and doing a lo-fi "prot
 
 ### Iteration 0.0
 
-**Due Date: Fri 9/9**
+**Due Date: Fri 1/27**
 
 *Divide into teams of 3 to 5 students (4 is optimal)*
 
@@ -44,7 +44,7 @@ Once  you've formed a group, pick a **Team Name** we can refer to each team by!
 
 ### Iteration 0.1
 
-**Due Date: Fri 9/16, 11:59 PM**
+**Due Date: Fri 2/3, 11:59 PM**
 
 *Settle on the project concept and choose your on-site customers*
 
@@ -58,7 +58,7 @@ Choose two members of the team to serve as *on-site customers*. These are member
 
 ### Iteration 0.2
 
-**Due Date: Fri 9/30, 11:59 PM**
+**Due Date: Fri 2/17, 11:59 PM**
 
 *Work with the customers and generate user stories*
 
@@ -81,7 +81,7 @@ Submit this iteration by creating a post on Piazza containing your user stories 
 
 ### Iteration 0.3
 
-**Due Date: Fri 10/7, 11:59 PM**
+**Due Date: Fri 2/24, 11:59 PM**
 
 *Create lo-fi mockups corresponding to your user stories*
 
@@ -120,7 +120,7 @@ Finally, to complete Iteration 0, put all of your user stories on [Pivotal Track
 
 ### Iteration 0.4
 
-**Due Date: Fri 10/14**
+**Due Date: Fri 3/3**
 
 *Complete installation of Mean.js boilerplate and setup of local and remote Git repositories*
 
@@ -162,29 +162,66 @@ Depending on your project goals, you may or may not continue to use this module 
 
 Note that group evaluation forms can be found on Moodle. You are **required** to fill out the evaluation form for each iteration. You will not get full credit for the iteration if you have not filled out an evaluation. The forms are seen only by me, but they are **not anonymous.**
 
-**Iteration 2 Due Date: Fri 11/11**
+**Iteration 2 Due Date: Fri 3/21**
+
+or Iteration 2, you should have a good start on developing the CRUD module (or socket module) that will contain the main functionality of your application. You should do this by duplicating the existing `articles` or `chat` module and refactoring all named references to module objects to match your own module and model objects names. By the Iteration 2 deadline, *at minimum* you should have a working duplicate of `articles` linked to and functioning in your application. **Your application must be deployed on Heroku and working.** Any modifications to the original module (model/schema changes, view/controller changes) should also be working (not breaking your application) although they may be incomplete.
+
+Your readme should reflect the current state of the application, with screenshots as appropriate (at least 1) and a detailed description of what **each member** has contributed so far. If the contributions are not reflected in GitHub commits, please include an explanation.
+
+You should also begin adapting the `articles` tests to work with your module. "Comment out" incomplete test files in your module's `tests` directories by renaming them with `.js--`. This will prevent the tests from being run by Gulp. Running `gulp test` should complete successfully without failed tests.
 
 **Each team member must** fill out the Iteration 2 Group Feedback form giving scores to each team member (including yourself). This evaluation will help me to identify persistent participation issues and assign grades that accurately reflect the contributions of members. **These evaluations are not anonymous and are required**.
 
 Iteration 2 has a weight of 1 within the group project portion of your grade.
 
-**Iteration 3 Due Date: Fri 12/2**
+Iteration 2 submission checklist:
+* **Working Heroku deployment.** Very important. Software *must* be deployed and functioning, even if functionality is incomplete.
+* **Descriptive Piazza post.** Include each member's contribution to the iteration (you can recycle text from the readme for this).
+* **Updated GitHub readme.** Include screenshots and each member's contribution to the iteration.
+* **Updated Pivotal stories.** Ensure that stories are moving from the icebox to the "current" column and then getting checked off as finished when fully implemented.
+* **Individual evaluations on Moodle**
+
+
+**Iteration 3 Due Date: Fri 4/21**
+
+Your software should be taking shape at this point. The module you duplicated from the Mean.js boilerplate should have its own characteristics. The database schema for your primary CRUD module should be approaching completion and your user interface should begin to give a good sense of the purpose of your application. There may still be artifacts of the Mean.js boilerplate application, but these should be fading away. You should have some tests implemented for your new functionality. Tests that are not fully implemented should be commented out.
+
+At this point, you should have done a fair amount of coding on your project and it's a good time to take stock of whether all members are pulling their weight. Take a look at your project's GitHub contributors page and commit records together as a group. All members should be actively contributing **code** to the project (Readme updates are important, but they are *not* code in themselves). Talk about what can be done to bring less productive members up to speed. Everybody has a stake in maintaining a degree of uniformity in code contributions.
 
 **Each team member must** fill out the Iteration 3 Group Feedback form giving scores to each team member (including yourself).
 
 **Iteration 3 has a weight of 1 within the group project portion of your grade.**
 
-**Iteration 4 Due Date: Wed 12/16**
+Iteration 3 submission checklist:
+* **Working Heroku deployment.** Very important. Software *must* be deployed and functioning, even if functionality is incomplete.
+* **Descriptive Piazza post.** Include each member's contribution to the iteration (you can recycle text from the readme for this).
+* **Updated GitHub readme.** Include screenshots and each member's contribution to the iteration.
+* **Updated Pivotal stories.** Ensure that stories are moving from the icebox to the "current" column and then getting checked off as finished when fully implemented.
+* **Individual evaluations on Moodle**
+
+**Iteration 4 Due Date: TBA**
+
+Your application is done! All lingering artifacts of the Mean.js boilerplate application should be removed from the user interface (e.g. `Articles` and `Chat` menu items, etc.) Functionality that is not part of your application should be completely removed. Your database should also be cleaned up so that extraneous collections ('articles' are no longer present).
+
+Your main functionality should be working and supported by relevant tests (you will not have 100% test coverage, and this is fine, but you should have as many tests implemented as you can).
 
 **Iteration 4 represents the completion of the project, and has a weight of 10 within the group project portion of your grade.**
 
 **Each team member must** fill out the Iteration 4 Group Feedback form giving scores to each team member (including yourself).
 
+Iteration 4 submission checklist:
+* **Working Heroku deployment.** Very important. Software *must* be deployed and functioning, even if functionality is incomplete.
+* **Descriptive Piazza post.** Include each member's contribution to the iteration (you can recycle text from the readme for this).
+* **Updated GitHub readme.** Include screenshots and each member's contribution to the iteration.
+* **Updated Pivotal stories.** Ensure that stories are moving from the icebox to the "current" column and then getting checked off as finished when fully implemented.
+* **Individual evaluations on Moodle**
+* **Individual final reports**
+
 ## For all iterations
 
-For each of these iterations, you will use Tracker to identify a set of user stories to work on during the iteration (and who will work on each). You will then use techniques from BDD and TDD to implement these user stories.
+For each of these iterations, you will use Pivotal Tracker to identify a set of user stories to work on during the iteration (and who will work on each). You will then use techniques from BDD and TDD to implement these user stories.
 
-As you proceed, stories may be re-prioritized and new stories may be added.
+As you proceed, stories may be re-prioritized and new stories may be added. You should be actively updating the status of your stories on Pivotal.
 
 Remember, you should be committing code regularly, not only when you're tagging iterations. Don't be shy about committing, and always be sure you're working on an updated local repository, in case other members of the team have made contributions. **IMPORTANT: Make sure your correct email is registered in your Git configuration, so that GitHub is logging your commits to the correct user account.** This helps me to know how much code each member of the team contributed.
 
@@ -217,9 +254,9 @@ At the end of each iteration, I will be looking at the following:
 
 ### Final Presentation (20 pts)
 
-**Friday 12/16, 12:00 PM - 2:00PM**
+**TBA (official course final exam period)**
 
-In addition to the implementation, your team will be formally presenting your project during our allotted final period (on Friday, Dec 16).
+In addition to the implementation, your team will be formally presenting your project during our allotted final period.
 
 Presentations should be approximately 20 minutes long, with all team members participating. Your presentation should pitch your project (e.g., what is the problem? how does your application solve that problem), walk us through major user stories (and major implementation architecture, if appropriate), and reflect briefly on the development process (e.g., what aspects of the development process worked well or poorly? What, if anything, would you do differently?). Your team should be ready to answer questions after your presentation.
 
@@ -251,5 +288,5 @@ A note of advice: there are few activities I can think of where the benefits of 
 
 The final presentation will be graded as part of your Iteration 4 grade.
 
-[calendar]: <%= @site.url %>/hw/f16se/calendar-mod "Calendar module"
-[repo]: <%= @site.url %>/hw/f16se/install-group-repo  "Mean/group repo installation guide"
+[calendar]: <%= @site.url %>/hw/s17se/calendar-mod "Calendar module"
+[repo]: <%= @site.url %>/hw/s17se/install-group-repo  "Mean/group repo installation guide"

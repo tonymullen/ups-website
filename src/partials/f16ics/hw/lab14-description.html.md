@@ -17,7 +17,7 @@ Begin by looking through the `PerformanceTester` and `ListSearcher` classes. Mak
 You will notice that there is no code for actually counting the number of comparisons in the `ListSearcher` class! This is your first task.
 
 1. Add an instance variable to the ListSearch class to keep track of the number of comparisons made.
-2. Modify the `linearSearch()`, `binarySearch()`, and `findMedian()` methods so that they count how many comparisons are made
+2. Modify the `linearSearch()`, `binarySearch()`, and `findMedian()` methods so that they count how many comparisons are made. Be careful of comparisons in conditionals. You only want to count comparisons that will occur in run time, so if only one of two (or more) possible comparisons will be made at run time, that should count as one comparison.  
 3. Finally, add the following accessor/mutator methods:
     * public int `getComparisons()` - This method returns the number of comparisons made
     * public void `resetComparisons()` - This method resets the number of comparisons to 0.
@@ -81,4 +81,4 @@ For the last part of the lab, you'll analyze a brand new algorithm: an algorithm
 
 ## Submitting your lab assignment                                                      
 Submit your lab14 folder with both Java classes and your Word lab report inside. Remember to put both of your names on the folder before you zip it.
-[Moodle submission page](https://moodle.pugetsound.edu/moodle/mod/assign/view.php?id=333293).
+[Moodle submission page](https://moodle.pugetsound.edu/moodle/mod/assign/view.php?id=370251).
