@@ -1,7 +1,7 @@
 ```
 cacheable: false
 ```
-## **Due Mon 9/19**
+## **Due Mon 2/6**
 
 ## Overview
 
@@ -13,7 +13,7 @@ For this assignment, you will implement the application through the end of Chapt
 
 ## Chapter notes
 
-Read the [chapter notes](https://github.com/UPS-CSCI240-F16/TonyMullen#chapter-4) in my project repository for details on what is required for this chapter and important tips for working through the chapter.  
+Read the [chapter notes](https://github.com/UPS-CSCI240-S17/TonyMullen#chapter-4) in my project repository for details on what is required for this chapter and important tips for working through the chapter.  
 
 #### Jade and HTML
 
@@ -30,12 +30,3 @@ As in all chapters, you should be committing regularly. You should make at least
 ## Grade weighting & lateness
 
 This assignment has a weight of 1 within the individual assignments portion of your overall grade. Credit for this assignment will not be given after the deadline. You will receive implicit partial credit by turning in subsequent assignments with this work completed.  
-
-## Submission
-
-Update the Readme.md describing what you did for this assignment
-and detailing any issues you had. Mention in the Readme.md file what the typo was in the book and what you had to do to fix the file in question so the application worked.
-
-Add the new material for this chapter to the **top** of the Readme.md file, so it's the first thing I see. Make sure the link to the live Heroku application stays on top also.
-
-To submit this assignment go to the [Moodle page for the assignment](https://moodle.pugetsound.edu/moodle/mod/assign/view.php?id=336595), submit a screenshot of your live application on Heroku to Moodle, and enter the link to your GitHub Repository's top page (the same link as for the previous assignment). Make sure that the link is a proper link (i.e. clickable). Also, make sure that your GitHub README.md file contains a (clickable) link to the live application on Heroku.

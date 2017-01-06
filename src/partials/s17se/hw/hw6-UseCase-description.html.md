@@ -1,7 +1,7 @@
 ```
 cacheable: false
 ```
-## **Due Mon 10/10**
+## **Due Mon 2/27**
 
 ## Overview
 
@@ -57,21 +57,20 @@ Other points of reflection are of course welcome! The goal is to evaluate the be
 
 This assignment has a weight of 1 within the individual assignments portion of your overall grade. This assignment will be accepted for partial credit up to 4 days late, with a penalty of 20% per day.
 
-## Submitting
+## Before submitting
 
 Please take some time to **proofread** and revise your specification--iterate your writing!. Think of this as a professional document, something that you would show to your boss!
 
-Submit your specification in **pdf format** on the [assignment's Moodle page](https://moodle.pugetsound.edu/moodle/mod/assign/view.php?id=336598). **Do not submit .doc, .txt, or any other format files.**
-
-I also encourage you to post it publically on Piazza so that (a) you can share your specification with your team mates, and (b) so that you can share with others examples of how to write these specifications.
+**It should go without saying** that any document that you want credit for or to be in any way associated with, **ever**, should always have **your name** on it. Assume that your reader may want to print a copy up to read on the beach and that if your name is not to be found on the document itself it will cause gnashing of teeth.
 
 ## Grading
 
-This assignment will be graded out of 10 points:
+This assignment will be graded on the following criteria:
 
-* [1pt] Have included all parts of the Use Case Specification
-* [1pt] You have appropriately named your use case and its Actors
-* [1pt] Preconditions and Postconditions are descriptive and usefully informative
-* [4pt] The Basic Flow of events effectively describes the system usage
-* [1pt] You have included Alternative Flows as appropriate
-* [2pt] You have included a comparison between your User Stories and Use Case Specification
+* All instructions for submission have been followed correctly
+* You have included all parts of the Use Case Specification
+* You have appropriately named your use case and its Actors
+* Preconditions and Postconditions are descriptive and usefully informative
+* The Basic Flow of events effectively describes the system usage
+* You have included Alternative Flows as appropriate
+* You have included a comparison between your User Stories and Use Case Specification

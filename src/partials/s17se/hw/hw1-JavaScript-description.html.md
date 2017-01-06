@@ -2,7 +2,7 @@
 cacheable: false
 ```
 
-## **Due Mon 9/5**
+## **Due Wed 1/25**
 
 ## Overview
 
@@ -18,7 +18,3 @@ Although it's possible to do the tutorial without registering, you will need to 
 ## Grade weighting & lateness
 
 This assignment has a weight of 1 within the individual assignments portion of your overall grade. This assignment will be accepted for partial credit up to 4 days late, with a penalty of 20% per day.
-
-## Submission & lateness
-
- Submit this assignment by uploading a screenshot of your profile page showing your name and your acquired skill to the [assignment's Moodle page](https://moodle.pugetsound.edu/moodle/mod/assign/view.php?id=336593).

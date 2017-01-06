@@ -4,24 +4,24 @@ cacheable: false
 
 Deadlines for the iterations are as follows:
 
-Iter 0.0: Fri 9/9, Start of class
+Iter 0.0: Fri 1/27, 11:59 PM
 
-Iter 0.1: Fri 9/16, 11:59 PM
+Iter 0.1: Fri 2/3, 11:59 PM
 
-Iter 0.2: Fri 9/30, 11:59 PM
+Iter 0.2: Fri 2/17, 11:59 PM
 
-Iter 0.3: Fri 10/7, 11:59 PM
+Iter 0.3: Fri 2/24, 11:59 PM
 
-Iter 0.4: Fri 10/14, 11:59 PM
+Iter 0.4: Fri 3/3, 11:59 PM
 
-Iter 1: Mon 10/31, 11:59 PM
+Iter 1: Wed 3/22, 11:59 PM
 
-Iter 2: Fri 11/11, 11:59 PM
+Iter 2: Fri 3/31, 11:59 PM
 
-Iter 3: Fri 12/2, 11:59 PM
+Iter 3: Fri 4/21, 11:59 PM
 
-Iter 4: Fri 12/16, 12:00PM
+Iter 4: Mon 5/8, 11:59
 
-Final Presentation: 12/16, 12:00PM-2:00PM
+Final Presentation: 5/8, 8:00AM-10:00AM
 
 See the description of each iteration for instructions on submitting.

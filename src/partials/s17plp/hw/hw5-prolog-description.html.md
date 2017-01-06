@@ -1,37 +1,37 @@
 ```
 cacheable: false
 ```
-## Submitting
-
-Write all the predicates and facts for this assignment in one file, called
-<span style="font-family: 'Courier New', Courier, 'Lucida Sans Typewriter', 'Lucida Typewriter', monospace;">hwk5-&lt;your_name&gt;.pl</span>. Separate the code for each exercise within the file with comments indicating which code goes with which exercise. Put your own name in a comment at the top of the file. Like so:
-
-<pre>%Your Name
-%
-%Exercise 1
-
-...
-
-%Exercise 2
-
-...
-
-</pre>
-
-Submit the file on [Moodle](https://moodle.pugetsound.edu/moodle/mod/assign/view.php?id=308720).
-
-Of course, you should make sure you programs are working before submitting them.
-Make a note in the comments if you had trouble getting the program to work.
 
 ## Exercise 1
 
-The graph below has red and green states, red and green transitions, two start states (A and B, represented by a triangle to the left of the node) and two finish states (J and K, represented by double outlines). Terminology note: *states* are the labeled circles, *edges* or *transitions* are the arrowed lines between states.
+Write a program for `substitute(X, Y, L1, L2)` where
+`L2` is the result of substituting Y for all occurrences of
+X in L1. For example, `substitute(a, x, [a,b,a,c], [x,b,x,c])`
+ is true, whereas  `substitute(a, x, [a,b,a,c], [a,b,x,c])` is
+  false
 
-<img src="/~tmullen/images/plp/nodegraph.png" style="width: 100%;"/>
+## Exercise 2
 
+Define a predicate
+`adjacent(X, Y, Zs)` that is true if X and Y are adjacent in a list. For example, `adjacent(c, d, [a, b, c, d, e])` would be true.
 
-Write a program to represent this graph in Prolog. Write the following three predicates:
+## Exercise 3
 
-* <span class="codefont">red_edge_sequence(List)</span> which returns all possible lists of states, beginning with a start state and ending with a finish state, that can be traversed using only red edges (transitions) independent of state color.
-* <span class="codefont">alternating_edge_sequence(List)</span> which returns all possible lists of states, beginning with a start state and ending with a finish state, that can be traversed using sequences of alternating colored edges (i.e red-green-red-green-red, green-red-green-red, etc.) also independent of state color.
-* <span class="codefont">matching_edge_state_sequence(List)</span> which returns all possible lists of states, beginning with a start state and ending with a finish state, for which the path passes through edges <em>and</em> states that are the same color. Either all states and edges in the path are green, or all states and edges in the path are red.
+Define a program for
+`subtree(S, T)` where T and S are both binary trees and S is a subtree of T. Represent a tree using a data structure of the form `tree(Label, LeftSubtree, RightSubtree)`.
+
+For example, in the case of the tree below,
+`tree(c, tree(f, void, void), tree(g, void, void))`
+should evaluate as a subtree of the tree.
+
+<img src="/~tmullen/images/plp/binarytree.png" style="width: 100%;"/>
+
+## Exercise 4
+
+Define a program for
+`path(X, Tree, Path)` which returns the list of labels on the path from the root of the tree to X. For example, in the tree above, the path to `i` would return the list
+`[a, b, e, i]`.
+
+## Exercise 5
+
+Do [Exercise 3.5](http://www.learnprolognow.org/lpnpage.php?pagetype=html&pageid=lpn-htmlse11) from *Learn Prolog Now!*. Define the `swap/2` predicate that produces the mirror image of a binary tree passed as the predicate's first argument.

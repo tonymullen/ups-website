@@ -1,7 +1,7 @@
 ```
 cacheable: false
 ```
-## **Due  Mon 12/5**
+## **Due  Mon 4/24**
 
 ## Overview
 
@@ -54,11 +54,3 @@ This assignment will be evaluated on the following criteria:
 ## Grade weighting & lateness
 
 This assignment has a weight of 2 within the individual assignments portion of your overall grade. This assignment will be accepted for partial credit up to 4 days late, with a penalty of 20% per day.
-
-## Submitting
-
-The paper should be submitted on Moodle [here](https://moodle.pugetsound.edu/moodle/mod/assign/view.php?id=336600).
-
-* Files should be in **.pdf format**. That means **NO Word, .txt, .rtf, or anything else** please.
-
-Please remember to put your name on your papers (and to give your submissions one last read-through for typos and writing issues!)

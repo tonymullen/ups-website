@@ -2,67 +2,44 @@
 cacheable: false
 ```
 
-## Submitting
-
-Write all the predicates and facts for this assignment in one file, called
-<span style="font-family: 'Courier New', Courier, 'Lucida Sans Typewriter', 'Lucida Typewriter', monospace;">hwk10-&lt;your_name&gt;.hs</span>. Separate the code for each exercise within the file with comments indicating which code goes with which exercise. Put your own name in a comment at the top of the file. Like so:
-
-
-    --Your Name
-    --
-    --Exercise 1
-
-    ...
-
-    --Exercise 2
-
-    ...
-
-
-Submit the file on [Moodle](https://moodle.pugetsound.edu/moodle/mod/assign/view.php?id=308777).
-
-Of course, you should make sure you programs are working before submitting them.
-Make a note in the comments if you had trouble getting the program to work.
 
 ## Exercise 1
 
-Declare a data type `Tree` as follows:
-
-    data Tree = Leaf Int | Node Tree Int Tree
-
-Write a function `sumtree` that traverses the tree and returns the sum of the integer values of its nodes.
-
-For example, a call to `sumtree` with a tree with three leaves and two non-terminal nodes with the following values:
-
-<img src="/~tmullen/images/plp/numtree.png"/>
-
-should result in the output 20, as shown:
-
-    > sumtree (Node (Leaf 5) 5 (Node (Leaf 5) 2 (Leaf 3)))
-    20
-
+Using a list comprehension, give an expression that calculates the sum
+1<sup>2</sup>+2<sup>2</sup>+...100<sup>2</sup> of the first one hundred integer squares.
 
 ## Exercise 2
 
+Show how a single comprehension with two generators
 
-Declare a data type `Tree2` as follows:
+[(x,y) | x <- [1,2,3], y <- [4,5,6]]
 
-    data Tree2 = Leaf2 Int | Node2 Tree2 Tree2
+can be re-expressed using two comprehensions with single generators. Make use of the library function `concat` and nest one comprehension within the other. This should look similar to the above, i.e. it should be expressed in a single line of code (you don't need to write any helper functions), however it will make use of the built-in function `concat`, which operates on a list of lists.
 
-Consider the tree to be *balanced* if the number of leaves in the left and right subtree of every node differs by at most one, with leaves themselves being trivially balanced.
-Define a function `balanced :: Tree2 -> Bool` that decides if a tree is balanced or not. Hint: first define a function that returns the number of leaves in a tree.
-
+To solve this problem, first run the above line of code and see what it outputs. Consider whether there is an intuitive way to think of the output list as being a concatenation of three smaller lists. You will structure the solution to this question as a list comprehension on the head of another list comprehension, and then concatenate the results of the outer comprehension.
 
 ## Exercise 3
 
-In preparation for working on the Bert Bos puzzle in Haskell, it would be good to establish how to get a list of possible click lists. (The rest of the Bert Bos puzzle can be solved by figuring out how to filter this list down to only the successful click lists).
+The scalar product of two lists of integers  <span class="codefont">xs</span> and  <span class="codefont">ys</span> of
+length  <span class="codefont">n</span> is given by the
+sum of the products of corresponding integers.
 
-You can generate a list of all possible `"click"` and `"noclick"` strings using two built-in functions that are both available in Prelude: the `replicate` function and the `sequence` function. Using these two functions, write a function `clicklists :: Int -> [[[Char]]]` that takes an integer and outputs a list of lists of strings representing clicks and non-clicks.
+In a similar manner to the <span class="codefont">chisqr</span> function
+from the Caeser cipher example, show how a list comprehension
+can be used to define a function   <span class="codefont">scalarproduct :: [Int] -> [Int] -> Int</span> that returns the scalar product of two lists.  For example:
 
-You can of course recycle this function for use on your Bert Bos puzzle.  
+<pre><code class="haskell">> scalarproduct [1,2,3] [4,5,6]
+32</code></pre>
 
-## Extra credit
+You may use whatever library functions you wish in addition to the list comprehension.
 
-Adapt your own solution or (or begin with [this solution](http://mathcs.pugetsound.edu/~tmullen/plp/red_and_green_network.pl)) to [Homework 5, Exercise 1](http://mathcs.pugetsound.edu/~tmullen/hw/s16plp/hw5-prolog/) (red and green state transition network) from Prolog to Haskell.
+## Exercise 4
 
-This is *considerably* more difficult to do in Haskell than in Prolog and should serve as a nice illustration of the kind of problems that Prolog is well-suited to solving. Consider what features of Prolog make it so much easier to solve this kind of problem.  
+Modify the [Caesar cipher program ](/~tmullen/plp/caesar.hs) to also handle upper-case letters. You should assume that the distribution of upper case letters is identical to the corresponding distribution of lower-case letters (i.e 'A' has the same probability as 'a'). Capital letters will be encoded analogously to their lower-case equivalents. Thus if 'h' is encoded as 'm' (as in the example below) 'H' will be encoded as 'M'.
+
+    Main> encode 5 "hello there"
+    "mjqqt ymjwj"
+    Main> encode 5 "Hello There"
+    "Mjqqt Ymjwj"
+    Main> crack "MJQQT YMJWJ"
+    "HELLO THERE"

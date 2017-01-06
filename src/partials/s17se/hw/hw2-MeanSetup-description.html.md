@@ -2,7 +2,7 @@
 cacheable: false
 ```
 
-## **Due Mon 9/12**
+## **Due Mon 1/30**
 
 ## Overview
 
@@ -77,10 +77,4 @@ The author's code is available on his GitHub site, and you are encouraged to *re
 
 ## Grade weighting & lateness
 
-This assignment has a weight of 1 within the individual assignments portion of your overall grade. Credit for this assignment will not be given after the deadline. You will receive implicit partial credit by turning in subsequent assignments with this work completed.  
-
-## Submission
-
-To submit this assignment go to the [Moodle page for the assignment](https://moodle.pugetsound.edu/moodle/mod/assign/view.php?id=336594), submit a screenshot of your live application on Heroku to Moodle, and enter the link to your GitHub Repository's top page (where the README is displayed). Make sure that the link from Moodle to your GitHub repo is a proper link (i.e. clickable).
-
-Also, make sure that your GitHub README.md file contains a (clickable) link to the live application on Heroku.
+This assignment has a weight of 1 within the individual assignments portion of your overall grade. **Credit for this milestone assignment will not be given after the deadline. You will receive implicit partial credit by turning in subsequent assignments with this work completed.**

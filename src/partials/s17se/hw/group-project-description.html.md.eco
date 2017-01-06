@@ -136,7 +136,7 @@ Follow the instructions [here][repo] and in your *Getting MEAN* book to get thes
 
 ## Iteration 1: Calendar module integration and first story
 
-**Iteration 1 Due Date: Mon 10/31**
+**Iteration 1 Due Date: Wed 3/22**
 
 This is where the actual coding begins. The first story you will implement will be the same for all groups:
 
@@ -162,7 +162,7 @@ Depending on your project goals, you may or may not continue to use this module 
 
 Note that group evaluation forms can be found on Moodle. You are **required** to fill out the evaluation form for each iteration. You will not get full credit for the iteration if you have not filled out an evaluation. The forms are seen only by me, but they are **not anonymous.**
 
-**Iteration 2 Due Date: Fri 3/21**
+**Iteration 2 Due Date: Fri 3/31**
 
 or Iteration 2, you should have a good start on developing the CRUD module (or socket module) that will contain the main functionality of your application. You should do this by duplicating the existing `articles` or `chat` module and refactoring all named references to module objects to match your own module and model objects names. By the Iteration 2 deadline, *at minimum* you should have a working duplicate of `articles` linked to and functioning in your application. **Your application must be deployed on Heroku and working.** Any modifications to the original module (model/schema changes, view/controller changes) should also be working (not breaking your application) although they may be incomplete.
 

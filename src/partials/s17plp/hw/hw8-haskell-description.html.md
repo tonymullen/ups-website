@@ -2,66 +2,102 @@
 cacheable: false
 ```
 
-## Submitting
-
-Write all the predicates and facts for this assignment in one file, called
-<span style="font-family: 'Courier New', Courier, 'Lucida Sans Typewriter', 'Lucida Typewriter', monospace;">hwk8-&lt;your_name&gt;.hs</span>. Separate the code for each exercise within the file with comments indicating which code goes with which exercise. Put your own name in a comment at the top of the file. Like so:
-
-    --Your Name
-    --
-    --Exercise 1
-
-    ...
-
-    --Exercise 2
-
-    ...
-
-
-
-Submit the file on [Moodle](https://moodle.pugetsound.edu/moodle/mod/assign/view.php?id=308770).
-
-Of course, you should make sure you programs are working before submitting them.
-Make a note in the comments if you had trouble getting the program to work.
 
 
 ## Exercise 1
 
-Using a list comprehension, give an expression that calculates the sum
-1<sup>2</sup>+2<sup>2</sup>+...100<sup>2</sup> of the first one hundred integer squares.
+What are the types of the following values? Try to figure out the answer before checking with the interpreter, but be sure to confirm your answers with GHCI.
+
+<span class="codefont">['a', 'b', 'c']</span>
+
+<br>
+
+<span class="codefont">('a', 'b', 'c')</span>
+
+<br>
+
+<span class="codefont">[(False, '0'), (True, '1')]</span>
+
+<br>
+
+<span class="codefont">([False, True], ['0', '1'])</span>
+
+<br>
+
+<span class="codefont">[tail, init, reverse]</span>
 
 ## Exercise 2
 
-Show how a single comprehension with two generators
+What are the types of the following functions? Be sure to include the necessary class constraints if the functions are defined using overloaded operators. Try to figure out the answer before checking with the interpreter, but confirm your answers with GHCI.
 
-[(x,y) | x <- [1,2,3], y <- [4,5,6]]
+<span class="codefont">second xs = head (tail xs)</span>
 
-can be re-expressed using two comprehensions with single generators. Make use of the library function `concat` and nest one comprehension within the other. This should look similar to the above, i.e. it should be expressed in a single line of code (you don't need to write any helper functions), however it will make use of the built-in function `concat`, which operates on a list of lists.
+<br>
 
-To solve this problem, first run the above line of code and see what it outputs. Consider whether there is an intuitive way to think of the output list as being a concatenation of three smaller lists. You will structure the solution to this question as a list comprehension on the head of another list comprehension, and then concatenate the results of the outer comprehension.
+<span class="codefont">swap (x, y) = (y, x)</span>
+
+<br>
+
+
+<span class="codefont">pair x y = (x, y)</span>
+
+<br>
+
+<span class="codefont">double x = x * 2</span>
+
+<br>
+
+<span class="codefont">palindrome xs = reverse xs == xs</span>
+
+<br>
+
+<span class="codefont">twice f x = f (f x)</span>
+
 
 ## Exercise 3
 
-The scalar product of two lists of integers  <span class="codefont">xs</span> and  <span class="codefont">ys</span> of
-length  <span class="codefont">n</span> is given by the
-sum of the products of corresponding integers.
+Some of the following expressions are not syntactically correct, while others are syntactically correct but do not have sensible types. Some are well-formed. Which is which? In the case of the well-formed expressions, give their types. Assume that <span class="codefont">double :: Int -> Int</span>  is defined as described in the previous exercise.
 
-In a similar manner to the <span class="codefont">chisqr</span> function
-from the Caeser cipher example, show how a list comprehension
-can be used to define a function   <span class="codefont">scalarproduct :: [Int] -> [Int] -> Int</span> that returns the scalar product of two lists.  For example:
+Try to figure out the answer before checking with the interpreter, but confirm your answers with GHCI. Also, not all well-formed expressions are printable. If there's no <span class="codefont">Show</span> function available for an expression, you can still find out what it's type is.  
 
-<pre><code class="haskell">> scalarproduct [1,2,3] [4,5,6]
-32</code></pre>
+<span class="codefont">[0, 1)</span>
 
-You may use whatever library functions you wish in addition to the list comprehension.
+<br>
 
-## Exercise 4
+<span class="codefont">double -3</span>
 
-Modify the [Caesar cipher program ](/~tmullen/plp/caesar.hs) to also handle upper-case letters. You should assume that the distribution of upper case letters is identical to the corresponding distribution of lower-case letters (i.e 'A' has the same probability as 'a'). Capital letters will be encoded analogously to their lower-case equivalents. Thus if 'h' is encoded as 'm' (as in the example below) 'H' will be encoded as 'M'.
+<br>
 
-    Main> encode 5 "hello there"
-    "mjqqt ymjwj"
-    Main> encode 5 "Hello There"
-    "Mjqqt Ymjwj"
-    Main> crack "MJQQT YMJWJ"
-    "HELLO THERE"
+<span class="codefont">double (-3)</span>
+
+<br>
+
+<span class="codefont">double double 0</span>
+
+<br>
+
+<span class="codefont">if 1==0 then 2==1</span>
+
+<br>
+
+<span class="codefont">"++" == "+" ++ "+"</span>
+
+<br>
+
+<span class="codefont">[(+),(-)]</span>
+
+<br>
+
+<span class="codefont">[[],[[]],[[[]]]]</span>
+
+<br>
+
+<span class="codefont">concat ["tea", "for", '2']</span>
+
+<br>
+
+<span class="codefont">concat ["tea", "for", "2"]</span>
+
+## Submitting
+
+Submit this assignment on [Moodle](https://moodle.pugetsound.edu/moodle/mod/assign/view.php?id=308764) as an ordinary text file (this assignment involves no actual coding). Be sure that your name is written in the file and that all answers have their associated questions with them so a grader or I can tell at a glance what question is being answered.

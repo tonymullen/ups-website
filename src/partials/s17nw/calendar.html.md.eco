@@ -4,16 +4,16 @@
 
 | Week | Date |  Topic              |  Reading           |     Assignment |
 |------|------|---------------------|--------------------|----------------|
-| 1  | 1/18   |  Introduction; Network layers    |                    |                |
-| 2  | 1/23   |  Application layer               |                    |                |
-| 3  | 1/30   |  HTTP & REST                     |                    |                |
+| 1  | 1/18   |  Introduction; Structure of the Internet    |                    |                |
+| 2  | 1/23   |  Network layers & protocols; Application layer |                    |                |
+| 3  | 1/30   |  Application layer; HTTP, SMTP, DNS, Socket programming  |                    |                |
 | 4  | 2/6    |  Transport layer protocols       |                    |                |
 | 5  | 2/13   |  TCP; Congestion control         |                    |                |
 | 6  | 2/20   |   Network layer;<br>Routing & forwarding              |                |                |
 | 7  | 2/27   |  Internet routing                |                    |                |
 | 8  | 3/6    |  Review;<br>**Midterm Exam**     |                    |                |
 | 9  | 3/13   |  **Spring break**                |                    |                |
-| 10 | 3/20   |   Link layer                     |                    |                |
+| 10 | 3/20   |   Link layer <br>**No class Fri, 3/24**               |                    |                |
 | 11 | 3/27   |   Link layer protocols           |                    |                |
 | 12 | 4/3    |   Physical layer                 |                    |                |
 | 13 | 4/10   |  Wireless & mobile               |                    |                |

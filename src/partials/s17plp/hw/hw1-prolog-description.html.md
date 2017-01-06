@@ -2,63 +2,35 @@
 cacheable: false
 ```
 
-## Submitting
+For this assignment, you'll do the exercises for [Chapter 1](http://www.learnprolognow.org/lpnpage.php?pagetype=html&pageid=lpn-htmlch1) of *Learn Prolog Now!* This chapter defines a lot of the terms you'll hear throughout the first half of this course, so it's important that you read it closely and make sure you understand.
 
-Write all the predicates and facts for this assignment in one file, called
-<span style="font-family: 'Courier New', Courier, 'Lucida Sans Typewriter', 'Lucida Typewriter', monospace;">hwk1-&lt;your_name&gt;.pl</span>. If there are more than one exercises in the homework, separate the code for each exercise within the file with comments indicating which code goes with which exercise. Put your own name in a comment at the top of the file. Like so:
+For the first week, the reading will likely be a little ahead of what I'm able to talk about in class, so please try to get ahead of this assignment so as to be able to ask in class about any topics you're unsure about.
 
-<pre>%Your Name
-%
-%Exercise 1
+You'll find the exercises [here](http://www.learnprolognow.org/lpnpage.php?pagetype=html&pageid=lpn-htmlse3). Do all the exercises from Exercise 1.1 through Exercise 1.5.
 
-...
+## Installing and running Prolog
 
-%Exercise 2
+Although for this first assignment you won't have to write any code, you'll probably want to run some of the exercise code in a Prolog interpreter.
 
-...
+All of the programs we will write and run in this class can be executed on [SWISH](http://swish.swi-prolog.org/), the browser-based cloud platform for running Prolog. SWISH is not very well suited to managing files, but it's a pretty nice Prolog environment, particularly if you run into problems with a local installation.
 
-</pre>
+I recommend installing [SWI Prolog](http://www.swi-prolog.org/) on your local computer. However, there are known issues with the Mac versions available from the SWI website with OS X version 10.11 (El Capitan). Mac users on El Capitan should install it using [Homebrew](http://brew.sh/). First [install Homebrew itself](http://brew.sh/), and then install SWI Prolog with the following commands in the terminal:
 
-Submit the file on [Moodle](https://moodle.pugetsound.edu/moodle/mod/assign/view.php?id=308686).
+    brew update
+    brew install swi-prolog
 
-Of course, you should make sure you programs are working before submitting them.
-Make a note in the comments if you had trouble getting the program to work.
+When you've done this, you will be able to run Prolog in the terminal using the command
 
+    swipl
 
+Which will give a Prolog interpreter that looks something like this:
 
-## Exercise 1
+    For help, use ?- help(Topic). or ?- apropos(Word).
 
-Start with the following defined relationships (copy and paste them into your program):
+    ?-  
 
-<pre>father(Dad, Child) :- parent(Dad, Child), male(Dad).
-mother(Mom, Child) :- parent(Mom, Child), female(Mom).
+To consult a program you've written, enter the name of the program in square brackets and single quotes, followed by a period.
 
-had_a_child(Man, Woman):- father(Man, Child), mother(Woman, Child).
+    ?- ['my_program.pl'].
 
-sibling(Sibling1, Sibling2):-
-  parent(Parent, Sibling1),
-  parent(Parent, Sibling2),
-  Sibling1 \= Sibling2.
-
-brother(Brother, Sib) :-
-  sibling(Brother, Sib),
-  male(Brother).
-
-sister(Sister, Sib) :-
-  sibling(Sister, Sib),
-  female(Sister).</pre>
-
-Add a new predicate
-<span class="codefont">married_couple(Spouse1, Spouse2)</span>. **This relationship will be
-determined by facts in the database.**
-
-On the basis of this predicate and those already defined above, write rules for the relationships
-<span class="codefont">mother_in_law</span>,
-<span class="codefont">brother_in_law</span>, and
-<span class="codefont">daughter_in_law</span>.
-
-Consider the brother-in-law relationship to be true in two cases: a) the brother of one's spouse, and b) the husband of one's sibling. You can ignore extended cases of brother-in-law relationships (i.e. the brother of your brother's wife, etc.)
-
-Add the appropriate facts to your program to test these predicates with the family from this graphic:
-
-<img src="/~tmullen/images/plp/family-tree.png" style="width: 100%;"/>
+If you run Prolog through the GUI that comes with the SWI installation, you can consult your program through the menu.

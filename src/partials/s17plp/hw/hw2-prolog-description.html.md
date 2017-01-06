@@ -2,73 +2,79 @@
 cacheable: false
 ```
 
-## Submitting
+For this assignment you'll do a few more exercises from *Learn Prolog Now!* and then you'll write a slightly longer program for the family tree exercise below.
 
-Write all the predicates and facts for this assignment in one file, called
-<span style="font-family: 'Courier New', Courier, 'Lucida Sans Typewriter', 'Lucida Typewriter', monospace;">hwk2-&lt;your_name&gt;.pl</span>. Separate the code for each exercise within the file with comments indicating which code goes with which exercise. Put your own name in a comment at the top of the file. Like so:
+The important concept from Chapter 2 is unification. This is the way variables in Prolog get instantiated. A Prolog program executes by trying to find suitable unifications for variables such that the necessary constraints are met and the query is found to be true.
 
-<pre>%Your Name
-%
-%Exercise 1
+Do the following exercises from the book:
 
-...
+[Exercises 2.1, 2.2, and 2.3., LPN](http://www.learnprolognow.org/lpnpage.php?pagetype=html&pageid=lpn-htmlse7)
 
-%Exercise 2
+You do not need to draw the search tree for exercise 2.2.
 
-...
+These exercises do not involve writing code, just executing some code and answering questions. Include the answers in your `.pl` code file, but commented out with `%` so that they don't affect how your code runs.
 
-</pre>
+## Family tree exercise
 
-Submit the file on [Moodle](https://moodle.pugetsound.edu/moodle/mod/assign/view.php?id=308693).
+This exercise will define a number of familial relationships based on the following family tree:
 
-Of course, you should make sure you programs are working before submitting them.
-Make a note in the comments if you had trouble getting the program to work.
+<img src="/~tmullen/images/plp/family-tree.png" style="width: 100%;"/>
 
-## Exercise 1
+You'll begin by writing a knowledge base containing the basic facts that are known about the family tree. Specifically, include predicates `male/1` and `female/1` to list the family members according to gender (based on the red and blue color of the nodes in the diagram). **Remember to represent names as atomic values in the facts, not as variables. Review the syntax of how to write atomic values and variables in Prolog.**
 
-Write a collection of facts and rules to describe the layout of objects in the following image:
+Include another predicate of facts to represent married couples, shown in the diagram as nodes connected by a single straight horizontal line. Use `spouse/2` to list these pairs.
 
-![Starter Image](/~tmullen/images/plp/objects.png)
+Lastly, add the `parent/2` relationship to your knowledge base. Make sure each parent/child relationship is represented.
 
-**Part 1:** Write facts using the predicates <span class="codefont">adjacent_left(Object1, Object2)</span> and
-<span class="codefont">immediately_above(Object1, Object2)</span>.
+Once you have your facts represented, we can add some rules. Add the following defined relationships by simply copying and pasting them into your program:
 
-**Part 2:** Define rules for <span class="codefont">
-adjacent_right(Object1, Object2)</span> and <span class="codefont">immediately_below(Object1, Object2)</span> in terms of
-<span class="codefont">adjacent_left(Object1, Object2)</span> and
-<span class="codefont">immediately_above(Object1, Object2)</span>
+    father(Dad, Child) :- parent(Dad, Child), male(Dad).
+    mother(Mom, Child) :- parent(Mom, Child), female(Mom).
 
-**Part 3:** Write recursive predicates
-<span class="codefont">right_of/2</span>,
-<span class="codefont">left_of/2</span>,
-<span class="codefont">above/2</span>,
-<span class="codefont">below/2</span>,.
+    sibling(Sibling1, Sibling2):-
+      parent(Parent, Sibling1),
+      parent(Parent, Sibling2),
+      Sibling1 \= Sibling2.
 
-**Part 4:** Write a rule <span class="codefont">higher_than(Object1, Object2)</span> that is true when ever <span class="codefont">Object1</span> is higher in the layout than <span class="codefont">Object2</span>.
+    brother(Brother, Sib) :-
+      sibling(Brother, Sib),
+      male(Brother).
 
-## Exercise 2
+    sister(Sister, Sib) :-
+      sibling(Sister, Sib),
+      female(Sister).
 
-We've looked in class writing recursive operators on natural numbers defined using the successor function. Below are definitions for <span class="codefont">natural_number/1</span>,  <span class="codefont">plus/3</span>, and <span class="codefont">times/3</span>.
+Test these rules to make sure your facts and rules are accurately representing the situation. You should be able to query your program now with
 
-<pre>natural_number(0).
-natural_number(s(X)):- natural_number(X).
+    ?- father(ward, wally).
 
-plus(0, X, X) :- natural_number(X).
-plus(s(X), Y, s(Z)) :- plus(X, Y, Z).
+and have Prolog return `true`. Try it also with
 
-times(0, _, 0).
-times(s(X), Y, Product) :-
-   plus(Previous, Y, Product),
-   times(Y, X, Previous).
-</pre>
+    ?- sister(maggie, lisa).
 
-Write a definition for <span class="codefont">factorial/2</span> that takes a natural number (in successor function notation) as the first argument and yields its factorial value as the second argument. You may use whichever of the predicates defined above that you require. Your predicate does not need to work in reverse, and does not need to handle <span class="codefont">;</span> cases.
+Next, on the basis of the predicates you've defined above, write rules for the relationships
+`mother_in_law`, `daughter_in_law`, and `brother_in_law`.
 
-### Testing and writing to the console
+Consider the brother-in-law relationship to be true in two cases: a) the brother of one's spouse, and b) the husband of one's sibling. You can ignore extended cases of brother-in-law relationships (i.e. the brother of your brother's wife, etc.)
 
-Factorials get big quickly, so even 4! will result in too many embedded successors for Prolog to print out in a single line by default. If you try, you will see that Prolog truncates the output with ellipses. There are ways to set Prolog's maximum output length, but the simplest way to test your program is to use the <span class="codefont">write/1</span> built in predicate to tell Prolog to write a value. You can include tests directly in your program using the approach we discussed in class. You can do this with the <span class="codefont">write</span> predicate like this:
+Test your program on the following queries:
 
-<pre>:- factorial(s(s(s(s(0)))),X), write(X), nl.
-:- factorial(s(s(s(0))),X), write(X).</pre>
+    ?- mother_in_law(marge, wally).
 
-In the example above, <span class="codefont">X</span> will first be instantiated as the factorial of four, then written out to the console (in its entirety), followed by a new line (<span class="codefont">nl</span>). Then <span class="codefont">X</span> will be instantiated as the factorial of three and written out to the console.
+    ?- brother_in_law(ted, lisa).
+
+    ?- brother_in_law(wally, maggie).
+
+    ?- daughter_in_law(mary, ward).
+
+should all return `true`, whereas:
+
+    ?- mother_in_law(marge, maggie).
+
+    ?- mother_in_law(homer, wally).
+
+    ?- brother_in_law(wally, ted).
+
+    ?- brother_in_law(wally, lisa).
+
+should all return `false`.

@@ -1,7 +1,7 @@
 ```
 cacheable: false
 ```
-## **Due  Fri 12/16**
+## **Due  Wed 5/10**
 
 To wrap up your final project, please submit the following materials:
 
@@ -18,7 +18,3 @@ To wrap up your final project, please submit the following materials:
 ## Grade weighting & lateness
 
 This assignment has a weight of 2 within the group project portion of your overall grade. This assignment will be accepted for partial credit up to 4 days late, with a penalty of 20% per day.
-
-## Submission
-
-Submit this **in .pdf format** to the Moodle page [here](https://moodle.pugetsound.edu/moodle/mod/assign/view.php?id=336601).
