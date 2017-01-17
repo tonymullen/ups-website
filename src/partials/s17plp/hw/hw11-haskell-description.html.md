@@ -30,7 +30,7 @@ Write a function that generates combinations of K distinct objects chosen from N
 
 <pre><code class="haskell">combinations :: Int -> [a] -> [[a]]</code></pre>
 
-You may want to make use of the <span class="codefont">tails</span> function provided by the <span class="codefont">Data.List</span> library. This function takes a list and returns a list of recursively-generated tails of the list. Like so:
+You may want to make use of the `tails` function provided by the `Data.List` library. This function takes a list and returns a list of recursively-generated tails of the list. Like so:
 
 <pre><code class="haskell">> tails [0,1,2,3]
 [[0,1,2,3],[1,2,3],[2,3],[3],[]]</code></pre>
@@ -43,14 +43,14 @@ The `combinations` function can be written as a recursive list comprehension usi
 
 ## Exercise 5
 
-Using <span class="codefont">foldl</span>, define a function <span class="codefont">dec2int :: [Int] -> Int</span> that takes a list of single digit integers and returns the integer made up of the digits in the decimal place that corresponds to their position in the list. So, for example:
+Using `foldl`, define a function `dec2int :: [Int] -> Int` that takes a list of single digit integers and returns the integer made up of the digits in the decimal place that corresponds to their position in the list. So, for example:
 
 <pre><code class="haskell">> dec2int [5,4,2,6,1]
 54261</code></pre>
 
 ## Exercise 6
 
-Generalizing from the previous exercise, write a function <span class="codefont">base2int :: Int -> String -> Int</span> that takes an argument representing a base and a string representing a number in that base, and returns an integer representing the decimal number expressed by the string.
+Generalizing from the previous exercise, write a function `base2int :: Int -> String -> Int` that takes an argument representing a base and a string representing a number in that base, and returns an integer representing the decimal number expressed by the string.
 
 <pre><code class="haskell">> base2int 2 "10111"
 23</code></pre>

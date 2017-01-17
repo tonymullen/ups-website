@@ -4,7 +4,7 @@
 
 | Week | Date |  Topic              |  Reading           |     Assignment |
 |------|------|---------------------|--------------------|----------------|
-| 1  | 1/18   | Introduction; Process Models                |  [The Mythical Man-Month, Ch 1: The Tar Pit][brooks] <br> Getting MEAN<br>Ch 1, 2          | [HW 1: JavaScript tutorial][hw1] <br> **Due Wed 1/25** <br> [Install Git, NVM (or NVM-windows), Node.js (via NVM), etc. and Atom][node] |
+| 1  | 1/18   | Introduction; Process Models                |  [The Mythical Man-Month, Ch 1 & 2][brooks] <br> Getting MEAN<br>Ch 1, 2  | [HW 1: JavaScript tutorial][hw1] <br> **Due Wed 1/25** <br> [Install Git, NVM (or NVM-windows), Node.js (via NVM), etc. and Atom][node] |
 | 2  | 1/23   | Intro to JS; Automation; Version Control    |  GM Ch 3; <br> [Fowler, 2005][2]                                                           | [Group Project <br> Iteration 0.0][gp] <br> **Due Fri 1/27** <br> [HW 2: Setting up a MEAN project][hw2] <br> **Due Mon 1/30** |
 | 3  | 1/30   | Requirements; HTML & CSS; Web Application architecture & REST; |   GM Ch 4; <br> Hello Startup<br>Ch 1                                   | [Group Project <br> Iteration 0.1][gp] <br> **Due Fri 2/3** <br> [HW 3: Working with Node.js and Express][hw3] <br> (Find the typo <br> in Ch 4!) <br> **Due Mon 2/6**   |
 | 4  | 2/6    | Node.js                                     |  GM Ch 5                                                                                   | [HW 4: MongoDB and Mongoose][hw4] <br> **Due Mon 2/13** |

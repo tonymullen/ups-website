@@ -13,18 +13,33 @@ Write a collection of facts and rules to describe the layout of objects in the f
 ![Starter Image](/~tmullen/images/plp/objects.png)
 
 **Part 1:** Write facts using the predicates `adjacent_left(Object1, Object2)` and
-`immediately_above(Object1, Object2)`.
+`on_top_of(Object1, Object2)`. The first rule should represent all cases where Object1 is immediately to the left of Object2. For example, one of your facts will be
 
-**Part 2:** Define rules for `
-adjacent_right(Object1, Object2)` and `immediately_below(Object1, Object2)` in terms of
+    adjacent_left(clock, rocket).
+
+The second rule should cover cases where a Object1 is directly on top of Object2.
+
+**Part 2:** Define rules for `adjacent_right(Object1, Object2)` and `underneath(Object1, Object2)` in terms of
 `adjacent_left(Object1, Object2)` and
-`immediately_above(Object1, Object2)`
+`on_top_of(Object1, Object2)`. These rules will represent the reverse cases of the facts you have listed from Part 1. Once these rules are written, the query
+
+    ?- adjacent_right(rocket, X).
+
+should yield a `true` result with `X = rocket`.
 
 **Part 3:** Write recursive predicates
 `right_of/2`,
 `left_of/2`,
 `above/2`,
-`below/2`,.
+`below/2`. These represent the more distant cases. For example
+
+    ?- right_of(telephone, rocket).
+
+should return true. As should
+
+    ?- above(scissors, clock).
+
+These relations should be defined recursively based on the relationships defined above. An object is to the left of another object if there is a series of objects between them that are each adjacent left to the one before. Think about what the *base case* of the relationship should be.
 
 ## Exercise 3: Successor functions
 
@@ -42,11 +57,11 @@ We've looked in class writing recursive operators on natural numbers defined usi
       times(Y, X, Previous).
 <!-- ._ -->
 
-Write a definition for `factorial/2` that takes a natural number (in successor function notation) as the first argument and yields its factorial value as the second argument. You may use whichever of the predicates defined above that you require. Your predicate does not need to work in reverse, and does not need to handle `;` cases.
+Write a definition for `factorial/2` that takes a natural number (in successor function notation) as the first argument and yields its factorial value as the second argument. You may use whichever of the predicates defined above that you require. *Your predicate does not need to work in reverse, and does not need to handle `;` cases.*
 
 ### Testing and writing to the console
 
-Factorials get big quickly, so even 4! will result in too many embedded successors for Prolog to print out in a single line by default. If you try, you will see that Prolog truncates the output with ellipses. There are ways to set Prolog's maximum output length, but a simple way to test your program is to use the `write/1` built in predicate to tell Prolog to write a value. You can include tests directly in your program using the approach we discussed in class. You can do this with the `write` predicate like this:
+Factorials get big quickly, so even 4! will result in too many embedded successors for Prolog to print out in a single line by default. If you try, you will see that Prolog truncates the output with ellipses. There are ways to set Prolog's maximum output length, but a simple way to test your program is to use the `write/1` built in predicate to tell Prolog to write a value. You can include tests directly in your program by using a headless rule where the tail consists of the predicate you wish to test. You can do this with the `write` predicate like this:
 
     :- factorial(s(s(s(s(0)))),X), write(X), nl.
     :- factorial(s(s(s(0))),X), write(X).

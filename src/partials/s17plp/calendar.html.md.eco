@@ -10,7 +10,7 @@
 | 4  | 2/6  | More on lists, trees               |  LPN Ch 6, 9        | <!-- [Homework 4][hw4] <br> **Due Mon 2/13** --> |
 | 5  | 2/13 | Search Trees,                      |  LPN Ch 10, 11      | <!-- [Homework 5][hw5] <br> **Due Mon 2/20** <br> [Pair project][bb-pl] <br> **Due Mon 3/20** --> |
 | 6  | 2/20 |  Cuts and Negation                 |                     | <!-- [Homework 6][hw6] <br> **Due Mon 2/27** --> |
-| 7  | 2/27 |  Difference lists; Collecting solutions | [Difference lists][dl] | <!-- [Homework 7][hw7] <br> **Due Mon 2/27** --> |
+| 7  | 2/27 |  Difference lists; Collecting solutions | [Difference lists][dl] | <!-- [Homework 7][hw7] <br> **Due Mon 3/6** --> |
 | 8  | 3/6  |  Review                            |                     |  **Midterm Exam Fri 3/10** |
 | 9  | 3/13 |  **Spring <br> break**             |                     |                          |
 | 10 | 3/20 | Intro to Haskell, Expressions and functions <br>**No class Fri, 3/24** |  [Why learn functional programming?][2] <br> LYAH Section 2, 3      | <!-- [Homework 8][hw8] <br> **Due Mon 3/27**  --> |
@@ -20,7 +20,7 @@
 | 14 | 4/17 | Higher order functions             |  LYAH Section 10    | <!--  [Homework 12][hw12]<br>**Due Mon 4/24** <br> [Bert Bos Puzzle, <br> Haskell version][bb-hs] <br> **Due Mon 5/8** --> |
 | 15 | 4/24 | IO and Monads                      |  LYAH Section 11    | <!-- [Homework 13][hw13]<br>**Due Mon 5/1** --> |
 | 16 | 5/1  | Modules, review                    | LYAH Section 12          |                |
-| Finals |              |       |                 |  **Final Exam  TBA**        | |
+| Finals |              |       |                 |  **Final Exam  Fri 5/12 12:00PM-2:00PMy**        | |
 
 
 <div class="tables-end"></div>

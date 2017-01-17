@@ -22,11 +22,11 @@ This exercise will define a number of familial relationships based on the follow
 
 You'll begin by writing a knowledge base containing the basic facts that are known about the family tree. Specifically, include predicates `male/1` and `female/1` to list the family members according to gender (based on the red and blue color of the nodes in the diagram). **Remember to represent names as atomic values in the facts, not as variables. Review the syntax of how to write atomic values and variables in Prolog.**
 
-Include another predicate of facts to represent married couples, shown in the diagram as nodes connected by a single straight horizontal line. Use `spouse/2` to list these pairs.
+Include another predicate of **facts** to represent married couples, shown in the diagram as nodes connected by a single straight horizontal line. Use `spouse/2` to list these pairs.
 
-Lastly, add the `parent/2` relationship to your knowledge base. Make sure each parent/child relationship is represented.
+Lastly, add the `parent/2` relationship to your knowledge base. Make sure each parent/child relationship is represented as a fact.
 
-Once you have your facts represented, we can add some rules. Add the following defined relationships by simply copying and pasting them into your program:
+Once you have your facts represented, we can add some rules. Add the following defined relationships by simply copying them directly into your program:
 
     father(Dad, Child) :- parent(Dad, Child), male(Dad).
     mother(Mom, Child) :- parent(Mom, Child), female(Mom).

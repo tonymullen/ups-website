@@ -20,13 +20,13 @@ To solve this problem, first run the above line of code and see what it outputs.
 
 ## Exercise 3
 
-The scalar product of two lists of integers  <span class="codefont">xs</span> and  <span class="codefont">ys</span> of
-length  <span class="codefont">n</span> is given by the
+The scalar product of two lists of integers  `xs` and  `ys` of
+length  `n` is given by the
 sum of the products of corresponding integers.
 
-In a similar manner to the <span class="codefont">chisqr</span> function
+In a similar manner to the `chisqr` function
 from the Caeser cipher example, show how a list comprehension
-can be used to define a function   <span class="codefont">scalarproduct :: [Int] -> [Int] -> Int</span> that returns the scalar product of two lists.  For example:
+can be used to define a function   `scalarproduct :: [Int] -> [Int] -> Int` that returns the scalar product of two lists.  For example:
 
 <pre><code class="haskell">> scalarproduct [1,2,3] [4,5,6]
 32</code></pre>

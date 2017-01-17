@@ -2,22 +2,32 @@
 cacheable: false
 ```
 
-## Create a new project
+## Overview
 
-Open BlueJ. Create a new project called <span class="codefont">hw1</span>. Make sure this new project is saved inside of the <span class="codefont">cs161</span> folder you created during lab. (Refer back to lab 1 if you forgot how to create a new project in BlueJ).
+For your first two assignments, you'll be familiarizing yourself with the Python programming language using the [Codecademy Python tutorial](https://www.codecademy.com/learn/python). If you haven't registered for a Codecademy account, please do that first. You'll need an account before you begin the tutorial in order to collect the badges.
 
+Python is a very powerful and very widely used multipurpose, multi-paradigm programming language and a great language to know. It's also the language that your programming assignments in this class will be carried out in, so I want you to be comfortable with it.
 
-Again, if you navigate to your <span class="codefont">cs161</span>folder on your system, you'll see that BlueJ has created a new folder called <span class="codefont">hw1</span> and inside of this new folder will be all of the Java code your write for this assignment.
+You'll find it similar to the object-oriented and procedural languages you've studied in the past, but with enough important differences that putting in a bit of time to follow a serious tutorial will be beneficial.
 
-## Programming questions
+I'm breaking the tutorial into several parts to spread the work out a bit, and you may skip components of the tutorial that are not listed among the required portions below. The required portions are as follows:
 
-* In BlueJ, create a new Java class called <span class="codefont">StudentInfo</span>. Add a <span class="codefont">main</span> method to this class. In the <span class="codefont">main</span> method, complete programming project 1.3 on page 55 of the textbook.
-* item Create another Java class called <span class="codefont">AsteriskPicture</span> that has a <span class="codefont">main</span> method. In the <span class="codefont">main</span> method, complete programming project 1.6, creating a picture of a tree. You are completely free to use your imagination and draw any sort of tree, but the picture should be made up of a minimum of 15 lines of asterisks.
+### Assignment 1 (Due Mon, Jan 23)
 
+For part one of this assignment, complete the following five sections. Each of these sections will earn you a "badge" with the name of the section.
 
-## Submitting the assignment
+**Python Syntax**
 
-Place all files you created for this assignment in a directory together called <span class="codefont">hw1</span> and create a zip file from the directory. Upload the zip file to the Moodle page for this assignment here: [Moodle](https://moodle.pugetsound.edu/moodle/mod/assign/view.php?id=340427).
+**Strings and Console Output**
 
-You should make sure you programs are working before submitting them.
-Make a note in the comments if you had trouble getting the program to work.
+**Conditionals and Control Flow**
+
+**Functions**
+
+**Lists & Dictionaries**
+
+## Submission & lateness
+
+Submit this assignment by uploading a screenshot of your "Badges" page (click "Badges" from your profile page) to the [assignment's Moodle page](https://moodle.pugetsound.edu/moodle/mod/assign/view.php?id=374242). The screenshot should include the badges for the sections listed above for this assignment
+
+Each assignment will be accepted for partial credit up to 4 days late, with a penalty of 20% per day.
