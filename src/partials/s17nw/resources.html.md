@@ -4,7 +4,7 @@ cacheable: false
 
 ### Online resources
 
-The class [Moodle page](https://moodle.pugetsound.edu/moodle/course/view.php?id=11829) will be where you can turn in assignments and find some class materials.
+The class [Moodle page](https://moodle.pugetsound.edu/moodle/course/view.php?id=11828) will be where you can turn in assignments and find some class materials.
 
 ##### Seattle
 
@@ -12,4 +12,4 @@ We will be using [Seattle](https://seattle.poly.edu/html/) for some of the exerc
 
 ##### Python
 
-You should install [Python 3](https://www.python.org/) if you haven't already. If you are working on Mac OS X, you may already have Python 2.7 installed. It's not a problem to have them both installed. 
+You should install [Python 3](https://www.python.org/) if you haven't already. If you are working on Mac OS X, you may already have Python 2.7 installed. It's not a problem to have them both installed.

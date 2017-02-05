@@ -4,9 +4,9 @@
 
 | Week | Date |  Topic              |  Reading           |     Assignment |
 |------|------|---------------------|--------------------|----------------|
-| 1  | 1/18   |  Introduction; Structure of the Internet    |  CN 1.1-1.5       | [HW 1: Python tutorial][hw1] due Mon, 1/23<br>[Wireshark Lab 1][ws1] due Fri, 1/27  |
-| 2  | 1/23   |  Network layers & protocols;<br> Application layer |  CN 1.6-2.2<br>+ Ch 1 review Qs <br>[RFC 1858: Architectural Principles of the Internet][rfc1958]    | [HW 2: Python tutorial, Pt 2<br>& Ch 1 review Qs][hw2] due Mon, 1/30<br>[Wireshark Lab 2][ws2] due Fri, 2/3   |
-| 3  | 1/30   |  Application layer; HTTP,<br> SMTP, DNS, Socket programming  |  CN 2.2-2.8 <br>+ Ch 2 review Qs   |                |
+| 1  | 1/18   |  Introduction; Structure of the Internet    |  CN 1.1-1.5       | [HW 1: Python tutorial][hw1] due Mon, 1/23<br>[Wireshark Lab 1][ws1] due Fri, 1/27<br>(Work in class Wed) |
+| 2  | 1/23   |  Network layers & protocols;<br> Application layer |  CN 1.6-2.2<br>+ Ch 1 review Qs <br>[RFC 1958: Architectural Principles of the Internet][rfc1958]    | [HW 2: Python tutorial, Pt 2<br>& Ch 1 review Qs][hw2] due Mon, 1/30<br>[Wireshark Lab 2][ws2] due Fri, 2/3   |
+| 3  | 1/30   |  Application layer; HTTP,<br> SMTP, DNS, Socket programming  |  CN 2.2-2.8           | [HW 3: Ch 2 review Qs & problems][hw3] due Mon, 2/6<br>[Wireshark Lab 3][ws3] due Fri, 2/10 |
 | 4  | 2/6    |  Transport layer protocols       |                    |                |
 | 5  | 2/13   |  TCP; Congestion control         |                    |                |
 | 6  | 2/20   |   Network layer;<br>Routing & forwarding              |                |          |
@@ -31,5 +31,7 @@
 [hw1]: <%= @site.url %>/hw/s17nw/hw1-Python  "HW 1: Python"
 [hw1-sol]: <%= @site.url %>/hw/s17nw/hw1-sol  "HW 1 solution"
 [hw2]: <%= @site.url %>/hw/s17nw/hw2-Python  "HW 2: Python"
+[hw3]: <%= @site.url %>/hw/s17nw/hw3  "HW 3"
 [ws1]: <%= @site.url %>/hw/s17nw/ws1  "Wireshark Lab 1"
 [ws2]: <%= @site.url %>/hw/s17nw/ws2  "Wireshark Lab 2"
+[ws3]: <%= @site.url %>/hw/s17nw/ws3  "Wireshark Lab 3"

@@ -5,17 +5,15 @@ cacheable: false
 
 The class [Moodle page](https://moodle.pugetsound.edu/moodle/course/view.php?id=11829) will be where you can turn in assignments and find some class materials.
 
-### Supplemental resources
+### Required software resources
 
-#### The following resources are recommended:
+You will need runtime environments for Prolog and Haskell.
 
 #### Prolog:
 
-[SWI Prolog](http://www.swi-prolog.org/) is the version of Prolog we use. You can install a copy on your own computer as well.
+[SWI Prolog](http://www.swi-prolog.org/) is the version of Prolog I use and recommend, and it's the version you should probably use. You can install a copy on your own computer as well. Please take a look at the instructions on [Homework 1][hw1] for instructions on installing on OS X using Homebrew. The default installation method for OS X described on the SWI homepage does not work well with recent versions of OS X.  
 
 [SWISH](http://swish.swi-prolog.org/) is a browser-based implementation of SWI Prolog that you can use without downloading anything. All of the assignments in this class should run in this environment.
-
-[GNU Prolog](http://www.gprolog.org/) and [YAProlog](http://www.dcc.fc.up.pt/~vsc/Yap/) are some open-source implementations of Prolog. If you want to experiment with Prolog environments, these each have their merits.
 
 #### Haskell:
 
@@ -23,7 +21,9 @@ The class [Moodle page](https://moodle.pugetsound.edu/moodle/course/view.php?id=
 
 You can download the [Haskell Platform](https://www.haskell.org/platform/) there to install on your own machine.
 
-If you decide to get more serious about doing "real-world" programming with Haskell, you might want to check out [Leksah](https://www.leksah.org). It's a cross-platfom, open-source, and feature-rich IDE for Haskell development. Alternately, a [Haskell plugin](https://eclipsefp.github.io) also exists for Eclipse. Both are actively maintained.
+### Supplemental resources
+
+The following resources are not essential but may be interesting if you wish to deepen your understanding of the theory behind Prolog and Haskell.
 
 #### First-Order Predicate Logic:
 
@@ -44,3 +44,6 @@ If you decide to get more serious about doing "real-world" programming with Hask
 [Category Theory for Programmers](http://bartoszmilewski.com/2014/10/28/category-theory-for-programmers-the-preface) is an extended web tutorial by Bartosz Milewski intended as an accessible introduction to category theory.
 
 [Haskell/Category Theory](http://en.wikibooks.org/wiki/Haskell/Category_theory) is a Wikibook providing a brief overview of category as it pertains specifically to Haskell.
+
+
+[hw1]: <%= @site.url %>/hw/s17plp/hw1-prolog

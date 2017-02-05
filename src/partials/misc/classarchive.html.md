@@ -1,5 +1,13 @@
 ---
 ---
+### Fall 2016
+
+[CSCI 315: Computer Graphics](http://mathcs.pugetsound.edu/~tmullen/classes/f16-CS315-cg/)
+
+[CSCI 240: Software Engineering](http://mathcs.pugetsound.edu/~tmullen/classes/f16-CS240-se/)
+
+[CSCI 161: Intro to Computer Science](http://mathcs.pugetsound.edu/~tmullen/classes/f16-CS161-ics/)
+
 ### Summer 2016
 
 [CSCI 161: Intro to Computer Science](http://mathcs.pugetsound.edu/~tmullen/classes/su16-CS161-ics/)

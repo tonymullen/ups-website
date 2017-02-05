@@ -14,7 +14,7 @@ A while back [a story from the Guardian](http://www.theguardian.com/science/alex
 
 ![Starter Image](/~tmullen/images/plp/mathmaze2.jpg)
 
-While I applaud any third grader who can solve this puzzle, I think it would be easier just to let Prolog do the work! For this exercise, write a Prolog program that generates correct answers to the puzzle (there may be more than one). The answers should be in the form of a list of digits which would be entered into the blanks in the maze from left to right. Name the predicate **mathmaze** and have it take one argument, which gets instantiated as the correct list of numbers (and gives other answers when prompted with **;**).
+While I applaud any third grader who can solve this puzzle, I think it would be easier just to let Prolog do the work! For this exercise, write a Prolog program that generates correct answers to the puzzle (there may be more than one). Assume ordinary rules of arithmetic precedence (i.e. multiplication/division before addition/subtraction). The answers should be in the form of a list of digits which would be entered into the blanks in the maze from left to right. Name the predicate **mathmaze** and have it take one argument, which gets instantiated as the correct list of numbers (and gives other answers when prompted with **;**).
 
 ### Some hints
 
