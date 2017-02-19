@@ -2,51 +2,36 @@
 cacheable: false
 ```
 
-Here's another fun constraint satisfaction problem, this time slightly more complex than the ones you've seen so far. This is a variant of a well-known style of logic problem. This a type of problem that Prolog can handle very elegantly.
+## Exercise 1
 
-Write a Prolog program to solve the following problem. You should be able to query the problem with the predicate `pie_eater/1` and have it instantiate the argument variable with the correct answer.
+Write a program for `substitute(X, Y, L1, L2)` where
+`L2` is the result of substituting Y for all occurrences of
+X in L1. For example, `substitute(a, x, [a,b,a,c], [x,b,x,c])`
+ is true, whereas  `substitute(a, x, [a,b,a,c], [a,b,x,c])` is
+  false
 
-I recommend making heavy use of lists for this problem, as the list structure is a good way to represent the data you'll need to work with. You may find [`member/2`](http://www.swi-prolog.org/pldoc/man?predicate=member/2) and  [`permutation/2`](http://www.swi-prolog.org/pldoc/man?predicate=permutation/2) to be useful built-in functions for this assignment. 
+## Exercise 2
 
-### The International Neighborhood Hobbyists Puzzle
+Define a predicate
+`adjacent(X, Y, Zs)` that is true if X and Y are adjacent in a list. For example, `adjacent(c, d, [a, b, c, d, e])` would be true.
 
-There are 5 houses in five different colors.
+## Exercise 3
 
-In each house lives a person with a different nationality.
+Define a program for
+`subtree(S, T)` where T and S are both binary trees and S is a subtree of T. Represent a tree using a data structure of the form `tree(Label, LeftSubtree, RightSubtree)`.
 
-These five homeowners each listen to a certain type of music,
-enjoy a certain hobby and like a certain food.
+For example, in the case of the tree below,
+`tree(c, tree(f, void, void), tree(g, void, void))`
+should evaluate as a subtree of the tree.
 
-No two homeowners listen to the same music, have the same hobby, or like the same food.
+<img src="/~tmullen/images/plp/binarytree.png" style="width: 100%;"/>
 
-**The question is: Who likes pie?**
+## Exercise 4
 
-The Irish person lives next to the yellow house.
+Define a program for
+`path(X, Tree, Path)` which returns the list of labels on the path from the root of the tree to X. For example, in the tree above, the path to `i` would return the list
+`[a, b, e, i]`.
 
-The person who likes donuts lives next to the person who enjoys embroidery.
+## Exercise 5
 
-The person who enjoys train spotting lives next to the one who likes pizza.
-
-The person who enjoys pachinko likes beets.
-
-The Czech lives in the purple house.
-
-The person living in the center house listens to grunge.
-
-The person who enjoys glassblowing listens to hip hop.
-
-The American likes tofu.
-
-The Dutch person listens to J-Pop.
-
-The pink house's owner listens to country.
-
-The owner of the green house enjoys embroidery.
-
-The Irish person lives in the first house.
-
-The pink house is on the left of the orange house.
-
-The Japanese person enjoys gardening.
-
-The person who enjoys train spotting has a neighbor who listens to jazz.
+Do [Exercise 3.5](http://www.learnprolognow.org/lpnpage.php?pagetype=html&pageid=lpn-htmlse11) from *Learn Prolog Now!*. Define the `swap/2` predicate that produces the mirror image of a binary tree passed as the predicate's first argument.

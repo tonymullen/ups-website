@@ -20,12 +20,12 @@ While I applaud any third grader who can solve this puzzle, I think it would be 
 
 #### Generate and Test
 
-Although there are several ways to approach this puzzle, it's a good opportunity to use a commonly used pattern in Prolog called "generate and test". In generate and test, the idea is to first create a predicate that can generate possible solutions, and then a predicate that can test them to see if they satisfy the requirements of the puzzle. In this case, possible solutions are permutations of the digits 1 through 9.
+Although there are several ways to approach this puzzle, it's a good opportunity to use a commonly used pattern in Prolog called "generate and test". In generate and test, the idea is to first create a predicate that can generate possible solutions, and then a predicate that can test them to see if they satisfy the requirements of the puzzle. Prolog will use backtracking to generate alternate solutions until one is found that passes the test. In this case, possible solutions are permutations of the digits 1 through 9.
 
 An example of how this should work (on a smaller list of numbers) is here:
 
 
-    ?- generate_permutations([1,2,3],X).
+    ?- permutations([1,2,3],X).
     X = [1, 2, 3] ;
     X = [1, 3, 2] ;
     X = [2, 1, 3] ;
@@ -34,18 +34,7 @@ An example of how this should work (on a smaller list of numbers) is here:
     X = [3, 2, 1] ;
     false.
 
-
-Two convenient built-in predicates that you may want to use to help you write your `generate_permutations` predicate are
-
-    member(Element, List).
-
-which is true if `Element` is a member of the list and
-
-    delete(List, Element, RemainingElementsList).
-
-which, if given `List` and `Element`, will generate `RemainingElementsList` containing the original list with only `Element` removed.
-
-Alternately, you may choose to use the built-in predicate `select` which does the same thing. See the documentation for how to use `select`.
+The good news is that `permutations/2` is built-in to Prolog. We'll discuss how it works in class, using `select/3`, but you can use the built-in predicate for your homework. 
 
 #### Testing solutions
 
@@ -65,7 +54,7 @@ Write a program for `double(List, DoubledList)` where every element in
 
 ### Hint  
 
-For this exercise, it may be helpful to realize that the `[Head|Tail]` list notation is not limited to accessing only the first element of the list. You can access as many elements into the list as you like by separating elements with commas before the pipe. So, for example, `[H1, H2, H3|Tail]` would access the first three elements as `H1`,  `H2`, and `H3`, with the remaining elements (starting with the fourth) accessible as a list in `Tail`.
+For this exercise, it will be helpful to realize that the `[Head|Tail]` list notation is not limited to accessing only the first element of the list. You can access as many elements into the list as you like by separating elements with commas before the pipe. So, for example, `[H1, H2, H3|Tail]` would access the first three elements as `H1`,  `H2`, and `H3`, with the remaining elements (starting with the fourth) accessible as a list in `Tail`.
 
 An example on the command line of the first two elements accessed in the head can be seen here:
 
@@ -89,9 +78,13 @@ Write a program for `orderedTriples(ListOfInts1, ListOfInts2, ListOfInts3, Order
     ?- orderedTriples([2,5,3,1], [1,3,4,6], [3,1,5,0], X).
     X = [[1, 2, 3], [1, 3, 5], [3, 4, 5], [0, 1, 6]].
 
-The program should fail if any of the three input lists are not the same length.
+For this program, you may use the built-in predicate `sort/2`, which takes as its first argument a list and instantiates its second argument as that list sorted. 
+
+Your program program should fail if any of the three input lists are not the same length.
 
 ### Comparison operators
+
+If you wanted to write your own `sort/2` predicate or something similar, you could do so using comparison operators. 
 
 Prolog comparison operators look like this:
 

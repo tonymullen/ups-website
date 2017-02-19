@@ -66,7 +66,7 @@ Now that we have provided an overview of nslookup, it is time for you to test dr
 
 1. Run nslookup to obtain the IP address of a Web server in Asia. What is the IP address of that server?
 2. Run nslookup to determine the authoritative DNS servers for a university in Europe.
-3. Run nslookup so that one of the DNS servers obtained in Question 2 is queried for the mail servers for Yahoo! mail. What is its IP address?
+3. Run nslookup so that either [Google's public DNS](https://developers.google.com/speed/public-dns/) or an [OpenDNS server](https://en.wikipedia.org/wiki/OpenDNS​) server is queried for the mail servers for Yahoo! mail (mail.yahoo.com). What is its IP address?
 
 ## ipconfig
 

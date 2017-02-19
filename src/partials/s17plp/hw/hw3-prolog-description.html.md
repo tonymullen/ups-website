@@ -25,7 +25,7 @@ The second rule should cover cases where a Object1 is directly on top of Object2
 
     ?- adjacent_right(rocket, X).
 
-should yield a `true` result with `X = rocket`.
+should yield a `true` result with `X = clock`.
 
 **Part 3:** Write recursive predicates
 `right_of/2`,
@@ -53,8 +53,8 @@ We've looked in class writing recursive operators on natural numbers defined usi
 
     times(0, _, 0).
     times(s(X), Y, Product) :-
-      plus(Previous, Y, Product),
-      times(Y, X, Previous).
+      times(Y, X, Previous),
+      plus(Previous, Y, Product).
 <!-- ._ -->
 
 Write a definition for `factorial/2` that takes a natural number (in successor function notation) as the first argument and yields its factorial value as the second argument. You may use whichever of the predicates defined above that you require. *Your predicate does not need to work in reverse, and does not need to handle `;` cases.*
