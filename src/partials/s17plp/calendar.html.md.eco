@@ -8,9 +8,9 @@
 | 2  | 1/23 | Facts, Rules, and Queries          |  LPN Ch 2, 3        |  [Homework 2][hw2] <br> **Due Mon 1/30**  |
 | 3  | 1/30 | Arithmetic, recursion, lists       |  LPN Ch 4, 5        |  [Homework 3][hw3] <br> **Due Wed 2/8**   |
 | 4  | 2/6  | More on lists, trees               |  LPN Ch 6, 9        |  [Homework 4][hw4] <br> **Due Wed 2/15**  |
-| 5  | 2/13 | Search Trees,                      |  LPN Ch 10, 11      |  [Homework 5][hw5] <br> **Due Mon 2/20** <br> [Pair project][bb-pl] <br> **Due Wed 3/22** |
-| 6  | 2/20 |  Cuts and Negation                 |                     |  [Homework 6][hw6] <br> **Due Mon 2/27**  |
-| 7  | 2/27 |  Difference lists; Collecting solutions | [Difference lists][dl] | [Homework 7][hw7] <br> **Due Mon 3/6** |
+| 5  | 2/13 | Search Trees,                      |  LPN Ch 10, 11      |  [Homework 5][hw5] <br> **Due Wed 2/22** <br> [Pair project][bb-pl] <br> **Due Wed 3/22** |
+| 6  | 2/20 |  Cuts and Negation                 |                     |  [Homework 6][hw6] <br> **Due Wed 3/1**  |
+| 7  | 2/27 |  Difference lists; Collecting solutions | [Difference lists][dl] | [Homework 7][hw7] <br> **Due Wed 3/8** |
 | 8  | 3/6  |  Review                            |                     |  **Midterm Exam Fri 3/10** |
 | 9  | 3/13 |  **Spring <br> break**             |                     |                          |
 | 10 | 3/20 | Intro to Haskell, Expressions and functions <br>**No class Fri, 3/24** |  [Why learn functional programming?][2] <br> LYAH Section 2, 3      | <!-- [Homework 8][hw8] <br> **Due Mon 3/27**  --> |
