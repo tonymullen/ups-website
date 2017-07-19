@@ -1,0 +1,58 @@
+### Calendar
+
+<div class="tables-begin"></div>
+
+| Week | Date |  Topic              |  Reading           |     Assignment |
+|------|------|---------------------|--------------------|----------------|
+| 1  | 8/28   | Introduction; Process Models                |  [The Mythical Man-Month, Ch 1 & 2][brooks] <br> Getting MEAN<br>Ch 1, 2  | [HW 1: JavaScript tutorial][hw1] <br> **Due Wed 9/6** <br> [Install Git, NVM (or NVM-windows), Node.js (via NVM), etc. and Atom][node] |
+| 2  | 9/4    | **No class Mon**<br>Intro to JS; Automation; Version Control    |  GM Ch 3; <br> [Fowler, 2005][2]<br>[The Atlantic: Healthcare.gov][1]  | [Group Project <br> Iteration 0.0][gp] <br> **Due Fri 9/8** <br> [HW 2: Setting up a MEAN project][hw2] <br> **Due Mon 9/11** |
+| 3  | 9/11   | Requirements; HTML & CSS; Web Application architecture & REST; |   GM Ch 4; <br> Hello Startup<br>Ch 1                                   | [Group Project <br> Iteration 0.1][gp] <br> **Due Fri 9/15** <br> [HW 3: Working with Node.js and Express][hw3] <br> (Find the typo <br> in Ch 4!) <br> **Due Mon 9/18**   |
+| 4  | 9/18   | Node.js                                     |  GM Ch 5                                                                                   | [Group Project <br> Iteration 0.2 <br> (MEAN Treasure Hunt <br> Round 1)][gp] <br>[**(Working local installation of Group Project repo/MEAN.js app)**][repo]<br> **Due Fri 9/22** <br> [HW 4: MongoDB and Mongoose][hw4] <br> **Due Mon 9/25** |
+| 5  | 9/25   | Design patterns; MVC; Angular.js            | [UML Basic Principles][uml]<br> HS Ch 2                                                    | [Group Project <br> Iteration 0.3 <br> (MEAN Treasure Hunt <br> Round 2)][gp] <br> **Due Fri 9/29** <br>[HW 5: Building RESTful web api][hw5] <br> **Due Mon 10/2** |
+| 6  | 10/2   | Generation & Scaffolding; MEAN.js           |  GM Ch 6,7; <br> HS Ch 5                                                                   | [Group Project <br> Iteration 0.4 <br> (MEAN Treasure Hunt <br> Round 3)][gp] <br> **Due Fri 10/6** <br>[HW 6: Use Case][hw6] <br> **Due Mon 10/9** |
+| 7  | 10/9   | UI Design & templating                      |  HS Ch 3; <br> GM Ch 8, 9                                                                  | [Group Project <br> Iteration 1][gp]<br>[(Calendar module)][calendar]<br>[Solution][calendarsol]<br> **Due Fri 11/10**  |
+| 8  | 10/16  | **No class Mon**<br>Testing; Coding Style; Refactoring          |  HS Ch 6; <br> GM Ch 10                                                |                                                                                                          |
+| 9  | 10/23  | Deployment                                 |  GM Ch 11 (reading only)                                                                    | [HW 7: Building an SPA with Angular.js][hw7]<br>**(final book assignment)**<br> **Due Mon 10/30**        |
+| 10 | 10/30  | Databases & CRUD                           |                                                                                             | [Group Project <br> Iteration 2][gp] <br> **Due Fri 11/17**                                              |
+| 11 | 11/6   |                                            |                                                                                             |                                                                                                          |
+| 12 | 11/13  |**No class W & F**Software Ethics and Impacts|<!--[Brinkman & Sanders, 2013, Ch 1][bns]<br>Group readings <em>Based on last name:</em><br><strong>C-D: </strong>[Abril, 2007][abril]</a><br><strong>K-N: </strong>[Bennefon, 2015][bennefon]</a><br><strong>P-T: </strong>[Irani, 2013][irani]</a><br><strong>V-Z: </strong>[Penzenstadler, 2014][penzenstadler]</a><br>Come prepared to discuss the reading in class on Friday<br>-->|  |
+| 13 | 11/20  | Ethics continued <br> Software licensing & Open-Source; project work  |[ACM Code][acm] <br>  [Brinkman & Sanders, 2013, Ch 2][bns] <br> [IEEE Ethically Aligned Design][IEE_EAD] (Read: Executive Summary (Pp 2-14),<br> Chapter 2 (Pp 22-35),<br> New Committee Descriptions (Pp 93-102)) | [Group Project <br> Iteration 3][gp] <br> **Due Fri 12/1**   |
+| 14 | 11/27  | Project work                              |    HS Ch 8                               |              |
+| 15 | 12/4   | Troubleshooting & debugging; project work <br>**Classes end Wed, 12/6**  |                                                               | [HW 8: Ethics paper][hw8] <br> **Due Mon 12/4** |
+| Finals <br> period |    |    **Project presentations TBA**  |                            | [Group Project <br> Iteration 4][gp] <br>  [HW 9: Final project report][fr] <br> **TBA**||
+
+
+<div class="tables-end"></div>
+
+[1]: http://www.theatlantic.com/technology/archive/2015/07/the-secret-startup-saved-healthcare-gov-the-worst-website-in-america/397784/  "The Atlantic"
+[2]: http://www.martinfowler.com/articles/newMethodology.html
+[uml]: https://sourcemaking.com/uml/basic-principles-and-background/introduction-to-the-case-study
+[acm]: http://www.acm.org/about/se-code
+[raymond]: http://www.unterstein.net/su/docs/CathBaz.pdf
+[brooks]: https://archive.org/details/mythicalmanmonth00fred
+
+
+[node]: <%= @site.url %>/hw/f17se/install-node  "Node installation guide"
+[repo]: <%= @site.url %>/hw/f17se/install-group-repo  "Mean/group repo installation guide"
+[calendar]: <%= @site.url %>/hw/f17se/calendar-mod "Calendar module"
+[calendarsol]: <%= @site.url %>/hw/f17se/calendar-mod-solution "Calendar module"
+
+
+[hw1]: <%= @site.url %>/hw/f17se/hw1-JavaScript  "HW 1: JavaScript"
+[hw2]: <%= @site.url %>/hw/f17se/hw2-MeanSetup  "HW 2: Setting up a MEAN project"
+[hw3]: <%= @site.url %>/hw/f17se/hw3-NodeExpress  "HW 3: Working with Node.js and Express"
+[hw4]: <%= @site.url %>/hw/f17se/hw4-MongoDBMongoose  "HW 4: MongoDB and Mongoose"
+[hw5]: <%= @site.url %>/hw/f17se/hw5-RESTfulAPI  "HW 5: Building a RESTful api"
+[hw6]: <%= @site.url %>/hw/f17se/hw6-UseCase  "HW 6: Use Case"
+[hw7]: <%= @site.url %>/hw/f17se/hw7-AngularSPA  "HW 7: Building an SPA with Angular.js"
+[hw8]: <%= @site.url %>/hw/f17se/hw8-Ethics "HW 8: Ethics paper"
+
+[gp]: <%= @site.url %>/hw/f17se/group-project "Group project"
+[fr]: <%= @site.url %>/hw/f17se/hw9-FinalWriteup "Group project final writeup"
+
+[bns]: <%= @site.url %>/secure/f17se/BrinkmanSandersCh1-2.pdf
+[bennefon]: <%= @site.url %>/secure/f17se/BennefonEtAl2005.pdf
+[abril]: <%= @site.url %>/secure/f17se/Abril-2007.pdf
+[irani]: <%= @site.url %>/secure/f17se/Irani-2013.pdf
+[penzenstadler]: <%= @site.url %>/secure/f17se/Penzenstadler-2014.pdf
+[IEE_EAD]: <%= @site.url %>/se/IEEE_EthicallyAlignedDesign_v1.pdf

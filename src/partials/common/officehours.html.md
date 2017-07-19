@@ -1,7 +1,7 @@
 ```
 cacheable: false
 ```
-My office hours for Fall 2016 are:
+My office hours for Fall 2017 are:
 
 Mon, Tues, Wed, & Fri:  11:00-11:50
 

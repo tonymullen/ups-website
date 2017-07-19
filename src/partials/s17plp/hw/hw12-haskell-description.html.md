@@ -37,10 +37,20 @@ In preparation for working on the Bert Bos puzzle in Haskell, it would be good t
 
 You can generate a list of all possible `"click"` and `"noclick"` strings using two built-in functions that are both available in Prelude: the `replicate` function and the `sequence` function. Using these two functions, write a function `clicklists :: Int -> [[[Char]]]` that takes an integer and outputs a list of lists of strings representing clicks and non-clicks.
 
+The documentation on the `sequence` function may be a little bit confusing. When applied to an N-length list of lists, `sequence` will yield a list of N element lists, where each of the elements are drawn from the corresponding list in the original list of lists. 
+
+So here, where there are 3 lists in the input, the output is a list of 3-element lists. The first element of the lists is drawn from the `[1,2]` list, the second element is drawn from `[3,4]`, and the third is in all cases `5`.
+
+    > sequence [[1,2],[3,4],[5]]
+    [[1,3,5],[1,4,5],[2,3,5],[2,4,5]]
+
 You can of course recycle this function for use on your Bert Bos puzzle.  
 
 ## Extra credit
 
 Adapt your own solution or (or begin with [this solution](http://mathcs.pugetsound.edu/~tmullen/plp/red_and_green_network.pl)) to [Homework 5, Exercise 1](http://mathcs.pugetsound.edu/~tmullen/hw/s16plp/hw5-prolog/) (red and green state transition network) from Prolog to Haskell.
 
-This is *considerably* more difficult to do in Haskell than in Prolog and should serve as a nice illustration of the kind of problems that Prolog is well-suited to solving. Consider what features of Prolog make it so much easier to solve this kind of problem.  
+
+## Submitting
+
+Submit this assignment on [Moodle](https://moodle.pugetsound.edu/moodle/mod/assign/view.php?id=374239) as a single `.hs` file. Be sure that your name is written in the file in a comment. (Comments in Haskell are preceded by `--`) and of course double check to make sure the code runs. 
