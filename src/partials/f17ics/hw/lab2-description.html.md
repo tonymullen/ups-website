@@ -31,4 +31,4 @@ Please hand in your written answers for exercise 2.11.
 You will be submitting the `lab2` folder that BlueJ created for you. This folder should contain your `Arithmetic` class and your `Weather` class.
 
 
-The Moodle page to submit this lab can be found [here](https://moodle.pugetsound.edu/moodle/mod/assign/view.php?id=355539). See the Lab 1 description for more details on how to submit to Moodle.
+The Moodle page to submit this lab can be found [here](https://moodle.pugetsound.edu/moodle/mod/assign/view.php?id=407282). See the Lab 1 description for more details on how to submit to Moodle.

@@ -17,4 +17,4 @@ By the end of the lab you'll be ready to strike out on your own with Processing 
 Please try to install Processing on your own computers in advance. If necessary, we'll install it on the school computers as well.
 
 ## Submitting your lab assignment                                                      
-Submit what you did during the lab at the [Moodle submission page](https://moodle.pugetsound.edu/moodle/mod/assign/view.php?id=369617).
+Submit what you did during the lab at the [Moodle submission page](https://moodle.pugetsound.edu/moodle/mod/assign/view.php?id=407302).

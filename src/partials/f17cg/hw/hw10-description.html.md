@@ -6,7 +6,7 @@ cacheable: false
 
 ## Exercise 1: Texture Mapping
 
-In this exercise, you'll animate the texture on four planes by manually setting the UV mapping of their faces. Read about UV mapping in *3D Math Primer*, section 10.5 and about working with UV textures in Three.js in Chapte 10 of *Learning Three.js*, in particular UV mappings in *Advanced Uses of Textures*. Also, read the Three.js online documentation for [Geometry](https://threejs.org/docs/#api/core/Geometry) and experiment with the `faceVertexUvs` array.
+In this exercise, you'll animate the texture on four planes by manually setting the UV mapping of their faces. Read about UV mapping in *3D Math Primer*, section 10.5 and about working with UV textures in Three.js in Chapter 10 of *Learning Three.js*, in particular UV mappings in *Advanced Uses of Textures*. Also, read the Three.js online documentation for [Geometry](https://threejs.org/docs/#api/core/Geometry) and experiment with the `faceVertexUvs` array.
 
 The UV mapping values will depend on the slider parameter, resulting in the effect in the video:
 
@@ -41,4 +41,4 @@ Read the notes in the code for hints on how to do this.
 Upload the project to its own directory inside your `public_html` directory using FileZilla. Be sure that all dependencies are in place and **Double check that your finished work displays properly in a browser online.** 
 
 In Moodle, upload the completed `README.txt` with any necessary questions answered.
-The Moodle page for this assignment is [here](https://moodle.pugetsound.edu/moodle/mod/assign/view.php?id=340294).
+The Moodle page for this assignment is [here](https://moodle.pugetsound.edu/moodle/mod/assign/view.php?id=407326).

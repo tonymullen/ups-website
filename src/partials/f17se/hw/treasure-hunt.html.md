@@ -8,7 +8,10 @@ Welcome to the treasure hunt! In each round, you'll poke around the Mean.js code
 
 Use a text editor that enables you to have the full project available to you and enables string searches throughout the project. I recommend [Atom](https://atom.io/). 
 
-## First round
+You may divide up the effort however you feel appropriate. For example, you could work in pairs with each pair working on several items, or you could have individuals each take a single item to investigate, or you could work on each item as a group. However you choose divide the labor, the whole group will be responsible for answering the questions. Include a note describing how you divided the labor and clearly detailing each member's contribution in your Piazza report for each round.
+
+
+## Round 1
 
 1. List three files in the top level directory of this project that will not generally be displayed in your Finder or Windows Explorer window (assuming default settings for your operating system). What do these files do/contain? 
 
@@ -18,7 +21,7 @@ Use a text editor that enables you to have the full project available to you and
 
 4. Find the `package.json` file for your project's installation of Express. Where is this file located? What is the "description" listed for Express?
 
-## Second round
+## Round 2
 
 1. When you run your Mean.js application with the `gulp` command, you'll see something like this appear in the command line:
 
@@ -42,21 +45,21 @@ Use a text editor that enables you to have the full project available to you and
 
 5. Read the file `config/assets/default.js` closely. This is a list of assets which will be automatically added to your html. This list in turn is generated automatically by `wiredep` based on the contents of your `bower.json`. Based on what you see here, if you wanted to add a .css (style sheet) file for a particular module, where would be a good place to put that file?
 
-# Third round
+# Round 3
 
 1. What needs to be changed to make it so that non-admin users can post a new article?
 
 2. What needs to be changed to make it so that non-logged in users can use the chat functionality? This isn't a trivial thing to do, so I'm going to give you some hints. The solution requires making changes to several files in both `core` and `chat` modules, as well as the socket.io config file:
   
-  `core/client/services/socket.io.client.service.js`
+    `core/client/services/socket.io.client.service.js`
   
-  `chat/client/config/chat.client.routes.js`
+    `chat/client/config/chat.client.routes.js`
   
-  `chat/client/config/chat.client.menus.js`
+    `chat/client/config/chat.client.menus.js`
   
-  `config/lib/socket.io.js` 
+    `config/lib/socket.io.js` 
   
-  `chat/server/sockets/chat.server.socket.config.js`
+    `chat/server/sockets/chat.server.socket.config.js`
 
 
 

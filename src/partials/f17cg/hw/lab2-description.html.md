@@ -7,7 +7,7 @@ Download the necessary files [here](/~tmullen/secure/f17cg/cs315-lab2.zip).
 
 ## Overview
 
-For this lab you should work in pairs. Each pair will model a shape in Blender and export it to an obj file to be displayed in the Three.js scene included in the starter file. The result will be a Three.js scene with two objects in it that rotate in opposite directions, as shown in the video:
+For this lab you should work in pairs. Each pair will model a shape in Blender and export it to an obj file to be displayed in the Three.js scene included in the starter file. The result will be a Three.js scene with two objects in it that rotate in opposite directions, as shown in the video. **These are only example objects. Your objects do not need to resemble the ones in the video. See below for guidelines on what to make.**:
 
 <video width="480" height="360" controls>
   <source src="/~tmullen/images/cg/widgets.ogv" type="video/ogg;" codecs="theora, vorbis">

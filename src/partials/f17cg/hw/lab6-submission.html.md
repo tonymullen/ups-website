@@ -7,4 +7,4 @@ Labs can be done in pairs. For submitting labs, **either of the partners** shoul
 
 In Moodle, **both partners** should submit a link to the finished lab's public URL. **You must have a submission associated with your name on Moodle to get credit for the lab.**
 
-The Moodle page for this assignment is [here](TODOMOODLELINK).
+The Moodle page for this assignment is [here](https://moodle.pugetsound.edu/moodle/mod/assign/view.php?id=408149).

@@ -28,7 +28,7 @@ This preliminary iteration will involve setting up teams and doing a lo-fi "prot
 
 ### Iteration 0.0
 
-**Due Date: Fri 1/27**
+**Due Date: Fri 9/8**
 
 *Divide into teams of 3 to 5 students (4 is optimal)*
 
@@ -44,7 +44,7 @@ Once  you've formed a group, pick a **Team Name** we can refer to each team by!
 
 ### Iteration 0.1
 
-**Due Date: Fri 2/3, 11:59 PM**
+**Due Date: Fri 9/15, 11:59 PM**
 
 *Settle on the project concept and choose your on-site customers*
 
@@ -58,7 +58,27 @@ Choose two members of the team to serve as *on-site customers*. These are member
 
 ### Iteration 0.2
 
-**Due Date: Fri 2/17, 11:59 PM**
+**Due Date: Fri 9/22, 11:59 PM**
+
+*Complete installation of Mean.js boilerplate and setup of local and remote Git repositories*
+
+You should have the following in place:
+
+* A group project repository on GitHub with a copy (not a fork or clone) of the Mean.js boilerplate
+* A working Heroku installation of the Mean.js default application
+* Working local repositories on each member's computer set up to push and pull from the group's GitHub repo.
+
+Follow the instructions [here][repo] and in your *Getting MEAN* book to get these set up.
+
+Do [Treasure Hunt Round 1](/~tmullen/hw/f17se/treasure-hunt). Include your solutions to the treasure hunt in a Piazza post, with a description of which members worked on which items (tag the post with #Iter0.2). 
+
+**Iteration 0.2 has a weight of 2 within the group project portion of your grade.**
+
+
+
+### Iteration 0.3
+
+**Due Date: Fri 9/29, 11:59 PM**
 
 *Work with the customers and generate user stories*
 
@@ -73,15 +93,18 @@ Create at least 3 user stories on index cards (or quarter-pages). User stories s
 
 Stories should describe a need from a *user* perspective. They should not concern implementation or the needs/preferences of the programmer. They should describe a single interaction. For example, a story-sized interaction on Facebook might be "send a friend request". Another might be "change the profile picture". Still another would be "add a status update". Try to think of stories that are independent of each other (although some stories may depend on others to be implemented).
 
-Come up with these user stories together so that everyone is on the same page! User stories should be [INVEST and SMART](http://xp123.com/articles/invest-in-good-stories-and-smart-tasks/). **Note that you will also use the information from these customer discussions to complete Homework 5.**
+Come up with these user stories together so that everyone is on the same page! User stories should be [INVEST and SMART](http://xp123.com/articles/invest-in-good-stories-and-smart-tasks/). **Note that you will also use the information from these customer discussions to complete Homework 6.**
 
-Submit this iteration by creating a post on Piazza containing your user stories (tag the post with #Iter0.2). You may either submit photos of your index cards or type up the stories.
+Do [Treasure Hunt Round 2](/~tmullen/hw/f17se/treasure-hunt). 
 
-**Iteration 0.2 has a weight of 1 within the group project portion of your grade.**
+Submit this iteration by creating a post on Piazza containing your user stories (tag the post with #Iter0.3). You may either submit photos of your index cards or type up the stories. Include your solutions to the treasure hunt in your post, with a description of which members worked on which items. 
 
-### Iteration 0.3
+**Iteration 0.3 has a weight of 1 within the group project portion of your grade.**
 
-**Due Date: Fri 2/24, 11:59 PM**
+### Iteration 0.4
+
+**Due Date: Fri 10/6**
+
 
 *Create lo-fi mockups corresponding to your user stories*
 
@@ -112,33 +135,18 @@ Two examples of mobile app wireframes. Styles can vary greatly:
 
 There are many free and paid software tools to help with wireframing and prototyping. [Inkscape](www.inkscape.org) is a great open source general-purpose vector drawing tool that is well-suited to the task, but there are many others with more dedicated features.
 
-Finally, to complete Iteration 0, put all of your user stories on [Pivotal Tracker](https://www.pivotaltracker.com/dashboard). You will have received a link to a Pivotal Tracker account for your team's use. The professor will have viewing access to these. Place the stories in the `Icebox` for now and leave the details unspecified. Once you get started on your project, you'll add a bit more detail, and the onsite customer(s) in your group will move them into the `Current` column by priority.
+Put all of your user stories on [Pivotal Tracker](https://www.pivotaltracker.com/dashboard). You will have received a link to a Pivotal Tracker account for your team's use. The professor will have viewing access to these. Place the stories in the `Icebox` for now and leave the details unspecified. Once you get started on your project, you'll add a bit more detail, and the onsite customer(s) in your group will move them into the `Current` column by priority.
 
-**Submit** this iteration by creating a private post on Piazza with your lo-fi mockups and storybook sketches (I already have access to your Tracker); tag your post with #Iter0.3. You should scan (or clearly photograph) your mockups and attach them as images to your post.
+Do [Treasure Hunt Round 3](/~tmullen/hw/f17se/treasure-hunt). 
 
-**Iteration 0.3 has a weight of 1 within the group project portion of your grade.**
+**Submit** this iteration by creating a private post on Piazza with your lo-fi mockups and storybook sketches (I already have access to your Tracker); tag your post with #Iter0.4. You should scan (or clearly photograph) your mockups and attach them as images to your post. Include your solutions to the treasure hunt in your post, with a description of which members worked on which items. 
 
-[Treasure Hunt Round 1](/~tmullen/hw/f17se/treasure-hunt)
 
-### Iteration 0.4
-
-**Due Date: Fri 3/3**
-
-*Complete installation of Mean.js boilerplate and setup of local and remote Git repositories*
-
-You should have the following in place:
-
-* A group project repository on GitHub with a copy (not a fork or clone) of the Mean.js boilerplate
-* A working Heroku installation of the Mean.js default application
-* Working local repositories on each member's computer set up to push and pull from the group's GitHub repo.
-
-Follow the instructions [here][repo] and in your *Getting MEAN* book to get these set up.
-
-**Iteration 0.4 has a weight of 2 within the group project portion of your grade.**
+**Iteration 0.4 has a weight of 1 within the group project portion of your grade.**
 
 ## Iteration 1: Calendar module integration and first story
 
-**Iteration 1 Due Date: Fri 3/24**
+**Iteration 1 Due Date: Fri 11/10**
 
 This is where the actual coding begins. The first story you will implement will be the same for all groups:
 
@@ -174,7 +182,7 @@ Note that group evaluation forms can be found on Moodle. You are **required** to
 * **GitHub commits/versions/comments (5 points)** Are github commits frequent, regular and meaningfully commented? Is the iteration a tagged release? (Only tag iterations. Don't tag all your commits.)
 * **Pivotal update (10 points)** Are the stories you're working on moving along in the pipeline as they should be?
 
-**Iteration 2 Due Date: Fri 4/7**
+**Iteration 2 Due Date: Fri 11/17**
 
 or Iteration 2, you should have a good start on developing the CRUD module (or socket module) that will contain the main functionality of your application. You should do this by duplicating the existing `articles` or `chat` module and refactoring all named references to module objects to match your own module and model objects names. By the Iteration 2 deadline, *at minimum* you should have a working duplicate of `articles` linked to and functioning in your application. **Your application must be deployed on Heroku and working.** Any modifications to the original module (model/schema changes, view/controller changes) should also be working (not breaking your application) although they may be incomplete.
 
@@ -196,7 +204,7 @@ Iteration 2 submission checklist:
 * **Individual evaluations on Moodle**
 
 
-**Iteration 3 Due Date: Fri 4/21**
+**Iteration 3 Due Date: Fri 12/1**
 
 Your software should be taking shape at this point. The module you duplicated from the Mean.js boilerplate should have its own characteristics. The database schema for your primary CRUD module should be approaching completion and your user interface should begin to give a good sense of the purpose of your application. There may still be artifacts of the Mean.js boilerplate application, but these should be fading away. You should have some tests implemented for your new functionality. Tests that are not fully implemented should be commented out.
 
@@ -214,7 +222,7 @@ Iteration 3 submission checklist:
 * **Updated Pivotal stories.** Ensure that stories are moving from the icebox to the "current" column and then getting checked off as finished when fully implemented.
 * **Individual evaluations on Moodle**
 
-**Iteration 4 Due Date: Wed 5/10 (presentation Mon 5/8)**
+**Iteration 4 Due Date: Wed 12/13, 11:59PM (presentation Wed 12/13 12:00PM-2:00PM)**
 
 Your application is done! All lingering artifacts of the Mean.js boilerplate application should be removed from the user interface (e.g. `Articles` and `Chat` menu items, etc.) Functionality that is not part of your application should be completely removed. Your database should also be cleaned up so that extraneous collections ('articles' are no longer present).
 
@@ -274,7 +282,7 @@ At the end of each iteration, I will be looking at the following:
 
 ### Final Presentation (20 pts)
 
-**Mon 5/8, 8:00 AM**
+**Wed 12/13, 12:00PM - 2:00PM**
 
 In addition to the implementation, your team will be formally presenting your project during our allotted final period.
 

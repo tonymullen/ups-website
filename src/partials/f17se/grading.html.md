@@ -6,10 +6,10 @@ cacheable: false
 
 This course will be graded based on the following factors:
 
-* 5% Attendance & participation
-* 5% Quizzes
+* 45% Group project
 * 40% Individual homework
-* 50% Group project
+* 10% Quizzes
+* 5% Attendance & participation
 
 There are no midterms or final exams for this course. Quizzes will be announced at least one class period in advance.
 

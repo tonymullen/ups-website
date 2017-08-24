@@ -63,4 +63,4 @@ In order to upload the file to the server, you must be either on campus or conne
 Using FileZilla, enter `sftp://cs315.pugetsound.edu` in the Host field, your username in the Username field, and your password in the Password field, then click connect. You should be able to drag and drop files and directories from your filesystem in the window on the left to the remote filesystem in the window on the right of the FileZilla interface.  
 
 In Moodle, upload a copy of your `README.txt` with the fields filled out. 
-The Moodle page for this assignment is [here](https://moodle.pugetsound.edu/moodle/mod/assign/view.php?id=340294).
+The Moodle page for this assignment is [here](https://moodle.pugetsound.edu/moodle/mod/assign/view.php?id=407317).

@@ -126,4 +126,4 @@ An example of the finished program in action can be seen here:
 
 Have fun with it!
 
-Submit your lab at the [Moodle submission page](https://moodle.pugetsound.edu/moodle/mod/assign/view.php?id=363868).
+Submit your lab at the [Moodle submission page](https://moodle.pugetsound.edu/moodle/mod/assign/view.php?id=407295).

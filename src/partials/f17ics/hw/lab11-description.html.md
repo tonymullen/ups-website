@@ -29,4 +29,4 @@ If time allows, generalize your histogram method to allow for an argument that s
 
 
 ## Submitting your lab assignment                                                      
-Submit your lab at the [Moodle submission page](https://moodle.pugetsound.edu/moodle/mod/assign/view.php?id=366952).
+Submit your lab at the [Moodle submission page](https://moodle.pugetsound.edu/moodle/mod/assign/view.php?id=407298).

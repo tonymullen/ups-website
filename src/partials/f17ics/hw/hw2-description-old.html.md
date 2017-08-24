@@ -88,7 +88,7 @@ Download the starter code for this assignment from the course webpage. It's very
 
 ## Submitting the assignment**
 
-Place all files you created for this assignment in a directory together called <span class="codefont">hw2</span> and create a zip file from the directory. Upload the zip file to the [Moodle page for this assignment](https://moodle.pugetsound.edu/moodle/mod/assign/view.php?id=318509).
+Place all files you created for this assignment in a directory together called <span class="codefont">hw2</span> and create a zip file from the directory. Upload the zip file to the [Moodle page for this assignment](https://moodle.pugetsound.edu/moodle/mod/assign/view.php?id=407283).
 
 You should make sure you programs are working before submitting them.
 Make a note in the comments if you had trouble getting the program to work.

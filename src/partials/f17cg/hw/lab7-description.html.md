@@ -27,10 +27,19 @@ The Hermite smoothstep interpolation scheme is described in your *3D Math Primer
 
 Cosine interpolation makes use of the cosine function values from 0 to pi to smooth the transition, as follows:
 
+<img src="/~tmullen/images/cg/cosineInterpolation.png" style="height: 1.7em; margin:10px"></img> 
+<!--
 ![Cosine Interpolation](/~tmullen/images/cg/cosineInterpolation.png)
+-->
 
 The third smoothing function you'll implement is as follows:
 
+<img src="/~tmullen/images/cg/perlinSmooth.png" style="height: 1.8em; margin:10px"></img> 
+
+<!--
+<br>
 ![Perlin Smooth](/~tmullen/images/cg/perlinSmooth.png)
+<br>
+-->
 
 It's up to you to determine which ball should use which interpolation scheme.

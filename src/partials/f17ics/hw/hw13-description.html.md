@@ -29,6 +29,6 @@ The slider controlling the recursive depth is already implemented for you. The v
 In order to run the starter file you'll need to be sure to install the `ControlP5` library. Go to the `Tools` menu, click `Add Tool` and click the `Libraries` tab. Find `ControlP5` and install the library from there.
 
 
-Submit the file at the [Moodle page for the assignment](https://moodle.pugetsound.edu/moodle/mod/assign/view.php?id=340441).
+Submit the file at the [Moodle page for the assignment](https://moodle.pugetsound.edu/moodle/mod/assign/view.php?id=407301).
 
 **Extra fun:** You won't get any actual extra credit for it (it wouldn't be fair to the iPhone users!), but if you have an Android phone you may find it entertaining to set up Processing's Android mode and run your Sierpinski gasket on your phone. To do this, you would need to download and install the [Android SDK](https://developer.android.com/studio/index.html). 

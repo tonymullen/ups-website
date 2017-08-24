@@ -66,7 +66,7 @@ You will be submitting the <span class="codefont">lab1</span> folder that BlueJ 
 
 2. **Zip the folder** After you have renamed your folder,  right-click on the folder and select "Send to > Zip file" (on Windows) or "Compress" (on Macs).  This will generate a zipped (.zip) file.
 
-3. **Drag zipped file into Moodle** Log into Moodle and navigate to [the submission page for this lab](https://moodle.pugetsound.edu/moodle/mod/assign/view.php?id=344998). Click on the appropriate link and then click "Add submission". This will allow you to drag and drop your zipped file into the Moodle window.
+3. **Drag zipped file into Moodle** Log into Moodle and navigate to [the submission page for this lab](https://moodle.pugetsound.edu/moodle/mod/assign/view.php?id=407280). Click on the appropriate link and then click "Add submission". This will allow you to drag and drop your zipped file into the Moodle window.
 
 
 *Good job, you've completed your first lab!*

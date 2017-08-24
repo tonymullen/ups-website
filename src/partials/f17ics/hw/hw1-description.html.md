@@ -17,7 +17,7 @@ Again, if you navigate to your `cs161` folder on your system, you'll see that Bl
 
 ## Submitting the assignment
 
-Place all files you created for this assignment in a directory together called `hw1` and create a zip file from the directory. Upload the zip file to the Moodle page for this assignment here: [Moodle](https://moodle.pugetsound.edu/moodle/mod/assign/view.php?id=340427).
+Place all files you created for this assignment in a directory together called `hw1` and create a zip file from the directory. Upload the zip file to the Moodle page for this assignment here: [Moodle](https://moodle.pugetsound.edu/moodle/mod/assign/view.php?id=407281).
 
 You should make sure you programs are working before submitting them.
 Make a note in the comments if you had trouble getting the program to work.

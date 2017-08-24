@@ -221,4 +221,4 @@ You guessed that the secret number was 37 in 5 tries.</pre></code>
 </li>
 </ol>
 
-Submit your lab at the [Moodle submission page](https://moodle.pugetsound.edu/moodle/mod/assign/view.php?id=361349).
+Submit your lab at the [Moodle submission page](https://moodle.pugetsound.edu/moodle/mod/assign/view.php?id=407289).

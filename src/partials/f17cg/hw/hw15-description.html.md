@@ -54,6 +54,6 @@ Final projects will be presented to the class briefly during the scheduled final
 If your project is web-based, upload the project to its own directory inside your `public_html` directory using FileZilla. Be sure that all dependencies are in place and **Double check that your finished work displays properly in a browser online.** The directory should include the completed `README.txt`, which should also be viewable in the browser.
 
 In Moodle, add a link to your finished assignment's public URL.
-The Moodle page for this assignment is [here](https://moodle.pugetsound.edu/moodle/mod/assign/view.php?id=340426).
+The Moodle page for this assignment is [here](https://moodle.pugetsound.edu/moodle/mod/assign/view.php?id=408144).
 
 If your project is not web-based (e.g. a VFX project), upload a zip file containing **all relevant assets and files, including a README.txt** to the Moodle page for the assignment. This should include (at least) the final video output, the original raw video input, the .blend file(s) used to do the compositing, and any models, textures, shaders, etc used. If your assets are too big to upload easily to the Moodle page in this way, include appropriate download links.  

@@ -81,4 +81,4 @@ For the last part of the lab, you'll analyze a brand new algorithm: an algorithm
 
 ## Submitting your lab assignment                                                      
 Submit your lab14 folder with both Java classes and your Word lab report inside. Remember to put both of your names on the folder before you zip it.
-[Moodle submission page](https://moodle.pugetsound.edu/moodle/mod/assign/view.php?id=370251).
+[Moodle submission page](https://moodle.pugetsound.edu/moodle/mod/assign/view.php?id=407304).

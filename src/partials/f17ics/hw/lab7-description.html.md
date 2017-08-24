@@ -78,4 +78,4 @@ At the end of the game, when the user quits, have your program output a summary 
 Finally, just as you were asked to do for Homework Assignment 7, structure the application using two classes: one class that holds the functionality of the game and has a method `play` that launches the game and a wrapper class with only a `main` method that does nothing but an instance of the game object and call it's `play` method.
 
 
-Submit your lab at the [Moodle submission page](https://moodle.pugetsound.edu/moodle/mod/assign/view.php?id=362315).
+Submit your lab at the [Moodle submission page](https://moodle.pugetsound.edu/moodle/mod/assign/view.php?id=407291).

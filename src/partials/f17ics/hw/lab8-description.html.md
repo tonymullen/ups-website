@@ -69,4 +69,4 @@ For displaying the list of seats, you should implement a `toString()` method on 
 * Consider how you could ensure that reserved seats were all together in sequence. If a user wants 4 seats, and there are two pairs of seats that are separated, you might want to ask the user to confirm that that is all right. How would you check for this?
 * Consider how you might approach a seat reservation system for a larger venue, with more than one row of seats. Would there be advantages to creating a `Row` class? What other ways might be appropriate to represent row and seat numbers?
 
-Submit your lab at the [Moodle submission page](https://moodle.pugetsound.edu/moodle/mod/assign/view.php?id=363323).
+Submit your lab at the [Moodle submission page](https://moodle.pugetsound.edu/moodle/mod/assign/view.php?id=407293).
