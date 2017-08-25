@@ -12,7 +12,7 @@ Again, if you navigate to your `cs161` folder on your system, you'll see that Bl
 ## Programming questions
 
 * In BlueJ, create a new Java class called `StudentInfo`. Add a `main` method to this class. In the `main` method, complete programming project 1.3 on page 55 of the textbook.
-* item Create another Java class called `AsteriskPicture` that has a `main` method. In the `main` method, complete programming project 1.6, creating a picture of a tree. You are completely free to use your imagination and draw any sort of tree, but the picture should be made up of a minimum of 15 lines of asterisks.
+* Create another Java class called `AsteriskPicture` that has a `main` method. In the `main` method, complete programming project 1.6, creating a picture of a tree. You are completely free to use your imagination and draw any sort of tree, but the picture should be made up of a minimum of 15 lines of asterisks.
 
 
 ## Submitting the assignment
