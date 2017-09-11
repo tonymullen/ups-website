@@ -29,7 +29,7 @@ cacheable: false
 
 4. Double click on this icon to open up the Editor.
 
-5. BlueJ automatically fills your class with code. Go ahead and {\em delete all of this stuff</span>. Start with an empty file.
+5. BlueJ automatically fills your class with code. Go ahead and delete all of this stuff. Start with an empty file.
 
 6. Type the following code into the Editor:
 
@@ -54,7 +54,7 @@ cacheable: false
 
 ### Submitting assignments on Moodle
 
-You will be submitting the <span class="codefont">lab1</span> folder that BlueJ created for you. This folder should contain your <span class="codefont">Test</span> class among other things. See below for instructions on how to submit assignments in this class. These instructions are also on your lab syllabus:
+You will be submitting the <span class="codefont">lab1</span> folder that BlueJ created for you. This folder should contain your <span class="codefont">Test</span> class among other things. Here are the instructions for how to submit assignments in this class:
 
 1. **Rename the folder**  To submit your assignment, navigate to your <span class="codefont">cs161</span> folder using Windows Explorer (on Windows) or Finder (on Macs). Rename the folder that contains your Java code using the following convention:
 

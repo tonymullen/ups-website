@@ -56,11 +56,11 @@ When doing web development, you should always have your console/developer tools 
 
 Upload the project to its own directory inside your `public_html` directory using FileZilla. Be sure that all dependencies are in place and **Double check that your finished work displays properly in a browser online.** The directory should include the completed `README.txt`, which should also be viewable in the browser.
 
-The URL for the destination directory is `http://cs315.pugetsound.edu/`. There, you'll see a directory with your username. Your homework assignments should all be uploaded as described above and [here](/~tmullen/hw/directory-structure).
+The URL for the destination directory is `http://cs315.pugetsound.edu/`. There, you'll see a directory with your username. Your homework assignments should all be uploaded as described above and [here](/~tmullen/hw/f17cg/directory-structure).
 
 In order to upload the file to the server, you must be either on campus or connected to the campus network via VPN. Instructions for accessing the campus network via VPN can be found [here](http://www.pugetsound.edu/about/offices-services/technology-services/help-support/self-help/vpn/).
 
 Using FileZilla, enter `sftp://cs315.pugetsound.edu` in the Host field, your username in the Username field, and your password in the Password field, then click connect. You should be able to drag and drop files and directories from your filesystem in the window on the left to the remote filesystem in the window on the right of the FileZilla interface.  
 
-In Moodle, upload a copy of your `README.txt` with the fields filled out. 
+In Moodle, submit **only** the link to your assignment directory on the shared server containing the fully implemented assignment and readme.txt.
 The Moodle page for this assignment is [here](https://moodle.pugetsound.edu/moodle/mod/assign/view.php?id=407317).

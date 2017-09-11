@@ -3,7 +3,9 @@ cacheable: false
 ```
 My office hours for Fall 2017 are:
 
-Mon, Tues, Wed, & Fri:  11:00-11:50
+Mon, Wed, & Fri:  12:00-12:50
+
+Tu: 11:00-11:50
 
 You can make an appointment to meet at other times also.
 

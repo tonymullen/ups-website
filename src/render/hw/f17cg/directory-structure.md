@@ -11,7 +11,7 @@ classurl: /classes/f17-CS315-cg
 
 submission: f17cg/hw/empty.html.md
 
-description: f167cg/hw/directory-structure.html.md
+description: f17cg/hw/directory-structure.html.md
 
 credits: f17cg/hw/empty.html.md
 

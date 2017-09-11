@@ -36,7 +36,7 @@ In this assignment you'll choose one of three possible project options: **Intera
 
   * The model may be either an example of inorganic (mechanical) modeling or of organic modeling, and may be created using any combination of mesh modeling, sculpting, or modifiers in Blender. The final print should have *at east* two parts that may be glued or snapped together. The finished piece will be evaluated based upon the following criteria:
     * Complexity (Are there multiple parts, details, or interesting characteristics?)
-    * Structural ntegrity (Do parts fit together well? Are details well supported?)
+    * Structural integrity (Do parts fit together well? Are details well supported?)
     * Economy (Are volumes hollow where they should be? Does the arrangement of pieces for printing make use of the space?)
     * Aesthetics (Is the model pleasing and well-executed?)
     <p>
