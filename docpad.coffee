@@ -63,6 +63,7 @@ docpadConfig = {
 		    "http://mathcs.pugetsound.edu/~tmullen/vendor/ui-bootstrap-tpls-0.12.1.min.js"
 			  "http://mathcs.pugetsound.edu/~tmullen/vendor/jquery.bootstrap-touchspin.min.js"
 			 	"http://mathcs.pugetsound.edu/~tmullen/vendor/angular-flippy/flippy.min.js"
+        "http://mathcs.pugetsound.edu/~tmullen/vendor/display-latex2.user.js"
 				"http://mathcs.pugetsound.edu/~tmullen/scripts/script.js"
 			 	"http://mathcs.pugetsound.edu/~tmullen/scripts/app.js"
 			 	"http://mathcs.pugetsound.edu/~tmullen/scripts/controllers.js"
@@ -115,7 +116,7 @@ docpadConfig = {
 			database.findAllLive({tags:$has:'page'}, [pageOrder:1,title:1])
 
 		current: (database) ->
-			database.findAllLive({tags:$has:'f17'})
+			database.findAllLive({tags:$has:'s18'})
 
 #		archives: (database) ->
 #			database.findAllLive({tags:$has:'archive'})

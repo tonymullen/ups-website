@@ -1,6 +1,6 @@
 ```
 cacheable: false
-course: F15 Programming Language Paradigms
+course: S18 Programming Language Paradigms
 ```
 
 ### Course description

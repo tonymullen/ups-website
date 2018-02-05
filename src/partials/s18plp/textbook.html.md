@@ -4,7 +4,7 @@ cacheable: false
 
 ### Lecture slides
 
-Lecture slides for this class will be posted soon after the lecture is completed. You can find them [here](http://mathcs.pugetsound.edu/~tmullen/secure/s17plp/).
+Lecture slides for this class will be posted soon after the lecture is completed. You can find them [here](http://mathcs.pugetsound.edu/~tmullen/secure/s18plp/).
 
 ### Textbook & required materials
 

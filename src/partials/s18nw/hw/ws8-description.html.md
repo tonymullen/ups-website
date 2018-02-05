@@ -63,4 +63,4 @@ Sort the packet listing according to time again by clicking on the *Time* column
 
 ## Submission
 
-Create a **pdf** file with the answers to the questions above and corresponding screenshots, with the file name  `ws-lab8-<your_name>.pdf` and upload your capture file to the [assignment's Moodle page](https://moodle.pugetsound.edu/moodle/mod/assign/view.php?id=399831).
+Create a **pdf** file with the answers to the questions above and corresponding screenshots, with the file name  `ws-lab8-<your_name>.pdf` and upload your capture file to the [assignment's Moodle page](https://moodle.pugetsound.edu/moodle/mod/assign/view.php?id=444577).

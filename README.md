@@ -2,6 +2,4 @@ This is [my personal website](http://mathcs.pugetsound.edu/~tmullen/) built with
 
     docpad generate --env static
 
-## License
-
-Unless stated otherwise, all content is licensed under the [Creative Commons Attribution License](http://creativecommons.org/licenses/by/3.0/) and code licensed under the [MIT License](http://creativecommons.org/licenses/MIT/), © [Tony Mullen](http://mathcs.pugetsound.edu/~tmullen)
+© [Tony Mullen](http://mathcs.pugetsound.edu/~tmullen)

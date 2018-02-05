@@ -6,7 +6,7 @@ cacheable: false
 
 In this assignment, you will implement your own reliable transport protocol on the Seattle network. As with assignments 8 and 9, you're encouraged to do this assignment in **pairs**.  
 
-The assignment description is [here](https://seattle.poly.edu/wiki/EducationalAssignments/StopAndWait). Read the instructions closely and download the [starter code for this assignment](http://mathcs.pugetsound.edu/~tmullen/secure/s17nw/StopAndWaitStarter.zip) that I've provided. 
+The assignment description is [here](https://seattle.poly.edu/wiki/EducationalAssignments/StopAndWait). Read the instructions closely and download the [starter code for this assignment](http://mathcs.pugetsound.edu/~tmullen/secure/s18nw/StopAndWaitStarter.zip) that I've provided. 
 
 Most of the code you'll write will be in the `reliable.repy` file. You will make fairly small changes to `reliable_client.repy` and `reliable_server.repy`. You'll need the Seattle library code, which can be downloaded [here](https://seattleclearinghouse.poly.edu/download/flibble/). Extract the archive. The extracted directory is called `seattle` and inside this directory is a directory called `seattle_repy` with the important scripts. **Wherever you place this directory will be your `<repy_path>`**. 
 
@@ -65,6 +65,6 @@ This is a fairly open-ended assignment. There are some hints in the starter file
 
 In your submission, provide the complete code for the `reliable.repy`, `reliable_client.repy` and `reliable_server.repy` as well as a report of your evaluation of the implementation, as described on the assignment page. 
 
-Submit this assignment by uploading your files to the [assignment's Moodle page](https://moodle.pugetsound.edu/moodle/mod/assign/view.php?id=400171).
+Submit this assignment by uploading your files to the [assignment's Moodle page](https://moodle.pugetsound.edu/moodle/mod/assign/view.php?id=444579).
 
 Each assignment will be accepted for partial credit up to 4 days late, with a penalty of 20% per day.

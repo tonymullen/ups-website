@@ -21,7 +21,7 @@ Pick one of the user stories you developed as part of Project Iteration 0.3. You
 
 Write a detailed Use Case Specification describing the functionality of your system that is represented by your chosen user stories. This use case will follow the modified version of [Cockburn's template](http://alistair.cockburn.us/get/2465) for a [fully dressed](https://en.wikipedia.org/wiki/Use_case#Fully_dressed) use case that is described below.
 
-You can find more information about writing Use Cases online; for example, [this write-up](http://agile.csc.ncsu.edu/SEMaterials/UseCaseRequirements.pdf) has extensive, good examples of event flows.
+Also, please review the lecture slides for this class, which include an example use case and an overview of Cockburn's template.
 
 * **Name:** A descriptive name for the use case. Names should be short and reflect the <em>goal</em> of the user. Use clear active verbs in present tense, such as "Buy House" in the Monopoly example.
     * The reader should understand the goal of the use case just from the title: for example, instead of "Process Invoices" you might use "Collect Late Payments from Customers".

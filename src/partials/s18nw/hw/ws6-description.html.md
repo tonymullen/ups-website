@@ -76,4 +76,4 @@ if the client’s DHCP release message is lost?
 
 ## Submission
 
-Create a **pdf** file with the answers to the questions above and the requested screenshots, with the file name  `ws-lab6-<your_name>.pdf` and upload your capture file to the [assignment's Moodle page](https://moodle.pugetsound.edu/moodle/mod/assign/view.php?id=397048).
+Create a **pdf** file with the answers to the questions above and the requested screenshots, with the file name  `ws-lab6-<your_name>.pdf` and upload your capture file to the [assignment's Moodle page](https://moodle.pugetsound.edu/moodle/mod/assign/view.php?id=444573).

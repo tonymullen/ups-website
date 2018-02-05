@@ -12,6 +12,6 @@ Answer the following Chapter 2 review questions from the book: R1, R3, R4, R5, R
 
 ## Submission & lateness
 
-Submit this assignment by uploading your file to the [assignment's Moodle page](https://moodle.pugetsound.edu/moodle/mod/assign/view.php?id=390573). 
+Submit this assignment by uploading your file to the [assignment's Moodle page](https://moodle.pugetsound.edu/moodle/mod/assign/view.php?id=444565). 
 
 Each assignment will be accepted for partial credit up to 4 days late, with a penalty of 20% per day.

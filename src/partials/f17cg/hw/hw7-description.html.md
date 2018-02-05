@@ -6,7 +6,7 @@ cacheable: false
 
 ## Overview
 
-In this exercise you're going to build a robot of your own design in Three.js. For now, you don't need to add any materials or textures, and nothing needs to be animated. All you need to do is to set up the shapes. You should read chapters 5 and 6 in *Learning Three.js*.
+In this exercise you're going to build a robot of your own design in Three.js. Nothing needs to be animated, for now all you need to do is to set up the shapes and the materials (later, you may need to reposition some objects to prepare them for animation). You should read chapters 5 and 6 in *Learning Three.js*.
 
 ## Starter file
 
@@ -24,7 +24,7 @@ Your robot should also have the following characteristics:
 * The robot should use at least five materials, among which should be at least one diffuse (matte/non-shiny) material and at least one highly specular (shiny) material. Also, there should be at least one transparent material like glass, and at least one environment-mapped reflective material (it's okay to have materials with both, but there should be at least two materials in total to correspond with these characteristics).
 
 
-Finally, include a sky box to help make transparent materials more interesting (by giving them something to see through to). Instructions on creating a sky box in Three.js can be found [here](https://jeremypwalton.wordpress.com/2014/09/19/skybox-in-three-js/).
+Finally, include a sky box to help make transparent materials more interesting (by giving them something to see through to). Documentation for creating a sky box in Three.js can be found [here](https://threejs.org/docs/#api/loaders/CubeTextureLoader).
 
 I've provided a set of sky box images you can use [here](/~tmullen/cg/airport_images.zip). If you want to create your own, there are some instructions for doing that in Blender [here](http://25x8.blogspot.com/2013/04/rendering-skybox-for-unity-using-blender.html).
 
@@ -44,7 +44,7 @@ Completing this assignment on time to the specifications described above is wort
 ## Extra challenge 1
 
 In addition to your purely Three.js robot, try modeling a robot, character, or mechanical part
-in Blender and importing it. Submit as a separate project. You can continue working on animating and texturing this for extra credit on homeworks 8 and 9.
+in Blender and importing it. Make sure to make a note in your readme that you've done this, and submit the .blend file along with your assignment (just place it in the public_html directory with your assignment). You can continue working on animating this for extra credit on homework 8.
 
 ## Extra challenge 2
 
@@ -54,7 +54,7 @@ If you feel ahead of the game and you'd like to go further, take a look at
   challenging mechanical movements in the book and try to model it (them)
   in Three.js or Blender. Once you've animated your robot in assignment 8, you can also work
   on animating this. For credit on this assignment, submit whatever you've managed to do
-  by the same deadline as the robot assignment, in its own directory entitled.
+  by the same deadline as the robot assignment, in its own directory within the assignment directory.
 
 ## Submitting
 

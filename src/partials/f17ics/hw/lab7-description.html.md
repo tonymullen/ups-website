@@ -2,80 +2,58 @@
 cacheable: false
 ```
 
-## Overview
+In today's lab, you'll finish up the Fizz Buzz task you started working on yesterday, then work on creating a diamond of stars using similar techniques to those you used a few days ago in the triangle exercise. 
 
-In this lab, you'll practice using `while` loops, conditionals, and random numbers by creating a souped up variation on the classic Rock-Paper-Scissors game.
+## Fizz Buzz
 
-## Objective
+In case you missed class on Friday, the challenge is to write a program that prints out the numbers 1 to 100 one line at a time. The complication is that for every number that is evenly divisible by 3, the string `Fizz` should appear *instead* of the number. For every number that's evenly divisible by 5, `Buzz` should appear. For every number evenly divisible by both 3 and five `FizzBuzz` should appear. 
 
-In the book's programming project 5.7, you're asked to write a program that lets the user play Rock-Paper-Scissors against the computer. For this lab, you'll start with this and then, time permitting, you'll take it a little further and implement [*Rock, Paper, Scissors, Lizard, Zombie, Spock and the Large Hadron Collider!*](http://blog.timehorse.com/2009/02/rock-paper-scissors-lizard-zombie-spock.html)
+You should do this with the minimal amount of comparisons and conditions, and the minimal amount of redundancy. For example, you should not have to test for divisibility by 3 more than once. You should not have to print or output the string `Fizz` more than once (even though it also appears in the string `FizzBuzz`). 
 
-The idea of this game is the same as the traditional RPS game: each gesture is beats some gestures and is beaten by others. But with RPSLZSLHC there are more gestures to play. The relationship between the gestures is shown here:
+Start by getting the correct output printed to the screen, and then go over your code and find ways to eliminate redundancy. 
 
-<img src="/~tmullen/images/ics/RPSLZSLHC.png" style="width: 100%;"/>
+## Diamond of stars
 
-And described (from the website) here:
+This lab will give you some more practice with `for` loops, including working with nested loops.
 
->Scisors cuts Paper …
+### Objective
 
->… which covers Rock …
+This exercise is based on the `StarTriangle` example you implemented recently in class (see the code in the slides directory for details). For this exercise, you will write a program that draws a diamond out of asterisks, similar to the examples below. You won't hard-code the size of the diamond. Instead, you should write a method that takes an int argument representing the height of the diamond and prints out an appropriately-sized diamond.
 
->… which crushes Lizard …
+For example, if the method is given the value 5, the resulting diamond will look like this:
 
->… which evades LHC …
+        *  
+       ***
+      *****
+       ***
+        *  
 
->… which cures Zombie …
+If the method is given the value 7, the diamond will look like this:
 
->… who brains Spock …
+        *   
+       ***  
+      *****
+     *******
+      *****
+       ***  
+        *   
 
->… who bends Scissors …
+If the value is an even number, the widest line of the diamond should be doubled, as in this case, where the height of the diamond is 6:
 
->… which decapitates Lizard …
+        *  
+       ***
+      *****
+      *****
+       ***
+        *  
 
->… which poisons Spock …
+### Implementation
 
->… who vaporizes Rock …
+This assignment requires you to iterate over lines and iterate over characters in each line. You can use nested `for` loops or string concatenation, however seems most intuitive to you. You will need to figure out how to derive the width of the diamond from the user-inputted height, and how to print out the correct number of spaces and asterisks on each line.
 
->… which trips Zombie …
+Consider using two separate outer `for` loops, one for the top half, where the diamond is increasing in width and one for the lower half, where it is decreasing. Think about how to set the correct ranges for these loops. (It's not actually necessary to use 2 outer loops for this, but using 1 loop requires a bit more arithmetic to ensure that the width increases before the midpoint and decreases afterwards. If you want to try it this way `Math.abs()`, `Math.min()`, and `Math.max()` may be useful for getting absolute value, minimum, and maximum of numbers).
 
->… who shreds Paper …
-
->… which reprograms LHC …
-
->… which magnetizes Scissors …
-
->… which stabs Zombie …
-
->… who swallows Lizard …
-
->… which eats Paper …
-
->… which disproves Spock …
-
->… who deactivates LHC …
-
->… which nukes Rock …
-
->… which blunts Scissors.
-
-## How to implement the game
-
-The game should repeat for as long as the user wants to continue, and cease when the user no longer wants to play. It's up to you how you choose to prompt the user to continue or quit (a simple Y/N question will be fine). Use a random number generator and conditionals to choose the computer's gesture first, then use the `Scanner` class to get the user's gesture. Make sure that the input is robust to variance in capitalization.
-
-Make your program respond accordingly to wins, losses, and ties, and keep a record of:
-
-* Total games played
-* User wins
-* Computer wins
-* Ties
-
-Don't use more instance variables than are necessary to maintain the required information.
-
-At the end of the game, when the user quits, have your program output a summary of how well the user did against the computer. You can choose how to represent this information and what specific details to include.
-
-**Implement a simple, working Rock-Paper-Scissors game first.** It's easier to add complexity once you've got the basics in place. Figure out the details of how you'll make your game first with the classic three-gesture game, and then add to it by adding the extended gestures. This way, if you run out of time, at least you'll have a working piece of software completed.
-
-Finally, just as you were asked to do for Homework Assignment 7, structure the application using two classes: one class that holds the functionality of the game and has a method `play` that launches the game and a wrapper class with only a `main` method that does nothing but an instance of the game object and call it's `play` method.
+Try to solve the problem in as concise and general a way as you can. Can you get the correct behavior for even and odd-numbered lines without using `if` statements? It's possible to do!
 
 
-Submit your lab at the [Moodle submission page](https://moodle.pugetsound.edu/moodle/mod/assign/view.php?id=407291).
+Submit the file at the [Moodle page for the assignment](https://moodle.pugetsound.edu/moodle/mod/assign/view.php?id=407296).

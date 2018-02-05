@@ -18,7 +18,7 @@ If you haven't already signed up for an extra Gmail account, please do so. Altho
 
 ### Code
 
-Download the [starter code for this assignment](http://mathcs.pugetsound.edu/~tmullen/slides/s17nw/SMTPStarter.zip) and read it over. The places where you need to fill in code are marked with `#Fill in start` and `#Fill in end`. Each place may require one or more lines of code.
+Download the [starter code for this assignment](http://mathcs.pugetsound.edu/~tmullen/secure/s18nw/SMTPStarter.zip) and read it over. The places where you need to fill in code are marked with `#Fill in start` and `#Fill in end`. Each place may require one or more lines of code.
 
 ### Opportunistic TLS and MIME multipart messages
 
@@ -34,6 +34,6 @@ In some cases, the receiving mail server might classify your e-mail as junk. Mak
 
 In your submission, provide the complete code for your SMTP mail client as well as a screenshot showing that you indeed receive the e-mail message with the shark picture attached. Put all the files together in a `.zip` archive to submit them on Moodle. 
 
-Submit this assignment by uploading your files to the [assignment's Moodle page](https://moodle.pugetsound.edu/moodle/mod/assign/view.php?id=393397).
+Submit this assignment by uploading your files to the [assignment's Moodle page](https://moodle.pugetsound.edu/moodle/mod/assign/view.php?id=444571).
 
 Each assignment will be accepted for partial credit up to 4 days late, with a penalty of 20% per day.

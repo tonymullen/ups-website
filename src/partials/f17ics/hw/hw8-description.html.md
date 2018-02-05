@@ -2,74 +2,128 @@
 cacheable: false
 ```
 
-## Introduction
+## Reservations revisited
 
-For this assignment, you're going to practice several things you've done in the past: using Scanner, comparing strings, using conditionals, working with objects, and using the `while` statement. In addition, you'll also work with the `ArrayList` class.
+For the past few classes we've talked about setting up a reservation system for theater seats. We've also discussed 2-dimensional ArrayLists (i.e. ArrayLists of ArrayLists) and how they might be useful for representing a list of rows of seats.
+
+For this assignment, you'll work on extending the implementation of the reservation system to automatically book the best seats in a theater.
 
 ## Objective
 
-You will write a program that enables the user to manage a soccer team through an interactive console interface. Once the program runs, it will take commands from the command line (console) using the `Scanner` class until the user inputs the word `done`, at which point the program will sign off.
+The system is a booking system for movie theaters. As in the previous system, users will use a command `reserve` followed by a number to book a number of seats, then enter their names. However, in this case, the theater has multiple rows, and the system has to book them into the best rows it can. We assume the following desirable characteristics of seats:
 
-Internally, the program will maintain an ArrayList representing the soccer team. The ArrayList will be a list of objects of class `Player` which you will also need to implement. An object of class `Player` will have two attributes: `name` and `position`. For the purposes of this exercise, player objects will only hold last names, and you may assume that players' names are all unique.
+* Seats in a given reservation should always be adjacent to each other. Nobody wants to have their party spread out over multiple rows. If adjacent seats in a single row can't be found, the system won't make the booking.
+* The best rows are in the middle (depthwise) of the theater. Too far forward and your neck hurts, too far back and the screen gets small. The best seats are as close as possible to the middle row.
+* Nobody minds about which seat in a row they take, so we can book from left to right in each row.
 
-There are three commands you need to implement: `add`, followed by a player name, `cut` followed by a player name, and `show`. If the user enters `add` followed by a name, your program should prompt for a position, and then add a new player to the team with that name and position, like so:
+You will also implement a useful `show` command output that displays an overview of which seats are available and which are occupied in the theater.
 
-    add Jones
-    What is Jones's position?
-    defender
-    Adding Jones as defender.
-    add Miller
-    What is Miller's position?
-    goalkeeper
-    Adding Miller as goalkeeper.
-    add Garcia
-    What is Garcia's position?
-    forward
-    Adding Garcia as forward.
+## Implementation
 
-For this method, remember that the `Scanner` method `next()` returns the *next word* that the user enters.
-The next method you need to write is `show`. This method should print out a list of the current team members, like so:
+Download the starter file [here](http://mathcs.pugetsound.edu/~tmullen/ics/TheaterRowsStarter.zip). Most of the places you'll need to write significant amounts of code are indicated with `TODO` comments, however you are free to add code elsewhere also (for example, if you wanted to add an attribute).
 
+You will need to implement the booking algorithm such that it begins checking seat availability in the middlemost row and then incrementally checks further away. The front row and back row should be the last rows filled. You will need to store a variable representing the optimal row and also store a variable representing the distance away from that row, which increments.
+
+Also, write the `Theater` class's `toString()` such that it displays the rows of the theater (with corresponding numbers) and each seat displayed as an `_` if it is empty and as a `X` if it is occupied.
+
+An example of the finished program in action can be seen here:
+
+    What would you like to do?
+    reserve 7
+    What's your name?
+    Tony
+    I've reserved 7 seats for you at the Roxy in row 7, Tony.
+    What would you like to do?
     show
-    [Jones (defender), Miller (goalkeeper), Garcia (forward)]
+     0 _ _ _ _ _ _ _ _ _ _
+     1 _ _ _ _ _ _ _ _ _ _
+     2 _ _ _ _ _ _ _ _ _ _
+     3 _ _ _ _ _ _ _ _ _ _
+     4 _ _ _ _ _ _ _ _ _ _
+     5 _ _ _ _ _ _ _ _ _ _
+     6 _ _ _ _ _ _ _ _ _ _
+     7 X X X X X X X _ _ _
+     8 _ _ _ _ _ _ _ _ _ _
+     9 _ _ _ _ _ _ _ _ _ _
+    10 _ _ _ _ _ _ _ _ _ _
+    11 _ _ _ _ _ _ _ _ _ _
+    12 _ _ _ _ _ _ _ _ _ _
+    13 _ _ _ _ _ _ _ _ _ _
+    14 _ _ _ _ _ _ _ _ _ _
 
-The easiest way to do this is to simply print out the team ArrayList, but in order to do this you will need to make sure that your `Player` class has a `toString()` method defined for it.
-
-Finally, you will implement the method `cut` followed by an existing player's name. This method will remove that player (assuming the name is unique) from the team. So:
-
-    cut Miller
-    Cutting Miller from the team.
+    What would you like to do?
+    reserve 9
+    What's your name?
+    Sara
+    I've reserved 9 seats for you at the Roxy in row 6, Sara.
+    What would you like to do?
     show
-    [Jones (defender), Garcia (forward)]
+     0 _ _ _ _ _ _ _ _ _ _
+     1 _ _ _ _ _ _ _ _ _ _
+     2 _ _ _ _ _ _ _ _ _ _
+     3 _ _ _ _ _ _ _ _ _ _
+     4 _ _ _ _ _ _ _ _ _ _
+     5 _ _ _ _ _ _ _ _ _ _
+     6 X X X X X X X X X _
+     7 X X X X X X X _ _ _
+     8 _ _ _ _ _ _ _ _ _ _
+     9 _ _ _ _ _ _ _ _ _ _
+    10 _ _ _ _ _ _ _ _ _ _
+    11 _ _ _ _ _ _ _ _ _ _
+    12 _ _ _ _ _ _ _ _ _ _
+    13 _ _ _ _ _ _ _ _ _ _
+    14 _ _ _ _ _ _ _ _ _ _
 
-The user should be able to call add, call, and show in any order repeatedly. When the user is finished, they should type in `done` to terminate the session:
-
-    add Suzuki
-    What is Suzuki's position?
-    goalkeeper
-    Adding Suzuki as goalkeeper.
+    What would you like to do?
+    reserve 5
+    What's your name?
+    Jo
+    I've reserved 5 seats for you at the Roxy in row 8, Jo.
+    What would you like to do?
     show
-    [Jones (defender), Garcia (forward), Suzuki     (goalkeeper)]
+     0 _ _ _ _ _ _ _ _ _ _
+     1 _ _ _ _ _ _ _ _ _ _
+     2 _ _ _ _ _ _ _ _ _ _
+     3 _ _ _ _ _ _ _ _ _ _
+     4 _ _ _ _ _ _ _ _ _ _
+     5 _ _ _ _ _ _ _ _ _ _
+     6 X X X X X X X X X _
+     7 X X X X X X X _ _ _
+     8 X X X X X _ _ _ _ _
+     9 _ _ _ _ _ _ _ _ _ _
+    10 _ _ _ _ _ _ _ _ _ _
+    11 _ _ _ _ _ _ _ _ _ _
+    12 _ _ _ _ _ _ _ _ _ _
+    13 _ _ _ _ _ _ _ _ _ _
+    14 _ _ _ _ _ _ _ _ _ _
+
+    What would you like to do?
+    reserve 3
+    What's your name?
+    Jean Claude
+    I've reserved 3 seats for you at the Roxy in row 7, Jean Claude.
+    What would you like to do?
+    show
+     0 _ _ _ _ _ _ _ _ _ _
+     1 _ _ _ _ _ _ _ _ _ _
+     2 _ _ _ _ _ _ _ _ _ _
+     3 _ _ _ _ _ _ _ _ _ _
+     4 _ _ _ _ _ _ _ _ _ _
+     5 _ _ _ _ _ _ _ _ _ _
+     6 X X X X X X X X X _
+     7 X X X X X X X X X X
+     8 X X X X X _ _ _ _ _
+     9 _ _ _ _ _ _ _ _ _ _
+    10 _ _ _ _ _ _ _ _ _ _
+    11 _ _ _ _ _ _ _ _ _ _
+    12 _ _ _ _ _ _ _ _ _ _
+    13 _ _ _ _ _ _ _ _ _ _
+    14 _ _ _ _ _ _ _ _ _ _
+
+    What would you like to do?
     done
-    Finished managing the team
+    Have a nice day!
 
-## Classes
+Have fun with it!
 
-For this assignment, you'll write three classes. One will be the `Player` class, which the team manager depends on. The next class will be `TeamManager` which executes the functionality of this exercise in a method called `run()`. Finally, you'll implement a wrapper class called `TeamManagerApp` which has only a `main` function that creates a `TeamManager` instance and calls its `run()` method.
-
-## Style Guide
-
-Before you submit your assignment, go through the checklist below and make sure your code conforms to the style guide.
-
-* No unused variables or commented-out code is left in the class
-* All instance variables are used in more than one method (if not, make them local)
-* Javadoc comment above each class
-* All methods have Javadoc comments
-* All numbers have been replaced with constants (i.e. no "magic numbers")
-* Proper capitalization of variables, methods, and classes
-* Use white space to separate different sections of your code
-
-
-### Submission
-
-Compress the full project directory for the completed assignment into a zip file and upload it to the [Moodle page for the assignment](https://moodle.pugetsound.edu/moodle/mod/assign/view.php?id=407294).
+Submit your lab at the [Moodle submission page](https://moodle.pugetsound.edu/moodle/mod/assign/view.php?id=432287).

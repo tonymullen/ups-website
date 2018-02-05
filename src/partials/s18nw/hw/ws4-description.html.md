@@ -26,4 +26,4 @@ Please export the packets you used to answer your questions. You can mark packet
 
 ## Submission
 
-Create a **pdf** file with the answers to the questions above, with the file name  `ws-lab4-<your_name>.pdf` and upload your capture file to the [assignment's Moodle page](https://moodle.pugetsound.edu/moodle/mod/assign/view.php?id=391742).
+Create a **pdf** file with the answers to the questions above, with the file name  `ws-lab4-<your_name>.pdf` and upload your capture file to the [assignment's Moodle page](https://moodle.pugetsound.edu/moodle/mod/assign/view.php?id=444569).

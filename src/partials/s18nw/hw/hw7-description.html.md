@@ -12,7 +12,7 @@ Generally, when the client makes a request, the request is sent to the web serve
 
 ### Code 
 
-Download the [starter code for this assignment](http://mathcs.pugetsound.edu/~tmullen/slides/s17nw/ProxyServerStarter.zip) and read it over. The places where you need to fill in code are marked with `#Fill in start` and `#Fill in end`. Each place may require one or more lines of code.
+Download the [starter code for this assignment](http://mathcs.pugetsound.edu/~tmullen/secure/s18nw/ProxyServerStarter.zip) and read it over. The places where you need to fill in code are marked with `#Fill in start` and `#Fill in end`. Each place may require one or more lines of code.
 
 ### Running the proxy server
 
@@ -30,7 +30,7 @@ You should be able to run the proxy and the browser on the same computer without
 
 ### Goal
 
-Your proxy server will be a simple one, designed to handle plain HTML webpages without multiple objects, dynamic content, redirects, etc. Much of web content these days incorporates those elements, so you can limit your testing of the proxy to simple pages such as `www.something.com` and this class webpage at `mathcs.pugetsound.edu/~tmullen/classes/s17-CS325-nw/`. You should try it on some other pages and see if you can understand where it fails (for pages where caching doesn't seem to work, be sure to check what's being written to your cached file).
+Your proxy server will be a simple one, designed to handle plain HTML webpages without multiple objects, dynamic content, redirects, etc. Much of web content these days incorporates those elements, so you can limit your testing of the proxy to simple pages such as `www.something.com` and this class webpage at `mathcs.pugetsound.edu/~tmullen/classes/s18-CS325-nw/`. You should try it on some other pages and see if you can understand where it fails (for pages where caching doesn't seem to work, be sure to check what's being written to your cached file).
 
 For this exercise, I've indicated in the code how to make a simple substitution to turn the background of the cached webpage pink. When your proxy is up and running, the course website (and `www.something.com`) should appear normally (with white backgrounds) the first time you access them, but when you refresh the page, they will appear with a pink background, like this:
 
@@ -42,6 +42,6 @@ Obviously, in a real proxy web server, you probably wouldn't want to tamper with
 
 In your submission, provide the complete code for your proxy server as well as a screenshot of your browser displaying the pink version of `www.something.com`. Put all the files together in a `.zip` archive to submit them on Moodle. 
 
-Submit this assignment by uploading your files to the [assignment's Moodle page](https://moodle.pugetsound.edu/moodle/mod/assign/view.php?id=394717).
+Submit this assignment by uploading your files to the [assignment's Moodle page](https://moodle.pugetsound.edu/moodle/mod/assign/view.php?id=444572).
 
 Each assignment will be accepted for partial credit up to 4 days late, with a penalty of 20% per day.

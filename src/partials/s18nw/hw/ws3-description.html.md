@@ -174,4 +174,4 @@ Answer the following questions:
 
 ## Submission
 
-Create a **pdf** file with the answers to the questions above, including all necessary screenshots, with the file name  `ws-lab3-<your_name>.pdf` and upload your capture file to the [assignment's Moodle page](https://moodle.pugetsound.edu/moodle/mod/assign/view.php?id=390685).
+Create a **pdf** file with the answers to the questions above, including all necessary screenshots, with the file name  `ws-lab3-<your_name>.pdf` and upload your capture file to the [assignment's Moodle page](https://moodle.pugetsound.edu/moodle/mod/assign/view.php?id=444566).

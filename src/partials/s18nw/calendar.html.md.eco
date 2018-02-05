@@ -4,24 +4,23 @@
 
 | Week | Date |  Topic              |  Reading           |     Assignment |
 |------|------|---------------------|--------------------|----------------|
-| 1  | 1/18   |  Introduction; Structure of the Internet    |  CN 1.1-1.5       | [HW 1: Python tutorial][hw1] due Mon, 1/23<br>[Wireshark Lab 1][ws1] due Fri, 1/27<br>(Work in class Wed) |
-| 2  | 1/23   |  Network layers & protocols;<br> Application layer |  CN 1.6-2.2<br>+ Ch 1 review Qs <br>[RFC 1958: Architectural Principles of the Internet][rfc1958]    | [HW 2: Python tutorial, Pt 2<br>& Ch 1 review Qs][hw2] due Mon, 1/30<br>[Wireshark Lab 2][ws2] due Fri, 2/3   |
-| 3  | 1/30   |  Application layer;  |  CN 2.2-2.8           | [HW 3: Ch 2 review Qs & problems][hw3] due Mon, 2/6<br>[Wireshark Lab 3][ws3] due Fri, 2/10 |
-| 4  | 2/6    |  Socket programming                         |  [Python Socket HowTo][pysock] | [HW 4: Simple web server][hw4] due Wed, 2/15 |
-| 5  | 2/13   |  HTTP, SMTP, & DNS                          |   CN 3.1-3.3       | [Wireshark Lab 4][ws4] due Mon, 2/20<br>[HW 5: UDP Pinger][hw5] due Fri, 2/24  |
-| 6  | 2/20   |  Transport layer protocols;<br>UDP & TCP    |   CN 3.4-3.5       | [Wireshark Lab 5][ws5] due Mon, 2/27 <br>[HW 6: SMTP/TLS][hw6] due Fri, 3/3    |
-| 7  | 2/27   |  TCP; Congestion control                    |  CN 3.6-3.8        | [HW 7: Proxy Server][hw7] due Wed, 3/8 |
-| 8  | 3/6    |  Review;<br>**Midterm Exam Fri 3/10**        |                    |                |
-| 9  | 3/13   |  **Spring break**                            |                    |                |
-| 10 | 3/20   |  Network layer;<br>Routing & forwarding <br>**No class Fri, 3/24**   | CN 4.1-4.2<br>and 4.3.3 (DHCP)  |[Wireshark Lab 6][ws6] due Fri, 3/24<br>[HW 8: BT Downloader (Pt 1)][hw8] due Fri, 3/31  |
-| 11 | 3/27   |   Internet routing   |  CN 4.3-4.5             |                |
-| 12 | 4/3    |   Link layer |                       | [Wireshark Lab 7][ws7] due Wed, 4/12<br>[HW 9: BT Downloader (Pt 2)][hw8] due Fri, 4/14     |
-| 13 | 4/10   |   Link layer protocols   |  CN 5.1-5.4        | [Wireshark Lab 8][ws8] due Mon, 4/17  |
-| 14 | 4/17   |   Physical layer                |    CN 5.5-5.7       | [HW 10: Getting Started with Seattle][hw10] due Fri, 4/21 |
-| 15 | 4/24   |   Wireless & mobile                          |  CN 6.1-6.3        |  [HW 11: Reliable Transport Protocol with Seattle][hw11] due Fri, 5/12
-  |
-| 16 | 5/1    |   Review;<br>**Classes end Wed, 5/3**    |                    |                |
-| Finals <br> period |     |  **Final exam Fri 5/12 4:00PM-6:00PM**             |                                                                                            |                                                          ||
+| 1  | 1/17   |  Introduction; Structure of the Internet    |  CN 1.1-1.5       | [HW 1: Python tutorial][hw1] due Mon, 1/22<br>[Wireshark Lab 1][ws1] due Fri, 1/26<br>(Work in class Wed) |
+| 2  | 1/22   |  Network layers & protocols;<br> Application layer |  CN 1.6-2.2<br>+ Ch 1 review Qs <br>[RFC 1958: Architectural Principles of the Internet][rfc1958]    | [HW 2: Python tutorial, Pt 2<br>& Ch 1 review Qs][hw2] due Mon, 1/29<br>[Wireshark Lab 2][ws2] due Fri, 2/2   |
+| 3  | 1/29   |  Application layer;  |  CN 2.2-2.8           | [HW 3: Ch 2 review Qs & problems][hw3] due Mon, 2/5<br>[Wireshark Lab 3][ws3] due Fri, 2/9 |
+| 4  | 2/5    |  Socket programming                         |  [Python Socket HowTo][pysock] | [HW 4: Simple web server][hw4] due Wed, 2/14 |
+| 5  | 2/12   |  HTTP, SMTP, & DNS                          |   CN 3.1-3.3       | [Wireshark Lab 4][ws4] due Mon, 2/19<br>[HW 5: UDP Pinger][hw5] due Fri, 2/23  |
+| 6  | 2/19   |  Transport layer protocols;<br>UDP & TCP    |   CN 3.4-3.5       | [Wireshark Lab 5][ws5] due Mon, 2/26 <br>[HW 6: SMTP/TLS][hw6] due Fri, 3/2    |
+| 7  | 2/26   |  TCP; Congestion control                    |  CN 3.6-3.8        | [HW 7: Proxy Server][hw7] due Wed, 3/7 |
+| 8  | 3/5    |  Review;<br>**Midterm Exam Fri 3/9**        |                    |                |
+| 9  | 3/12   |  **Spring break**                            |                    |                |
+| 10 | 3/19   |  Network layer;<br>Routing & forwarding      | CN 4.1-4.2<br>and 4.3.3 (DHCP)  |[Wireshark Lab 6][ws6] due Fri, 3/23<br>[HW 8: BT Downloader (Pt 1)][hw8] due Fri, 3/30  |
+| 11 | 3/26   |   Internet routing                           |  CN 4.3-4.5         |                |
+| 12 | 4/2    |   Link layer                                 |                     | [Wireshark Lab 7][ws7] due Wed, 4/11<br>[HW 9: BT Downloader (Pt 2)][hw8] due Fri, 4/13     |
+| 13 | 4/9    |   Link layer protocols                       |  CN 5.1-5.4         | [Wireshark Lab 8][ws8] due Mon, 4/16  |
+| 14 | 4/16   |   Physical layer                             |    CN 5.5-5.7       | [HW 10: Getting Started with Seattle][hw10] due Fri, 4/20 |
+| 15 | 4/23   |                                              |  CN 6.1-6.3        |  [HW 11: Reliable Transport Protocol with Seattle][hw11] due Fri, 5/11 |
+| 16 | 4/30    |   Review;<br>**Classes end Wed, 5/2**       |                 |                     |
+| Finals <br> period |     |  **Final exam Wed 5/9 8:00AM-10:00AM**     |                     |      ||
 
 
 <div class="tables-end"></div>
@@ -30,22 +29,22 @@
 [rfc1958]: https://tools.ietf.org/html/rfc1958
 [pysock]: https://docs.python.org/3/howto/sockets.html
 
-[hw1]: <%= @site.url %>/hw/s17nw/hw1-Python  "HW 1: Python"
-[hw1-sol]: <%= @site.url %>/hw/s17nw/hw1-sol  "HW 1 solution"
-[hw2]: <%= @site.url %>/hw/s17nw/hw2-Python  "HW 2: Python"
-[hw3]: <%= @site.url %>/hw/s17nw/hw3  "HW 3"
-[hw4]: <%= @site.url %>/hw/s17nw/hw4  "HW 4"
-[hw5]: <%= @site.url %>/hw/s17nw/hw5  "HW 5"
-[hw6]: <%= @site.url %>/hw/s17nw/hw6  "HW 6"
-[hw7]: <%= @site.url %>/hw/s17nw/hw7  "HW 7"
-[hw8]: <%= @site.url %>/hw/s17nw/hw8  "HW 8"
-[hw10]: <%= @site.url %>/hw/s17nw/hw10  "HW 10"
-[hw11]: <%= @site.url %>/hw/s17nw/hw11  "HW 11"
-[ws1]: <%= @site.url %>/hw/s17nw/ws1  "Wireshark Lab 1"
-[ws2]: <%= @site.url %>/hw/s17nw/ws2  "Wireshark Lab 2"
-[ws3]: <%= @site.url %>/hw/s17nw/ws3  "Wireshark Lab 3"
-[ws4]: <%= @site.url %>/hw/s17nw/ws4  "Wireshark Lab 4"
-[ws5]: <%= @site.url %>/hw/s17nw/ws5  "Wireshark Lab 5"
-[ws6]: <%= @site.url %>/hw/s17nw/ws6  "Wireshark Lab 6"
-[ws7]: <%= @site.url %>/hw/s17nw/ws7  "Wireshark Lab 7"
-[ws8]: <%= @site.url %>/hw/s17nw/ws8  "Wireshark Lab 8"
+[hw1]: <%= @site.url %>/hw/s18nw/hw1-Python  "HW 1: Python"
+[hw1-sol]: <%= @site.url %>/hw/s18nw/hw1-sol  "HW 1 solution"
+[hw2]: <%= @site.url %>/hw/s18nw/hw2-Python  "HW 2: Python"
+[hw3]: <%= @site.url %>/hw/s18nw/hw3  "HW 3"
+[hw4]: <%= @site.url %>/hw/s18nw/hw4  "HW 4"
+[hw5]: <%= @site.url %>/hw/s18nw/hw5  "HW 5"
+[hw6]: <%= @site.url %>/hw/s18nw/hw6  "HW 6"
+[hw7]: <%= @site.url %>/hw/s18nw/hw7  "HW 7"
+[hw8]: <%= @site.url %>/hw/s18nw/hw8  "HW 8"
+[hw10]: <%= @site.url %>/hw/s18nw/hw10  "HW 10"
+[hw11]: <%= @site.url %>/hw/s18nw/hw11  "HW 11"
+[ws1]: <%= @site.url %>/hw/s18nw/ws1  "Wireshark Lab 1"
+[ws2]: <%= @site.url %>/hw/s18nw/ws2  "Wireshark Lab 2"
+[ws3]: <%= @site.url %>/hw/s18nw/ws3  "Wireshark Lab 3"
+[ws4]: <%= @site.url %>/hw/s18nw/ws4  "Wireshark Lab 4"
+[ws5]: <%= @site.url %>/hw/s18nw/ws5  "Wireshark Lab 5"
+[ws6]: <%= @site.url %>/hw/s18nw/ws6  "Wireshark Lab 6"
+[ws7]: <%= @site.url %>/hw/s18nw/ws7  "Wireshark Lab 7"
+[ws8]: <%= @site.url %>/hw/s18nw/ws8  "Wireshark Lab 8"

@@ -86,4 +86,4 @@ For one of the programming assignments you created a UDP client ping program. Th
 
 ## Submission
 
-Create a **pdf** file with the answers to the questions above and the requested screenshots, with the file name  `ws-lab7-<your_name>.pdf` and upload your capture file to the [assignment's Moodle page](https://moodle.pugetsound.edu/moodle/mod/assign/view.php?id=399146).
+Create a **pdf** file with the answers to the questions above and the requested screenshots, with the file name  `ws-lab7-<your_name>.pdf` and upload your capture file to the [assignment's Moodle page](https://moodle.pugetsound.edu/moodle/mod/assign/view.php?id=444576).

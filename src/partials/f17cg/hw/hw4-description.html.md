@@ -37,11 +37,11 @@ The blue ball should represent the projection of the blue vector onto the red ve
 
 Note that we're working on a pretty large scale (distances in the hundreds of units) and so the dot product is also going to be a fairly large number. Also, because the mouse-drag interface we're using is not especially precise, it won't be easy to manually line up the vectors to be perfectly aligned. At the precision we're working with, don't expect to ever see the dot product go to zero, but you should expect it to go to negative when the angle between the vectors is obtuse.  
 
-You may use any Three.js vector methods you need *except* `.dot()`. You may use any JavaScript Math operators *except* `Math.cos()`. The cosine and dot products you should calculate manually using only standard arithmetic operators. 
+You may use any Three.js vector methods you need *except* `.dot()`. You may use any JavaScript Math operators *except* `Math.cos()`. The cosine and dot products you should calculate manually using only standard arithmetic operators. The equation for calculating the dot product between vectors is found in section 2.11 of <em>3D Math Primer</em>. 
 
 ## Exercise 3: Cross product
 
-In this exercise you'll calculate the cross product <span class="latex">r \cross b</span> where r is the vector with the red cone and b is the vector with the blue cone, using a right-handed or left-handed cross product depending on the value in the gui dropdown. You'll then use the result to position the purple cone, as shown in the video:
+In this exercise you'll calculate the cross product <span class="latex">r \times b</span> where r is the vector with the red cone and b is the vector with the blue cone, using a right-handed or left-handed cross product depending on the value in the gui dropdown. You'll then use the result to position the purple cone, as shown in the video:
 
 <video width="480" height="360" controls>
   <source src="/~tmullen/images/cg/crossProduct.ogv" type="video/ogg;" codecs="theora, vorbis">
@@ -52,7 +52,7 @@ Because the actual magnitude of the cross product will often be unwieldy, we'll 
 
 As in the case of the dot product exercise, this exercise will not allow for enough precision for us to manually position the cones to be perfectly parallel or perpendicular. The magnitude should be the correct sign and should approach zero as the red and blue vectors become more closely aligned. 
 
-You may use any Three.js vector methods you need *except* `.cross()` and `.crossVectors()`. You should calculate the cross product manually using only standard arithmetic operators. 
+You may use any Three.js vector methods you need *except* `.cross()` and `.crossVectors()`. You should calculate the cross product manually using only standard arithmetic operators. The equation for calculating the cross product between vectors is found in section 2.12 of <em>3D Math Primer</em>. 
 
 ## Submitting
 

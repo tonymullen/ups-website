@@ -4,23 +4,23 @@
 
 | Week | Date |  Topic              |  Reading           |     Assignment |
 |------|------|---------------------|--------------------|----------------|
-| 1  | 1/18 | Programming language paradigms, logic, Prolog intro | [Predicate logic][1], LPN Ch 1 |   [Homework 1][hw1] <br> **Due Wed 1/25**|
-| 2  | 1/23 | Facts, Rules, and Queries          |  LPN Ch 2, 3        |  [Homework 2][hw2] <br> **Due Mon 1/30**  |
-| 3  | 1/30 | Arithmetic, recursion, lists       |  LPN Ch 4, 5        |  [Homework 3][hw3] <br> **Due Wed 2/8**   |
-| 4  | 2/6  | More on lists, trees               |  LPN Ch 6, 9        |  [Homework 4][hw4] <br> **Due Wed 2/15**  |
-| 5  | 2/13 | Search Trees,                      |  LPN Ch 10, 11      |  [Homework 5][hw5] <br> **Due Wed 2/22** <br> [Pair project][bb-pl] <br> **Due Fri 3/24** |
-| 6  | 2/20 | Cuts and Negation                  |                     |  [Homework 6][hw6] <br> **Due Wed 3/1**  |
-| 7  | 2/27 | Difference lists; Collecting solutions | <!--[Difference lists][dl]--> | [Homework 7][hw7] <br> **Due Wed 3/8** |
-| 8  | 3/6  | Review                             |                     |  **Midterm Exam Fri 3/10** |
-| 9  | 3/13 | **Spring <br> break**              |                     |                          |
-| 10 | 3/20 | Intro to Haskell, Expressions and functions <br>**No class Fri, 3/24** |  [Why learn functional programming?][2] <br> LYAH Section 1, 2, 3 | [Homework 8][hw8] <br> **Due Fri 3/31**  |
-| 11 | 3/27 | Types and type classes, List comprehensions | LYAH Section 4,5   |  [Homework 9][hw9] <br> **Due Fri 4/7** |
-| 12 | 4/3  | Lambda abstraction, Recursion      |   LYAH Section 6, 7 |    [Homework 10][hw10] <br> **Due Fri 4/14**  |
-| 13 | 4/10 | Functions as values                | LYAH Section 8, 9   |   [Homework 11][hw11] <br> **Due Fri 4/21**  |
-| 14 | 4/17 | Higher order functions             |  LYAH Section 10    |   [Homework 12][hw12]<br>**Due Fri 4/28** <br> [Bert Bos Puzzle, <br> Haskell version][bb-hs] <br> **Due Wed 5/10** |
-| 15 | 4/24 | IO and Monads                      |  LYAH Section 11    |                      |
-| 16 | 5/1  | Modules, review                    | LYAH Section 12          |                |
-| Finals |              |       |                |  **Final Exam  Fri 5/12 12:00PM-2:00PMy**        | |
+| 1  | 1/17 | Programming language paradigms, logic, Prolog intro | [Predicate logic][1], LPN Ch 1 |   [Assignment 1][hw1] <br> **Due Wed 1/24**|
+| 2  | 1/22 | Facts, Rules, and Queries          |  LPN Ch 2, 3        |  [Assignment 2][hw2] <br> **Due Mon 1/29**  |
+| 3  | 1/29 | Arithmetic, recursion, lists       |  LPN Ch 4, 5        |  [Assignment 3][hw3] <br> **Due Wed 2/7**   |
+| 4  | 2/5  | More on lists, trees               |  LPN Ch 6, 9        |  [Assignment 4][hw4] <br> **Due Wed 2/14**  |
+| 5  | 2/12 | Search Trees,                      |  LPN Ch 10, 11      |  [Assignment 5][hw5] <br> **Due Wed 2/21** <br> [Pair project][bb-pl] <br> **Due Fri 3/23** |
+| 6  | 2/19 | Cuts and Negation                  |                     |  [Assignment 6][hw6] <br> **Due Wed 2/28**  |
+| 7  | 2/26 | Difference lists; Collecting solutions | <!--[Difference lists][dl]--> | [Assignment 7][hw7] <br> **Due Wed 3/7** |
+| 8  | 3/5  | Review                             |                     |  **Midterm Exam Fri 3/9** |
+| 9  | 3/12 | **Spring <br> break**              |                     |                          |
+| 10 | 3/19 | Intro to Haskell, Expressions and functions |  [Why learn functional programming?][2] <br> LYAH Section 1, 2, 3 | [Assignment 8][hw8] <br> **Due Wed 3/28**  |
+| 11 | 3/26 | Types and type classes, List comprehensions | LYAH Section 4,5   |  [Assignment 9][hw9] <br> **Due Wed 4/4** |
+| 12 | 4/2  | Lambda abstraction, Recursion      |   LYAH Section 6, 7 |    [Assignment 10][hw10] <br> **Due Wed 4/12**  |
+| 13 | 4/9  | Functions as values                | LYAH Section 8, 9   |   [Assignment 11][hw11] <br> **Due Wed 4/18**  |
+| 14 | 4/16 | Higher order functions             |  LYAH Section 10    |   [Assignment 12][hw12]<br>**Due Wed 4/25** <br> [Bert Bos Puzzle, <br> Haskell version][bb-hs] <br> **Due Wed 5/11** |
+| 15 | 4/23 | IO and Monads                      |  LYAH Section 11    |   [Assignment 13][hw13]<br>**Due Wed 5/4** <br>  |
+| 16 | 4/30 | Modules, review  **Classes end Wed, 5/2**   | LYAH Section 12     |                      |
+| Finals |              |       |                |  **Final Exam  Mon 5/7 8:00AM-10:00AM**        | |
 
 
 <div class="tables-end"></div>
@@ -29,20 +29,20 @@
 [2]: http://www.paulgraham.com/avg.html
 [dl]: http://homepages.inf.ed.ac.uk/pbrna/prologbook/node180.html
 
-[hw1]: <%= @site.url %>/hw/s17plp/hw1-prolog
-[hw2]: <%= @site.url %>/hw/s17plp/hw2-prolog
-[hw3]: <%= @site.url %>/hw/s17plp/hw3-prolog
-[hw4]: <%= @site.url %>/hw/s17plp/hw4-prolog
-[hw5]: <%= @site.url %>/hw/s17plp/hw5-prolog
-[hw6]: <%= @site.url %>/hw/s17plp/hw6-prolog
-[hw7]: <%= @site.url %>/hw/s17plp/hw7-prolog
-[bb-pl]: <%= @site.url %>/hw/s17plp/bb-prolog
+[hw1]: <%= @site.url %>/hw/s18plp/hw1-prolog
+[hw2]: <%= @site.url %>/hw/s18plp/hw2-prolog
+[hw3]: <%= @site.url %>/hw/s18plp/hw3-prolog
+[hw4]: <%= @site.url %>/hw/s18plp/hw4-prolog
+[hw5]: <%= @site.url %>/hw/s18plp/hw5-prolog
+[hw6]: <%= @site.url %>/hw/s18plp/hw6-prolog
+[hw7]: <%= @site.url %>/hw/s18plp/hw7-prolog
+[bb-pl]: <%= @site.url %>/hw/s18plp/bb-prolog
 
 
-[hw8]: <%= @site.url %>/hw/s17plp/hw8-haskell
-[hw9]: <%= @site.url %>/hw/s17plp/hw9-haskell
-[hw10]: <%= @site.url %>/hw/s17plp/hw10-haskell
-[hw11]: <%= @site.url %>/hw/s17plp/hw11-haskell
-[hw12]: <%= @site.url %>/hw/s17plp/hw12-haskell
-[hw13]: <%= @site.url %>/hw/s17plp/hw13-haskell
-[bb-hs]: <%= @site.url %>/hw/s17plp/bb-haskell
+[hw8]: <%= @site.url %>/hw/s18plp/hw8-haskell
+[hw9]: <%= @site.url %>/hw/s18plp/hw9-haskell
+[hw10]: <%= @site.url %>/hw/s18plp/hw10-haskell
+[hw11]: <%= @site.url %>/hw/s18plp/hw11-haskell
+[hw12]: <%= @site.url %>/hw/s18plp/hw12-haskell
+[hw13]: <%= @site.url %>/hw/s18plp/hw13-haskell
+[bb-hs]: <%= @site.url %>/hw/s18plp/bb-haskell

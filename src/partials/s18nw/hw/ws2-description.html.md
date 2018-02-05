@@ -6,7 +6,7 @@ cacheable: false
 
 Having gotten our feet wet with the Wireshark packet sniffer in the introductory lab, we’re now ready to use Wireshark to investigate protocols in operation. In this lab, we’ll explore several aspects of the HTTP protocol: the basic GET/response interaction, HTTP message formats, retrieving large HTML files, retrieving HTML files with embedded objects, and HTTP authentication and security. Before beginning these labs, you might want to review Section 2.2 of the textbook.
 
-### The Basics HTTP GET/response interactions
+### The basics: HTTP GET/response interactions
 
 Let’s begin our exploration of HTTP by downloading a very simple HTML file - one that is very short, and contains no embedded objects. Do the following:
 1. Start up your web browser.
@@ -23,7 +23,7 @@ Your Wireshark window should look similar to the window shown below:
 
 The example in the figure above shows in the packet-listing window that two HTTP messages were captured: the GET message (from your browser to the gaia.cs.umass.edu web server) and the response message from the server to your browser, which in this case is a status 200 OK response with the HTML content. The packet-contents window shows details of the selected message. Recall that since the HTTP message was carried inside a TCP segment, which was carried inside an IP datagram, which was carried within an Ethernet frame, Wireshark displays the Frame, Ethernet, IP, and TCP packet information as well. We want to minimize the amount of non-HTTP data displayed (we’re interested in HTTP here, and will be investigating these other protocols is later labs), so make sure the boxes at the far left of the Frame, Ethernet, IP and TCP information have a plus sign or a right-pointing triangle (which means there is hidden, undisplayed information), and the HTTP line has a minus sign or a down-pointing triangle (which means that all information about the HTTP message is displayed).
 
-By looking at the information in the HTTP GET and response messages, answer the following questions. When answering the following questions, you should print out the GET and response messages (see the introductory Wireshark lab for an explanation of how to do this) and indicate where in the message you’ve found the information that answers the following questions. When you hand in your assignment, annotate the output so that it’s clear where in the output you’re getting the information for your answer (annotate electronic copies with text in a colored font).
+By looking at the information in the HTTP GET and response messages, answer the following questions. When answering the following questions include a screenshot showing where in the output you’re getting the information for your answer (you do not need to annotate the screenshot).
 
 1. Is your browser running HTTP version 1.0 or 1.1? What version of HTTP is the server running?
 2. What languages (if any) does your browser indicate that it can accept to the server?
@@ -31,11 +31,10 @@ By looking at the information in the HTTP GET and response messages, answer the 
 4. What is the status code returned from the server to your browser?
 5. When was the HTML file that you are retrieving last modified at the server?
 6. How many bytes of content are being returned to your browser?
-7. By inspecting the raw data in the packet content window, do you see any headers within the data that are not displayed in the packet-listing window? If so, name one.
 
 In your answer to question 5 above, you might have been surprised to find that the document you just retrieved was last modified within a minute before you downloaded the document. That’s because (for this particular file), the gaia.cs.umass.edu server is setting the file’s last-modified time to be the current time, and is doing so once per minute. Thus, if you wait a minute between accesses, the file will appear to have been recently modified, and hence your browser will download a “new” copy of the document.
 
-### The HTTP CONDITIONAL GET/response interaction
+### The HTTP conditional GET/response interaction
 
 Recall from Section 2.2.6 of the text, that most web browsers perform object caching and thus perform a conditional GET when retrieving an HTTP object. Before performing the steps below, make sure your browser’s cache is empty. (To do this under Firefox, select Tools->Clear Recent History and check the Cache box, or for Internet Explorer, select Tools->Internet Options->Delete File; these actions will remove cached files from your browser’s cache. In Chrome, if you have your developer tools open, holding the reload button down will give you the option to clear the cache when reloading.) Now do the following:
 
@@ -112,8 +111,8 @@ Answer the following questions:
 19. When your browser’s sends the HTTP GET message for the second time, what
 new field is included in the HTTP GET message?
 
-The username (wireshark-students) and password (network) that you entered are encoded in the string of characters (d2lyZXNoYXJrLXN0dWRlbnRzOm5ldHdvcms=) following the “Authorization: Basic” header in the client’s HTTP GET message. While it may appear that your username and password are encrypted, they are simply encoded in a format known as Base64 format. The username and password are not encrypted! To see this, go to http://www.motobit.com/util/base64-decoder-encoder.asp and enter the base64-encoded string d2lyZXNoYXJrLXN0dWRlbnRz and decode. Voila! You have translated from Base64 encoding to ASCII encoding, and thus should see your username! To view the password, enter the remainder of the string Om5ldHdvcms= and press decode. Since anyone can download a tool like Wireshark and sniff packets (not just their own) passing by their network adaptor, and anyone can translate from Base64 to ASCII (you just did it!), it should be clear to you that simple passwords on WWW sites are not secure unless additional measures are taken.
+The username (`wireshark-students`) and password (`network`) that you entered are encoded in the string of characters (`d2lyZXNoYXJrLXN0dWRlbnRzOm5ldHdvcms=`) following the “Authorization: Basic” header in the client’s HTTP GET message. While it may appear that your username and password are encrypted, they are simply encoded in a format known as [Base64](https://en.wikipedia.org/wiki/Base64) format. The username and password are not encrypted! To see this, go to https://www.base64decode.org/ and enter the base64-encoded string `d2lyZXNoYXJrLXN0dWRlbnRz` and decode. Voila! You have translated from Base64 encoding to ASCII encoding, and thus should see your username! To view the password, enter the remainder of the string `Om5ldHdvcms=` and press decode. Since anyone can download a tool like Wireshark and sniff packets (not just their own) passing by their network adaptor, and anyone can translate from Base64 to ASCII (you just did it!), it should be clear to you that simple passwords on WWW sites are not secure unless additional measures are taken.
 
 ## Submission
 
-Create a **pdf** file with the answers to the 19 questions above with the file name  `ws-lab2-<your_name>.pdf` and upload your capture file to the [assignment's Moodle page](https://moodle.pugetsound.edu/moodle/mod/assign/view.php?id=376487).
+Create a **pdf** file with the answers to the 19 questions above with the file name  `ws-lab2-<your_name>.pdf` and upload your capture file to the [assignment's Moodle page](https://moodle.pugetsound.edu/moodle/mod/assign/view.php?id=444564).

@@ -12,9 +12,9 @@ You'll find it similar to the object-oriented and procedural languages you've st
 
 I'm breaking the tutorial into several parts to spread the work out a bit, and you may skip components of the tutorial that are not listed among the required portions below. The required portions are as follows:
 
-### Assignment 1 (Due Mon, Jan 23)
+### Assignment 1
 
-For part one of this assignment, complete the following five sections. Each of these sections will earn you a "badge" with the name of the section.
+For part one of this assignment, complete the "interactive lessons" in each of the following five sections. Each of these sections will earn you a "badge" with the name of the section.
 
 **Python Syntax**
 
@@ -28,6 +28,6 @@ For part one of this assignment, complete the following five sections. Each of t
 
 ## Submission & lateness
 
-Submit this assignment by uploading a screenshot of your "Badges" page (click "Badges" from your profile page) to the [assignment's Moodle page](https://moodle.pugetsound.edu/moodle/mod/assign/view.php?id=374242). The screenshot should include the badges for the sections listed above for this assignment
+Submit this assignment by uploading a screenshot of your "Badges" page (click "Badges" from your profile page) to the [assignment's Moodle page](https://moodle.pugetsound.edu/moodle/mod/assign/view.php?id=444560). The screenshot should include the badges for the sections listed above for this assignment
 
 Each assignment will be accepted for partial credit up to 4 days late, with a penalty of 20% per day.

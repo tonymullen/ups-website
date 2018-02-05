@@ -3,7 +3,7 @@ cacheable: false
 ```
 ### Online resources
 
-The class [Moodle page](https://moodle.pugetsound.edu/moodle/course/view.php?id=11829) will be where you can turn in assignments and find some class materials.
+The class [Moodle page](https://moodle.pugetsound.edu/moodle/course/view.php?id=13401) will be where you can turn in assignments and find some class materials.
 
 ### Required software resources
 
@@ -46,4 +46,4 @@ The following resources are not essential but may be interesting if you wish to 
 [Haskell/Category Theory](http://en.wikibooks.org/wiki/Haskell/Category_theory) is a Wikibook providing a brief overview of category as it pertains specifically to Haskell.
 
 
-[hw1]: <%= @site.url %>/hw/s17plp/hw1-prolog
+[hw1]: <%= @site.url %>/hw/s18plp/hw1-prolog

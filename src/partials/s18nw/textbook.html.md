@@ -11,4 +11,4 @@ by James Kurose & Keith Ross
 ### Lecture slides
 
 Lecture slides or in-class resources for this class will be posted soon after the lecture is completed.
-You can find them [here](http://mathcs.pugetsound.edu/~tmullen/secure/s17nw/).
+You can find them [here](http://mathcs.pugetsound.edu/~tmullen/secure/s18nw/).

@@ -112,7 +112,7 @@ Develop lo-fi mock-ups (wireframes) of 4 different user stories. These should be
 
 There are many resources on the web where you can read about wireframing and software mock-ups. There are few if any strict rules for creating software wireframes; these are tools for communication. The important thing is to enable developers and customers to have a shared vision of what they intend to create.
 
-The examples below come from [Wireframe Wednesday](http://www.wireframewednesday.com/page/7).
+The examples below come from [Wireframe Wednesday](https://za.pinterest.com/pin/70298444161170247/).
 
 Here's a wireframe focused on the design elements of a website:
 
@@ -146,7 +146,7 @@ Do [Treasure Hunt Round 3](/~tmullen/hw/f17se/treasure-hunt).
 
 ## Iteration 1: Calendar module integration and first story
 
-**Iteration 1 Due Date: Fri 11/10**
+**Iteration 1 Due Date: Fri 11/3**
 
 This is where the actual coding begins. The first story you will implement will be the same for all groups:
 
@@ -316,5 +316,5 @@ A note of advice: there are few activities I can think of where the benefits of 
 
 The final presentation will be graded as part of your Iteration 4 grade.
 
-[calendar]: <%= @site.url %>/hw/s17se/calendar-mod "Calendar module"
-[repo]: <%= @site.url %>/hw/s17se/install-group-repo  "Mean/group repo installation guide"
+[calendar]: <%= @site.url %>/hw/f17se/calendar-mod "Calendar module"
+[repo]: <%= @site.url %>/hw/f17se/install-group-repo  "Mean/group repo installation guide"

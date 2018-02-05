@@ -19,7 +19,7 @@ For coding assignmets, write all the predicates and facts for this assignment in
     ...
 
 
-Submit the file on [Moodle](https://moodle.pugetsound.edu/moodle/course/view.php?id=12385).
+Submit the file on [Moodle](https://moodle.pugetsound.edu/moodle/course/view.php?id=13401).
 
 Of course, you should make sure you programs are working before submitting them.
 Make a note in the comments if you had trouble getting the program to work.

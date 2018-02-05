@@ -4,7 +4,7 @@ cacheable: false
 
 ### Online resources
 
-The class [Moodle page](https://moodle.pugetsound.edu/moodle/course/view.php?id=11828) will be where you can turn in assignments and find some class materials.
+The class [Moodle page](https://moodle.pugetsound.edu/moodle/course/view.php?id=13402) will be where you can turn in assignments and find some class materials.
 
 ##### Seattle
 

@@ -1,7 +1,7 @@
 ```
 layout: assignment
 
-term: Spring 2017
+term: Fall 2017
 
 title: Lab 1
 

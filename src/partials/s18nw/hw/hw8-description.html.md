@@ -6,7 +6,7 @@ cacheable: false
 
 ## Overview
 
-For these two assignments, you'll write a minimal BitTorrent download client. It won't be fully functional "BitTorrent client" in many respects, but it will be able to parse a simple .torrent file, get a list of available peers from a tracker, and download the file from a peer. As you work on it, you should get a sense of what would need to be modified in order to provide all the functionality you'd expect from a full BitTorrent client. 
+For these two assignments, you'll write a minimal BitTorrent download client. It won't be fully functional, but it will be able to parse a simple .torrent file, get a list of available peers from a tracker, and download the file from a peer. As you work on it, you should get a sense of what would need to be modified in order to provide all the functionality you'd expect from a full BitTorrent client. 
 
 You'll depend heavily on the [unofficial BitTorrent specifications](https://wiki.theory.org/BitTorrentSpecification). Please read these closely. [This link](http://www.kristenwidman.com/blog/33/how-to-write-a-bittorrent-client-part-1/) is also a helpful reference. 
 
@@ -14,7 +14,7 @@ This assignment will be broken up into two consecutive assignments, with the sec
 
 ### Starter code
 
-Download the [starter code for this assignment](http://mathcs.pugetsound.edu/~tmullen/slides/s17nw/BitTorrentDownloaderStarter.zip) and read it over. You'll notice that there are no explicit indications of where your code should go (although there are many hints). Although I've given you some structure to guide your work, you've got a lot of latitude in how to solve the problem.
+Download the [starter code for this assignment](http://mathcs.pugetsound.edu/~tmullen/secure/s18nw/BitTorrentDownloaderStarter.zip) and read it over. You'll notice that there are no explicit indications of where your code should go (although there are many hints). Although I've given you some structure to guide your work, you've got a lot of latitude in how to solve the problem.
 
 You'll see that there are two starter files. One is for the full assignment, and one is a pared down copy intended to allow you to work on the Part 1 assignment without getting distracted by non-functioning starter code elsewhere in the file. Part 1 will ultimately be incorporated into the full program, so you'll eventually want to copy what you've done for Part 1 into the full program. 
 
@@ -60,8 +60,8 @@ To implement a full client with all this functionality, it would probably be bes
 
 Put all the files for an assignment together in a `.zip` archive to submit them on Moodle. Include your code and a screenshot of your terminal after having run the program (it should look similar to mine above for Part 2, and include only the first portion for Part 1). Both Part 1 and Part 2 should be fully functional and run without errors. Part 2 should include Part 1's functionality, including what's printed to the screen. 
 
-Part 1 should be submitted [here](https://moodle.pugetsound.edu/moodle/mod/assign/view.php?id=397088).
+Part 1 should be submitted [here](https://moodle.pugetsound.edu/moodle/mod/assign/view.php?id=444574).
 
-Part 2 should be submitted [here](https://moodle.pugetsound.edu/moodle/mod/assign/view.php?id=397089).
+Part 2 should be submitted [here](https://moodle.pugetsound.edu/moodle/mod/assign/view.php?id=444575).
 
 Each assignment will be accepted for partial credit up to 4 days late, with a penalty of 20% per day.

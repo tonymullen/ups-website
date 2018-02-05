@@ -2,6 +2,8 @@
 cacheable: false
 ```
 
+**You may carry out the Wireshark labs in pairs, but please submit individual copies of your lab to make it easy for the grader to see who's completed the lab.**
+
 ## Introduction to Wireshark
 
 In this course, you'll do a lot of exploring what happens in your own machine over its own network connections. One important tool for doing this is called a *packet sniffer*. In this class we'll use an open source packet sniffer called [Wireshark](https://www.wireshark.org/) (Technically speaking, Wireshark is a packet analyzer that uses a packet capture library in your computer). Wireshark is available for both OS X and Windows. The first thing you'll need to do is download and install Wireshark on your own machine. Let me know if you don't have a machine that you can install Wireshark on.
@@ -63,4 +65,4 @@ Congratulations! You’ve now completed the first lab.
 
 ## Submission
 
-Save the capture as `ws-lab1-<your_name>.pcapng` and upload your capture file to the [assignment's Moodle page](https://moodle.pugetsound.edu/moodle/mod/assign/view.php?id=376060).
+Save the capture as `ws-lab1-<your_name>.pcapng` and upload your capture file to the [lab's Moodle page](https://moodle.pugetsound.edu/moodle/mod/assign/view.php?id=444561). 

@@ -6,7 +6,7 @@ cacheable: false
 
 In this assignment, you will follow the instructions on the [Seattle take-home assignment](https://seattle.poly.edu/wiki/EducationalAssignments/TakeHome) to take a slightly more in-depth look at the Seattle networking environment than the tutorial we did in class. Please do this assignment **individually**.
 
-There's no coding involved with this assignment, and it shouldn't take a lot of time, but it's important to get familiar with the environment and understand how to use vessels and the Seattle shell, in order to move on to your next assignment, where you'll implement a reliable transport protocol using the tools provided by the Repy API. In order to do the assignment, you'll need the Seattle demokit files (which includes such files ass `helloworld.repy` and others that you'll use in the assignment). You can download that [here](http://mathcs.pugetsound.edu/~tmullen/secure/s17nw/demokit.zip). 
+There's no coding involved with this assignment, and it shouldn't take a lot of time, but it's important to get familiar with the environment and understand how to use vessels and the Seattle shell, in order to move on to your next assignment, where you'll implement a reliable transport protocol using the tools provided by the Repy API. In order to do the assignment, you'll need the Seattle demokit files (which includes such files ass `helloworld.repy` and others that you'll use in the assignment). You can download that [here](http://mathcs.pugetsound.edu/~tmullen/secure/s18nw/demokit.zip). 
 
 ### Getting started with Seattle
 
@@ -22,6 +22,6 @@ Once you've got some vessels, you should open up a terminal on your computer and
 
 ## Submission
 
-Take screenshots of your terminal window when carrying out steps 5, 7, 9, and 11. Place these screenshots together in a pdf file and upload to the [assignment's Moodle page](https://moodle.pugetsound.edu/moodle/mod/assign/view.php?id=400170).
+Take screenshots of your terminal window when carrying out steps 5, 7, 9, and 11. Place these screenshots together in a pdf file and upload to the [assignment's Moodle page](https://moodle.pugetsound.edu/moodle/mod/assign/view.php?id=444578).
 
 Each assignment will be accepted for partial credit up to 4 days late, with a penalty of 20% per day.

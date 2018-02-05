@@ -8,7 +8,7 @@ In this assignment, you will learn the basics of socket programming for UDP in P
 
 You will first study a simple Internet ping server written in the Python, and implement a corresponding client. The functionality provided by these programs is similar to the functionality provided by standard ping programs available in modern operating systems. However, these programs use a simpler protocol, UDP, rather than the standard Internet Control Message Protocol (ICMP) to communicate with each other. The ping protocol allows a client machine to send a packet of data to a remote machine, and have the remote machine return the data back to the client unchanged (an action referred to as echoing). Among other uses, the ping protocol allows hosts to determine round-trip times to other machines.
 
-You are given the complete code for the Ping server below. Your task is to complete the ping client based on the [starter code](http://mathcs.pugetsound.edu/~tmullen/slides/s17nw/UDPPingerStarter.zip), and also to complete the UDP heartbeat client and server. Starter code for both of those is also included.
+You are given the complete code for the Ping server below. Your task is to complete the ping client based on the [starter code](http://mathcs.pugetsound.edu/~tmullen/secure/s18nw/UDPPingerStarter.zip), and also to complete the UDP heartbeat client and server. Starter code for both of those is also included.
 
 ### Server code
 
@@ -94,6 +94,6 @@ Implement the UDP Heartbeat (both client and server), based on the starter files
 
 Please submit the completed code for `UDPPingerClient.py`, `UDPHeartBeatClient.py` and `UDPHeartBeatServer.py`, and screenshots of your terminal windows showing the clients and servers running.
 
-Submit this assignment by uploading your files to the [assignment's Moodle page](https://moodle.pugetsound.edu/moodle/mod/assign/view.php?id=391730).
+Submit this assignment by uploading your files to the [assignment's Moodle page](https://moodle.pugetsound.edu/moodle/mod/assign/view.php?id=444568).
 
 Each assignment will be accepted for partial credit up to 4 days late, with a penalty of 20% per day.

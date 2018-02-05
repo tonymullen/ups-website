@@ -1,11 +1,11 @@
 ```
 cacheable: false
 ```
-My office hours for Fall 2017 are:
+My office hours for Spring 2018 are:
 
-Mon, Wed, & Fri:  12:00-12:50
+Mon:  12:00-1:00 & 1:30-2:30
 
-Tu: 11:00-11:50
+Wed, & Fri:  12:00-1:00
 
 You can make an appointment to meet at other times also.
 

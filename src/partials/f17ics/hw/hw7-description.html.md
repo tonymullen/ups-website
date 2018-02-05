@@ -4,15 +4,58 @@ cacheable: false
 
 ## Introduction
 
-For this assignment, you're going to do something along the lines of the prime number listing program we looked at in class, but a little bit more complicated. Namely, you're going to write a program that will take any two years (after 1582, the year the Gregorian calendar was adopted) and list all leap years between them (inclusive).
+For this assignment, you're going to practice several things you've done in the past: using Scanner, comparing strings, using conditionals, working with objects, and using the `while` statement. In addition, you'll also work with the `ArrayList` class.
 
-The assignment is essentially the same as Programming Projects 5.1 and 5.2 in your book (Page 263). From the book's description:
+## Objective
 
->A year is a leap year if it is divisible by 4, unless it is also divisible by 100, but not 400. For example, the year 2003 is not a leap year, but 2004 is. The year 1900 is not a leap year because it is divisible by 100, but the year 2000 is a leap year because even though it is divisible by 100, it is also divisible by 400
+You will write a program that enables the user to manage a soccer team through an interactive console interface. Once the program runs, it will take commands from the command line (console) using the `Scanner` class until the user inputs the word `done`, at which point the program will sign off.
 
-Your program should return an error if the user attempts to input a year that is less that 1582. Also, think about how to handle the ordering of arguments (i.e, what happens if the user puts the later year first and the earlier year second). You may handle the ordering of arguments however you think is sensible, but you should make it clear that your program is checking for this possibility and handling it intelligently.
+Internally, the program will maintain an ArrayList representing the soccer team. The ArrayList will be a list of objects of class `Player` which you will also need to implement. An object of class `Player` will have two attributes: `name` and `position`. For the purposes of this exercise, player objects will only hold last names, and you may assume that players' names are all unique.
 
-Finally, recall what I talked about in class with regard to the proper role of `main` in a program. For this assignment, please create two classes. One class should be a wrapper class that will have only a `main` method. The other class will contain the actual functionality of your program, and will not have a `main` method. In the `main` method of the first class, you'll create an instance of an object of the second class and call a method to execute its code with a hard-coded pair of years. We will not be using arguments to `main`, but the program should be written in such a way that if the values passed to the method inside `main` are changed, the correct results are produced.
+There are three commands you need to implement: `add`, followed by a player name, `cut` followed by a player name, and `show`. If the user enters `add` followed by a name, your program should prompt for a position, and then add a new player to the team with that name and position, like so:
+
+    add Jones
+    What is Jones's position?
+    defender
+    Adding Jones as defender.
+    add Miller
+    What is Miller's position?
+    goalkeeper
+    Adding Miller as goalkeeper.
+    add Garcia
+    What is Garcia's position?
+    forward
+    Adding Garcia as forward.
+
+For this method, remember that the `Scanner` method `next()` returns the *next word* that the user enters.
+The next method you need to write is `show`. This method should print out a list of the current team members, like so:
+
+    show
+    [Jones (defender), Miller (goalkeeper), Garcia (forward)]
+
+The easiest way to do this is to simply print out the team ArrayList, but in order to do this you will need to make sure that your `Player` class has a `toString()` method defined for it.
+
+Finally, you will implement the method `cut` followed by an existing player's name. This method will remove that player (assuming the name is unique) from the team. So:
+
+    cut Miller
+    Cutting Miller from the team.
+    show
+    [Jones (defender), Garcia (forward)]
+
+The user should be able to call add, call, and show in any order repeatedly. When the user is finished, they should type in `done` to terminate the session:
+
+    add Suzuki
+    What is Suzuki's position?
+    goalkeeper
+    Adding Suzuki as goalkeeper.
+    show
+    [Jones (defender), Garcia (forward), Suzuki (goalkeeper)]
+    done
+    Finished managing the team
+
+## Classes
+
+For this assignment, you'll write three classes. One will be the `Player` class, which the team manager depends on. The next class will be `TeamManager` which executes the functionality of this exercise in a method called `run()`. Finally, you'll implement a wrapper class called `TeamManagerApp` which has only a `main` function that creates a `TeamManager` instance and calls its `run()` method.
 
 ## Style Guide
 
@@ -29,4 +72,4 @@ Before you submit your assignment, go through the checklist below and make sure 
 
 ### Submission
 
-Compress the full project directory for the completed assignment into a zip file and upload it to the [Moodle page for the assignment](https://moodle.pugetsound.edu/moodle/mod/assign/view.php?id=407292).
+Compress the full project directory for the completed assignment into a zip file and upload it to the [Moodle page for the assignment](https://moodle.pugetsound.edu/moodle/mod/assign/view.php?id=432287).

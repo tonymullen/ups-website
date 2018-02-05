@@ -74,4 +74,4 @@ Answer the following questions for the TCP segments in your capture.
 
 ## Submission
 
-Create a **pdf** file with the answers to the questions above, with the file name  `ws-lab5-<your_name>.pdf` and upload your capture file to the [assignment's Moodle page](https://moodle.pugetsound.edu/moodle/mod/assign/view.php?id=393139).
+Create a **pdf** file with the answers to the questions above, with the file name  `ws-lab5-<your_name>.pdf` and upload your capture file to the [assignment's Moodle page](https://moodle.pugetsound.edu/moodle/mod/assign/view.php?id=444570).

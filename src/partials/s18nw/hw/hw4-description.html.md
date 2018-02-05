@@ -10,7 +10,7 @@ You will develop a web server that handles one HTTP request at a time. Your web 
 
 ### Starter code
 
-In the [starter code for the assignment](http://mathcs.pugetsound.edu/~tmullen/slides/s17nw/WebServerStarter.zip) you will find the skeleton code for the Web server and client. You are to complete the skeleton code. The places where you need to fill in code are marked with `#Fill in start` and `#Fill in end`. Each place may require one or more lines of code. Read the comments in the code for pointers on what needs to be done and where to look for solutions. First complete the server and test it using a browser, then complete the client.
+In the [starter code for the assignment](http://mathcs.pugetsound.edu/~tmullen/secure/s18nw/WebServerStarter.zip) you will find the skeleton code for the Web server and client. You are to complete the skeleton code. The places where you need to fill in code are marked with `#Fill in start` and `#Fill in end`. Each place may require one or more lines of code. Read the comments in the code for pointers on what needs to be done and where to look for solutions. First complete the server and test it using a browser, then complete the client.
 
 ### Running the Server
 
@@ -51,6 +51,6 @@ Try calling the client with a different argument, and make sure that the `404.ht
 
 Please submit the complete server and client code along with screen verifying that you actually receive the contents of the HTML file from the server. I have set the Moodle assignment to accept multiple files.
 
-Submit this assignment by uploading your files to the [assignment's Moodle page](https://moodle.pugetsound.edu/moodle/mod/assign/view.php?id=391635).
+Submit this assignment by uploading your files to the [assignment's Moodle page](https://moodle.pugetsound.edu/moodle/mod/assign/view.php?id=444567).
 
 Each assignment will be accepted for partial credit up to 4 days late, with a penalty of 20% per day.

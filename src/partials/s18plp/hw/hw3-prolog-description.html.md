@@ -41,9 +41,9 @@ should return true. As should
 
 These relations should be defined recursively based on the relationships defined above. An object is to the left of another object if there is a series of objects between them that are each adjacent left to the one before. Think about what the *base case* of the relationship should be.
 
-## Exercise 3: Successor functions
+## Exercise 3: Successor structures
 
-We've looked in class writing recursive operators on natural numbers defined using the successor function. Below are definitions for `natural_number/1`,  `plus/3`, and `times/3`.
+We've looked in class writing recursive operators on natural numbers defined using a structure (complex term) which we interpret to represent a numerical successor such that `s(X)` is interpreted to mean the natural number one greater than `X`. Below are definitions for `natural_number/1`,  `plus/3`, and `times/3`.
 
     natural_number(0).
     natural_number(s(X)):- natural_number(X).
@@ -57,7 +57,7 @@ We've looked in class writing recursive operators on natural numbers defined usi
       plus(Previous, Y, Product).
 <!-- ._ -->
 
-Write a definition for `factorial/2` that takes a natural number (in successor function notation) as the first argument and yields its factorial value as the second argument. You may use whichever of the predicates defined above that you require. *Your predicate does not need to work in reverse, and does not need to handle `;` cases.*
+Write a definition for `factorial/2` that takes a natural number (in successor notation) as the first argument and yields its factorial value as the second argument. You may use whichever of the predicates defined above that you require. *Your predicate does not need to work in reverse, and does not need to handle `;` cases.*
 
 ### Testing and writing to the console
 
